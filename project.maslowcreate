@@ -18,32 +18,19 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 100
+                            "ioValue": 150
                         },
                         {
                             "name": "y length",
-                            "ioValue": 75
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 252,
-                    "y": 61,
-                    "uniqueID": 943882,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 3
+                            "ioValue": 85
                         }
                     ]
                 },
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Bend",
-                    "x": 215,
-                    "y": 190,
+                    "x": 135,
+                    "y": 213,
                     "uniqueID": 244360,
                     "projectID": "197395697",
                     "ioValues": [
@@ -66,6 +53,19 @@
                     ]
                 },
                 {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 252,
+                    "y": 61,
+                    "uniqueID": 943882,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 3
+                        }
+                    ]
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "Maslow Motor",
                     "x": 833,
@@ -83,7 +83,7 @@
                     "ioValues": [
                         {
                             "name": "x-axis degrees",
-                            "ioValue": 0
+                            "ioValue": 90
                         },
                         {
                             "name": "y-axis degrees",
