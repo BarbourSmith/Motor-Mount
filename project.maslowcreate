@@ -222,7 +222,7 @@
                             "ioValue": 10
                         }
                     ],
-                    "currentEquation": 0
+                    "currentEquation": 1
                 },
                 {
                     "atomType": "Translate",
@@ -237,7 +237,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -27.5
+                            "ioValue": -47.5
                         },
                         {
                             "name": "zDist",
