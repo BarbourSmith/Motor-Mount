@@ -2,6 +2,63 @@
     "molecules": [
         {
             "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 334,
+            "y": 286,
+            "uniqueID": 337712,
+            "ioValues": [
+                {
+                    "name": "Length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Width",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Input281706",
+                    "ioValue": 10
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Length",
+                    "x": 28,
+                    "y": 74,
+                    "uniqueID": 363165,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Width",
+                    "x": 33,
+                    "y": 151,
+                    "uniqueID": 850037,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Input281706",
+                    "x": 36,
+                    "y": 237,
+                    "uniqueID": 333440,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1048,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Motor Mount",
             "x": 0,
             "y": 0,
@@ -127,6 +184,27 @@
                         {
                             "name": "z-axis degrees",
                             "ioValue": 90
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Molecule",
+                    "x": 334,
+                    "y": 286,
+                    "uniqueID": 337712,
+                    "ioValues": [
+                        {
+                            "name": "Length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Width",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Input281706",
+                            "ioValue": 10
                         }
                     ]
                 },
