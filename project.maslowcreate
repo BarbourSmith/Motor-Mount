@@ -24,7 +24,7 @@
                 },
                 {
                     "atomType": "Constant",
-                    "name": "Constant",
+                    "name": "Width",
                     "x": 46,
                     "y": 93,
                     "uniqueID": 185248,
@@ -100,11 +100,11 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 0
+                            "ioValue": 85
                         },
                         {
                             "name": "y",
-                            "ioValue": 0
+                            "ioValue": 2
                         }
                     ],
                     "currentEquation": 3
@@ -143,7 +143,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 42.5
                         },
                         {
                             "name": "zDist",
@@ -161,6 +161,27 @@
                         {
                             "name": "height",
                             "ioValue": 3
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 698,
+                    "y": 191,
+                    "uniqueID": 929552,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 718344",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 898893",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 299842",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -217,6 +238,12 @@
                 },
                 {
                     "ap1Name": "number",
+                    "ap2Name": "x",
+                    "ap1ID": 185248,
+                    "ap2ID": 254511
+                },
+                {
+                    "ap1Name": "number",
                     "ap2Name": "height",
                     "ap1ID": 177738,
                     "ap2ID": 943882
@@ -240,6 +267,12 @@
                     "ap2ID": 247662
                 },
                 {
+                    "ap1Name": "z",
+                    "ap2Name": "yDist",
+                    "ap1ID": 254511,
+                    "ap2ID": 662471
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 247662,
@@ -247,8 +280,20 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "3D shape 718344",
+                    "ap1ID": 662471,
+                    "ap2ID": 929552
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 943882
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 898893",
+                    "ap1ID": 943882,
+                    "ap2ID": 929552
                 },
                 {
                     "ap1Name": "Geometry",
