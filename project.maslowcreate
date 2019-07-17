@@ -49,8 +49,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Bend",
-                    "x": 258,
-                    "y": 101,
+                    "x": 185,
+                    "y": 294,
                     "uniqueID": 759794,
                     "projectID": "197395697",
                     "ioValues": [
@@ -73,6 +73,27 @@
                     ]
                 },
                 {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 280,
+                    "y": 216,
+                    "uniqueID": 260635,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": -90
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1048,
@@ -86,6 +107,12 @@
                     "ap2Name": "Thickness",
                     "ap1ID": 333440,
                     "ap2ID": 759794
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 759794,
+                    "ap2ID": 260635
                 }
             ],
             "fileTypeVersion": 1
