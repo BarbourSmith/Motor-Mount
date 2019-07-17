@@ -37,14 +37,14 @@
                 },
                 {
                     "atomType": "Constant",
-                    "name": "Constant",
+                    "name": "Thickness",
                     "x": 54,
                     "y": 136,
                     "uniqueID": 177738,
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 10
+                            "ioValue": 3
                         }
                     ]
                 },
@@ -92,6 +92,24 @@
                     ]
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 303,
+                    "y": 158,
+                    "uniqueID": 254511,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 0
+                        }
+                    ],
+                    "currentEquation": 3
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
                     "x": 273,
@@ -109,6 +127,27 @@
                         {
                             "name": "z-axis degrees",
                             "ioValue": 90
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 422,
+                    "y": 159,
+                    "uniqueID": 662471,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -177,6 +216,18 @@
                     "ap2ID": 756722
                 },
                 {
+                    "ap1Name": "number",
+                    "ap2Name": "height",
+                    "ap1ID": 177738,
+                    "ap2ID": 943882
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Thickness",
+                    "ap1ID": 177738,
+                    "ap2ID": 244360
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 756722,
@@ -187,6 +238,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": 244360,
                     "ap2ID": 247662
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 247662,
+                    "ap2ID": 662471
                 },
                 {
                     "ap1Name": "geometry",
