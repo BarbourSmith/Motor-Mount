@@ -42,8 +42,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Bend",
-                    "x": 443,
-                    "y": 193,
+                    "x": 215,
+                    "y": 190,
                     "uniqueID": 244360,
                     "projectID": "197395697",
                     "ioValues": [
@@ -53,15 +53,45 @@
                         },
                         {
                             "name": "Thickness",
-                            "ioValue": 10
+                            "ioValue": 3
                         },
                         {
                             "name": "Angle",
-                            "ioValue": 10
+                            "ioValue": 90
                         },
                         {
                             "name": "Length",
                             "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Maslow Motor",
+                    "x": 833,
+                    "y": 283,
+                    "uniqueID": 780656,
+                    "projectID": "188842909",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 941,
+                    "y": 269,
+                    "uniqueID": 188791,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -84,6 +114,12 @@
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 943882
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 780656,
+                    "ap2ID": 188791
                 }
             ],
             "fileTypeVersion": 1
