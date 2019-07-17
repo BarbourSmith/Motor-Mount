@@ -65,6 +65,24 @@
                     "currentEquation": 3
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 282,
+                    "y": 48,
+                    "uniqueID": 343348,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 150
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 2
+                        }
+                    ],
+                    "currentEquation": 3
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "Bend",
                     "x": 185,
@@ -120,7 +138,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 75
                         },
                         {
                             "name": "yDist",
@@ -144,6 +162,12 @@
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "x",
+                    "ap1ID": 363165,
+                    "ap2ID": 343348
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x",
                     "ap1ID": 850037,
                     "ap2ID": 340899
                 },
@@ -157,6 +181,12 @@
                     "ap1Name": "z",
                     "ap2Name": "yDist",
                     "ap1ID": 340899,
+                    "ap2ID": 189858
+                },
+                {
+                    "ap1Name": "z",
+                    "ap2Name": "xDist",
+                    "ap1ID": 343348,
                     "ap2ID": 189858
                 },
                 {
@@ -281,8 +311,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 697,
-                    "y": 142,
+                    "x": 716,
+                    "y": 145,
                     "uniqueID": 247430,
                     "ioValues": [
                         {
@@ -401,7 +431,7 @@
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 943882
+                    "ap1ID": 247430
                 },
                 {
                     "ap1Name": "Geometry",
