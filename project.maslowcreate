@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor Bend",
-            "x": 209,
-            "y": 154,
+            "x": 206,
+            "y": 157,
             "uniqueID": 337712,
             "ioValues": [
                 {
@@ -13,7 +13,7 @@
                 },
                 {
                     "name": "Width",
-                    "ioValue": 85
+                    "ioValue": 75
                 },
                 {
                     "name": "Thickness",
@@ -55,7 +55,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 85
+                            "ioValue": 75
                         },
                         {
                             "name": "y",
@@ -104,7 +104,7 @@
                         },
                         {
                             "name": "Length",
-                            "ioValue": 70
+                            "ioValue": 80
                         }
                     ]
                 },
@@ -142,11 +142,28 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -42.5
+                            "ioValue": -37.5
                         },
                         {
                             "name": "zDist",
                             "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 470,
+                    "y": 276,
+                    "uniqueID": 192230,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -240,7 +257,7 @@
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 85
+                            "ioValue": 75
                         }
                     ]
                 },
@@ -270,15 +287,15 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 85
+                            "ioValue": 75
                         }
                     ]
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Motor Bend",
-                    "x": 209,
-                    "y": 154,
+                    "x": 206,
+                    "y": 157,
                     "uniqueID": 337712,
                     "ioValues": [
                         {
@@ -287,7 +304,7 @@
                         },
                         {
                             "name": "Width",
-                            "ioValue": 85
+                            "ioValue": 75
                         },
                         {
                             "name": "Thickness",
