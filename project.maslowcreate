@@ -679,6 +679,24 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 294,
+                    "y": 114,
+                    "uniqueID": 717017,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 35
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": -2
+                        }
+                    ],
+                    "currentEquation": 3
+                },
+                {
                     "atomType": "Input",
                     "name": "Length",
                     "x": 351,
@@ -764,6 +782,12 @@
                 }
             ],
             "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x",
+                    "ap1ID": 145104,
+                    "ap2ID": 717017
+                },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "x",
