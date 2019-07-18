@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Metal Base",
-            "x": 419,
-            "y": 53,
+            "x": 430,
+            "y": 47,
             "uniqueID": 626485,
             "ioValues": [
                 {
@@ -354,8 +354,8 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 419,
-            "y": 118,
+            "x": 422,
+            "y": 119,
             "uniqueID": 740020,
             "ioValues": [
                 {
@@ -994,7 +994,7 @@
         {
             "atomType": "Molecule",
             "name": "Motor",
-            "x": 421,
+            "x": 423,
             "y": 182,
             "uniqueID": 372159,
             "ioValues": [
@@ -1270,17 +1270,54 @@
         {
             "atomType": "Molecule",
             "name": "Roller Assembly",
-            "x": 408,
-            "y": 260,
+            "x": 404,
+            "y": 258,
             "uniqueID": 752987,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Input488091",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Input371378",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
+                    "atomType": "Input",
+                    "name": "Length",
+                    "x": 50,
+                    "y": 54,
+                    "uniqueID": 727533,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Input488091",
+                    "x": 81,
+                    "y": 134,
+                    "uniqueID": 189625,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Input371378",
+                    "x": 76,
+                    "y": 175,
+                    "uniqueID": 475391,
+                    "ioValues": []
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "Roller",
-                    "x": 171,
-                    "y": 139,
+                    "x": 389,
+                    "y": 120,
                     "uniqueID": 642120,
                     "projectID": "197579630",
                     "ioValues": [
@@ -1297,8 +1334,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 331,
-                    "y": 166,
+                    "x": 536,
+                    "y": 175,
                     "uniqueID": 697362,
                     "ioValues": [
                         {
@@ -1329,6 +1366,11 @@
                     "ap2Name": "geometry",
                     "ap1ID": 642120,
                     "ap2ID": 697362
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 697362
                 }
             ],
             "fileTypeVersion": 1
@@ -1410,8 +1452,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Metal Base",
-                    "x": 419,
-                    "y": 53,
+                    "x": 430,
+                    "y": 47,
                     "uniqueID": 626485,
                     "ioValues": [
                         {
@@ -1431,8 +1473,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 419,
-                    "y": 118,
+                    "x": 422,
+                    "y": 119,
                     "uniqueID": 740020,
                     "ioValues": [
                         {
@@ -1460,7 +1502,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor",
-                    "x": 421,
+                    "x": 423,
                     "y": 182,
                     "uniqueID": 372159,
                     "ioValues": [
@@ -1485,10 +1527,23 @@
                 {
                     "atomType": "Molecule",
                     "name": "Roller Assembly",
-                    "x": 408,
-                    "y": 260,
+                    "x": 404,
+                    "y": 258,
                     "uniqueID": 752987,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Input488091",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Input371378",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Assembly",
