@@ -2,6 +2,136 @@
     "molecules": [
         {
             "atomType": "Molecule",
+            "name": "Metal Base",
+            "x": 419,
+            "y": 54,
+            "uniqueID": 626485,
+            "ioValues": [
+                {
+                    "name": "Length",
+                    "ioValue": 180
+                },
+                {
+                    "name": "Width",
+                    "ioValue": 35
+                },
+                {
+                    "name": "Thickness",
+                    "ioValue": 3
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Length",
+                    "x": 51,
+                    "y": 68,
+                    "uniqueID": 336250,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Width",
+                    "x": 49,
+                    "y": 154,
+                    "uniqueID": 863838,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 244,
+                    "y": 42,
+                    "uniqueID": 566468,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 180
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 35
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 425,
+                    "y": 269,
+                    "uniqueID": 432285,
+                    "ioValues": [
+                        {
+                            "name": "radius",
+                            "ioValue": 150
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Thickness",
+                    "x": 1043,
+                    "y": 82,
+                    "uniqueID": 656562,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 1131,
+                    "y": 36,
+                    "uniqueID": 345799,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 3
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x length",
+                    "ap1ID": 336250,
+                    "ap2ID": 566468
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "y length",
+                    "ap1ID": 863838,
+                    "ap2ID": 566468
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 566468,
+                    "ap2ID": 345799
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap1ID": 656562,
+                    "ap2ID": 345799
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 345799
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Tabs",
             "x": 415,
             "y": 136,
@@ -900,123 +1030,6 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Metal Base",
-            "x": 654,
-            "y": 214,
-            "uniqueID": 626485,
-            "ioValues": [
-                {
-                    "name": "Length",
-                    "ioValue": 180
-                },
-                {
-                    "name": "Width",
-                    "ioValue": 35
-                },
-                {
-                    "name": "Thickness",
-                    "ioValue": 3
-                }
-            ],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Input",
-                    "name": "Length",
-                    "x": 51,
-                    "y": 68,
-                    "uniqueID": 336250,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Width",
-                    "x": 49,
-                    "y": 154,
-                    "uniqueID": 863838,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Thickness",
-                    "x": 57,
-                    "y": 238,
-                    "uniqueID": 656562,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 256,
-                    "y": 116,
-                    "uniqueID": 566468,
-                    "ioValues": [
-                        {
-                            "name": "x length",
-                            "ioValue": 180
-                        },
-                        {
-                            "name": "y length",
-                            "ioValue": 35
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 526,
-                    "y": 104,
-                    "uniqueID": 345799,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 3
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "x length",
-                    "ap1ID": 336250,
-                    "ap2ID": 566468
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "y length",
-                    "ap1ID": 863838,
-                    "ap2ID": 566468
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "height",
-                    "ap1ID": 656562,
-                    "ap2ID": 345799
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 566468,
-                    "ap2ID": 345799
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 345799
-                }
-            ],
-            "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Molecule",
             "name": "Motor Mount",
             "x": 0,
             "y": 0,
@@ -1090,19 +1103,23 @@
                     ]
                 },
                 {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 402,
-                    "y": 51,
-                    "uniqueID": 756722,
+                    "atomType": "Molecule",
+                    "name": "Metal Base",
+                    "x": 419,
+                    "y": 54,
+                    "uniqueID": 626485,
                     "ioValues": [
                         {
-                            "name": "x length",
+                            "name": "Length",
                             "ioValue": 180
                         },
                         {
-                            "name": "y length",
+                            "name": "Width",
                             "ioValue": 35
+                        },
+                        {
+                            "name": "Thickness",
+                            "ioValue": 3
                         }
                     ]
                 },
@@ -1161,27 +1178,6 @@
                     ]
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Metal Base",
-                    "x": 654,
-                    "y": 214,
-                    "uniqueID": 626485,
-                    "ioValues": [
-                        {
-                            "name": "Length",
-                            "ioValue": 180
-                        },
-                        {
-                            "name": "Width",
-                            "ioValue": 35
-                        },
-                        {
-                            "name": "Thickness",
-                            "ioValue": 3
-                        }
-                    ]
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 847,
@@ -1217,12 +1213,6 @@
             "allConnectors": [
                 {
                     "ap1Name": "number",
-                    "ap2Name": "x length",
-                    "ap1ID": 877702,
-                    "ap2ID": 756722
-                },
-                {
-                    "ap1Name": "number",
                     "ap2Name": "Length",
                     "ap1ID": 877702,
                     "ap2ID": 740020
@@ -1238,12 +1228,6 @@
                     "ap2Name": "Length",
                     "ap1ID": 877702,
                     "ap2ID": 626485
-                },
-                {
-                    "ap1Name": "number",
-                    "ap2Name": "y length",
-                    "ap1ID": 185248,
-                    "ap2ID": 756722
                 },
                 {
                     "ap1Name": "number",
@@ -1301,6 +1285,12 @@
                 },
                 {
                     "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 640990",
+                    "ap1ID": 626485,
+                    "ap2ID": 247430
+                },
+                {
+                    "ap1Name": "Geometry",
                     "ap2Name": "3D shape 804798",
                     "ap1ID": 740020,
                     "ap2ID": 247430
@@ -1309,12 +1299,6 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 661410",
                     "ap1ID": 372159,
-                    "ap2ID": 247430
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 640990",
-                    "ap1ID": 626485,
                     "ap2ID": 247430
                 },
                 {
