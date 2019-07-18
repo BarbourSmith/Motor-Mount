@@ -25,8 +25,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
-                    "x": 106,
-                    "y": 66,
+                    "x": 113,
+                    "y": 64,
                     "uniqueID": 885377,
                     "projectID": "197395697",
                     "ioValues": [
@@ -56,7 +56,7 @@
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
                     "x": 103,
-                    "y": 153,
+                    "y": 151,
                     "uniqueID": 633443,
                     "projectID": "197395697",
                     "ioValues": [
@@ -70,7 +70,7 @@
                         },
                         {
                             "name": "Angle",
-                            "ioValue": 9
+                            "ioValue": 90
                         },
                         {
                             "name": "Length",
@@ -85,55 +85,55 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
-                    "x": 116,
-                    "y": 255,
+                    "x": 109,
+                    "y": 257,
                     "uniqueID": 220281,
                     "projectID": "197395697",
                     "ioValues": [
                         {
                             "name": "Radius",
-                            "ioValue": 10
+                            "ioValue": 5
                         },
                         {
                             "name": "Thickness",
-                            "ioValue": 10
+                            "ioValue": 3
                         },
                         {
                             "name": "Angle",
-                            "ioValue": 10
+                            "ioValue": 90
                         },
                         {
                             "name": "Length",
-                            "ioValue": 10
+                            "ioValue": 20
                         },
                         {
                             "name": "Tab Height",
-                            "ioValue": 10
+                            "ioValue": 20
                         }
                     ]
                 },
                 {
                     "atomType": "Input",
                     "name": "Thickness",
-                    "x": 365,
-                    "y": 48,
+                    "x": 332,
+                    "y": 296,
                     "uniqueID": 568082,
                     "ioValues": []
                 },
                 {
                     "atomType": "Input",
-                    "name": "Width",
-                    "x": 359,
-                    "y": 101,
-                    "uniqueID": 693654,
+                    "name": "Length",
+                    "x": 481,
+                    "y": 288,
+                    "uniqueID": 605772,
                     "ioValues": []
                 },
                 {
                     "atomType": "Input",
-                    "name": "Length",
-                    "x": 355,
-                    "y": 161,
-                    "uniqueID": 605772,
+                    "name": "Width",
+                    "x": 693,
+                    "y": 273,
+                    "uniqueID": 693654,
                     "ioValues": []
                 },
                 {
