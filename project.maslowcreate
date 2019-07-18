@@ -17,7 +17,7 @@
                 },
                 {
                     "name": "Length",
-                    "ioValue": 150
+                    "ioValue": 180
                 },
                 {
                     "name": "Bend Radius",
@@ -232,7 +232,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 150
+                            "ioValue": 180
                         },
                         {
                             "name": "y",
@@ -250,7 +250,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 150
+                            "ioValue": 180
                         },
                         {
                             "name": "y",
@@ -268,7 +268,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 150
+                            "ioValue": 180
                         },
                         {
                             "name": "y",
@@ -304,7 +304,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": -75
+                            "ioValue": -90
                         },
                         {
                             "name": "y",
@@ -358,7 +358,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 75
+                            "ioValue": 90
                         },
                         {
                             "name": "yDist",
@@ -379,7 +379,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -75
+                            "ioValue": -90
                         },
                         {
                             "name": "yDist",
@@ -400,7 +400,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -45
+                            "ioValue": -60
                         },
                         {
                             "name": "yDist",
@@ -643,8 +643,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor",
-            "x": 421,
-            "y": 239,
+            "x": 426,
+            "y": 242,
             "uniqueID": 372159,
             "ioValues": [
                 {
@@ -653,7 +653,7 @@
                 },
                 {
                     "name": "Length",
-                    "ioValue": 150
+                    "ioValue": 180
                 },
                 {
                     "name": "Bend Radius",
@@ -786,16 +786,16 @@
                     "atomType": "Equation",
                     "name": "Equation",
                     "x": 575,
-                    "y": 38,
+                    "y": 41,
                     "uniqueID": 281765,
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 150
+                            "ioValue": 180
                         },
                         {
                             "name": "y",
-                            "ioValue": 0.3
+                            "ioValue": 0.35
                         }
                     ],
                     "currentEquation": 2
@@ -809,7 +809,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 45
+                            "ioValue": 62.99999999999999
                         },
                         {
                             "name": "yDist",
@@ -910,13 +910,13 @@
                 {
                     "atomType": "Constant",
                     "name": "Length",
-                    "x": 46,
-                    "y": 44,
+                    "x": 42,
+                    "y": 49,
                     "uniqueID": 877702,
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 150
+                            "ioValue": 180
                         }
                     ]
                 },
@@ -981,7 +981,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 150
+                            "ioValue": 180
                         },
                         {
                             "name": "y length",
@@ -1006,7 +1006,7 @@
                         },
                         {
                             "name": "Length",
-                            "ioValue": 150
+                            "ioValue": 180
                         },
                         {
                             "name": "Bend Radius",
@@ -1021,8 +1021,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor",
-                    "x": 421,
-                    "y": 239,
+                    "x": 426,
+                    "y": 242,
                     "uniqueID": 372159,
                     "ioValues": [
                         {
@@ -1031,7 +1031,7 @@
                         },
                         {
                             "name": "Length",
-                            "ioValue": 150
+                            "ioValue": 180
                         },
                         {
                             "name": "Bend Radius",
