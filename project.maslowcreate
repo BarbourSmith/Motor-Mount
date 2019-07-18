@@ -20,7 +20,11 @@
                     "ioValue": 150
                 },
                 {
-                    "name": "Input387693",
+                    "name": "Bend Radius",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Little Tab Width",
                     "ioValue": 10
                 }
             ],
@@ -28,7 +32,7 @@
             "allAtoms": [
                 {
                     "atomType": "Input",
-                    "name": "Input387693",
+                    "name": "Bend Radius",
                     "x": 41,
                     "y": 49,
                     "uniqueID": 651275,
@@ -52,7 +56,7 @@
                     "ioValues": [
                         {
                             "name": "Radius",
-                            "ioValue": 5
+                            "ioValue": 10
                         },
                         {
                             "name": "Thickness",
@@ -71,6 +75,14 @@
                             "ioValue": 40
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Little Tab Width",
+                    "x": 45,
+                    "y": 236,
+                    "uniqueID": 820453,
+                    "ioValues": []
                 },
                 {
                     "atomType": "GitHubMolecule",
@@ -82,7 +94,7 @@
                     "ioValues": [
                         {
                             "name": "Radius",
-                            "ioValue": 5
+                            "ioValue": 10
                         },
                         {
                             "name": "Thickness",
@@ -94,24 +106,11 @@
                         },
                         {
                             "name": "Length",
-                            "ioValue": 20
+                            "ioValue": 10
                         },
                         {
                             "name": "Tab Height",
                             "ioValue": 15
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Constant",
-                    "name": "Little Tab Width",
-                    "x": 49,
-                    "y": 304,
-                    "uniqueID": 889144,
-                    "ioValues": [
-                        {
-                            "name": "number",
-                            "ioValue": 20
                         }
                     ]
                 },
@@ -125,7 +124,7 @@
                     "ioValues": [
                         {
                             "name": "Radius",
-                            "ioValue": 5
+                            "ioValue": 10
                         },
                         {
                             "name": "Thickness",
@@ -309,7 +308,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": 20
+                            "ioValue": 0
                         }
                     ],
                     "currentEquation": 0
@@ -401,7 +400,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -55
+                            "ioValue": -75
                         },
                         {
                             "name": "yDist",
@@ -449,6 +448,24 @@
             "allConnectors": [
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "Radius",
+                    "ap1ID": 651275,
+                    "ap2ID": 885377
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Radius",
+                    "ap1ID": 651275,
+                    "ap2ID": 633443
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Radius",
+                    "ap1ID": 651275,
+                    "ap2ID": 220281
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "Thickness",
                     "ap1ID": 568082,
                     "ap2ID": 885377
@@ -476,24 +493,6 @@
                     "ap2Name": "geometry",
                     "ap1ID": 633443,
                     "ap2ID": 694513
-                },
-                {
-                    "ap1Name": "number",
-                    "ap2Name": "Length",
-                    "ap1ID": 889144,
-                    "ap2ID": 633443
-                },
-                {
-                    "ap1Name": "number",
-                    "ap2Name": "Length",
-                    "ap1ID": 889144,
-                    "ap2ID": 220281
-                },
-                {
-                    "ap1Name": "number",
-                    "ap2Name": "y",
-                    "ap1ID": 889144,
-                    "ap2ID": 840348
                 },
                 {
                     "ap1Name": "Geometry",
@@ -754,7 +753,11 @@
                             "ioValue": 150
                         },
                         {
-                            "name": "Input387693",
+                            "name": "Bend Radius",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Little Tab Width",
                             "ioValue": 10
                         }
                     ]
