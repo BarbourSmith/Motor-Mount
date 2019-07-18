@@ -714,6 +714,17 @@
                     "ap2Name": "geometry",
                     "ap1ID": 465766,
                     "ap2ID": 574573
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 574573,
+                    "ap2ID": 286715
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 286715
                 }
             ],
             "fileTypeVersion": 1
@@ -877,6 +888,10 @@
                         {
                             "name": "3D shape 661410",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 640990",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -947,6 +962,12 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 804798",
                     "ap1ID": 740020,
+                    "ap2ID": 247430
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 661410",
+                    "ap1ID": 372159,
                     "ap2ID": 247430
                 },
                 {
