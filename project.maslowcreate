@@ -1270,21 +1270,21 @@
         {
             "atomType": "Molecule",
             "name": "Roller Assembly",
-            "x": 404,
-            "y": 258,
+            "x": 419,
+            "y": 255,
             "uniqueID": 752987,
             "ioValues": [
                 {
                     "name": "Length",
-                    "ioValue": 10
+                    "ioValue": 180
                 },
                 {
-                    "name": "Input488091",
-                    "ioValue": 10
+                    "name": "Width",
+                    "ioValue": 35
                 },
                 {
-                    "name": "Input371378",
-                    "ioValue": 10
+                    "name": "Bend Radius",
+                    "ioValue": 5
                 }
             ],
             "topLevel": false,
@@ -1299,19 +1299,37 @@
                 },
                 {
                     "atomType": "Input",
-                    "name": "Input488091",
-                    "x": 81,
-                    "y": 134,
+                    "name": "Width",
+                    "x": 43,
+                    "y": 111,
                     "uniqueID": 189625,
                     "ioValues": []
                 },
                 {
                     "atomType": "Input",
-                    "name": "Input371378",
-                    "x": 76,
-                    "y": 175,
+                    "name": "Bend Radius",
+                    "x": 49,
+                    "y": 206,
                     "uniqueID": 475391,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 205,
+                    "y": 153,
+                    "uniqueID": 506893,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 35
+                        }
+                    ],
+                    "currentEquation": 0
                 },
                 {
                     "atomType": "GitHubMolecule",
@@ -1361,6 +1379,19 @@
                 }
             ],
             "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "y",
+                    "ap1ID": 189625,
+                    "ap2ID": 506893
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x",
+                    "ap1ID": 475391,
+                    "ap2ID": 506893
+                },
+                null,
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
@@ -1527,21 +1558,21 @@
                 {
                     "atomType": "Molecule",
                     "name": "Roller Assembly",
-                    "x": 404,
-                    "y": 258,
+                    "x": 419,
+                    "y": 255,
                     "uniqueID": 752987,
                     "ioValues": [
                         {
                             "name": "Length",
-                            "ioValue": 10
+                            "ioValue": 180
                         },
                         {
-                            "name": "Input488091",
-                            "ioValue": 10
+                            "name": "Width",
+                            "ioValue": 35
                         },
                         {
-                            "name": "Input371378",
-                            "ioValue": 10
+                            "name": "Bend Radius",
+                            "ioValue": 5
                         }
                     ]
                 },
@@ -1603,6 +1634,12 @@
                 },
                 {
                     "ap1Name": "number",
+                    "ap2Name": "Length",
+                    "ap1ID": 877702,
+                    "ap2ID": 752987
+                },
+                {
+                    "ap1Name": "number",
                     "ap2Name": "Width",
                     "ap1ID": 185248,
                     "ap2ID": 740020
@@ -1618,6 +1655,12 @@
                     "ap2Name": "Width",
                     "ap1ID": 185248,
                     "ap2ID": 626485
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Width",
+                    "ap1ID": 185248,
+                    "ap2ID": 752987
                 },
                 {
                     "ap1Name": "number",
@@ -1654,6 +1697,12 @@
                     "ap2Name": "Bend Radius",
                     "ap1ID": 812575,
                     "ap2ID": 372159
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Bend Radius",
+                    "ap1ID": 812575,
+                    "ap2ID": 752987
                 },
                 {
                     "ap1Name": "Geometry",
