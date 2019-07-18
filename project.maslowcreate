@@ -23,34 +23,10 @@
             "topLevel": false,
             "allAtoms": [
                 {
-                    "atomType": "Input",
-                    "name": "Thickness",
-                    "x": 50,
-                    "y": 58,
-                    "uniqueID": 568082,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Width",
-                    "x": 46,
-                    "y": 132,
-                    "uniqueID": 693654,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Length",
-                    "x": 47,
-                    "y": 216,
-                    "uniqueID": 605772,
-                    "ioValues": []
-                },
-                {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
-                    "x": 318,
-                    "y": 90,
+                    "x": 106,
+                    "y": 66,
                     "uniqueID": 885377,
                     "projectID": "197395697",
                     "ioValues": [
@@ -75,6 +51,90 @@
                             "ioValue": 40
                         }
                     ]
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Sheet Metal Tab",
+                    "x": 103,
+                    "y": 153,
+                    "uniqueID": 633443,
+                    "projectID": "197395697",
+                    "ioValues": [
+                        {
+                            "name": "Radius",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "Thickness",
+                            "ioValue": 3
+                        },
+                        {
+                            "name": "Angle",
+                            "ioValue": 9
+                        },
+                        {
+                            "name": "Length",
+                            "ioValue": 20
+                        },
+                        {
+                            "name": "Tab Height",
+                            "ioValue": 15
+                        }
+                    ]
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Sheet Metal Tab",
+                    "x": 116,
+                    "y": 255,
+                    "uniqueID": 220281,
+                    "projectID": "197395697",
+                    "ioValues": [
+                        {
+                            "name": "Radius",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Thickness",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Angle",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Tab Height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Thickness",
+                    "x": 365,
+                    "y": 48,
+                    "uniqueID": 568082,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Width",
+                    "x": 359,
+                    "y": 101,
+                    "uniqueID": 693654,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Length",
+                    "x": 355,
+                    "y": 161,
+                    "uniqueID": 605772,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
