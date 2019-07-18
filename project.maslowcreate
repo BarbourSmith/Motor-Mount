@@ -21,11 +21,11 @@
                 },
                 {
                     "name": "Bend Radius",
-                    "ioValue": 10
+                    "ioValue": 5
                 },
                 {
                     "name": "Little Tab Width",
-                    "ioValue": 10
+                    "ioValue": 30
                 }
             ],
             "topLevel": false,
@@ -56,7 +56,7 @@
                     "ioValues": [
                         {
                             "name": "Radius",
-                            "ioValue": 10
+                            "ioValue": 5
                         },
                         {
                             "name": "Thickness",
@@ -86,7 +86,7 @@
                     "ioValues": [
                         {
                             "name": "Radius",
-                            "ioValue": 10
+                            "ioValue": 5
                         },
                         {
                             "name": "Thickness",
@@ -98,7 +98,7 @@
                         },
                         {
                             "name": "Length",
-                            "ioValue": 10
+                            "ioValue": 30
                         },
                         {
                             "name": "Tab Height",
@@ -124,7 +124,7 @@
                     "ioValues": [
                         {
                             "name": "Radius",
-                            "ioValue": 10
+                            "ioValue": 5
                         },
                         {
                             "name": "Thickness",
@@ -136,7 +136,7 @@
                         },
                         {
                             "name": "Length",
-                            "ioValue": 10
+                            "ioValue": 30
                         },
                         {
                             "name": "Tab Height",
@@ -308,7 +308,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": 10
+                            "ioValue": 30
                         }
                     ],
                     "currentEquation": 0
@@ -400,7 +400,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -65
+                            "ioValue": -45
                         },
                         {
                             "name": "yDist",
@@ -724,8 +724,8 @@
                 {
                     "atomType": "Constant",
                     "name": "Bend Radius",
-                    "x": 54,
-                    "y": 226,
+                    "x": 50,
+                    "y": 225,
                     "uniqueID": 812575,
                     "ioValues": [
                         {
@@ -772,11 +772,11 @@
                         },
                         {
                             "name": "Bend Radius",
-                            "ioValue": 10
+                            "ioValue": 5
                         },
                         {
                             "name": "Little Tab Width",
-                            "ioValue": 10
+                            "ioValue": 30
                         }
                     ]
                 },
@@ -804,8 +804,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 1125,
-                    "y": 60,
+                    "x": 846,
+                    "y": 57,
                     "uniqueID": 247430,
                     "ioValues": [
                         {
@@ -867,7 +867,18 @@
                     "ap1ID": 177738,
                     "ap2ID": 740020
                 },
-                null,
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Little Tab Width",
+                    "ap1ID": 882508,
+                    "ap2ID": 740020
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Bend Radius",
+                    "ap1ID": 812575,
+                    "ap2ID": 740020
+                },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
