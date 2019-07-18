@@ -3,7 +3,7 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 420,
+            "x": 415,
             "y": 136,
             "uniqueID": 740020,
             "ioValues": [
@@ -49,8 +49,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
-                    "x": 178,
-                    "y": 64,
+                    "x": 179,
+                    "y": 66,
                     "uniqueID": 885377,
                     "projectID": "197395697",
                     "ioValues": [
@@ -68,7 +68,7 @@
                         },
                         {
                             "name": "Length",
-                            "ioValue": 80
+                            "ioValue": 75
                         },
                         {
                             "name": "Tab Height",
@@ -80,7 +80,7 @@
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
                     "x": 185,
-                    "y": 159,
+                    "y": 157,
                     "uniqueID": 633443,
                     "projectID": "197395697",
                     "ioValues": [
@@ -102,7 +102,7 @@
                         },
                         {
                             "name": "Tab Height",
-                            "ioValue": 15
+                            "ioValue": 20
                         }
                     ]
                 },
@@ -117,8 +117,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
-                    "x": 188,
-                    "y": 248,
+                    "x": 194,
+                    "y": 244,
                     "uniqueID": 220281,
                     "projectID": "197395697",
                     "ioValues": [
@@ -189,8 +189,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 324,
-                    "y": 221,
+                    "x": 328,
+                    "y": 227,
                     "uniqueID": 276239,
                     "ioValues": [
                         {
@@ -992,7 +992,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 420,
+                    "x": 415,
                     "y": 136,
                     "uniqueID": 740020,
                     "ioValues": [
