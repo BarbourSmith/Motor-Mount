@@ -994,8 +994,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor",
-            "x": 423,
-            "y": 182,
+            "x": 424,
+            "y": 188,
             "uniqueID": 372159,
             "ioValues": [
                 {
@@ -1271,7 +1271,7 @@
             "atomType": "Molecule",
             "name": "Roller Assembly",
             "x": 415,
-            "y": 250,
+            "y": 258,
             "uniqueID": 752987,
             "ioValues": [
                 {
@@ -1673,8 +1673,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor",
-                    "x": 423,
-                    "y": 182,
+                    "x": 424,
+                    "y": 188,
                     "uniqueID": 372159,
                     "ioValues": [
                         {
@@ -1699,7 +1699,7 @@
                     "atomType": "Molecule",
                     "name": "Roller Assembly",
                     "x": 415,
-                    "y": 250,
+                    "y": 258,
                     "uniqueID": 752987,
                     "ioValues": [
                         {
