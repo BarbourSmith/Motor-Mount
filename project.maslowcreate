@@ -643,8 +643,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor",
-            "x": 423,
-            "y": 244,
+            "x": 421,
+            "y": 239,
             "uniqueID": 372159,
             "ioValues": [
                 {
@@ -661,7 +661,7 @@
                 },
                 {
                     "name": "Thickness",
-                    "ioValue": 10
+                    "ioValue": 3
                 }
             ],
             "topLevel": false,
@@ -717,7 +717,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 10
+                            "ioValue": 3
                         },
                         {
                             "name": "y",
@@ -756,7 +756,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": 15
+                            "ioValue": 8
                         }
                     ],
                     "currentEquation": 1
@@ -803,8 +803,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 735,
-                    "y": 130,
+                    "x": 733,
+                    "y": 132,
                     "uniqueID": 286715,
                     "ioValues": [
                         {
@@ -813,11 +813,11 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -32.5
+                            "ioValue": -25.5
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 40
                         }
                     ]
                 },
@@ -1021,8 +1021,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor",
-                    "x": 423,
-                    "y": 244,
+                    "x": 421,
+                    "y": 239,
                     "uniqueID": 372159,
                     "ioValues": [
                         {
@@ -1039,7 +1039,7 @@
                         },
                         {
                             "name": "Thickness",
-                            "ioValue": 10
+                            "ioValue": 3
                         }
                     ]
                 },
@@ -1137,6 +1137,12 @@
                     "ap2Name": "Thickness",
                     "ap1ID": 177738,
                     "ap2ID": 740020
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Thickness",
+                    "ap1ID": 177738,
+                    "ap2ID": 372159
                 },
                 {
                     "ap1Name": "number",
