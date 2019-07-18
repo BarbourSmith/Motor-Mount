@@ -121,14 +121,14 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 0
+                            "ioValue": 180
                         },
                         {
                             "name": "y",
                             "ioValue": 2
                         }
                     ],
-                    "currentEquation": 0
+                    "currentEquation": 3
                 },
                 {
                     "atomType": "Circle",
@@ -156,7 +156,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": 180
+                            "ioValue": 90
                         }
                     ],
                     "currentEquation": 0
@@ -178,7 +178,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 380
+                            "ioValue": 290
                         },
                         {
                             "name": "yDist",
@@ -249,9 +249,9 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "y",
+                    "ap2Name": "x",
                     "ap1ID": 336250,
-                    "ap2ID": 976983
+                    "ap2ID": 512787
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -300,6 +300,12 @@
                     "ap2Name": "geometry2",
                     "ap1ID": 432285,
                     "ap2ID": 813954
+                },
+                {
+                    "ap1Name": "z",
+                    "ap2Name": "y",
+                    "ap1ID": 512787,
+                    "ap2ID": 976983
                 },
                 {
                     "ap1Name": "geometry",
