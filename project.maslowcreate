@@ -3,7 +3,7 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 431,
+            "x": 429,
             "y": 134,
             "uniqueID": 740020,
             "ioValues": [
@@ -23,10 +23,18 @@
             "topLevel": false,
             "allAtoms": [
                 {
+                    "atomType": "Input",
+                    "name": "Thickness",
+                    "x": 19,
+                    "y": 151,
+                    "uniqueID": 568082,
+                    "ioValues": []
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
-                    "x": 113,
-                    "y": 64,
+                    "x": 180,
+                    "y": 59,
                     "uniqueID": 885377,
                     "projectID": "197395697",
                     "ioValues": [
@@ -53,18 +61,10 @@
                     ]
                 },
                 {
-                    "atomType": "Input",
-                    "name": "Thickness",
-                    "x": 19,
-                    "y": 151,
-                    "uniqueID": 568082,
-                    "ioValues": []
-                },
-                {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
-                    "x": 135,
-                    "y": 151,
+                    "x": 185,
+                    "y": 159,
                     "uniqueID": 633443,
                     "projectID": "197395697",
                     "ioValues": [
@@ -91,10 +91,23 @@
                     ]
                 },
                 {
+                    "atomType": "Constant",
+                    "name": "Constant",
+                    "x": 47,
+                    "y": 285,
+                    "uniqueID": 889144,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
-                    "x": 109,
-                    "y": 257,
+                    "x": 188,
+                    "y": 248,
                     "uniqueID": 220281,
                     "projectID": "197395697",
                     "ioValues": [
@@ -405,12 +418,6 @@
             ],
             "allConnectors": [
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 885377,
-                    "ap2ID": 499728
-                },
-                {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Thickness",
                     "ap1ID": 568082,
@@ -427,6 +434,12 @@
                     "ap2Name": "Thickness",
                     "ap1ID": 568082,
                     "ap2ID": 220281
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 885377,
+                    "ap2ID": 499728
                 },
                 {
                     "ap1Name": "Geometry",
@@ -644,7 +657,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 431,
+                    "x": 429,
                     "y": 134,
                     "uniqueID": 740020,
                     "ioValues": [
