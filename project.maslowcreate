@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 424,
-            "y": 130,
+            "x": 421,
+            "y": 135,
             "uniqueID": 740020,
             "ioValues": [
                 {
@@ -18,10 +18,22 @@
                 {
                     "name": "Length",
                     "ioValue": 150
+                },
+                {
+                    "name": "Input387693",
+                    "ioValue": 10
                 }
             ],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Input387693",
+                    "x": 41,
+                    "y": 49,
+                    "uniqueID": 651275,
+                    "ioValues": []
+                },
                 {
                     "atomType": "Input",
                     "name": "Thickness",
@@ -680,6 +692,32 @@
                     ]
                 },
                 {
+                    "atomType": "Constant",
+                    "name": "Small Tab Width",
+                    "x": 52,
+                    "y": 180,
+                    "uniqueID": 882508,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Constant",
+                    "name": "Bend Radius",
+                    "x": 54,
+                    "y": 226,
+                    "uniqueID": 812575,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 5
+                        }
+                    ]
+                },
+                {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
                     "x": 408,
@@ -699,8 +737,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 424,
-                    "y": 130,
+                    "x": 421,
+                    "y": 135,
                     "uniqueID": 740020,
                     "ioValues": [
                         {
@@ -714,6 +752,10 @@
                         {
                             "name": "Length",
                             "ioValue": 150
+                        },
+                        {
+                            "name": "Input387693",
+                            "ioValue": 10
                         }
                     ]
                 },
