@@ -93,8 +93,8 @@
                 {
                     "atomType": "Constant",
                     "name": "Little Tab Width",
-                    "x": 46,
-                    "y": 288,
+                    "x": 49,
+                    "y": 304,
                     "uniqueID": 889144,
                     "ioValues": [
                         {
@@ -215,8 +215,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 476,
-                    "y": 275,
+                    "x": 518,
+                    "y": 256,
                     "uniqueID": 717479,
                     "ioValues": [
                         {
@@ -251,44 +251,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 617,
-                    "y": 288,
-                    "uniqueID": 431556,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 35
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": -2
-                        }
-                    ],
-                    "currentEquation": 3
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 643,
-                    "y": 229,
-                    "uniqueID": 840348,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": -75
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 20
-                        }
-                    ],
-                    "currentEquation": 0
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 679,
-                    "y": 134,
+                    "x": 663,
+                    "y": 115,
                     "uniqueID": 668229,
                     "ioValues": [
                         {
@@ -305,9 +269,9 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 680,
-                    "y": 184,
-                    "uniqueID": 652613,
+                    "x": 695,
+                    "y": 203,
+                    "uniqueID": 431556,
                     "ioValues": [
                         {
                             "name": "x",
@@ -315,7 +279,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": 2
+                            "ioValue": -2
                         }
                     ],
                     "currentEquation": 3
@@ -323,8 +287,26 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 790,
-                    "y": 86,
+                    "x": 709,
+                    "y": 291,
+                    "uniqueID": 840348,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": -75
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 20
+                        }
+                    ],
+                    "currentEquation": 0
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 792,
+                    "y": 74,
                     "uniqueID": 658889,
                     "ioValues": [
                         {
@@ -334,6 +316,24 @@
                         {
                             "name": "y",
                             "ioValue": -2
+                        }
+                    ],
+                    "currentEquation": 3
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 789,
+                    "y": 171,
+                    "uniqueID": 652613,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 35
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 2
                         }
                     ],
                     "currentEquation": 3
@@ -557,6 +557,12 @@
                 },
                 {
                     "ap1Name": "z",
+                    "ap2Name": "xDist",
+                    "ap1ID": 668229,
+                    "ap2ID": 694265
+                },
+                {
+                    "ap1Name": "z",
                     "ap2Name": "yDist",
                     "ap1ID": 431556,
                     "ap2ID": 688009
@@ -569,21 +575,15 @@
                 },
                 {
                     "ap1Name": "z",
-                    "ap2Name": "xDist",
-                    "ap1ID": 668229,
-                    "ap2ID": 694265
+                    "ap2Name": "yDist",
+                    "ap1ID": 658889,
+                    "ap2ID": 764679
                 },
                 {
                     "ap1Name": "z",
                     "ap2Name": "yDist",
                     "ap1ID": 652613,
                     "ap2ID": 694265
-                },
-                {
-                    "ap1Name": "z",
-                    "ap2Name": "yDist",
-                    "ap1ID": 658889,
-                    "ap2ID": 764679
                 },
                 {
                     "ap1Name": "geometry",
