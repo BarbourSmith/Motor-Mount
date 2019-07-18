@@ -1370,6 +1370,24 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
+                    "x": 231,
+                    "y": 262,
+                    "uniqueID": 721536,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 180
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 30
+                        }
+                    ],
+                    "currentEquation": 1
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
                     "x": 339,
                     "y": 140,
                     "uniqueID": 378233,
@@ -1407,10 +1425,28 @@
                     ]
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 338,
+                    "y": 256,
+                    "uniqueID": 964328,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 150
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": -1
+                        }
+                    ],
+                    "currentEquation": 0
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 513,
-                    "y": 171,
+                    "x": 506,
+                    "y": 167,
                     "uniqueID": 280527,
                     "ioValues": [
                         {
@@ -1471,6 +1507,18 @@
                     "ap2Name": "x",
                     "ap1ID": 625953,
                     "ap2ID": 378233
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x",
+                    "ap1ID": 727533,
+                    "ap2ID": 721536
+                },
+                {
+                    "ap1Name": "z",
+                    "ap2Name": "x",
+                    "ap1ID": 721536,
+                    "ap2ID": 964328
                 },
                 {
                     "ap1Name": "z",
