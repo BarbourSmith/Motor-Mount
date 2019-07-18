@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 430,
-            "y": 130,
+            "x": 428,
+            "y": 131,
             "uniqueID": 740020,
             "ioValues": [
                 {
@@ -257,7 +257,7 @@
                     "atomType": "Equation",
                     "name": "Equation",
                     "x": 657,
-                    "y": 221,
+                    "y": 222,
                     "uniqueID": 652613,
                     "ioValues": [
                         {
@@ -266,10 +266,10 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": 0
+                            "ioValue": 2
                         }
                     ],
-                    "currentEquation": 0
+                    "currentEquation": 3
                 },
                 {
                     "atomType": "Translate",
@@ -284,7 +284,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 35
+                            "ioValue": 17.5
                         },
                         {
                             "name": "zDist",
@@ -584,8 +584,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 430,
-                    "y": 130,
+                    "x": 428,
+                    "y": 131,
                     "uniqueID": 740020,
                     "ioValues": [
                         {
