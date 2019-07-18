@@ -25,13 +25,13 @@
                 {
                     "atomType": "Constant",
                     "name": "Width",
-                    "x": 46,
-                    "y": 93,
+                    "x": 42,
+                    "y": 95,
                     "uniqueID": 185248,
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 75
+                            "ioValue": 65
                         }
                     ]
                 },
@@ -61,33 +61,15 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 75
+                            "ioValue": 65
                         }
                     ]
                 },
                 {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 219,
-                    "y": 162,
-                    "uniqueID": 541176,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 150
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 2
-                        }
-                    ],
-                    "currentEquation": 3
-                },
-                {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
-                    "x": 99,
-                    "y": 266,
+                    "x": 168,
+                    "y": 202,
                     "uniqueID": 772627,
                     "projectID": "197395697",
                     "ioValues": [
@@ -116,13 +98,31 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 205,
-                    "y": 218,
+                    "x": 323,
+                    "y": 133,
+                    "uniqueID": 541176,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 150
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 2
+                        }
+                    ],
+                    "currentEquation": 3
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 329,
+                    "y": 192,
                     "uniqueID": 792859,
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 75
+                            "ioValue": 65
                         },
                         {
                             "name": "y",
@@ -134,8 +134,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 273,
-                    "y": 265,
+                    "x": 337,
+                    "y": 255,
                     "uniqueID": 542117,
                     "ioValues": [
                         {
@@ -178,7 +178,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -37.5
+                            "ioValue": -32.5
                         },
                         {
                             "name": "zDist",
@@ -289,16 +289,16 @@
                     "ap2ID": 943882
                 },
                 {
-                    "ap1Name": "z",
-                    "ap2Name": "xDist",
-                    "ap1ID": 541176,
-                    "ap2ID": 503858
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 772627,
                     "ap2ID": 542117
+                },
+                {
+                    "ap1Name": "z",
+                    "ap2Name": "xDist",
+                    "ap1ID": 541176,
+                    "ap2ID": 503858
                 },
                 {
                     "ap1Name": "z",
