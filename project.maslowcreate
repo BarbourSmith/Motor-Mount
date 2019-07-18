@@ -66,6 +66,36 @@
                     ]
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Sheet Metal Tab",
+                    "x": 209,
+                    "y": 222,
+                    "uniqueID": 772627,
+                    "projectID": "197395697",
+                    "ioValues": [
+                        {
+                            "name": "Radius",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Thickness",
+                            "ioValue": 3
+                        },
+                        {
+                            "name": "Angle",
+                            "ioValue": 90
+                        },
+                        {
+                            "name": "Length",
+                            "ioValue": 70
+                        },
+                        {
+                            "name": "Tab Height",
+                            "ioValue": 30
+                        }
+                    ]
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 468,
@@ -153,11 +183,18 @@
                     "ap2ID": 943882
                 },
                 {
+                    "ap1Name": "number",
+                    "ap2Name": "Thickness",
+                    "ap1ID": 177738,
+                    "ap2ID": 772627
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 756722,
                     "ap2ID": 943882
                 },
+                null,
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 189519",
