@@ -2,4 +2,3 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|ET-WGM58AE|1|11|http://www.etonm.com/|
