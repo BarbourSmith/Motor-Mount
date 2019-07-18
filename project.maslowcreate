@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 432,
-            "y": 139,
+            "x": 428,
+            "y": 135,
             "uniqueID": 740020,
             "ioValues": [
                 {
@@ -113,11 +113,40 @@
                     ]
                 },
                 {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 322,
+                    "y": 71,
+                    "uniqueID": 499728,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": -90
+                        }
+                    ]
+                },
+                {
                     "atomType": "Input",
                     "name": "Thickness",
                     "x": 332,
                     "y": 296,
                     "uniqueID": 568082,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Length",
+                    "x": 436,
+                    "y": 123,
+                    "uniqueID": 605772,
                     "ioValues": []
                 },
                 {
@@ -129,12 +158,22 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Input",
-                    "name": "Length",
-                    "x": 481,
-                    "y": 288,
-                    "uniqueID": 605772,
-                    "ioValues": []
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 663,
+                    "y": 41,
+                    "uniqueID": 294524,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 0
+                        }
+                    ],
+                    "currentEquation": 3
                 },
                 {
                     "atomType": "Equation",
@@ -188,6 +227,12 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 885377,
+                    "ap2ID": 499728
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 499728,
                     "ap2ID": 764679
                 },
                 {
@@ -298,8 +343,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 432,
-                    "y": 139,
+                    "x": 428,
+                    "y": 135,
                     "uniqueID": 740020,
                     "ioValues": [
                         {
