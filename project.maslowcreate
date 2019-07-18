@@ -643,12 +643,37 @@
         {
             "atomType": "Molecule",
             "name": "Motor",
-            "x": 417,
+            "x": 411,
             "y": 242,
             "uniqueID": 372159,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Width",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Length",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Width",
+                    "x": 114,
+                    "y": 28,
+                    "uniqueID": 145104,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Length",
+                    "x": 117,
+                    "y": 98,
+                    "uniqueID": 483131,
+                    "ioValues": []
+                },
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Maslow Motor",
@@ -852,10 +877,19 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor",
-                    "x": 417,
+                    "x": 411,
                     "y": 242,
                     "uniqueID": 372159,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Width",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Length",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Extrude",
