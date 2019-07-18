@@ -1334,14 +1334,14 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Roller",
-                    "x": 294,
-                    "y": 99,
+                    "x": 293,
+                    "y": 98,
                     "uniqueID": 642120,
                     "projectID": "197579630",
                     "ioValues": [
                         {
                             "name": "Shoulder Length",
-                            "ioValue": 10
+                            "ioValue": 7
                         },
                         {
                             "name": "Center Length",
@@ -1352,13 +1352,13 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 281,
-                    "y": 251,
+                    "x": 249,
+                    "y": 265,
                     "uniqueID": 625953,
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 0
+                            "ioValue": 14
                         },
                         {
                             "name": "y",
@@ -1389,10 +1389,28 @@
                     ]
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 371,
+                    "y": 277,
+                    "uniqueID": 378233,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 54
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 2
+                        }
+                    ],
+                    "currentEquation": 0
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 497,
-                    "y": 228,
+                    "x": 494,
+                    "y": 225,
                     "uniqueID": 280527,
                     "ioValues": [
                         {
@@ -1401,7 +1419,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 40
+                            "ioValue": 56
                         },
                         {
                             "name": "zDist",
@@ -1450,9 +1468,9 @@
                 },
                 {
                     "ap1Name": "z",
-                    "ap2Name": "yDist",
+                    "ap2Name": "x",
                     "ap1ID": 625953,
-                    "ap2ID": 280527
+                    "ap2ID": 378233
                 },
                 {
                     "ap1Name": "geometry",
@@ -1463,6 +1481,12 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 697362,
+                    "ap2ID": 280527
+                },
+                {
+                    "ap1Name": "z",
+                    "ap2Name": "yDist",
+                    "ap1ID": 378233,
                     "ap2ID": 280527
                 }
             ],
