@@ -68,8 +68,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
-                    "x": 168,
-                    "y": 202,
+                    "x": 215,
+                    "y": 155,
                     "uniqueID": 772627,
                     "projectID": "197395697",
                     "ioValues": [
@@ -92,36 +92,6 @@
                         {
                             "name": "Tab Height",
                             "ioValue": 30
-                        }
-                    ]
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "Sheet Metal Tab",
-                    "x": 168,
-                    "y": 270,
-                    "uniqueID": 610192,
-                    "projectID": "197395697",
-                    "ioValues": [
-                        {
-                            "name": "Radius",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "Thickness",
-                            "ioValue": 3
-                        },
-                        {
-                            "name": "Angle",
-                            "ioValue": 90
-                        },
-                        {
-                            "name": "Length",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "Tab Height",
-                            "ioValue": 10
                         }
                     ]
                 },
@@ -162,27 +132,6 @@
                     "currentEquation": 3
                 },
                 {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 441,
-                    "y": 154,
-                    "uniqueID": 542117,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": -90
-                        }
-                    ]
-                },
-                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 468,
@@ -196,32 +145,23 @@
                     ]
                 },
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "Sheet Metal Tab",
-                    "x": 551,
-                    "y": 280,
-                    "uniqueID": 475198,
-                    "projectID": "197395697",
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 443,
+                    "y": 165,
+                    "uniqueID": 542117,
                     "ioValues": [
                         {
-                            "name": "Radius",
-                            "ioValue": 10
+                            "name": "x-axis degrees",
+                            "ioValue": 0
                         },
                         {
-                            "name": "Thickness",
-                            "ioValue": 10
+                            "name": "y-axis degrees",
+                            "ioValue": 0
                         },
                         {
-                            "name": "Angle",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "Length",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "Tab Height",
-                            "ioValue": 10
+                            "name": "z-axis degrees",
+                            "ioValue": -90
                         }
                     ]
                 },
@@ -249,8 +189,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Maslow Motor",
-                    "x": 834,
-                    "y": 289,
+                    "x": 970,
+                    "y": 276,
                     "uniqueID": 780656,
                     "projectID": "188842909",
                     "ioValues": []
@@ -258,8 +198,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 982,
-                    "y": 258,
+                    "x": 1090,
+                    "y": 254,
                     "uniqueID": 188791,
                     "ioValues": [
                         {
@@ -268,7 +208,7 @@
                         },
                         {
                             "name": "y-axis degrees",
-                            "ioValue": 0
+                            "ioValue": 180
                         },
                         {
                             "name": "z-axis degrees",
@@ -279,8 +219,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 1128,
-                    "y": 59,
+                    "x": 1125,
+                    "y": 60,
                     "uniqueID": 247430,
                     "ioValues": [
                         {
@@ -293,6 +233,10 @@
                         },
                         {
                             "name": "3D shape 218527",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 833998",
                             "ioValue": 10
                         }
                     ]
@@ -343,12 +287,6 @@
                     "ap2ID": 772627
                 },
                 {
-                    "ap1Name": "number",
-                    "ap2Name": "Thickness",
-                    "ap1ID": 177738,
-                    "ap2ID": 610192
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 756722,
@@ -374,15 +312,15 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 542117,
-                    "ap2ID": 503858
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 189519",
                     "ap1ID": 943882,
                     "ap2ID": 247430
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 542117,
+                    "ap2ID": 503858
                 },
                 {
                     "ap1Name": "geometry",
@@ -395,6 +333,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": 780656,
                     "ap2ID": 188791
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 218527",
+                    "ap1ID": 188791,
+                    "ap2ID": 247430
                 },
                 {
                     "ap1Name": "geometry",
