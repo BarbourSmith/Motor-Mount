@@ -654,10 +654,22 @@
                 {
                     "name": "Length",
                     "ioValue": 10
+                },
+                {
+                    "name": "Bend Radius",
+                    "ioValue": 10
                 }
             ],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Length",
+                    "x": 64,
+                    "y": 94,
+                    "uniqueID": 483131,
+                    "ioValues": []
+                },
                 {
                     "atomType": "Input",
                     "name": "Width",
@@ -668,10 +680,10 @@
                 },
                 {
                     "atomType": "Input",
-                    "name": "Length",
-                    "x": 117,
-                    "y": 98,
-                    "uniqueID": 483131,
+                    "name": "Bend Radius",
+                    "x": 139,
+                    "y": 164,
+                    "uniqueID": 875651,
                     "ioValues": []
                 },
                 {
@@ -682,6 +694,24 @@
                     "uniqueID": 465766,
                     "projectID": "188842909",
                     "ioValues": []
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 490,
+                    "y": 70,
+                    "uniqueID": 281765,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 0.3
+                        }
+                    ],
+                    "currentEquation": 2
                 },
                 {
                     "atomType": "Rotate",
@@ -735,11 +765,18 @@
             ],
             "allConnectors": [
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x",
+                    "ap1ID": 483131,
+                    "ap2ID": 281765
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 465766,
                     "ap2ID": 574573
                 },
+                null,
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
@@ -887,6 +924,10 @@
                         },
                         {
                             "name": "Length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Bend Radius",
                             "ioValue": 10
                         }
                     ]
