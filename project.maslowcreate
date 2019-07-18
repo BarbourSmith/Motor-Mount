@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 429,
-            "y": 134,
+            "x": 424,
+            "y": 130,
             "uniqueID": 740020,
             "ioValues": [
                 {
@@ -157,8 +157,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 297,
-                    "y": 172,
+                    "x": 328,
+                    "y": 151,
                     "uniqueID": 694513,
                     "ioValues": [
                         {
@@ -199,8 +199,8 @@
                 {
                     "atomType": "Input",
                     "name": "Length",
-                    "x": 438,
-                    "y": 42,
+                    "x": 400,
+                    "y": 198,
                     "uniqueID": 605772,
                     "ioValues": []
                 },
@@ -215,8 +215,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 506,
-                    "y": 205,
+                    "x": 476,
+                    "y": 275,
                     "uniqueID": 717479,
                     "ioValues": [
                         {
@@ -229,24 +229,6 @@
                         }
                     ],
                     "currentEquation": 3
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 461,
-                    "y": 298,
-                    "uniqueID": 840348,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": -75
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 20
-                        }
-                    ],
-                    "currentEquation": 0
                 },
                 {
                     "atomType": "Equation",
@@ -269,9 +251,9 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 667,
-                    "y": 90,
-                    "uniqueID": 658889,
+                    "x": 617,
+                    "y": 288,
+                    "uniqueID": 431556,
                     "ioValues": [
                         {
                             "name": "x",
@@ -287,20 +269,20 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 617,
-                    "y": 288,
-                    "uniqueID": 431556,
+                    "x": 643,
+                    "y": 229,
+                    "uniqueID": 840348,
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 35
+                            "ioValue": -75
                         },
                         {
                             "name": "y",
-                            "ioValue": -2
+                            "ioValue": 20
                         }
                     ],
-                    "currentEquation": 3
+                    "currentEquation": 0
                 },
                 {
                     "atomType": "Equation",
@@ -339,31 +321,28 @@
                     "currentEquation": 3
                 },
                 {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 784,
-                    "y": 150,
-                    "uniqueID": 694265,
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 790,
+                    "y": 86,
+                    "uniqueID": 658889,
                     "ioValues": [
                         {
-                            "name": "xDist",
-                            "ioValue": -75
+                            "name": "x",
+                            "ioValue": 35
                         },
                         {
-                            "name": "yDist",
-                            "ioValue": 17.5
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
+                            "name": "y",
+                            "ioValue": -2
                         }
-                    ]
+                    ],
+                    "currentEquation": 3
                 },
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 816,
-                    "y": 65,
+                    "x": 1023,
+                    "y": 49,
                     "uniqueID": 764679,
                     "ioValues": [
                         {
@@ -383,13 +362,34 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 793,
-                    "y": 250,
+                    "x": 1038,
+                    "y": 134,
+                    "uniqueID": 694265,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": -75
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 17.5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 1037,
+                    "y": 229,
                     "uniqueID": 688009,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -55
                         },
                         {
                             "name": "yDist",
@@ -404,8 +404,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 1050,
-                    "y": 163,
+                    "x": 1163,
+                    "y": 167,
                     "uniqueID": 747646,
                     "ioValues": [
                         {
@@ -549,7 +549,6 @@
                     "ap1ID": 717479,
                     "ap2ID": 840348
                 },
-                null,
                 {
                     "ap1Name": "z",
                     "ap2Name": "xDist",
@@ -559,13 +558,13 @@
                 {
                     "ap1Name": "z",
                     "ap2Name": "yDist",
-                    "ap1ID": 658889,
-                    "ap2ID": 764679
+                    "ap1ID": 431556,
+                    "ap2ID": 688009
                 },
                 {
                     "ap1Name": "z",
-                    "ap2Name": "yDist",
-                    "ap1ID": 431556,
+                    "ap2Name": "xDist",
+                    "ap1ID": 840348,
                     "ap2ID": 688009
                 },
                 {
@@ -581,15 +580,21 @@
                     "ap2ID": 694265
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 484059",
-                    "ap1ID": 694265,
-                    "ap2ID": 747646
+                    "ap1Name": "z",
+                    "ap2Name": "yDist",
+                    "ap1ID": 658889,
+                    "ap2ID": 764679
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 731985",
                     "ap1ID": 764679,
+                    "ap2ID": 747646
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 484059",
+                    "ap1ID": 694265,
                     "ap2ID": 747646
                 },
                 {
@@ -694,8 +699,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 429,
-                    "y": 134,
+                    "x": 424,
+                    "y": 130,
                     "uniqueID": 740020,
                     "ioValues": [
                         {
