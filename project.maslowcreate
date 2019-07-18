@@ -1427,8 +1427,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 338,
-                    "y": 256,
+                    "x": 397,
+                    "y": 240,
                     "uniqueID": 964328,
                     "ioValues": [
                         {
@@ -1440,18 +1440,18 @@
                             "ioValue": -1
                         }
                     ],
-                    "currentEquation": 0
+                    "currentEquation": 2
                 },
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 506,
-                    "y": 167,
+                    "x": 502,
+                    "y": 184,
                     "uniqueID": 280527,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -150
                         },
                         {
                             "name": "yDist",
@@ -1528,14 +1528,20 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 697362
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 697362,
                     "ap2ID": 280527
+                },
+                {
+                    "ap1Name": "z",
+                    "ap2Name": "xDist",
+                    "ap1ID": 964328,
+                    "ap2ID": 280527
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 280527
                 }
             ],
             "fileTypeVersion": 1
