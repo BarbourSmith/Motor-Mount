@@ -220,6 +220,13 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1048,
+                    "y": 164,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 1130,
@@ -231,13 +238,6 @@
                             "ioValue": 4
                         }
                     ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -359,24 +359,24 @@
             "uniqueID": 740020,
             "ioValues": [
                 {
+                    "name": "Bend Radius",
+                    "ioValue": 5
+                },
+                {
                     "name": "Thickness",
                     "ioValue": 4
                 },
                 {
-                    "name": "Width",
-                    "ioValue": 35
+                    "name": "Little Tab Width",
+                    "ioValue": 30
                 },
                 {
                     "name": "Length",
                     "ioValue": 180
                 },
                 {
-                    "name": "Bend Radius",
-                    "ioValue": 5
-                },
-                {
-                    "name": "Little Tab Width",
-                    "ioValue": 30
+                    "name": "Width",
+                    "ioValue": 35
                 }
             ],
             "topLevel": false,
@@ -743,6 +743,13 @@
                     ]
                 },
                 {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1048,
+                    "y": 164,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 1037,
@@ -787,13 +794,6 @@
                             "ioValue": 10
                         }
                     ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -994,17 +994,13 @@
         {
             "atomType": "Molecule",
             "name": "Motor",
-            "x": 416,
-            "y": 193,
+            "x": 416.7668488160291,
+            "y": 199.0528233151184,
             "uniqueID": 372159,
             "ioValues": [
                 {
                     "name": "Width",
                     "ioValue": 35
-                },
-                {
-                    "name": "Length",
-                    "ioValue": 180
                 },
                 {
                     "name": "Bend Radius",
@@ -1013,6 +1009,10 @@
                 {
                     "name": "Thickness",
                     "ioValue": 4
+                },
+                {
+                    "name": "Length",
+                    "ioValue": 180
                 }
             ],
             "topLevel": false,
@@ -1078,20 +1078,20 @@
                     "currentEquation": 0
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Maslow Motor",
+                    "x": 248.816029143898,
+                    "y": 251.30418943533695,
+                    "uniqueID": 465766,
+                    "projectID": "188842909",
+                    "ioValues": []
+                },
+                {
                     "atomType": "Input",
                     "name": "Length",
                     "x": 351,
                     "y": 44,
                     "uniqueID": 483131,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "Maslow Motor",
-                    "x": 253,
-                    "y": 251,
-                    "uniqueID": 465766,
-                    "projectID": "188842909",
                     "ioValues": []
                 },
                 {
@@ -1113,10 +1113,28 @@
                     "currentEquation": 1
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Eton Motor Assembly",
+                    "x": 381.9326047358834,
+                    "y": 324.70491803278685,
+                    "uniqueID": 946391,
+                    "projectID": "197565793",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Eton Motor Assembly",
+                    "x": 381.9326047358834,
+                    "y": 324.70491803278685,
+                    "uniqueID": 986958,
+                    "projectID": "197565793",
+                    "ioValues": []
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 527,
-                    "y": 204,
+                    "x": 513.8051001821493,
+                    "y": 217.71402550091074,
                     "uniqueID": 574573,
                     "ioValues": [
                         {
@@ -1175,7 +1193,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
+                    "x": 1048,
                     "y": 164,
                     "ioValues": []
                 }
@@ -1212,16 +1230,16 @@
                     "ap2ID": 346820
                 },
                 {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "x",
-                    "ap1ID": 483131,
-                    "ap2ID": 281765
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 465766,
                     "ap2ID": 574573
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x",
+                    "ap1ID": 483131,
+                    "ap2ID": 281765
                 },
                 {
                     "ap1Name": "z",
@@ -1230,9 +1248,9 @@
                     "ap2ID": 286715
                 },
                 {
-                    "ap1Name": "geometry",
+                    "ap1Name": "Geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 574573,
+                    "ap1ID": 946391,
                     "ap2ID": 286715
                 },
                 {
@@ -1352,32 +1370,32 @@
                     "uniqueID": 740020,
                     "ioValues": [
                         {
+                            "name": "Bend Radius",
+                            "ioValue": 5
+                        },
+                        {
                             "name": "Thickness",
                             "ioValue": 4
                         },
                         {
-                            "name": "Width",
-                            "ioValue": 35
+                            "name": "Little Tab Width",
+                            "ioValue": 30
                         },
                         {
                             "name": "Length",
                             "ioValue": 180
                         },
                         {
-                            "name": "Bend Radius",
-                            "ioValue": 5
-                        },
-                        {
-                            "name": "Little Tab Width",
-                            "ioValue": 30
+                            "name": "Width",
+                            "ioValue": 35
                         }
                     ]
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Motor",
-                    "x": 416,
-                    "y": 193,
+                    "x": 416.7668488160291,
+                    "y": 199.0528233151184,
                     "uniqueID": 372159,
                     "ioValues": [
                         {
@@ -1385,16 +1403,16 @@
                             "ioValue": 35
                         },
                         {
-                            "name": "Length",
-                            "ioValue": 180
-                        },
-                        {
                             "name": "Bend Radius",
                             "ioValue": 5
                         },
                         {
                             "name": "Thickness",
                             "ioValue": 4
+                        },
+                        {
+                            "name": "Length",
+                            "ioValue": 180
                         }
                     ]
                 },
@@ -1426,7 +1444,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
+                    "x": 1048,
                     "y": 164,
                     "ioValues": []
                 }
