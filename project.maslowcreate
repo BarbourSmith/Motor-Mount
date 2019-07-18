@@ -4,7 +4,7 @@
             "atomType": "Molecule",
             "name": "Metal Base",
             "x": 419,
-            "y": 54,
+            "y": 53,
             "uniqueID": 626485,
             "ioValues": [
                 {
@@ -40,9 +40,9 @@
                 },
                 {
                     "atomType": "Constant",
-                    "name": "Router Diameter",
-                    "x": 158,
-                    "y": 208,
+                    "name": "Router Radius",
+                    "x": 148,
+                    "y": 210,
                     "uniqueID": 241269,
                     "ioValues": [
                         {
@@ -1327,7 +1327,7 @@
                     "atomType": "Molecule",
                     "name": "Metal Base",
                     "x": 419,
-                    "y": 54,
+                    "y": 53,
                     "uniqueID": 626485,
                     "ioValues": [
                         {
