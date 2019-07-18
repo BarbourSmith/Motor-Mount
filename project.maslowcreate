@@ -128,8 +128,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 323,
-                    "y": 133,
+                    "x": 319,
+                    "y": 114,
                     "uniqueID": 541176,
                     "ioValues": [
                         {
@@ -146,8 +146,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 329,
-                    "y": 192,
+                    "x": 370,
+                    "y": 146,
                     "uniqueID": 792859,
                     "ioValues": [
                         {
@@ -164,8 +164,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 337,
-                    "y": 255,
+                    "x": 441,
+                    "y": 154,
                     "uniqueID": 542117,
                     "ioValues": [
                         {
@@ -196,27 +196,6 @@
                     ]
                 },
                 {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 485,
-                    "y": 194,
-                    "uniqueID": 503858,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 75
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": -32.5
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
                     "x": 551,
@@ -243,6 +222,27 @@
                         {
                             "name": "Tab Height",
                             "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 739,
+                    "y": 123,
+                    "uniqueID": 503858,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 75
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": -32.5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -279,8 +279,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 1096,
-                    "y": 118,
+                    "x": 1128,
+                    "y": 59,
                     "uniqueID": 247430,
                     "ioValues": [
                         {
