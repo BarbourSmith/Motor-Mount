@@ -69,7 +69,7 @@
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
                     "x": 161,
-                    "y": 238,
+                    "y": 243,
                     "uniqueID": 772627,
                     "projectID": "197395697",
                     "ioValues": [
@@ -96,6 +96,27 @@
                     ]
                 },
                 {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 299,
+                    "y": 177,
+                    "uniqueID": 542117,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": -90
+                        }
+                    ]
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 468,
@@ -109,9 +130,30 @@
                     ]
                 },
                 {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 489,
+                    "y": 184,
+                    "uniqueID": 503858,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 716,
+                    "x": 720,
                     "y": 145,
                     "uniqueID": 247430,
                     "ioValues": [
@@ -120,11 +162,11 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 602933",
+                            "name": "3D shape 860951",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 860951",
+                            "name": "3D shape 218527",
                             "ioValue": 10
                         }
                     ]
@@ -200,14 +242,26 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 602933",
+                    "ap2Name": "geometry",
                     "ap1ID": 772627,
-                    "ap2ID": 247430
+                    "ap2ID": 542117
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 542117,
+                    "ap2ID": 503858
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 189519",
                     "ap1ID": 943882,
+                    "ap2ID": 247430
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 860951",
+                    "ap1ID": 503858,
                     "ap2ID": 247430
                 },
                 {
