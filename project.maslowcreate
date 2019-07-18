@@ -56,17 +56,82 @@
                     ]
                 },
                 {
+                    "atomType": "Constant",
+                    "name": "Router Diameter",
+                    "x": 164,
+                    "y": 201,
+                    "uniqueID": 241269,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Constant",
+                    "name": "Ring Thickness",
+                    "x": 177,
+                    "y": 265,
+                    "uniqueID": 252007,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 425,
-                    "y": 269,
+                    "x": 380,
+                    "y": 172,
                     "uniqueID": 432285,
                     "ioValues": [
                         {
                             "name": "radius",
-                            "ioValue": 150
+                            "ioValue": 10
                         }
                     ]
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 351,
+                    "y": 252,
+                    "uniqueID": 558566,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 10
+                        }
+                    ],
+                    "currentEquation": 0
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 493,
+                    "y": 216,
+                    "uniqueID": 427963,
+                    "ioValues": [
+                        {
+                            "name": "radius",
+                            "ioValue": 20
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 671,
+                    "y": 198,
+                    "uniqueID": 813954,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Input",
@@ -116,6 +181,31 @@
                     "ap1ID": 566468,
                     "ap2ID": 345799
                 },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "radius",
+                    "ap1ID": 241269,
+                    "ap2ID": 432285
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "y",
+                    "ap1ID": 241269,
+                    "ap2ID": 558566
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "x",
+                    "ap1ID": 252007,
+                    "ap2ID": 558566
+                },
+                {
+                    "ap1Name": "z",
+                    "ap2Name": "radius",
+                    "ap1ID": 558566,
+                    "ap2ID": 427963
+                },
+                null,
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "height",
