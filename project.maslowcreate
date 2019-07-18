@@ -1291,14 +1291,6 @@
             "allAtoms": [
                 {
                     "atomType": "Input",
-                    "name": "Length",
-                    "x": 50,
-                    "y": 54,
-                    "uniqueID": 727533,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
                     "name": "Width",
                     "x": 43,
                     "y": 111,
@@ -1306,18 +1298,10 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Input",
-                    "name": "Bend Radius",
-                    "x": 49,
-                    "y": 206,
-                    "uniqueID": 475391,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 208,
-                    "y": 152,
+                    "x": 161,
+                    "y": 92,
                     "uniqueID": 506893,
                     "ioValues": [
                         {
@@ -1332,10 +1316,18 @@
                     "currentEquation": 0
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Bend Radius",
+                    "x": 49,
+                    "y": 206,
+                    "uniqueID": 475391,
+                    "ioValues": []
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "Roller",
-                    "x": 293,
-                    "y": 98,
+                    "x": 264,
+                    "y": 41,
                     "uniqueID": 642120,
                     "projectID": "197579630",
                     "ioValues": [
@@ -1352,8 +1344,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 249,
-                    "y": 265,
+                    "x": 214,
+                    "y": 181,
                     "uniqueID": 625953,
                     "ioValues": [
                         {
@@ -1368,10 +1360,36 @@
                     "currentEquation": 0
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Length",
+                    "x": 76,
+                    "y": 293,
+                    "uniqueID": 727533,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 339,
+                    "y": 140,
+                    "uniqueID": 378233,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 54
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 2
+                        }
+                    ],
+                    "currentEquation": 3
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 340,
-                    "y": 171,
+                    "x": 385,
+                    "y": 71,
                     "uniqueID": 697362,
                     "ioValues": [
                         {
@@ -1389,28 +1407,10 @@
                     ]
                 },
                 {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 371,
-                    "y": 277,
-                    "uniqueID": 378233,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 54
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 2
-                        }
-                    ],
-                    "currentEquation": 0
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 494,
-                    "y": 225,
+                    "x": 513,
+                    "y": 171,
                     "uniqueID": 280527,
                     "ioValues": [
                         {
@@ -1419,11 +1419,11 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 56
+                            "ioValue": 27
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 20
                         }
                     ]
                 },
@@ -1443,12 +1443,6 @@
                     "ap2ID": 506893
                 },
                 {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "x",
-                    "ap1ID": 475391,
-                    "ap2ID": 506893
-                },
-                {
                     "ap1Name": "z",
                     "ap2Name": "Center Length",
                     "ap1ID": 506893,
@@ -1459,6 +1453,12 @@
                     "ap2Name": "y",
                     "ap1ID": 506893,
                     "ap2ID": 625953
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x",
+                    "ap1ID": 475391,
+                    "ap2ID": 506893
                 },
                 {
                     "ap1Name": "Geometry",
@@ -1473,6 +1473,12 @@
                     "ap2ID": 378233
                 },
                 {
+                    "ap1Name": "z",
+                    "ap2Name": "yDist",
+                    "ap1ID": 378233,
+                    "ap2ID": 280527
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 697362
@@ -1481,12 +1487,6 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 697362,
-                    "ap2ID": 280527
-                },
-                {
-                    "ap1Name": "z",
-                    "ap2Name": "yDist",
-                    "ap1ID": 378233,
                     "ap2ID": 280527
                 }
             ],
