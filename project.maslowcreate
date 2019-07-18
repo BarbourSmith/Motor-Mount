@@ -68,20 +68,20 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 223,
-                    "y": 154,
+                    "x": 219,
+                    "y": 162,
                     "uniqueID": 541176,
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 0
+                            "ioValue": 150
                         },
                         {
                             "name": "y",
-                            "ioValue": 0
+                            "ioValue": 2
                         }
                     ],
-                    "currentEquation": 0
+                    "currentEquation": 3
                 },
                 {
                     "atomType": "GitHubMolecule",
@@ -174,7 +174,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 75
                         },
                         {
                             "name": "yDist",
@@ -187,31 +187,10 @@
                     ]
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 720,
-                    "y": 145,
-                    "uniqueID": 247430,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 189519",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 860951",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 218527",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "GitHubMolecule",
                     "name": "Maslow Motor",
-                    "x": 839,
-                    "y": 291,
+                    "x": 834,
+                    "y": 289,
                     "uniqueID": 780656,
                     "projectID": "188842909",
                     "ioValues": []
@@ -238,6 +217,27 @@
                     ]
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 1096,
+                    "y": 118,
+                    "uniqueID": 247430,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 189519",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 860951",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 218527",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -251,6 +251,12 @@
                     "ap2Name": "x length",
                     "ap1ID": 877702,
                     "ap2ID": 756722
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "x",
+                    "ap1ID": 877702,
+                    "ap2ID": 541176
                 },
                 {
                     "ap1Name": "number",
@@ -283,6 +289,12 @@
                     "ap2ID": 943882
                 },
                 {
+                    "ap1Name": "z",
+                    "ap2Name": "xDist",
+                    "ap1ID": 541176,
+                    "ap2ID": 503858
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 772627,
@@ -313,15 +325,15 @@
                     "ap2ID": 247430
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 247430
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 780656,
                     "ap2ID": 188791
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 247430
                 }
             ],
             "fileTypeVersion": 1
