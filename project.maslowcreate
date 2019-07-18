@@ -1334,8 +1334,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Roller",
-                    "x": 389,
-                    "y": 120,
+                    "x": 296,
+                    "y": 97,
                     "uniqueID": 642120,
                     "projectID": "197579630",
                     "ioValues": [
@@ -1345,15 +1345,33 @@
                         },
                         {
                             "name": "Center Length",
-                            "ioValue": 45
+                            "ioValue": 40
                         }
                     ]
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 285,
+                    "y": 245,
+                    "uniqueID": 625953,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 0
+                        }
+                    ],
+                    "currentEquation": 0
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 536,
-                    "y": 175,
+                    "x": 340,
+                    "y": 171,
                     "uniqueID": 697362,
                     "ioValues": [
                         {
@@ -1366,6 +1384,27 @@
                         },
                         {
                             "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 416,
+                    "y": 241,
+                    "uniqueID": 280527,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
                             "ioValue": 0
                         }
                     ]
@@ -1391,7 +1430,12 @@
                     "ap1ID": 475391,
                     "ap2ID": 506893
                 },
-                null,
+                {
+                    "ap1Name": "z",
+                    "ap2Name": "Center Length",
+                    "ap1ID": 506893,
+                    "ap2ID": 642120
+                },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
@@ -1402,6 +1446,12 @@
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 697362
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 697362,
+                    "ap2ID": 280527
                 }
             ],
             "fileTypeVersion": 1
