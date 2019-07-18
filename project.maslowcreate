@@ -68,8 +68,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
-                    "x": 215,
-                    "y": 155,
+                    "x": 217,
+                    "y": 154,
                     "uniqueID": 772627,
                     "projectID": "197395697",
                     "ioValues": [
@@ -91,7 +91,7 @@
                         },
                         {
                             "name": "Tab Height",
-                            "ioValue": 30
+                            "ioValue": 40
                         }
                     ]
                 },
