@@ -96,6 +96,36 @@
                     ]
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Sheet Metal Tab",
+                    "x": 164,
+                    "y": 279,
+                    "uniqueID": 610192,
+                    "projectID": "197395697",
+                    "ioValues": [
+                        {
+                            "name": "Radius",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Thickness",
+                            "ioValue": 3
+                        },
+                        {
+                            "name": "Angle",
+                            "ioValue": 90
+                        },
+                        {
+                            "name": "Length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Tab Height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Equation",
                     "name": "Equation",
                     "x": 323,
@@ -281,6 +311,12 @@
                     "ap2Name": "Thickness",
                     "ap1ID": 177738,
                     "ap2ID": 772627
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Thickness",
+                    "ap1ID": 177738,
+                    "ap2ID": 610192
                 },
                 {
                     "ap1Name": "geometry",
