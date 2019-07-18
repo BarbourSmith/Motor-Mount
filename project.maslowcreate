@@ -77,14 +77,6 @@
                     ]
                 },
                 {
-                    "atomType": "Input",
-                    "name": "Little Tab Width",
-                    "x": 45,
-                    "y": 236,
-                    "uniqueID": 820453,
-                    "ioValues": []
-                },
-                {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
                     "x": 185,
@@ -115,6 +107,14 @@
                     ]
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Little Tab Width",
+                    "x": 32,
+                    "y": 293,
+                    "uniqueID": 820453,
+                    "ioValues": []
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
                     "x": 188,
@@ -136,7 +136,7 @@
                         },
                         {
                             "name": "Length",
-                            "ioValue": 20
+                            "ioValue": 10
                         },
                         {
                             "name": "Tab Height",
@@ -226,8 +226,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 518,
-                    "y": 256,
+                    "x": 514,
+                    "y": 261,
                     "uniqueID": 717479,
                     "ioValues": [
                         {
@@ -298,8 +298,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 709,
-                    "y": 291,
+                    "x": 708,
+                    "y": 296,
                     "uniqueID": 840348,
                     "ioValues": [
                         {
@@ -308,7 +308,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": 0
+                            "ioValue": 10
                         }
                     ],
                     "currentEquation": 0
@@ -400,7 +400,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -75
+                            "ioValue": -65
                         },
                         {
                             "name": "yDist",
@@ -493,6 +493,24 @@
                     "ap2Name": "geometry",
                     "ap1ID": 633443,
                     "ap2ID": 694513
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Length",
+                    "ap1ID": 820453,
+                    "ap2ID": 633443
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Length",
+                    "ap1ID": 820453,
+                    "ap2ID": 220281
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "y",
+                    "ap1ID": 820453,
+                    "ap2ID": 840348
                 },
                 {
                     "ap1Name": "Geometry",
@@ -693,13 +711,13 @@
                 {
                     "atomType": "Constant",
                     "name": "Small Tab Width",
-                    "x": 52,
-                    "y": 180,
+                    "x": 46,
+                    "y": 183,
                     "uniqueID": 882508,
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 10
+                            "ioValue": 30
                         }
                     ]
                 },
@@ -849,6 +867,7 @@
                     "ap1ID": 177738,
                     "ap2ID": 740020
                 },
+                null,
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
