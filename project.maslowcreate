@@ -39,23 +39,6 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 241,
-                    "y": 43,
-                    "uniqueID": 566468,
-                    "ioValues": [
-                        {
-                            "name": "x length",
-                            "ioValue": 180
-                        },
-                        {
-                            "name": "y length",
-                            "ioValue": 35
-                        }
-                    ]
-                },
-                {
                     "atomType": "Constant",
                     "name": "Router Diameter",
                     "x": 158,
@@ -100,6 +83,23 @@
                     "currentEquation": 0
                 },
                 {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 455,
+                    "y": 25,
+                    "uniqueID": 566468,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 180
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 35
+                        }
+                    ]
+                },
+                {
                     "atomType": "Circle",
                     "name": "Circle",
                     "x": 391,
@@ -111,6 +111,24 @@
                             "ioValue": 150
                         }
                     ]
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 475,
+                    "y": 91,
+                    "uniqueID": 512787,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 2
+                        }
+                    ],
+                    "currentEquation": 0
                 },
                 {
                     "atomType": "Circle",
@@ -128,8 +146,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 517,
-                    "y": 82,
+                    "x": 614,
+                    "y": 145,
                     "uniqueID": 976983,
                     "ioValues": [
                         {
@@ -146,16 +164,16 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 597,
-                    "y": 219,
+                    "x": 629,
+                    "y": 260,
                     "uniqueID": 813954,
                     "ioValues": []
                 },
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 671,
-                    "y": 147,
+                    "x": 780,
+                    "y": 201,
                     "uniqueID": 703024,
                     "ioValues": [
                         {
@@ -173,12 +191,25 @@
                     ]
                 },
                 {
-                    "atomType": "Union",
-                    "name": "Union",
-                    "x": 863,
-                    "y": 115,
-                    "uniqueID": 675447,
-                    "ioValues": []
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 854,
+                    "y": 129,
+                    "uniqueID": 728409,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 520864",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 396084",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 438909",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -191,8 +222,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 1131,
-                    "y": 36,
+                    "x": 1130,
+                    "y": 41,
                     "uniqueID": 345799,
                     "ioValues": [
                         {
@@ -229,12 +260,6 @@
                     "ap2ID": 566468
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 566468,
-                    "ap2ID": 345799
-                },
-                {
                     "ap1Name": "number",
                     "ap2Name": "radius",
                     "ap1ID": 241269,
@@ -266,6 +291,12 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "3D shape 396084",
+                    "ap1ID": 566468,
+                    "ap2ID": 728409
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry2",
                     "ap1ID": 432285,
                     "ap2ID": 813954
@@ -290,9 +321,15 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
+                    "ap2Name": "3D shape 520864",
                     "ap1ID": 703024,
-                    "ap2ID": 675447
+                    "ap2ID": 728409
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 728409,
+                    "ap2ID": 345799
                 },
                 {
                     "ap1Name": "number or geometry",
