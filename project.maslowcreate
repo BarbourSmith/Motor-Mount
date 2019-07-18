@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 428,
-            "y": 135,
+            "x": 433,
+            "y": 131,
             "uniqueID": 740020,
             "ioValues": [
                 {
@@ -55,8 +55,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
-                    "x": 103,
-                    "y": 151,
+                    "x": 105,
+                    "y": 155,
                     "uniqueID": 633443,
                     "projectID": "197395697",
                     "ioValues": [
@@ -160,17 +160,17 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 663,
-                    "y": 41,
+                    "x": 672,
+                    "y": 39,
                     "uniqueID": 294524,
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 0
+                            "ioValue": 150
                         },
                         {
                             "name": "y",
-                            "ioValue": 0
+                            "ioValue": 2
                         }
                     ],
                     "currentEquation": 3
@@ -196,13 +196,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 808,
-                    "y": 68,
+                    "x": 816,
+                    "y": 65,
                     "uniqueID": 764679,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 75
                         },
                         {
                             "name": "yDist",
@@ -238,8 +238,20 @@
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "x",
+                    "ap1ID": 605772,
+                    "ap2ID": 294524
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x",
                     "ap1ID": 693654,
                     "ap2ID": 658889
+                },
+                {
+                    "ap1Name": "z",
+                    "ap2Name": "xDist",
+                    "ap1ID": 294524,
+                    "ap2ID": 764679
                 },
                 {
                     "ap1Name": "z",
@@ -343,8 +355,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 428,
-                    "y": 135,
+                    "x": 433,
+                    "y": 131,
                     "uniqueID": 740020,
                     "ioValues": [
                         {
