@@ -643,12 +643,63 @@
         {
             "atomType": "Molecule",
             "name": "Motor",
-            "x": 388,
-            "y": 253,
+            "x": 417,
+            "y": 242,
             "uniqueID": 372159,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Maslow Motor",
+                    "x": 339,
+                    "y": 173,
+                    "uniqueID": 465766,
+                    "projectID": "188842909",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 527,
+                    "y": 204,
+                    "uniqueID": 574573,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 90
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": -180
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 725,
+                    "y": 200,
+                    "uniqueID": 286715,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -657,7 +708,14 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 465766,
+                    "ap2ID": 574573
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
@@ -783,8 +841,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor",
-                    "x": 388,
-                    "y": 253,
+                    "x": 417,
+                    "y": 242,
                     "uniqueID": 372159,
                     "ioValues": []
                 },
