@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 428,
-            "y": 131,
+            "x": 431,
+            "y": 134,
             "uniqueID": 740020,
             "ioValues": [
                 {
@@ -165,7 +165,7 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 300,
+                    "x": 304,
                     "y": 259,
                     "uniqueID": 276239,
                     "ioValues": [
@@ -202,6 +202,24 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
+                    "x": 606,
+                    "y": 223,
+                    "uniqueID": 717479,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 150
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 0
+                        }
+                    ],
+                    "currentEquation": 0
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
                     "x": 666,
                     "y": 26,
                     "uniqueID": 294524,
@@ -213,24 +231,6 @@
                         {
                             "name": "y",
                             "ioValue": 2
-                        }
-                    ],
-                    "currentEquation": 3
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 656,
-                    "y": 147,
-                    "uniqueID": 668229,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 150
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": -2
                         }
                     ],
                     "currentEquation": 3
@@ -256,8 +256,44 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 657,
-                    "y": 222,
+                    "x": 615,
+                    "y": 289,
+                    "uniqueID": 431556,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 0
+                        }
+                    ],
+                    "currentEquation": 0
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 679,
+                    "y": 134,
+                    "uniqueID": 668229,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 150
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": -2
+                        }
+                    ],
+                    "currentEquation": 3
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 680,
+                    "y": 184,
                     "uniqueID": 652613,
                     "ioValues": [
                         {
@@ -274,8 +310,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 786,
-                    "y": 179,
+                    "x": 784,
+                    "y": 150,
                     "uniqueID": 694265,
                     "ioValues": [
                         {
@@ -316,8 +352,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 779,
-                    "y": 271,
+                    "x": 793,
+                    "y": 250,
                     "uniqueID": 688009,
                     "ioValues": [
                         {
@@ -437,6 +473,12 @@
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "x",
+                    "ap1ID": 605772,
+                    "ap2ID": 717479
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x",
                     "ap1ID": 693654,
                     "ap2ID": 658889
                 },
@@ -446,6 +488,7 @@
                     "ap1ID": 693654,
                     "ap2ID": 652613
                 },
+                null,
                 {
                     "ap1Name": "z",
                     "ap2Name": "xDist",
@@ -454,15 +497,15 @@
                 },
                 {
                     "ap1Name": "z",
-                    "ap2Name": "xDist",
-                    "ap1ID": 668229,
-                    "ap2ID": 694265
-                },
-                {
-                    "ap1Name": "z",
                     "ap2Name": "yDist",
                     "ap1ID": 658889,
                     "ap2ID": 764679
+                },
+                {
+                    "ap1Name": "z",
+                    "ap2Name": "xDist",
+                    "ap1ID": 668229,
+                    "ap2ID": 694265
                 },
                 {
                     "ap1Name": "z",
@@ -584,8 +627,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 428,
-                    "y": 131,
+                    "x": 431,
+                    "y": 134,
                     "uniqueID": 740020,
                     "ioValues": [
                         {
