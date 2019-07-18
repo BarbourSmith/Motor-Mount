@@ -41,8 +41,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 230,
-                    "y": 86,
+                    "x": 229,
+                    "y": 87,
                     "uniqueID": 566468,
                     "ioValues": [
                         {
@@ -102,8 +102,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 436,
-                    "y": 27,
+                    "x": 437,
+                    "y": 38,
                     "uniqueID": 228542,
                     "ioValues": [
                         {
@@ -164,8 +164,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 611,
-                    "y": 84,
+                    "x": 593,
+                    "y": 81,
                     "uniqueID": 187306,
                     "ioValues": [
                         {
@@ -205,6 +205,14 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 719,
+                    "y": 112,
+                    "uniqueID": 892290,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 803,
@@ -228,8 +236,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 986,
-                    "y": 169,
+                    "x": 988,
+                    "y": 175,
                     "uniqueID": 728409,
                     "ioValues": [
                         {
@@ -237,11 +245,11 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 396084",
+                            "name": "3D shape 438909",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 438909",
+                            "name": "3D shape 932840",
                             "ioValue": 10
                         }
                     ]
@@ -302,9 +310,9 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 396084",
+                    "ap2Name": "geometry1",
                     "ap1ID": 566468,
-                    "ap2ID": 728409
+                    "ap2ID": 892290
                 },
                 {
                     "ap1Name": "number",
@@ -361,6 +369,12 @@
                     "ap2ID": 813954
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": 187306,
+                    "ap2ID": 892290
+                },
+                {
                     "ap1Name": "z",
                     "ap2Name": "xDist",
                     "ap1ID": 976983,
@@ -371,6 +385,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": 813954,
                     "ap2ID": 703024
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 438909",
+                    "ap1ID": 892290,
+                    "ap2ID": 728409
                 },
                 {
                     "ap1Name": "geometry",
