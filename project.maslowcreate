@@ -98,8 +98,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
-                    "x": 164,
-                    "y": 279,
+                    "x": 168,
+                    "y": 270,
                     "uniqueID": 610192,
                     "projectID": "197395697",
                     "ioValues": [
@@ -213,6 +213,36 @@
                         {
                             "name": "zDist",
                             "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Sheet Metal Tab",
+                    "x": 551,
+                    "y": 280,
+                    "uniqueID": 475198,
+                    "projectID": "197395697",
+                    "ioValues": [
+                        {
+                            "name": "Radius",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Thickness",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Angle",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Tab Height",
+                            "ioValue": 10
                         }
                     ]
                 },
