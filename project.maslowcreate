@@ -901,21 +901,21 @@
         {
             "atomType": "Molecule",
             "name": "Metal Base",
-            "x": 651,
+            "x": 654,
             "y": 214,
             "uniqueID": 626485,
             "ioValues": [
                 {
                     "name": "Length",
-                    "ioValue": 10
+                    "ioValue": 180
                 },
                 {
                     "name": "Width",
-                    "ioValue": 10
+                    "ioValue": 35
                 },
                 {
                     "name": "Thickness",
-                    "ioValue": 10
+                    "ioValue": 3
                 }
             ],
             "topLevel": false,
@@ -947,17 +947,30 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 296,
-                    "y": 125,
+                    "x": 256,
+                    "y": 116,
                     "uniqueID": 566468,
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 10
+                            "ioValue": 180
                         },
                         {
                             "name": "y length",
-                            "ioValue": 10
+                            "ioValue": 35
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 526,
+                    "y": 104,
+                    "uniqueID": 345799,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 3
                         }
                     ]
                 },
@@ -970,7 +983,35 @@
                 }
             ],
             "allConnectors": [
-                null
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x length",
+                    "ap1ID": 336250,
+                    "ap2ID": 566468
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "y length",
+                    "ap1ID": 863838,
+                    "ap2ID": 566468
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap1ID": 656562,
+                    "ap2ID": 345799
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 566468,
+                    "ap2ID": 345799
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 345799
+                }
             ],
             "fileTypeVersion": 1
         },
@@ -1051,8 +1092,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 408,
-                    "y": 47,
+                    "x": 402,
+                    "y": 51,
                     "uniqueID": 756722,
                     "ioValues": [
                         {
@@ -1120,50 +1161,33 @@
                     ]
                 },
                 {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 589,
-                    "y": 49,
-                    "uniqueID": 943882,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 3
-                        }
-                    ]
-                },
-                {
                     "atomType": "Molecule",
                     "name": "Metal Base",
-                    "x": 651,
+                    "x": 654,
                     "y": 214,
                     "uniqueID": 626485,
                     "ioValues": [
                         {
                             "name": "Length",
-                            "ioValue": 10
+                            "ioValue": 180
                         },
                         {
                             "name": "Width",
-                            "ioValue": 10
+                            "ioValue": 35
                         },
                         {
                             "name": "Thickness",
-                            "ioValue": 10
+                            "ioValue": 3
                         }
                     ]
                 },
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 846,
-                    "y": 57,
+                    "x": 847,
+                    "y": 62,
                     "uniqueID": 247430,
                     "ioValues": [
-                        {
-                            "name": "3D shape 189519",
-                            "ioValue": 10
-                        },
                         {
                             "name": "3D shape 804798",
                             "ioValue": 10
@@ -1174,6 +1198,10 @@
                         },
                         {
                             "name": "3D shape 640990",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 289387",
                             "ioValue": 10
                         }
                     ]
@@ -1207,6 +1235,12 @@
                 },
                 {
                     "ap1Name": "number",
+                    "ap2Name": "Length",
+                    "ap1ID": 877702,
+                    "ap2ID": 626485
+                },
+                {
+                    "ap1Name": "number",
                     "ap2Name": "y length",
                     "ap1ID": 185248,
                     "ap2ID": 756722
@@ -1225,9 +1259,9 @@
                 },
                 {
                     "ap1Name": "number",
-                    "ap2Name": "height",
-                    "ap1ID": 177738,
-                    "ap2ID": 943882
+                    "ap2Name": "Width",
+                    "ap1ID": 185248,
+                    "ap2ID": 626485
                 },
                 {
                     "ap1Name": "number",
@@ -1240,6 +1274,12 @@
                     "ap2Name": "Thickness",
                     "ap1ID": 177738,
                     "ap2ID": 372159
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Thickness",
+                    "ap1ID": 177738,
+                    "ap2ID": 626485
                 },
                 {
                     "ap1Name": "number",
@@ -1260,12 +1300,6 @@
                     "ap2ID": 372159
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 756722,
-                    "ap2ID": 943882
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 804798",
                     "ap1ID": 740020,
@@ -1278,9 +1312,9 @@
                     "ap2ID": 247430
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 189519",
-                    "ap1ID": 943882,
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 640990",
+                    "ap1ID": 626485,
                     "ap2ID": 247430
                 },
                 {
