@@ -66,10 +66,28 @@
                     ]
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 223,
+                    "y": 154,
+                    "uniqueID": 541176,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 0
+                        }
+                    ],
+                    "currentEquation": 0
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
-                    "x": 161,
-                    "y": 243,
+                    "x": 99,
+                    "y": 266,
                     "uniqueID": 772627,
                     "projectID": "197395697",
                     "ioValues": [
@@ -96,10 +114,28 @@
                     ]
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 205,
+                    "y": 218,
+                    "uniqueID": 792859,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 75
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": -2
+                        }
+                    ],
+                    "currentEquation": 3
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 299,
-                    "y": 177,
+                    "x": 273,
+                    "y": 265,
                     "uniqueID": 542117,
                     "ioValues": [
                         {
@@ -132,8 +168,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 489,
-                    "y": 184,
+                    "x": 495,
+                    "y": 192,
                     "uniqueID": 503858,
                     "ioValues": [
                         {
@@ -142,7 +178,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": -37.5
                         },
                         {
                             "name": "zDist",
@@ -224,6 +260,12 @@
                 },
                 {
                     "ap1Name": "number",
+                    "ap2Name": "x",
+                    "ap1ID": 185248,
+                    "ap2ID": 792859
+                },
+                {
+                    "ap1Name": "number",
                     "ap2Name": "height",
                     "ap1ID": 177738,
                     "ap2ID": 943882
@@ -245,6 +287,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": 772627,
                     "ap2ID": 542117
+                },
+                {
+                    "ap1Name": "z",
+                    "ap2Name": "yDist",
+                    "ap1ID": 792859,
+                    "ap2ID": 503858
                 },
                 {
                     "ap1Name": "geometry",
