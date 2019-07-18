@@ -1316,8 +1316,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 205,
-                    "y": 153,
+                    "x": 208,
+                    "y": 152,
                     "uniqueID": 506893,
                     "ioValues": [
                         {
@@ -1334,14 +1334,14 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Roller",
-                    "x": 296,
-                    "y": 97,
+                    "x": 294,
+                    "y": 99,
                     "uniqueID": 642120,
                     "projectID": "197579630",
                     "ioValues": [
                         {
                             "name": "Shoulder Length",
-                            "ioValue": 7
+                            "ioValue": 10
                         },
                         {
                             "name": "Center Length",
@@ -1352,8 +1352,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 285,
-                    "y": 245,
+                    "x": 281,
+                    "y": 251,
                     "uniqueID": 625953,
                     "ioValues": [
                         {
@@ -1362,7 +1362,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": 0
+                            "ioValue": 40
                         }
                     ],
                     "currentEquation": 0
@@ -1391,8 +1391,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 416,
-                    "y": 241,
+                    "x": 497,
+                    "y": 228,
                     "uniqueID": 280527,
                     "ioValues": [
                         {
@@ -1401,7 +1401,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 40
                         },
                         {
                             "name": "zDist",
@@ -1437,10 +1437,22 @@
                     "ap2ID": 642120
                 },
                 {
+                    "ap1Name": "z",
+                    "ap2Name": "y",
+                    "ap1ID": 506893,
+                    "ap2ID": 625953
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 642120,
                     "ap2ID": 697362
+                },
+                {
+                    "ap1Name": "z",
+                    "ap2Name": "yDist",
+                    "ap1ID": 625953,
+                    "ap2ID": 280527
                 },
                 {
                     "ap1Name": "geometry",
