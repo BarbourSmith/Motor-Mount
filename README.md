@@ -7,12 +7,6 @@
 ## Motor Mount
 
 
-## Motor Bend
-
-
-## Bend
-
-
 ## Maslow Motor
 
 
