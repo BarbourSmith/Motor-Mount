@@ -17,7 +17,7 @@
                 },
                 {
                     "name": "Thickness",
-                    "ioValue": 3
+                    "ioValue": 5
                 }
             ],
             "topLevel": false,
@@ -47,20 +47,20 @@
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 150
+                            "ioValue": 34
                         }
                     ]
                 },
                 {
                     "atomType": "Constant",
                     "name": "Ring Thickness",
-                    "x": 162,
-                    "y": 267,
+                    "x": 155,
+                    "y": 270,
                     "uniqueID": 252007,
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 50
+                            "ioValue": 20
                         }
                     ]
                 },
@@ -73,11 +73,11 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 50
+                            "ioValue": 20
                         },
                         {
                             "name": "y",
-                            "ioValue": 150
+                            "ioValue": 34
                         }
                     ],
                     "currentEquation": 0
@@ -108,7 +108,7 @@
                     "ioValues": [
                         {
                             "name": "radius",
-                            "ioValue": 150
+                            "ioValue": 34
                         }
                     ]
                 },
@@ -139,7 +139,7 @@
                     "ioValues": [
                         {
                             "name": "radius",
-                            "ioValue": 200
+                            "ioValue": 54
                         }
                     ]
                 },
@@ -152,7 +152,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 200
+                            "ioValue": 54
                         },
                         {
                             "name": "y",
@@ -178,7 +178,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 290
+                            "ioValue": 144
                         },
                         {
                             "name": "yDist",
@@ -228,7 +228,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 3
+                            "ioValue": 5
                         }
                     ]
                 },
@@ -360,7 +360,7 @@
             "ioValues": [
                 {
                     "name": "Thickness",
-                    "ioValue": 3
+                    "ioValue": 5
                 },
                 {
                     "name": "Width",
@@ -411,7 +411,7 @@
                         },
                         {
                             "name": "Thickness",
-                            "ioValue": 3
+                            "ioValue": 5
                         },
                         {
                             "name": "Angle",
@@ -441,7 +441,7 @@
                         },
                         {
                             "name": "Thickness",
-                            "ioValue": 3
+                            "ioValue": 5
                         },
                         {
                             "name": "Angle",
@@ -479,7 +479,7 @@
                         },
                         {
                             "name": "Thickness",
-                            "ioValue": 3
+                            "ioValue": 5
                         },
                         {
                             "name": "Angle",
@@ -1012,7 +1012,7 @@
                 },
                 {
                     "name": "Thickness",
-                    "ioValue": 3
+                    "ioValue": 5
                 }
             ],
             "topLevel": false,
@@ -1068,7 +1068,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 3
+                            "ioValue": 5
                         },
                         {
                             "name": "y",
@@ -1107,7 +1107,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": 8
+                            "ioValue": 10
                         }
                     ],
                     "currentEquation": 1
@@ -1164,7 +1164,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -25.5
+                            "ioValue": -27.5
                         },
                         {
                             "name": "zDist",
@@ -1286,14 +1286,14 @@
                 },
                 {
                     "atomType": "Constant",
-                    "name": "Thickness",
-                    "x": 54,
-                    "y": 136,
+                    "name": "Metal Thickness",
+                    "x": 49,
+                    "y": 137,
                     "uniqueID": 177738,
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 3
+                            "ioValue": 5
                         }
                     ]
                 },
@@ -1340,7 +1340,7 @@
                         },
                         {
                             "name": "Thickness",
-                            "ioValue": 3
+                            "ioValue": 5
                         }
                     ]
                 },
@@ -1353,7 +1353,7 @@
                     "ioValues": [
                         {
                             "name": "Thickness",
-                            "ioValue": 3
+                            "ioValue": 5
                         },
                         {
                             "name": "Width",
@@ -1394,7 +1394,7 @@
                         },
                         {
                             "name": "Thickness",
-                            "ioValue": 3
+                            "ioValue": 5
                         }
                     ]
                 },
