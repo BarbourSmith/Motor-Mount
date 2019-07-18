@@ -68,8 +68,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
-                    "x": 209,
-                    "y": 222,
+                    "x": 161,
+                    "y": 238,
                     "uniqueID": 772627,
                     "projectID": "197395697",
                     "ioValues": [
@@ -121,6 +121,10 @@
                         },
                         {
                             "name": "3D shape 602933",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 860951",
                             "ioValue": 10
                         }
                     ]
@@ -194,7 +198,12 @@
                     "ap1ID": 756722,
                     "ap2ID": 943882
                 },
-                null,
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 602933",
+                    "ap1ID": 772627,
+                    "ap2ID": 247430
+                },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 189519",
