@@ -2,6 +2,26 @@
     "molecules": [
         {
             "atomType": "Molecule",
+            "name": "Tabs",
+            "x": 116,
+            "y": 248,
+            "uniqueID": 740020,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Motor Mount",
             "x": 0,
             "y": 0,
@@ -25,13 +45,13 @@
                 {
                     "atomType": "Constant",
                     "name": "Width",
-                    "x": 42,
-                    "y": 95,
+                    "x": 36,
+                    "y": 96,
                     "uniqueID": 185248,
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 65
+                            "ioValue": 35
                         }
                     ]
                 },
@@ -61,7 +81,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 65
+                            "ioValue": 35
                         }
                     ]
                 },
@@ -96,6 +116,14 @@
                     ]
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "Tabs",
+                    "x": 116,
+                    "y": 248,
+                    "uniqueID": 740020,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Equation",
                     "name": "Equation",
                     "x": 319,
@@ -122,7 +150,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 65
+                            "ioValue": 35
                         },
                         {
                             "name": "y",
@@ -178,7 +206,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -32.5
+                            "ioValue": -17.5
                         },
                         {
                             "name": "zDist",
