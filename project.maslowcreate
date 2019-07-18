@@ -122,6 +122,14 @@
                 },
                 {
                     "atomType": "Input",
+                    "name": "Width",
+                    "x": 456,
+                    "y": 182,
+                    "uniqueID": 693654,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
                     "name": "Length",
                     "x": 481,
                     "y": 288,
@@ -129,12 +137,43 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Input",
-                    "name": "Width",
-                    "x": 693,
-                    "y": 273,
-                    "uniqueID": 693654,
-                    "ioValues": []
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 675,
+                    "y": 136,
+                    "uniqueID": 658889,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 35
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": -2
+                        }
+                    ],
+                    "currentEquation": 3
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 808,
+                    "y": 68,
+                    "uniqueID": 764679,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": -17.5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
                 },
                 {
                     "atomType": "Output",
@@ -144,7 +183,31 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 885377,
+                    "ap2ID": 764679
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x",
+                    "ap1ID": 693654,
+                    "ap2ID": 658889
+                },
+                {
+                    "ap1Name": "z",
+                    "ap2Name": "yDist",
+                    "ap1ID": 658889,
+                    "ap2ID": 764679
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 764679
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
