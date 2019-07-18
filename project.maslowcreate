@@ -900,6 +900,82 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Metal Base",
+            "x": 651,
+            "y": 214,
+            "uniqueID": 626485,
+            "ioValues": [
+                {
+                    "name": "Length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Width",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Thickness",
+                    "ioValue": 10
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Length",
+                    "x": 51,
+                    "y": 68,
+                    "uniqueID": 336250,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Width",
+                    "x": 49,
+                    "y": 154,
+                    "uniqueID": 863838,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Thickness",
+                    "x": 57,
+                    "y": 238,
+                    "uniqueID": 656562,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 296,
+                    "y": 125,
+                    "uniqueID": 566468,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                null
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Motor Mount",
             "x": 0,
             "y": 0,
@@ -1053,6 +1129,27 @@
                         {
                             "name": "height",
                             "ioValue": 3
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Metal Base",
+                    "x": 651,
+                    "y": 214,
+                    "uniqueID": 626485,
+                    "ioValues": [
+                        {
+                            "name": "Length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Width",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Thickness",
+                            "ioValue": 10
                         }
                     ]
                 },
