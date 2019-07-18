@@ -1270,8 +1270,8 @@
         {
             "atomType": "Molecule",
             "name": "Roller Assembly",
-            "x": 430,
-            "y": 248,
+            "x": 433,
+            "y": 246,
             "uniqueID": 752987,
             "ioValues": [
                 {
@@ -1398,7 +1398,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": -5
+                            "ioValue": -2
                         }
                     ],
                     "currentEquation": 3
@@ -1427,17 +1427,17 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 398,
-                    "y": 257,
+                    "x": 399,
+                    "y": 263,
                     "uniqueID": 721536,
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": -36
+                            "ioValue": -90
                         },
                         {
                             "name": "y",
-                            "ioValue": 10
+                            "ioValue": -10
                         }
                     ],
                     "currentEquation": 1
@@ -1451,7 +1451,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -46
+                            "ioValue": -80
                         },
                         {
                             "name": "yDist",
@@ -1698,8 +1698,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Roller Assembly",
-                    "x": 430,
-                    "y": 248,
+                    "x": 433,
+                    "y": 246,
                     "uniqueID": 752987,
                     "ioValues": [
                         {
