@@ -1270,8 +1270,8 @@
         {
             "atomType": "Molecule",
             "name": "Roller Assembly",
-            "x": 407,
-            "y": 251,
+            "x": 408,
+            "y": 260,
             "uniqueID": 752987,
             "ioValues": [],
             "topLevel": false,
@@ -1297,13 +1297,13 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 332,
-                    "y": 159,
+                    "x": 331,
+                    "y": 166,
                     "uniqueID": 697362,
                     "ioValues": [
                         {
                             "name": "x-axis degrees",
-                            "ioValue": 0
+                            "ioValue": 90
                         },
                         {
                             "name": "y-axis degrees",
@@ -1485,8 +1485,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Roller Assembly",
-                    "x": 407,
-                    "y": 251,
+                    "x": 408,
+                    "y": 260,
                     "uniqueID": 752987,
                     "ioValues": []
                 },
@@ -1511,6 +1511,10 @@
                         },
                         {
                             "name": "3D shape 289387",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 223411",
                             "ioValue": 10
                         }
                     ]
@@ -1612,6 +1616,12 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 661410",
                     "ap1ID": 372159,
+                    "ap2ID": 247430
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 289387",
+                    "ap1ID": 752987,
                     "ap2ID": 247430
                 },
                 {
