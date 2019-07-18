@@ -643,38 +643,30 @@
         {
             "atomType": "Molecule",
             "name": "Motor",
-            "x": 411,
-            "y": 242,
+            "x": 425,
+            "y": 247,
             "uniqueID": 372159,
             "ioValues": [
                 {
                     "name": "Width",
-                    "ioValue": 10
+                    "ioValue": 35
                 },
                 {
                     "name": "Length",
-                    "ioValue": 10
+                    "ioValue": 150
                 },
                 {
                     "name": "Bend Radius",
-                    "ioValue": 10
+                    "ioValue": 5
                 }
             ],
             "topLevel": false,
             "allAtoms": [
                 {
                     "atomType": "Input",
-                    "name": "Length",
-                    "x": 64,
-                    "y": 94,
-                    "uniqueID": 483131,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
                     "name": "Width",
-                    "x": 114,
-                    "y": 28,
+                    "x": 141,
+                    "y": 100,
                     "uniqueID": 145104,
                     "ioValues": []
                 },
@@ -687,31 +679,21 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "Maslow Motor",
-                    "x": 339,
-                    "y": 173,
-                    "uniqueID": 465766,
-                    "projectID": "188842909",
+                    "atomType": "Input",
+                    "name": "Length",
+                    "x": 351,
+                    "y": 44,
+                    "uniqueID": 483131,
                     "ioValues": []
                 },
                 {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 490,
-                    "y": 70,
-                    "uniqueID": 281765,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 0.3
-                        }
-                    ],
-                    "currentEquation": 2
+                    "atomType": "GitHubMolecule",
+                    "name": "Maslow Motor",
+                    "x": 253,
+                    "y": 251,
+                    "uniqueID": 465766,
+                    "projectID": "188842909",
+                    "ioValues": []
                 },
                 {
                     "atomType": "Rotate",
@@ -735,15 +717,33 @@
                     ]
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 575,
+                    "y": 38,
+                    "uniqueID": 281765,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 150
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 0.3
+                        }
+                    ],
+                    "currentEquation": 2
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 725,
-                    "y": 200,
+                    "x": 735,
+                    "y": 130,
                     "uniqueID": 286715,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 45
                         },
                         {
                             "name": "yDist",
@@ -776,11 +776,16 @@
                     "ap1ID": 465766,
                     "ap2ID": 574573
                 },
-                null,
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 574573,
+                    "ap2ID": 286715
+                },
+                {
+                    "ap1Name": "z",
+                    "ap2Name": "xDist",
+                    "ap1ID": 281765,
                     "ap2ID": 286715
                 },
                 {
@@ -914,21 +919,21 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor",
-                    "x": 411,
-                    "y": 242,
+                    "x": 425,
+                    "y": 247,
                     "uniqueID": 372159,
                     "ioValues": [
                         {
                             "name": "Width",
-                            "ioValue": 10
+                            "ioValue": 35
                         },
                         {
                             "name": "Length",
-                            "ioValue": 10
+                            "ioValue": 150
                         },
                         {
                             "name": "Bend Radius",
-                            "ioValue": 10
+                            "ioValue": 5
                         }
                     ]
                 },
@@ -993,6 +998,12 @@
                 },
                 {
                     "ap1Name": "number",
+                    "ap2Name": "Length",
+                    "ap1ID": 877702,
+                    "ap2ID": 372159
+                },
+                {
+                    "ap1Name": "number",
                     "ap2Name": "y length",
                     "ap1ID": 185248,
                     "ap2ID": 756722
@@ -1002,6 +1013,12 @@
                     "ap2Name": "Width",
                     "ap1ID": 185248,
                     "ap2ID": 740020
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Width",
+                    "ap1ID": 185248,
+                    "ap2ID": 372159
                 },
                 {
                     "ap1Name": "number",
@@ -1026,6 +1043,12 @@
                     "ap2Name": "Bend Radius",
                     "ap1ID": 812575,
                     "ap2ID": 740020
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Bend Radius",
+                    "ap1ID": 812575,
+                    "ap2ID": 372159
                 },
                 {
                     "ap1Name": "geometry",
