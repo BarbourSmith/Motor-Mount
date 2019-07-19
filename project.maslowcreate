@@ -1270,8 +1270,8 @@
         {
             "atomType": "Molecule",
             "name": "Roller Assembly",
-            "x": 428,
-            "y": 244,
+            "x": 425,
+            "y": 250,
             "uniqueID": 752987,
             "ioValues": [
                 {
@@ -1285,6 +1285,10 @@
                 {
                     "name": "Length",
                     "ioValue": 160
+                },
+                {
+                    "name": "Thickness",
+                    "ioValue": 4
                 }
             ],
             "topLevel": false,
@@ -1292,8 +1296,8 @@
                 {
                     "atomType": "Input",
                     "name": "Width",
-                    "x": 43,
-                    "y": 111,
+                    "x": 45,
+                    "y": 56,
                     "uniqueID": 189625,
                     "ioValues": []
                 },
@@ -1441,6 +1445,14 @@
                         }
                     ],
                     "currentEquation": 1
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Thickness",
+                    "x": 417,
+                    "y": 255,
+                    "uniqueID": 812280,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Translate",
@@ -1698,8 +1710,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Roller Assembly",
-                    "x": 428,
-                    "y": 244,
+                    "x": 425,
+                    "y": 250,
                     "uniqueID": 752987,
                     "ioValues": [
                         {
@@ -1713,6 +1725,10 @@
                         {
                             "name": "Length",
                             "ioValue": 160
+                        },
+                        {
+                            "name": "Thickness",
+                            "ioValue": 4
                         }
                     ]
                 },
@@ -1819,6 +1835,12 @@
                     "ap2Name": "Thickness",
                     "ap1ID": 177738,
                     "ap2ID": 626485
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Thickness",
+                    "ap1ID": 177738,
+                    "ap2ID": 752987
                 },
                 {
                     "ap1Name": "number",
