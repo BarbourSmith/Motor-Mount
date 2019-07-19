@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Metal Base",
-            "x": 429,
-            "y": 50,
+            "x": 430,
+            "y": 54,
             "uniqueID": 626485,
             "ioValues": [
                 {
@@ -13,7 +13,7 @@
                 },
                 {
                     "name": "Length",
-                    "ioValue": 180
+                    "ioValue": 160
                 },
                 {
                     "name": "Thickness",
@@ -37,23 +37,6 @@
                     "y": 200,
                     "uniqueID": 336250,
                     "ioValues": []
-                },
-                {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 217,
-                    "y": 133,
-                    "uniqueID": 566468,
-                    "ioValues": [
-                        {
-                            "name": "x length",
-                            "ioValue": 180
-                        },
-                        {
-                            "name": "y length",
-                            "ioValue": 35
-                        }
-                    ]
                 },
                 {
                     "atomType": "Constant",
@@ -82,22 +65,21 @@
                     ]
                 },
                 {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 342,
-                    "y": 33,
-                    "uniqueID": 228542,
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 382,
+                    "y": 84,
+                    "uniqueID": 566468,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 35
+                            "name": "x length",
+                            "ioValue": 160
                         },
                         {
-                            "name": "y",
-                            "ioValue": 0.5
+                            "name": "y length",
+                            "ioValue": 35
                         }
-                    ],
-                    "currentEquation": 2
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -120,31 +102,13 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 410,
-                    "y": 105,
-                    "uniqueID": 687192,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 180
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": -2
-                        }
-                    ],
-                    "currentEquation": 3
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
                     "x": 453,
                     "y": 169,
                     "uniqueID": 512787,
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 180
+                            "ioValue": 160
                         },
                         {
                             "name": "y",
@@ -152,23 +116,6 @@
                         }
                     ],
                     "currentEquation": 3
-                },
-                {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 492,
-                    "y": 53,
-                    "uniqueID": 187306,
-                    "ioValues": [
-                        {
-                            "name": "x length",
-                            "ioValue": 35
-                        },
-                        {
-                            "name": "y length",
-                            "ioValue": 17.5
-                        }
-                    ]
                 },
                 {
                     "atomType": "Circle",
@@ -197,27 +144,6 @@
                     ]
                 },
                 {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 659,
-                    "y": 59,
-                    "uniqueID": 646918,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": -90
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
                     "atomType": "Equation",
                     "name": "Equation",
                     "x": 633,
@@ -230,7 +156,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": 90
+                            "ioValue": 80
                         }
                     ],
                     "currentEquation": 0
@@ -252,7 +178,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 144
+                            "ioValue": 134
                         },
                         {
                             "name": "yDist",
@@ -263,14 +189,6 @@
                             "ioValue": 0
                         }
                     ]
-                },
-                {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 857,
-                    "y": 133,
-                    "uniqueID": 892290,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Assembly",
@@ -284,11 +202,11 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 438909",
+                            "name": "3D shape 932840",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 932840",
+                            "name": "3D shape 798529",
                             "ioValue": 10
                         }
                     ]
@@ -331,12 +249,6 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "x",
-                    "ap1ID": 863838,
-                    "ap2ID": 228542
-                },
-                {
-                    "ap1Name": "number or geometry",
                     "ap2Name": "x length",
                     "ap1ID": 336250,
                     "ap2ID": 566468
@@ -346,18 +258,6 @@
                     "ap2Name": "x",
                     "ap1ID": 336250,
                     "ap2ID": 512787
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "x",
-                    "ap1ID": 336250,
-                    "ap2ID": 687192
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap1ID": 566468,
-                    "ap2ID": 892290
                 },
                 {
                     "ap1Name": "number",
@@ -378,10 +278,10 @@
                     "ap2ID": 558566
                 },
                 {
-                    "ap1Name": "z",
-                    "ap2Name": "y length",
-                    "ap1ID": 228542,
-                    "ap2ID": 187306
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 932840",
+                    "ap1ID": 566468,
+                    "ap2ID": 728409
                 },
                 {
                     "ap1Name": "z",
@@ -397,21 +297,9 @@
                 },
                 {
                     "ap1Name": "z",
-                    "ap2Name": "xDist",
-                    "ap1ID": 687192,
-                    "ap2ID": 646918
-                },
-                {
-                    "ap1Name": "z",
                     "ap2Name": "y",
                     "ap1ID": 512787,
                     "ap2ID": 976983
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 187306,
-                    "ap2ID": 646918
                 },
                 {
                     "ap1Name": "geometry",
@@ -424,12 +312,6 @@
                     "ap2Name": "geometry1",
                     "ap1ID": 427963,
                     "ap2ID": 813954
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
-                    "ap1ID": 646918,
-                    "ap2ID": 892290
                 },
                 {
                     "ap1Name": "z",
@@ -447,12 +329,6 @@
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 520864",
                     "ap1ID": 703024,
-                    "ap2ID": 728409
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 438909",
-                    "ap1ID": 892290,
                     "ap2ID": 728409
                 },
                 {
@@ -496,7 +372,7 @@
                 },
                 {
                     "name": "Length",
-                    "ioValue": 180
+                    "ioValue": 160
                 },
                 {
                     "name": "Width",
@@ -707,7 +583,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 180
+                            "ioValue": 160
                         },
                         {
                             "name": "y",
@@ -725,7 +601,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 180
+                            "ioValue": 160
                         },
                         {
                             "name": "y",
@@ -743,7 +619,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 180
+                            "ioValue": 160
                         },
                         {
                             "name": "y",
@@ -779,7 +655,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": -90
+                            "ioValue": -80
                         },
                         {
                             "name": "y",
@@ -833,7 +709,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 90
+                            "ioValue": 80
                         },
                         {
                             "name": "yDist",
@@ -854,7 +730,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -90
+                            "ioValue": -80
                         },
                         {
                             "name": "yDist",
@@ -875,7 +751,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -60
+                            "ioValue": -50
                         },
                         {
                             "name": "yDist",
@@ -1136,7 +1012,7 @@
                 },
                 {
                     "name": "Length",
-                    "ioValue": 180
+                    "ioValue": 160
                 }
             ],
             "topLevel": false,
@@ -1284,7 +1160,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 180
+                            "ioValue": 160
                         },
                         {
                             "name": "y",
@@ -1302,7 +1178,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 62.99999999999999
+                            "ioValue": 56
                         },
                         {
                             "name": "yDist",
@@ -1408,7 +1284,7 @@
                 },
                 {
                     "name": "Length",
-                    "ioValue": 180
+                    "ioValue": 160
                 }
             ],
             "topLevel": false,
@@ -1518,7 +1394,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 180
+                            "ioValue": 160
                         },
                         {
                             "name": "y",
@@ -1557,7 +1433,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": -90
+                            "ioValue": -80
                         },
                         {
                             "name": "y",
@@ -1575,7 +1451,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -80
+                            "ioValue": -70
                         },
                         {
                             "name": "yDist",
@@ -1682,13 +1558,13 @@
                 {
                     "atomType": "Constant",
                     "name": "Length",
-                    "x": 42,
-                    "y": 49,
+                    "x": 40,
+                    "y": 55,
                     "uniqueID": 877702,
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 180
+                            "ioValue": 160
                         }
                     ]
                 },
@@ -1747,8 +1623,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Metal Base",
-                    "x": 429,
-                    "y": 50,
+                    "x": 430,
+                    "y": 54,
                     "uniqueID": 626485,
                     "ioValues": [
                         {
@@ -1757,7 +1633,7 @@
                         },
                         {
                             "name": "Length",
-                            "ioValue": 180
+                            "ioValue": 160
                         },
                         {
                             "name": "Thickness",
@@ -1786,7 +1662,7 @@
                         },
                         {
                             "name": "Length",
-                            "ioValue": 180
+                            "ioValue": 160
                         },
                         {
                             "name": "Width",
@@ -1815,7 +1691,7 @@
                         },
                         {
                             "name": "Length",
-                            "ioValue": 180
+                            "ioValue": 160
                         }
                     ]
                 },
@@ -1836,7 +1712,7 @@
                         },
                         {
                             "name": "Length",
-                            "ioValue": 180
+                            "ioValue": 160
                         }
                     ]
                 },
