@@ -1270,7 +1270,7 @@
         {
             "atomType": "Molecule",
             "name": "Roller Assembly",
-            "x": 431,
+            "x": 428,
             "y": 244,
             "uniqueID": 752987,
             "ioValues": [
@@ -1427,8 +1427,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 399,
-                    "y": 263,
+                    "x": 400,
+                    "y": 274,
                     "uniqueID": 721536,
                     "ioValues": [
                         {
@@ -1437,7 +1437,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": -10
+                            "ioValue": 10
                         }
                     ],
                     "currentEquation": 1
@@ -1445,13 +1445,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 510,
-                    "y": 192,
+                    "x": 503,
+                    "y": 200,
                     "uniqueID": 280527,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -70
+                            "ioValue": -90
                         },
                         {
                             "name": "yDist",
@@ -1698,7 +1698,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "Roller Assembly",
-                    "x": 431,
+                    "x": 428,
                     "y": 244,
                     "uniqueID": 752987,
                     "ioValues": [
