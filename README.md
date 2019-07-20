@@ -7,9 +7,6 @@
 ## Motor Mount
 
 
-## Metal Base
-
-
 ## Tabs
 
 
@@ -20,6 +17,9 @@
 
 
 ## Sheet Metal Tab
+
+
+## Metal Base
 
 
 ## Motor
