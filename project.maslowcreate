@@ -659,8 +659,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 617,
-                    "y": 305,
+                    "x": 582,
+                    "y": 300,
                     "uniqueID": 381921,
                     "ioValues": [
                         {
