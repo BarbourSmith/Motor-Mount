@@ -2379,31 +2379,6 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 711,
-                    "y": 216,
-                    "uniqueID": 308106,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 377058",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 548506",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 541856",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 622083",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
                     "x": 852,
                     "y": 59,
                     "uniqueID": 247430,
@@ -2537,12 +2512,6 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 377058",
-                    "ap1ID": 626485,
-                    "ap2ID": 308106
-                },
-                {
-                    "ap1Name": "Geometry",
                     "ap2Name": "3D shape 804798",
                     "ap1ID": 740020,
                     "ap2ID": 247430
@@ -2558,12 +2527,6 @@
                     "ap2Name": "3D shape 661410",
                     "ap1ID": 372159,
                     "ap2ID": 247430
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 541856",
-                    "ap1ID": 372159,
-                    "ap2ID": 308106
                 },
                 {
                     "ap1Name": "Geometry",
