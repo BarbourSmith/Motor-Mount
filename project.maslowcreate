@@ -89,12 +89,12 @@
                     "uniqueID": 558566,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 20
-                        },
-                        {
                             "name": "y",
                             "ioValue": 34
+                        },
+                        {
+                            "name": "x",
+                            "ioValue": 20
                         }
                     ],
                     "currentEquation": 0
@@ -107,12 +107,12 @@
                     "uniqueID": 512787,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 160
-                        },
-                        {
                             "name": "y",
                             "ioValue": 2
+                        },
+                        {
+                            "name": "x",
+                            "ioValue": 160
                         }
                     ],
                     "currentEquation": 3
@@ -151,12 +151,12 @@
                     "uniqueID": 976983,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 54
-                        },
-                        {
                             "name": "y",
                             "ioValue": 80
+                        },
+                        {
+                            "name": "x",
+                            "ioValue": 54
                         }
                     ],
                     "currentEquation": 0
@@ -582,12 +582,12 @@
                     "uniqueID": 717479,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 160
-                        },
-                        {
                             "name": "y",
                             "ioValue": -2
+                        },
+                        {
+                            "name": "x",
+                            "ioValue": 160
                         }
                     ],
                     "currentEquation": 3
@@ -600,12 +600,12 @@
                     "uniqueID": 294524,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 160
-                        },
-                        {
                             "name": "y",
                             "ioValue": 2
+                        },
+                        {
+                            "name": "x",
+                            "ioValue": 160
                         }
                     ],
                     "currentEquation": 3
@@ -618,12 +618,12 @@
                     "uniqueID": 668229,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 160
-                        },
-                        {
                             "name": "y",
                             "ioValue": -2
+                        },
+                        {
+                            "name": "x",
+                            "ioValue": 160
                         }
                     ],
                     "currentEquation": 3
@@ -636,12 +636,12 @@
                     "uniqueID": 431556,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 35
-                        },
-                        {
                             "name": "y",
                             "ioValue": -2
+                        },
+                        {
+                            "name": "x",
+                            "ioValue": 35
                         }
                     ],
                     "currentEquation": 3
@@ -654,12 +654,12 @@
                     "uniqueID": 840348,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": -80
-                        },
-                        {
                             "name": "y",
                             "ioValue": 30
+                        },
+                        {
+                            "name": "x",
+                            "ioValue": -80
                         }
                     ],
                     "currentEquation": 0
@@ -672,12 +672,12 @@
                     "uniqueID": 658889,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 35
-                        },
-                        {
                             "name": "y",
                             "ioValue": -2
+                        },
+                        {
+                            "name": "x",
+                            "ioValue": 35
                         }
                     ],
                     "currentEquation": 3
@@ -690,12 +690,12 @@
                     "uniqueID": 652613,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 35
-                        },
-                        {
                             "name": "y",
                             "ioValue": 2
+                        },
+                        {
+                            "name": "x",
+                            "ioValue": 35
                         }
                     ],
                     "currentEquation": 3
@@ -1049,12 +1049,12 @@
                     "uniqueID": 717017,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 35
-                        },
-                        {
                             "name": "y",
                             "ioValue": -2
+                        },
+                        {
+                            "name": "x",
+                            "ioValue": 35
                         }
                     ],
                     "currentEquation": 3
@@ -1067,12 +1067,12 @@
                     "uniqueID": 759128,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 4
-                        },
-                        {
                             "name": "y",
                             "ioValue": 5
+                        },
+                        {
+                            "name": "x",
+                            "ioValue": 4
                         }
                     ],
                     "currentEquation": 0
@@ -1102,12 +1102,12 @@
                     "uniqueID": 346820,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": -17.5
-                        },
-                        {
                             "name": "y",
                             "ioValue": 9
+                        },
+                        {
+                            "name": "x",
+                            "ioValue": -17.5
                         }
                     ],
                     "currentEquation": 1
@@ -1159,12 +1159,12 @@
                     "uniqueID": 281765,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 160
-                        },
-                        {
                             "name": "y",
                             "ioValue": 0.35
+                        },
+                        {
+                            "name": "x",
+                            "ioValue": 160
                         }
                     ],
                     "currentEquation": 2
@@ -1305,12 +1305,12 @@
                     "uniqueID": 506893,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 5
-                        },
-                        {
                             "name": "y",
                             "ioValue": 35
+                        },
+                        {
+                            "name": "x",
+                            "ioValue": 5
                         }
                     ],
                     "currentEquation": 0
@@ -1339,12 +1339,12 @@
                     "uniqueID": 625953,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 14
-                        },
-                        {
                             "name": "y",
                             "ioValue": 40
+                        },
+                        {
+                            "name": "x",
+                            "ioValue": 14
                         }
                     ],
                     "currentEquation": 0
@@ -1371,12 +1371,12 @@
                     "uniqueID": 964328,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 160
-                        },
-                        {
                             "name": "y",
                             "ioValue": -2
+                        },
+                        {
+                            "name": "x",
+                            "ioValue": 160
                         }
                     ],
                     "currentEquation": 3
@@ -1389,12 +1389,12 @@
                     "uniqueID": 378233,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 54
-                        },
-                        {
                             "name": "y",
                             "ioValue": 2
+                        },
+                        {
+                            "name": "x",
+                            "ioValue": 54
                         }
                     ],
                     "currentEquation": 3
@@ -1407,12 +1407,12 @@
                     "uniqueID": 721536,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": -80
-                        },
-                        {
                             "name": "y",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "x",
+                            "ioValue": -80
                         }
                     ],
                     "currentEquation": 1
