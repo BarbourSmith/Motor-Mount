@@ -47,6 +47,54 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 272,
+                    "y": 127,
+                    "uniqueID": 201015,
+                    "ioValues": [
+                        {
+                            "name": "y",
+                            "ioValue": 0.8
+                        },
+                        {
+                            "name": "x",
+                            "ioValue": 35
+                        }
+                    ],
+                    "currentEquation": 2
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Sheet Metal Tab",
+                    "x": 411,
+                    "y": 195,
+                    "uniqueID": 517403,
+                    "projectID": "197395697",
+                    "ioValues": [
+                        {
+                            "name": "Radius",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "Thickness",
+                            "ioValue": 4
+                        },
+                        {
+                            "name": "Angle",
+                            "ioValue": 90
+                        },
+                        {
+                            "name": "Length",
+                            "ioValue": 28
+                        },
+                        {
+                            "name": "Tab Height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -54,7 +102,26 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x",
+                    "ap1ID": 492368,
+                    "ap2ID": 201015
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Thickness",
+                    "ap1ID": 322881,
+                    "ap2ID": 517403
+                },
+                {
+                    "ap1Name": "z",
+                    "ap2Name": "Length",
+                    "ap1ID": 201015,
+                    "ap2ID": 517403
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
