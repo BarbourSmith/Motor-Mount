@@ -474,16 +474,34 @@
                 },
                 {
                     "atomType": "Constant",
-                    "name": "Constant",
+                    "name": "Bend Radius",
                     "x": 118,
                     "y": 289,
                     "uniqueID": 248901,
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 10
+                            "ioValue": 5
                         }
                     ]
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 275,
+                    "y": 301,
+                    "uniqueID": 728633,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": -80
+                        }
+                    ],
+                    "currentEquation": 0
                 },
                 {
                     "atomType": "GitHubMolecule",
@@ -668,7 +686,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -80
+                            "ioValue": -75
                         },
                         {
                             "name": "yDist",
@@ -840,8 +858,26 @@
                 },
                 {
                     "ap1Name": "z",
-                    "ap2Name": "xDist",
+                    "ap2Name": "y",
                     "ap1ID": 144691,
+                    "ap2ID": 728633
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Radius",
+                    "ap1ID": 248901,
+                    "ap2ID": 517403
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "x",
+                    "ap1ID": 248901,
+                    "ap2ID": 728633
+                },
+                {
+                    "ap1Name": "z",
+                    "ap2Name": "xDist",
+                    "ap1ID": 728633,
                     "ap2ID": 208885
                 },
                 {
