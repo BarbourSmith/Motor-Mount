@@ -481,11 +481,11 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 10
+                            "ioValue": 4
                         },
                         {
                             "name": "y length",
-                            "ioValue": 10
+                            "ioValue": 20
                         }
                     ]
                 },
@@ -655,7 +655,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -80
                         },
                         {
                             "name": "yDist",
@@ -790,6 +790,12 @@
                     "ap2ID": 197196
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x length",
+                    "ap1ID": 808757,
+                    "ap2ID": 408139
+                },
+                {
                     "ap1Name": "z",
                     "ap2Name": "x",
                     "ap1ID": 639095,
@@ -818,6 +824,12 @@
                     "ap2Name": "xDist",
                     "ap1ID": 144691,
                     "ap2ID": 187403
+                },
+                {
+                    "ap1Name": "z",
+                    "ap2Name": "xDist",
+                    "ap1ID": 144691,
+                    "ap2ID": 208885
                 },
                 {
                     "ap1Name": "geometry",
