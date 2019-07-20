@@ -65,6 +65,24 @@
                     "currentEquation": 2
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 370,
+                    "y": 57,
+                    "uniqueID": 144691,
+                    "ioValues": [
+                        {
+                            "name": "y",
+                            "ioValue": -2
+                        },
+                        {
+                            "name": "x",
+                            "ioValue": 160
+                        }
+                    ],
+                    "currentEquation": 0
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
                     "x": 411,
@@ -90,7 +108,28 @@
                         },
                         {
                             "name": "Tab Height",
-                            "ioValue": 10
+                            "ioValue": 20
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 594,
+                    "y": 114,
+                    "uniqueID": 187403,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 158
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -103,6 +142,12 @@
                 }
             ],
             "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x",
+                    "ap1ID": 211580,
+                    "ap2ID": 144691
+                },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "x",
@@ -120,6 +165,18 @@
                     "ap2Name": "Length",
                     "ap1ID": 201015,
                     "ap2ID": 517403
+                },
+                {
+                    "ap1Name": "z",
+                    "ap2Name": "xDist",
+                    "ap1ID": 144691,
+                    "ap2ID": 187403
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 517403,
+                    "ap2ID": 187403
                 }
             ],
             "fileTypeVersion": 1
