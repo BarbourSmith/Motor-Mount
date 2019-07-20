@@ -354,8 +354,8 @@
         {
             "atomType": "Molecule",
             "name": "Front Tab",
-            "x": 672,
-            "y": 290,
+            "x": 667,
+            "y": 291,
             "uniqueID": 886321,
             "ioValues": [
                 {
@@ -365,10 +365,6 @@
                 {
                     "name": "Width",
                     "ioValue": 35
-                },
-                {
-                    "name": "Little Tab Height",
-                    "ioValue": 30
                 },
                 {
                     "name": "Thickness",
@@ -420,12 +416,17 @@
                     "currentEquation": 3
                 },
                 {
-                    "atomType": "Input",
+                    "atomType": "Constant",
                     "name": "Little Tab Height",
-                    "x": 63,
-                    "y": 252,
-                    "uniqueID": 460541,
-                    "ioValues": []
+                    "x": 81,
+                    "y": 246,
+                    "uniqueID": 814966,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 20
+                        }
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -511,7 +512,7 @@
                         },
                         {
                             "name": "Length",
-                            "ioValue": 30
+                            "ioValue": 10
                         },
                         {
                             "name": "Tab Height",
@@ -528,7 +529,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 30
+                            "ioValue": 20
                         },
                         {
                             "name": "y",
@@ -643,7 +644,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 35
+                            "ioValue": 25
                         }
                     ]
                 },
@@ -693,17 +694,12 @@
                     "ap2ID": 376134
                 },
                 {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "Length",
-                    "ap1ID": 460541,
-                    "ap2ID": 517403
-                },
-                {
-                    "ap1Name": "number or geometry",
+                    "ap1Name": "number",
                     "ap2Name": "x",
-                    "ap1ID": 460541,
+                    "ap1ID": 814966,
                     "ap2ID": 387489
                 },
+                null,
                 {
                     "ap1Name": "z",
                     "ap2Name": "xDist",
@@ -1076,8 +1072,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Front Tab",
-                    "x": 672,
-                    "y": 290,
+                    "x": 667,
+                    "y": 291,
                     "uniqueID": 886321,
                     "ioValues": [
                         {
@@ -1087,10 +1083,6 @@
                         {
                             "name": "Width",
                             "ioValue": 35
-                        },
-                        {
-                            "name": "Little Tab Height",
-                            "ioValue": 30
                         },
                         {
                             "name": "Thickness",
@@ -1324,12 +1316,6 @@
                     "ap2Name": "y",
                     "ap1ID": 820453,
                     "ap2ID": 840348
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "Little Tab Height",
-                    "ap1ID": 820453,
-                    "ap2ID": 886321
                 },
                 {
                     "ap1Name": "Geometry",
