@@ -354,8 +354,8 @@
         {
             "atomType": "Molecule",
             "name": "Front Tab",
-            "x": 672,
-            "y": 298,
+            "x": 674,
+            "y": 296,
             "uniqueID": 886321,
             "ioValues": [
                 {
@@ -582,6 +582,24 @@
                         {
                             "name": "y",
                             "ioValue": 4
+                        }
+                    ],
+                    "currentEquation": 0
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 491,
+                    "y": 308,
+                    "uniqueID": 870989,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 0
                         }
                     ],
                     "currentEquation": 0
@@ -969,8 +987,8 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 413,
-            "y": 115,
+            "x": 419,
+            "y": 113,
             "uniqueID": 740020,
             "ioValues": [
                 {
@@ -1264,8 +1282,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Front Tab",
-                    "x": 672,
-                    "y": 298,
+                    "x": 674,
+                    "y": 296,
                     "uniqueID": 886321,
                     "ioValues": [
                         {
@@ -2304,8 +2322,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 413,
-                    "y": 115,
+                    "x": 419,
+                    "y": 113,
                     "uniqueID": 740020,
                     "ioValues": [
                         {
