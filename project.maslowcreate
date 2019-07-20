@@ -690,11 +690,11 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -10
+                            "ioValue": -8
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": -1
                         }
                     ]
                 },
