@@ -494,14 +494,14 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 5
+                            "ioValue": -80
                         },
                         {
                             "name": "y",
-                            "ioValue": -80
+                            "ioValue": 5
                         }
                     ],
-                    "currentEquation": 0
+                    "currentEquation": 1
                 },
                 {
                     "atomType": "GitHubMolecule",
@@ -686,7 +686,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -75
+                            "ioValue": -85
                         },
                         {
                             "name": "yDist",
@@ -858,7 +858,7 @@
                 },
                 {
                     "ap1Name": "z",
-                    "ap2Name": "y",
+                    "ap2Name": "x",
                     "ap1ID": 144691,
                     "ap2ID": 728633
                 },
@@ -870,7 +870,7 @@
                 },
                 {
                     "ap1Name": "number",
-                    "ap2Name": "x",
+                    "ap2Name": "y",
                     "ap1ID": 248901,
                     "ap2ID": 728633
                 },
