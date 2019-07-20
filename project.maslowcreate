@@ -665,11 +665,11 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 2
+                            "ioValue": -85
                         },
                         {
                             "name": "y",
-                            "ioValue": -85
+                            "ioValue": 2
                         }
                     ],
                     "currentEquation": 1
@@ -722,7 +722,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 87
+                            "ioValue": -87
                         },
                         {
                             "name": "yDist",
@@ -918,7 +918,7 @@
                 },
                 {
                     "ap1Name": "z",
-                    "ap2Name": "y",
+                    "ap2Name": "x",
                     "ap1ID": 728633,
                     "ap2ID": 381921
                 },
@@ -936,7 +936,7 @@
                 },
                 {
                     "ap1Name": "z",
-                    "ap2Name": "x",
+                    "ap2Name": "y",
                     "ap1ID": 870989,
                     "ap2ID": 381921
                 },
