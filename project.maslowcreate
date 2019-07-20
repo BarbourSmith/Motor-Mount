@@ -475,8 +475,8 @@
                 {
                     "atomType": "Constant",
                     "name": "Bend Radius",
-                    "x": 118,
-                    "y": 289,
+                    "x": 75,
+                    "y": 308,
                     "uniqueID": 248901,
                     "ioValues": [
                         {
