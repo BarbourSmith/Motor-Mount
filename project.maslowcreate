@@ -2,22 +2,22 @@
     "molecules": [
         {
             "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 277,
-            "y": 307,
+            "name": "Front Tab",
+            "x": 550,
+            "y": 306,
             "uniqueID": 886321,
             "ioValues": [
                 {
                     "name": "Length",
-                    "ioValue": 10
+                    "ioValue": 160
                 },
                 {
                     "name": "Width",
-                    "ioValue": 10
+                    "ioValue": 35
                 },
                 {
-                    "name": "Input135105",
-                    "ioValue": 10
+                    "name": "Thickness",
+                    "ioValue": 4
                 }
             ],
             "topLevel": false,
@@ -25,24 +25,24 @@
                 {
                     "atomType": "Input",
                     "name": "Length",
-                    "x": 133,
-                    "y": 92,
+                    "x": 53,
+                    "y": 58,
                     "uniqueID": 211580,
                     "ioValues": []
                 },
                 {
                     "atomType": "Input",
                     "name": "Width",
-                    "x": 148,
-                    "y": 168,
+                    "x": 54,
+                    "y": 128,
                     "uniqueID": 492368,
                     "ioValues": []
                 },
                 {
                     "atomType": "Input",
-                    "name": "Input135105",
-                    "x": 155,
-                    "y": 232,
+                    "name": "Thickness",
+                    "x": 54,
+                    "y": 195,
                     "uniqueID": 322881,
                     "ioValues": []
                 },
@@ -265,27 +265,6 @@
                     ]
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Molecule",
-                    "x": 277,
-                    "y": 307,
-                    "uniqueID": 886321,
-                    "ioValues": [
-                        {
-                            "name": "Length",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "Width",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "Input135105",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Input",
                     "name": "Width",
                     "x": 407,
@@ -318,6 +297,27 @@
                         }
                     ],
                     "currentEquation": 3
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Front Tab",
+                    "x": 550,
+                    "y": 306,
+                    "uniqueID": 886321,
+                    "ioValues": [
+                        {
+                            "name": "Length",
+                            "ioValue": 160
+                        },
+                        {
+                            "name": "Width",
+                            "ioValue": 35
+                        },
+                        {
+                            "name": "Thickness",
+                            "ioValue": 4
+                        }
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -561,6 +561,12 @@
                     "ap2ID": 220281
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Thickness",
+                    "ap1ID": 568082,
+                    "ap2ID": 886321
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 885377,
@@ -634,6 +640,12 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "Width",
+                    "ap1ID": 693654,
+                    "ap2ID": 886321
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "x",
                     "ap1ID": 605772,
                     "ap2ID": 294524
@@ -649,6 +661,12 @@
                     "ap2Name": "x",
                     "ap1ID": 605772,
                     "ap2ID": 717479
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Length",
+                    "ap1ID": 605772,
+                    "ap2ID": 886321
                 },
                 {
                     "ap1Name": "z",
