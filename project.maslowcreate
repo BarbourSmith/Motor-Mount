@@ -1270,8 +1270,8 @@
         {
             "atomType": "Molecule",
             "name": "Roller Assembly",
-            "x": 422,
-            "y": 242,
+            "x": 423,
+            "y": 244,
             "uniqueID": 752987,
             "ioValues": [
                 {
@@ -1455,7 +1455,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 10
+                            "ioValue": 60
                         }
                     ]
                 },
@@ -1694,8 +1694,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Roller Assembly",
-                    "x": 422,
-                    "y": 242,
+                    "x": 423,
+                    "y": 244,
                     "uniqueID": 752987,
                     "ioValues": [
                         {
