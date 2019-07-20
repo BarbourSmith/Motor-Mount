@@ -1117,7 +1117,7 @@
                     "name": "Eton Motor Assembly",
                     "x": 381.9326047358834,
                     "y": 324.70491803278685,
-                    "uniqueID": 986958,
+                    "uniqueID": 946391,
                     "projectID": "197565793",
                     "ioValues": []
                 },
@@ -1126,7 +1126,7 @@
                     "name": "Eton Motor Assembly",
                     "x": 381.9326047358834,
                     "y": 324.70491803278685,
-                    "uniqueID": 946391,
+                    "uniqueID": 986958,
                     "projectID": "197565793",
                     "ioValues": []
                 },
@@ -1270,7 +1270,7 @@
         {
             "atomType": "Molecule",
             "name": "Roller Assembly",
-            "x": 428,
+            "x": 422,
             "y": 240,
             "uniqueID": 752987,
             "ioValues": [
@@ -1324,28 +1324,18 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "Roller",
-                    "x": 264,
-                    "y": 41,
-                    "uniqueID": 642120,
-                    "projectID": "197579630",
-                    "ioValues": [
-                        {
-                            "name": "Shoulder Length",
-                            "ioValue": 7
-                        },
-                        {
-                            "name": "Center Length",
-                            "ioValue": 40
-                        }
-                    ]
+                    "atomType": "Input",
+                    "name": "Length",
+                    "x": 76,
+                    "y": 293,
+                    "uniqueID": 727533,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 212,
-                    "y": 185,
+                    "x": 240,
+                    "y": 230,
                     "uniqueID": 625953,
                     "ioValues": [
                         {
@@ -1360,30 +1350,18 @@
                     "currentEquation": 0
                 },
                 {
-                    "atomType": "Input",
-                    "name": "Length",
-                    "x": 76,
-                    "y": 293,
-                    "uniqueID": 727533,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 339,
-                    "y": 140,
-                    "uniqueID": 378233,
+                    "atomType": "GitHubMolecule",
+                    "name": "Roller Assembly",
+                    "x": 359,
+                    "y": 55,
+                    "uniqueID": 680758,
+                    "projectID": "197766474",
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 54
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 2
+                            "name": "Overall Length",
+                            "ioValue": 40
                         }
-                    ],
-                    "currentEquation": 3
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -1404,25 +1382,22 @@
                     "currentEquation": 3
                 },
                 {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 385,
-                    "y": 71,
-                    "uniqueID": 697362,
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 395,
+                    "y": 216,
+                    "uniqueID": 378233,
                     "ioValues": [
                         {
-                            "name": "x-axis degrees",
-                            "ioValue": 90
+                            "name": "x",
+                            "ioValue": 54
                         },
                         {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 0
+                            "name": "y",
+                            "ioValue": 2
                         }
-                    ]
+                    ],
+                    "currentEquation": 3
                 },
                 {
                     "atomType": "Equation",
@@ -1443,10 +1418,31 @@
                     "currentEquation": 1
                 },
                 {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 578,
+                    "y": 61,
+                    "uniqueID": 697362,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 90
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 507,
-                    "y": 198,
+                    "x": 623,
+                    "y": 205,
                     "uniqueID": 280527,
                     "ioValues": [
                         {
@@ -1480,33 +1476,21 @@
                 },
                 {
                     "ap1Name": "z",
-                    "ap2Name": "Center Length",
-                    "ap1ID": 506893,
-                    "ap2ID": 642120
-                },
-                {
-                    "ap1Name": "z",
                     "ap2Name": "y",
                     "ap1ID": 506893,
                     "ap2ID": 625953
+                },
+                {
+                    "ap1Name": "z",
+                    "ap2Name": "Overall Length",
+                    "ap1ID": 506893,
+                    "ap2ID": 680758
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "x",
                     "ap1ID": 475391,
                     "ap2ID": 506893
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 642120,
-                    "ap2ID": 697362
-                },
-                {
-                    "ap1Name": "z",
-                    "ap2Name": "x",
-                    "ap1ID": 625953,
-                    "ap2ID": 378233
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -1516,9 +1500,15 @@
                 },
                 {
                     "ap1Name": "z",
-                    "ap2Name": "yDist",
-                    "ap1ID": 378233,
-                    "ap2ID": 280527
+                    "ap2Name": "x",
+                    "ap1ID": 625953,
+                    "ap2ID": 378233
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 680758,
+                    "ap2ID": 697362
                 },
                 {
                     "ap1Name": "z",
@@ -1527,15 +1517,21 @@
                     "ap2ID": 721536
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 697362,
+                    "ap1Name": "z",
+                    "ap2Name": "yDist",
+                    "ap1ID": 378233,
                     "ap2ID": 280527
                 },
                 {
                     "ap1Name": "z",
                     "ap2Name": "xDist",
                     "ap1ID": 721536,
+                    "ap2ID": 280527
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 697362,
                     "ap2ID": 280527
                 },
                 {
@@ -1698,7 +1694,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "Roller Assembly",
-                    "x": 428,
+                    "x": 422,
                     "y": 240,
                     "uniqueID": 752987,
                     "ioValues": [
