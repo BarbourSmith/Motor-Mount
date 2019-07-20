@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Front Tab",
-            "x": 550,
-            "y": 306,
+            "x": 595,
+            "y": 301,
             "uniqueID": 886321,
             "ioValues": [
                 {
@@ -80,7 +80,7 @@
                             "ioValue": 160
                         }
                     ],
-                    "currentEquation": 0
+                    "currentEquation": 2
                 },
                 {
                     "atomType": "GitHubMolecule",
@@ -121,7 +121,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 158
+                            "ioValue": -320
                         },
                         {
                             "name": "yDist",
@@ -177,6 +177,11 @@
                     "ap2Name": "geometry",
                     "ap1ID": 517403,
                     "ap2ID": 187403
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 187403
                 }
             ],
             "fileTypeVersion": 1
@@ -423,27 +428,6 @@
                     "currentEquation": 3
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Front Tab",
-                    "x": 550,
-                    "y": 306,
-                    "uniqueID": 886321,
-                    "ioValues": [
-                        {
-                            "name": "Length",
-                            "ioValue": 160
-                        },
-                        {
-                            "name": "Width",
-                            "ioValue": 35
-                        },
-                        {
-                            "name": "Thickness",
-                            "ioValue": 4
-                        }
-                    ]
-                },
-                {
                     "atomType": "Equation",
                     "name": "Equation",
                     "x": 666,
@@ -460,6 +444,27 @@
                         }
                     ],
                     "currentEquation": 3
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Front Tab",
+                    "x": 595,
+                    "y": 301,
+                    "uniqueID": 886321,
+                    "ioValues": [
+                        {
+                            "name": "Length",
+                            "ioValue": 160
+                        },
+                        {
+                            "name": "Width",
+                            "ioValue": 35
+                        },
+                        {
+                            "name": "Thickness",
+                            "ioValue": 4
+                        }
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -636,6 +641,10 @@
                         {
                             "name": "3D shape 924287",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 878090",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -803,6 +812,12 @@
                     "ap2Name": "xDist",
                     "ap1ID": 294524,
                     "ap2ID": 764679
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 924287",
+                    "ap1ID": 886321,
+                    "ap2ID": 747646
                 },
                 {
                     "ap1Name": "z",
