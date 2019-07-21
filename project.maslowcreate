@@ -354,8 +354,8 @@
         {
             "atomType": "Molecule",
             "name": "Front Tab",
-            "x": 674,
-            "y": 296,
+            "x": 672,
+            "y": 298,
             "uniqueID": 886321,
             "ioValues": [
                 {
@@ -1023,8 +1023,8 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 419,
-            "y": 113,
+            "x": 418,
+            "y": 114,
             "uniqueID": 740020,
             "ioValues": [
                 {
@@ -1318,8 +1318,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Front Tab",
-                    "x": 674,
-                    "y": 296,
+                    "x": 672,
+                    "y": 298,
                     "uniqueID": 886321,
                     "ioValues": [
                         {
@@ -1824,8 +1824,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Eton Motor Assembly",
-                    "x": 381.9326047358834,
-                    "y": 308,
+                    "x": 399,
+                    "y": 221,
                     "uniqueID": 986958,
                     "projectID": "197565793",
                     "ioValues": []
@@ -1833,8 +1833,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Eton Motor Assembly",
-                    "x": 381.9326047358834,
-                    "y": 308,
+                    "x": 399,
+                    "y": 221,
                     "uniqueID": 946391,
                     "projectID": "197565793",
                     "ioValues": []
@@ -2322,8 +2322,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 419,
-                    "y": 113,
+                    "x": 418,
+                    "y": 114,
                     "uniqueID": 740020,
                     "ioValues": [
                         {
