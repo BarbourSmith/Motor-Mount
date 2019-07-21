@@ -354,8 +354,8 @@
         {
             "atomType": "Molecule",
             "name": "Front Tab",
-            "x": 672,
-            "y": 298,
+            "x": 652,
+            "y": 294,
             "uniqueID": 886321,
             "ioValues": [
                 {
@@ -1298,6 +1298,27 @@
                     "currentEquation": 3
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "Front Tab",
+                    "x": 652,
+                    "y": 294,
+                    "uniqueID": 886321,
+                    "ioValues": [
+                        {
+                            "name": "Length",
+                            "ioValue": 160
+                        },
+                        {
+                            "name": "Width",
+                            "ioValue": 35
+                        },
+                        {
+                            "name": "Thickness",
+                            "ioValue": 4
+                        }
+                    ]
+                },
+                {
                     "atomType": "Equation",
                     "name": "Equation",
                     "x": 695,
@@ -1314,27 +1335,6 @@
                         }
                     ],
                     "currentEquation": 3
-                },
-                {
-                    "atomType": "Molecule",
-                    "name": "Front Tab",
-                    "x": 672,
-                    "y": 298,
-                    "uniqueID": 886321,
-                    "ioValues": [
-                        {
-                            "name": "Length",
-                            "ioValue": 160
-                        },
-                        {
-                            "name": "Width",
-                            "ioValue": 35
-                        },
-                        {
-                            "name": "Thickness",
-                            "ioValue": 4
-                        }
-                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -1654,16 +1654,16 @@
                     "ap2ID": 694265
                 },
                 {
-                    "ap1Name": "z",
-                    "ap2Name": "yDist",
-                    "ap1ID": 431556,
-                    "ap2ID": 688009
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 924287",
                     "ap1ID": 886321,
                     "ap2ID": 747646
+                },
+                {
+                    "ap1Name": "z",
+                    "ap2Name": "yDist",
+                    "ap1ID": 431556,
+                    "ap2ID": 688009
                 },
                 {
                     "ap1Name": "z",
