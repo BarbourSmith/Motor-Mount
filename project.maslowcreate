@@ -1712,7 +1712,7 @@
         {
             "atomType": "Molecule",
             "name": "Motor",
-            "x": 421,
+            "x": 425,
             "y": 185,
             "uniqueID": 372159,
             "ioValues": [
@@ -1796,15 +1796,6 @@
                     "currentEquation": 0
                 },
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "Maslow Motor",
-                    "x": 248.816029143898,
-                    "y": 251.30418943533695,
-                    "uniqueID": 465766,
-                    "projectID": "188842909",
-                    "ioValues": []
-                },
-                {
                     "atomType": "Input",
                     "name": "Length",
                     "x": 351,
@@ -1834,7 +1825,7 @@
                     "atomType": "GitHubMolecule",
                     "name": "Eton Motor Assembly",
                     "x": 381.9326047358834,
-                    "y": 324.70491803278685,
+                    "y": 308,
                     "uniqueID": 986958,
                     "projectID": "197565793",
                     "ioValues": []
@@ -1843,31 +1834,10 @@
                     "atomType": "GitHubMolecule",
                     "name": "Eton Motor Assembly",
                     "x": 381.9326047358834,
-                    "y": 324.70491803278685,
+                    "y": 308,
                     "uniqueID": 946391,
                     "projectID": "197565793",
                     "ioValues": []
-                },
-                {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 513.8051001821493,
-                    "y": 217.71402550091074,
-                    "uniqueID": 574573,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 90
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": -180
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 0
-                        }
-                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -1946,12 +1916,6 @@
                     "ap2Name": "y",
                     "ap1ID": 759128,
                     "ap2ID": 346820
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 465766,
-                    "ap2ID": 574573
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -2387,7 +2351,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor",
-                    "x": 421,
+                    "x": 425,
                     "y": 185,
                     "uniqueID": 372159,
                     "ioValues": [
