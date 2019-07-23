@@ -1023,8 +1023,8 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 418,
-            "y": 114,
+            "x": 422,
+            "y": 108,
             "uniqueID": 740020,
             "ioValues": [
                 {
@@ -1092,7 +1092,7 @@
                         },
                         {
                             "name": "Tab Height",
-                            "ioValue": 60
+                            "ioValue": 50
                         }
                     ]
                 },
@@ -1264,7 +1264,7 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 666,
+                    "x": 645,
                     "y": 26,
                     "uniqueID": 294524,
                     "ioValues": [
@@ -1712,8 +1712,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor",
-            "x": 425,
-            "y": 185,
+            "x": 424,
+            "y": 179,
             "uniqueID": 372159,
             "ioValues": [
                 {
@@ -1874,7 +1874,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 40
+                            "ioValue": 30
                         }
                     ]
                 },
@@ -2322,8 +2322,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 418,
-                    "y": 114,
+                    "x": 422,
+                    "y": 108,
                     "uniqueID": 740020,
                     "ioValues": [
                         {
@@ -2351,8 +2351,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor",
-                    "x": 425,
-                    "y": 185,
+                    "x": 424,
+                    "y": 179,
                     "uniqueID": 372159,
                     "ioValues": [
                         {
