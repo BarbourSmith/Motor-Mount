@@ -7,13 +7,3 @@
 |M4 Bolt|1|0.09|https://www.mcmaster.com/92095a190|
 |M4 Bolt|1|0.09|https://www.mcmaster.com/92095a190|
 |ET-WGM58AE|1|11|http://www.etonm.com/|
-|Bearing|1|1.5|https://www.amazon.com/RollerBones-Bones-Roller-Bearings/dp/B0094J6GQ0|
-|Bearing|1|1.5|https://www.amazon.com/RollerBones-Bones-Roller-Bearings/dp/B0094J6GQ0|
-|M4 Bolt|1|0.09|https://www.mcmaster.com/92095a190|
-|M4 Bolt|1|0.09|https://www.mcmaster.com/92095a190|
-|M4 Bolt|1|0.09|https://www.mcmaster.com/92095a190|
-|M4 Bolt|1|0.09|https://www.mcmaster.com/92095a190|
-|M4 Bolt|1|0.09|https://www.mcmaster.com/92095a190|
-|M4 Bolt|1|0.09|https://www.mcmaster.com/92095a190|
-|M4 Bolt|1|0.09|https://www.mcmaster.com/92095a190|
-|M4 Bolt|1|0.09|https://www.mcmaster.com/92095a190|

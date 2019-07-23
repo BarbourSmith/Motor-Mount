@@ -1951,281 +1951,6 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Roller Assembly",
-            "x": 425,
-            "y": 247,
-            "uniqueID": 752987,
-            "ioValues": [
-                {
-                    "name": "Width",
-                    "ioValue": 35
-                },
-                {
-                    "name": "Bend Radius",
-                    "ioValue": 5
-                },
-                {
-                    "name": "Length",
-                    "ioValue": 160
-                }
-            ],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Input",
-                    "name": "Width",
-                    "x": 45,
-                    "y": 56,
-                    "uniqueID": 189625,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 161,
-                    "y": 92,
-                    "uniqueID": 506893,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 5
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 35
-                        }
-                    ],
-                    "currentEquation": 0
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Bend Radius",
-                    "x": 49,
-                    "y": 206,
-                    "uniqueID": 475391,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Length",
-                    "x": 76,
-                    "y": 293,
-                    "uniqueID": 727533,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 240,
-                    "y": 230,
-                    "uniqueID": 625953,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 14
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 40
-                        }
-                    ],
-                    "currentEquation": 0
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 261,
-                    "y": 281,
-                    "uniqueID": 964328,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 160
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": -2
-                        }
-                    ],
-                    "currentEquation": 3
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "Roller Assembly",
-                    "x": 393,
-                    "y": 58,
-                    "uniqueID": 680758,
-                    "projectID": "197766474",
-                    "ioValues": [
-                        {
-                            "name": "Distance Between Walls",
-                            "ioValue": 35
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 395,
-                    "y": 216,
-                    "uniqueID": 378233,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 54
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 2
-                        }
-                    ],
-                    "currentEquation": 3
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 400,
-                    "y": 274,
-                    "uniqueID": 721536,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": -80
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 10
-                        }
-                    ],
-                    "currentEquation": 1
-                },
-                {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 578,
-                    "y": 61,
-                    "uniqueID": 697362,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 90
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 623,
-                    "y": 205,
-                    "uniqueID": 280527,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": -90
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 27
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 60
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "y",
-                    "ap1ID": 189625,
-                    "ap2ID": 506893
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "Distance Between Walls",
-                    "ap1ID": 189625,
-                    "ap2ID": 680758
-                },
-                {
-                    "ap1Name": "z",
-                    "ap2Name": "y",
-                    "ap1ID": 506893,
-                    "ap2ID": 625953
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "x",
-                    "ap1ID": 475391,
-                    "ap2ID": 506893
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "x",
-                    "ap1ID": 727533,
-                    "ap2ID": 964328
-                },
-                {
-                    "ap1Name": "z",
-                    "ap2Name": "x",
-                    "ap1ID": 625953,
-                    "ap2ID": 378233
-                },
-                {
-                    "ap1Name": "z",
-                    "ap2Name": "x",
-                    "ap1ID": 964328,
-                    "ap2ID": 721536
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 680758,
-                    "ap2ID": 697362
-                },
-                {
-                    "ap1Name": "z",
-                    "ap2Name": "yDist",
-                    "ap1ID": 378233,
-                    "ap2ID": 280527
-                },
-                {
-                    "ap1Name": "z",
-                    "ap2Name": "xDist",
-                    "ap1ID": 721536,
-                    "ap2ID": 280527
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 697362,
-                    "ap2ID": 280527
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 280527
-                }
-            ],
-            "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Molecule",
             "name": "Motor Mount",
             "x": 0,
             "y": 0,
@@ -2374,27 +2099,6 @@
                     ]
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Roller Assembly",
-                    "x": 425,
-                    "y": 247,
-                    "uniqueID": 752987,
-                    "ioValues": [
-                        {
-                            "name": "Width",
-                            "ioValue": 35
-                        },
-                        {
-                            "name": "Bend Radius",
-                            "ioValue": 5
-                        },
-                        {
-                            "name": "Length",
-                            "ioValue": 160
-                        }
-                    ]
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 852,
@@ -2411,10 +2115,6 @@
                         },
                         {
                             "name": "3D shape 640990",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 289387",
                             "ioValue": 10
                         },
                         {
@@ -2452,12 +2152,6 @@
                 },
                 {
                     "ap1Name": "number",
-                    "ap2Name": "Length",
-                    "ap1ID": 877702,
-                    "ap2ID": 752987
-                },
-                {
-                    "ap1Name": "number",
                     "ap2Name": "Width",
                     "ap1ID": 185248,
                     "ap2ID": 740020
@@ -2473,12 +2167,6 @@
                     "ap2Name": "Width",
                     "ap1ID": 185248,
                     "ap2ID": 626485
-                },
-                {
-                    "ap1Name": "number",
-                    "ap2Name": "Width",
-                    "ap1ID": 185248,
-                    "ap2ID": 752987
                 },
                 {
                     "ap1Name": "number",
@@ -2517,12 +2205,6 @@
                     "ap2ID": 372159
                 },
                 {
-                    "ap1Name": "number",
-                    "ap2Name": "Bend Radius",
-                    "ap1ID": 812575,
-                    "ap2ID": 752987
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 640990",
                     "ap1ID": 626485,
@@ -2538,12 +2220,6 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 661410",
                     "ap1ID": 372159,
-                    "ap2ID": 247430
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 289387",
-                    "ap1ID": 752987,
                     "ap2ID": 247430
                 },
                 {
