@@ -1092,7 +1092,7 @@
                         },
                         {
                             "name": "Tab Height",
-                            "ioValue": 50
+                            "ioValue": 45
                         }
                     ]
                 },
