@@ -1023,8 +1023,8 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 422,
-            "y": 108,
+            "x": 429,
+            "y": 105,
             "uniqueID": 740020,
             "ioValues": [
                 {
@@ -1088,7 +1088,7 @@
                         },
                         {
                             "name": "Length",
-                            "ioValue": 75
+                            "ioValue": 65
                         },
                         {
                             "name": "Tab Height",
@@ -1987,8 +1987,8 @@
                 {
                     "atomType": "Constant",
                     "name": "Metal Thickness",
-                    "x": 50,
-                    "y": 140,
+                    "x": 38,
+                    "y": 139,
                     "uniqueID": 177738,
                     "ioValues": [
                         {
@@ -2047,8 +2047,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 422,
-                    "y": 108,
+                    "x": 429,
+                    "y": 105,
                     "uniqueID": 740020,
                     "ioValues": [
                         {
