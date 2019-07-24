@@ -549,8 +549,8 @@
         {
             "atomType": "Molecule",
             "name": "Front Tab",
-            "x": 327,
-            "y": 225,
+            "x": 351,
+            "y": 176,
             "uniqueID": 205590,
             "ioValues": [
                 {
@@ -1019,8 +1019,28 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 361,
+            "y": 244,
+            "uniqueID": 515562,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Long Tab",
-            "x": 660,
+            "x": 664,
             "y": 124,
             "uniqueID": 477608,
             "ioValues": [
@@ -1118,8 +1138,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Front Tab",
-                    "x": 327,
-                    "y": 225,
+                    "x": 351,
+                    "y": 176,
                     "uniqueID": 205590,
                     "ioValues": [
                         {
@@ -1139,6 +1159,14 @@
                             "ioValue": 35
                         }
                     ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Molecule",
+                    "x": 361,
+                    "y": 244,
+                    "uniqueID": 515562,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Assembly",
@@ -1886,8 +1914,8 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 428,
-            "y": 115,
+            "x": 429,
+            "y": 117,
             "uniqueID": 740020,
             "ioValues": [
                 {
@@ -1969,7 +1997,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "Long Tab",
-                    "x": 660,
+                    "x": 664,
                     "y": 124,
                     "uniqueID": 477608,
                     "ioValues": [
@@ -2438,8 +2466,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 428,
-                    "y": 115,
+                    "x": 429,
+                    "y": 117,
                     "uniqueID": 740020,
                     "ioValues": [
                         {
