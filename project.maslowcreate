@@ -549,8 +549,8 @@
         {
             "atomType": "Molecule",
             "name": "Front Tab",
-            "x": 252,
-            "y": 246,
+            "x": 327,
+            "y": 225,
             "uniqueID": 205590,
             "ioValues": [
                 {
@@ -1090,31 +1090,6 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Front Tab",
-                    "x": 252,
-                    "y": 246,
-                    "uniqueID": 205590,
-                    "ioValues": [
-                        {
-                            "name": "Thickness",
-                            "ioValue": 4
-                        },
-                        {
-                            "name": "Radius",
-                            "ioValue": 5
-                        },
-                        {
-                            "name": "Length",
-                            "ioValue": 95
-                        },
-                        {
-                            "name": "Width",
-                            "ioValue": 35
-                        }
-                    ]
-                },
-                {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
                     "x": 347,
@@ -1137,6 +1112,31 @@
                         {
                             "name": "Tab Height",
                             "ioValue": 20
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Front Tab",
+                    "x": 327,
+                    "y": 225,
+                    "uniqueID": 205590,
+                    "ioValues": [
+                        {
+                            "name": "Thickness",
+                            "ioValue": 4
+                        },
+                        {
+                            "name": "Radius",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "Length",
+                            "ioValue": 95
+                        },
+                        {
+                            "name": "Width",
+                            "ioValue": 35
                         }
                     ]
                 },
@@ -1164,8 +1164,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 959,
-                    "y": 55,
+                    "x": 918,
+                    "y": 44,
                     "uniqueID": 883287,
                     "ioValues": [
                         {
@@ -1178,8 +1178,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 974,
-                    "y": 140,
+                    "x": 931,
+                    "y": 154,
                     "uniqueID": 209961,
                     "ioValues": [
                         {
@@ -1199,8 +1199,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 1035,
-                    "y": 284,
+                    "x": 928,
+                    "y": 282,
                     "uniqueID": 271336,
                     "ioValues": [
                         {
@@ -1302,14 +1302,14 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 870796",
-                    "ap1ID": 205590,
+                    "ap2Name": "3D shape 220521",
+                    "ap1ID": 491468,
                     "ap2ID": 912855
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 220521",
-                    "ap1ID": 491468,
+                    "ap2Name": "3D shape 870796",
+                    "ap1ID": 205590,
                     "ap2ID": 912855
                 },
                 {
