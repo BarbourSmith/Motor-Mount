@@ -549,8 +549,8 @@
         {
             "atomType": "Molecule",
             "name": "Front Tab",
-            "x": 247,
-            "y": 234,
+            "x": 250,
+            "y": 233,
             "uniqueID": 205590,
             "ioValues": [
                 {
@@ -567,7 +567,7 @@
                 },
                 {
                     "name": "Width",
-                    "ioValue": 10
+                    "ioValue": 35
                 }
             ],
             "topLevel": false,
@@ -665,20 +665,6 @@
                     ]
                 },
                 {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 422,
-                    "y": 236,
-                    "uniqueID": 197936,
-                    "ioValues": [
-                        {
-                            "name": "L",
-                            "ioValue": 20
-                        }
-                    ],
-                    "currentEquation": "L/2"
-                },
-                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 461,
@@ -690,6 +676,38 @@
                             "ioValue": 10
                         }
                     ]
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 450,
+                    "y": 222,
+                    "uniqueID": 197936,
+                    "ioValues": [
+                        {
+                            "name": "L",
+                            "ioValue": 20
+                        }
+                    ],
+                    "currentEquation": "L/2"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 454,
+                    "y": 291,
+                    "uniqueID": 610919,
+                    "ioValues": [
+                        {
+                            "name": "y",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "W",
+                            "ioValue": 1
+                        }
+                    ],
+                    "currentEquation": "(W-1)/2"
                 },
                 {
                     "atomType": "Translate",
@@ -715,8 +733,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 772,
-                    "y": 148,
+                    "x": 1177,
+                    "y": 100,
                     "uniqueID": 856736,
                     "ioValues": [
                         {
@@ -725,6 +743,10 @@
                         },
                         {
                             "name": "3D shape 360432",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 508968",
                             "ioValue": 10
                         }
                     ]
@@ -756,6 +778,7 @@
                     "ap1ID": 215735,
                     "ap2ID": 128481
                 },
+                null,
                 {
                     "ap1Name": "number",
                     "ap2Name": "y length",
@@ -776,8 +799,15 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 128481
+                    "ap2Name": "3D shape 360432",
+                    "ap1ID": 128481,
+                    "ap2ID": 856736
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 216647,
+                    "ap2ID": 176046
                 },
                 {
                     "ap1Name": "result",
@@ -787,15 +817,14 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 216647,
-                    "ap2ID": 176046
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 493068",
                     "ap1ID": 176046,
                     "ap2ID": 856736
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 856736
                 }
             ],
             "fileTypeVersion": 1
@@ -901,8 +930,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Front Tab",
-                    "x": 247,
-                    "y": 234,
+                    "x": 250,
+                    "y": 233,
                     "uniqueID": 205590,
                     "ioValues": [
                         {
@@ -919,7 +948,7 @@
                         },
                         {
                             "name": "Width",
-                            "ioValue": 10
+                            "ioValue": 35
                         }
                     ]
                 },
@@ -1055,6 +1084,12 @@
                     "ap2Name": "W",
                     "ap1ID": 676222,
                     "ap2ID": 271336
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Width",
+                    "ap1ID": 676222,
+                    "ap2ID": 205590
                 },
                 {
                     "ap1Name": "Geometry",
