@@ -1354,8 +1354,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor",
-            "x": 426,
-            "y": 175,
+            "x": 424,
+            "y": 176,
             "uniqueID": 372159,
             "ioValues": [
                 {
@@ -1380,32 +1380,32 @@
                 {
                     "atomType": "Input",
                     "name": "Width",
-                    "x": 141,
-                    "y": 100,
+                    "x": 131,
+                    "y": 32,
                     "uniqueID": 145104,
                     "ioValues": []
                 },
                 {
                     "atomType": "Input",
                     "name": "Bend Radius",
-                    "x": 139,
-                    "y": 164,
+                    "x": 127,
+                    "y": 79,
                     "uniqueID": 875651,
                     "ioValues": []
                 },
                 {
                     "atomType": "Input",
                     "name": "Thickness",
-                    "x": 137,
-                    "y": 237,
+                    "x": 121,
+                    "y": 149,
                     "uniqueID": 113404,
                     "ioValues": []
                 },
                 {
                     "atomType": "Input",
                     "name": "Length",
-                    "x": 351,
-                    "y": 44,
+                    "x": 264,
+                    "y": 172,
                     "uniqueID": 483131,
                     "ioValues": []
                 },
@@ -1444,8 +1444,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 529,
-                    "y": 48,
+                    "x": 522,
+                    "y": 49,
                     "uniqueID": 843305,
                     "ioValues": [
                         {
@@ -1455,9 +1455,13 @@
                         {
                             "name": "R",
                             "ioValue": 5
+                        },
+                        {
+                            "name": "T",
+                            "ioValue": 4
                         }
                     ],
-                    "currentEquation": "(W/-2) - R"
+                    "currentEquation": "(W/-2) - (R+T)"
                 },
                 {
                     "atomType": "Translate",
@@ -1472,7 +1476,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -22.5
+                            "ioValue": -26.5
                         },
                         {
                             "name": "zDist",
@@ -1499,6 +1503,12 @@
                     "ap1Name": "number or geometry",
                     "ap2Name": "R",
                     "ap1ID": 875651,
+                    "ap2ID": 843305
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "T",
+                    "ap1ID": 113404,
                     "ap2ID": 843305
                 },
                 {
@@ -1660,8 +1670,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor",
-                    "x": 426,
-                    "y": 175,
+                    "x": 424,
+                    "y": 176,
                     "uniqueID": 372159,
                     "ioValues": [
                         {
