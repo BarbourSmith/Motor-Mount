@@ -548,7 +548,7 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Front Tab",
+            "name": "Down Tab",
             "x": 351,
             "y": 176,
             "uniqueID": 205590,
@@ -1019,13 +1019,62 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 361,
-            "y": 244,
+            "name": "Front Tab",
+            "x": 347,
+            "y": 234,
             "uniqueID": 515562,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Width",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Thickness",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Radius",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Length",
+                    "x": 42,
+                    "y": 45,
+                    "uniqueID": 352245,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Width",
+                    "x": 42,
+                    "y": 97,
+                    "uniqueID": 798675,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Thickness",
+                    "x": 46,
+                    "y": 152,
+                    "uniqueID": 511284,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Radius",
+                    "x": 82,
+                    "y": 223,
+                    "uniqueID": 467491,
+                    "ioValues": []
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -1137,7 +1186,7 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Front Tab",
+                    "name": "Down Tab",
                     "x": 351,
                     "y": 176,
                     "uniqueID": 205590,
@@ -1162,11 +1211,28 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Molecule",
-                    "x": 361,
-                    "y": 244,
+                    "name": "Front Tab",
+                    "x": 347,
+                    "y": 234,
                     "uniqueID": 515562,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Width",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Thickness",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Radius",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Assembly",
