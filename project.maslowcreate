@@ -731,8 +731,8 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 438,
-            "y": 102,
+            "x": 434,
+            "y": 98,
             "uniqueID": 740020,
             "ioValues": [
                 {
@@ -1354,8 +1354,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor",
-            "x": 424,
-            "y": 176,
+            "x": 421,
+            "y": 178,
             "uniqueID": 372159,
             "ioValues": [
                 {
@@ -1641,8 +1641,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 438,
-                    "y": 102,
+                    "x": 434,
+                    "y": 98,
                     "uniqueID": 740020,
                     "ioValues": [
                         {
@@ -1670,8 +1670,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor",
-                    "x": 424,
-                    "y": 176,
+                    "x": 421,
+                    "y": 178,
                     "uniqueID": 372159,
                     "ioValues": [
                         {
