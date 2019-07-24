@@ -768,8 +768,8 @@
         {
             "atomType": "Molecule",
             "name": "Long Tab",
-            "x": 654,
-            "y": 179,
+            "x": 659,
+            "y": 183,
             "uniqueID": 477608,
             "ioValues": [
                 {
@@ -875,7 +875,7 @@
                             "ioValue": 160
                         }
                     ],
-                    "currentEquation": "65-L"
+                    "currentEquation": "L-65"
                 },
                 {
                     "atomType": "Equation",
@@ -889,7 +889,7 @@
                             "ioValue": 35
                         }
                     ],
-                    "currentEquation": "W/2"
+                    "currentEquation": "W/-2"
                 },
                 {
                     "atomType": "Rotate",
@@ -904,7 +904,7 @@
                         },
                         {
                             "name": "y-axis degrees",
-                            "ioValue": 17.5
+                            "ioValue": 0
                         },
                         {
                             "name": "z-axis degrees",
@@ -921,11 +921,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 95
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": -17.5
                         },
                         {
                             "name": "zDist",
@@ -984,12 +984,17 @@
                     "ap1ID": 491468,
                     "ap2ID": 209961
                 },
-                null,
                 {
                     "ap1Name": "result",
-                    "ap2Name": "y-axis degrees",
+                    "ap2Name": "xDist",
+                    "ap1ID": 883287,
+                    "ap2ID": 517133
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
                     "ap1ID": 271336,
-                    "ap2ID": 209961
+                    "ap2ID": 517133
                 },
                 {
                     "ap1Name": "geometry",
@@ -1116,8 +1121,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Long Tab",
-                    "x": 654,
-                    "y": 179,
+                    "x": 659,
+                    "y": 183,
                     "uniqueID": 477608,
                     "ioValues": [
                         {
