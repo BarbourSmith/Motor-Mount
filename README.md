@@ -19,9 +19,6 @@
 ## Sheet Metal Tab
 
 
-## Sheet Metal Tab
-
-
 ## Big Tab
 
 
