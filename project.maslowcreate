@@ -330,8 +330,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 441,
-            "y": 290,
+            "x": 440,
+            "y": 292,
             "uniqueID": 841084,
             "ioValues": [
                 {
@@ -388,8 +388,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
-                    "x": 227,
-                    "y": 119,
+                    "x": 258,
+                    "y": 52,
                     "uniqueID": 409918,
                     "projectID": "197395697",
                     "ioValues": [
@@ -412,10 +412,46 @@
                     ]
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 354,
+                    "y": 139,
+                    "uniqueID": 212774,
+                    "ioValues": [
+                        {
+                            "name": "y",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "W",
+                            "ioValue": 1
+                        }
+                    ],
+                    "currentEquation": "W/2"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 396,
+                    "y": 210,
+                    "uniqueID": 855191,
+                    "ioValues": [
+                        {
+                            "name": "y",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "L",
+                            "ioValue": 1
+                        }
+                    ],
+                    "currentEquation": "L/2"
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 452,
-                    "y": 98,
+                    "x": 509,
+                    "y": 65,
                     "uniqueID": 910198,
                     "ioValues": [
                         {
@@ -428,15 +464,15 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 0
+                            "ioValue": 90
                         }
                     ]
                 },
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 625,
-                    "y": 100,
+                    "x": 785,
+                    "y": 99,
                     "uniqueID": 223619,
                     "ioValues": [
                         {
@@ -474,6 +510,7 @@
                     "ap1ID": 432176,
                     "ap2ID": 409918
                 },
+                null,
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
@@ -485,6 +522,11 @@
                     "ap2Name": "geometry",
                     "ap1ID": 910198,
                     "ap2ID": 223619
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 223619
                 }
             ],
             "fileTypeVersion": 1
@@ -1276,8 +1318,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Molecule",
-                    "x": 441,
-                    "y": 290,
+                    "x": 440,
+                    "y": 292,
                     "uniqueID": 841084,
                     "ioValues": [
                         {
