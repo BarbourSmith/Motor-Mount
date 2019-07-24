@@ -339,16 +339,16 @@
                     "ioValue": 4
                 },
                 {
+                    "name": "Radius",
+                    "ioValue": 5
+                },
+                {
                     "name": "Width",
                     "ioValue": 35
                 },
                 {
                     "name": "Length",
                     "ioValue": 160
-                },
-                {
-                    "name": "Radius",
-                    "ioValue": 5
                 }
             ],
             "topLevel": false,
@@ -1169,12 +1169,61 @@
         {
             "atomType": "Molecule",
             "name": "Long Tab",
-            "x": 774,
-            "y": 257,
+            "x": 769,
+            "y": 258,
             "uniqueID": 477608,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Width",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Bend Radius",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Thickness",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Width",
+                    "x": 42,
+                    "y": 39,
+                    "uniqueID": 676222,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Length",
+                    "x": 40,
+                    "y": 86,
+                    "uniqueID": 290493,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Bend Radius",
+                    "x": 45,
+                    "y": 138,
+                    "uniqueID": 759559,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Thickness",
+                    "x": 46,
+                    "y": 195,
+                    "uniqueID": 285004,
+                    "ioValues": []
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -1189,8 +1238,8 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 441,
-            "y": 110,
+            "x": 443,
+            "y": 107,
             "uniqueID": 740020,
             "ioValues": [
                 {
@@ -1198,20 +1247,20 @@
                     "ioValue": 5
                 },
                 {
-                    "name": "Thickness",
-                    "ioValue": 4
-                },
-                {
-                    "name": "Little Tab Width",
-                    "ioValue": 30
-                },
-                {
                     "name": "Width",
                     "ioValue": 35
                 },
                 {
+                    "name": "Thickness",
+                    "ioValue": 4
+                },
+                {
                     "name": "Length",
                     "ioValue": 160
+                },
+                {
+                    "name": "Little Tab Width",
+                    "ioValue": 30
                 }
             ],
             "topLevel": false,
@@ -1268,16 +1317,16 @@
                             "ioValue": 4
                         },
                         {
+                            "name": "Radius",
+                            "ioValue": 5
+                        },
+                        {
                             "name": "Width",
                             "ioValue": 35
                         },
                         {
                             "name": "Length",
                             "ioValue": 160
-                        },
-                        {
-                            "name": "Radius",
-                            "ioValue": 5
                         }
                     ]
                 },
@@ -1391,10 +1440,27 @@
                 {
                     "atomType": "Molecule",
                     "name": "Long Tab",
-                    "x": 774,
-                    "y": 257,
+                    "x": 769,
+                    "y": 258,
                     "uniqueID": 477608,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Width",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Bend Radius",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Thickness",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -1911,8 +1977,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 441,
-                    "y": 110,
+                    "x": 443,
+                    "y": 107,
                     "uniqueID": 740020,
                     "ioValues": [
                         {
@@ -1920,20 +1986,20 @@
                             "ioValue": 5
                         },
                         {
-                            "name": "Thickness",
-                            "ioValue": 4
-                        },
-                        {
-                            "name": "Little Tab Width",
-                            "ioValue": 30
-                        },
-                        {
                             "name": "Width",
                             "ioValue": 35
                         },
                         {
+                            "name": "Thickness",
+                            "ioValue": 4
+                        },
+                        {
                             "name": "Length",
                             "ioValue": 160
+                        },
+                        {
+                            "name": "Little Tab Width",
+                            "ioValue": 30
                         }
                     ]
                 },
