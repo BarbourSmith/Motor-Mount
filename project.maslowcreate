@@ -875,7 +875,7 @@
                             "ioValue": 160
                         }
                     ],
-                    "currentEquation": "L-65"
+                    "currentEquation": "65-L"
                 },
                 {
                     "atomType": "Equation",
@@ -921,7 +921,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 95
+                            "ioValue": -95
                         },
                         {
                             "name": "yDist",
