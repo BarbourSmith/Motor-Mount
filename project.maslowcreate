@@ -793,14 +793,6 @@
             "allAtoms": [
                 {
                     "atomType": "Input",
-                    "name": "Width",
-                    "x": 42,
-                    "y": 39,
-                    "uniqueID": 676222,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
                     "name": "Length",
                     "x": 40,
                     "y": 86,
@@ -838,6 +830,14 @@
                     "currentEquation": "L - 65"
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Width",
+                    "x": 45,
+                    "y": 239,
+                    "uniqueID": 676222,
+                    "ioValues": []
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
                     "x": 310,
@@ -866,20 +866,30 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
+                    "x": 410,
+                    "y": 47,
+                    "uniqueID": 883287,
+                    "ioValues": [
+                        {
+                            "name": "L",
+                            "ioValue": 160
+                        }
+                    ],
+                    "currentEquation": "65-L"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
                     "x": 405,
                     "y": 224,
                     "uniqueID": 271336,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 1
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 1
+                            "name": "W",
+                            "ioValue": 35
                         }
                     ],
-                    "currentEquation": "x + y"
+                    "currentEquation": "W/2"
                 },
                 {
                     "atomType": "Rotate",
@@ -894,31 +904,13 @@
                         },
                         {
                             "name": "y-axis degrees",
-                            "ioValue": 0
+                            "ioValue": 17.5
                         },
                         {
                             "name": "z-axis degrees",
                             "ioValue": -90
                         }
                     ]
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 520,
-                    "y": 229,
-                    "uniqueID": 883287,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 1
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 1
-                        }
-                    ],
-                    "currentEquation": "x + y"
                 },
                 {
                     "atomType": "Translate",
@@ -958,6 +950,12 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "L",
+                    "ap1ID": 290493,
+                    "ap2ID": 883287
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "Radius",
                     "ap1ID": 759559,
                     "ap2ID": 491468
@@ -975,9 +973,22 @@
                     "ap2ID": 491468
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "W",
+                    "ap1ID": 676222,
+                    "ap2ID": 271336
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 491468,
+                    "ap2ID": 209961
+                },
+                null,
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "y-axis degrees",
+                    "ap1ID": 271336,
                     "ap2ID": 209961
                 },
                 {
