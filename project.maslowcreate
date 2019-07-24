@@ -330,12 +330,73 @@
         {
             "atomType": "Molecule",
             "name": "Big Tab",
-            "x": 364,
+            "x": 359,
             "y": 308,
             "uniqueID": 801504,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Input966538",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Input701347",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Input641625",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Input219405",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Input433412",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Input966538",
+                    "x": 127,
+                    "y": 71,
+                    "uniqueID": 131299,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Input701347",
+                    "x": 131,
+                    "y": 132,
+                    "uniqueID": 958681,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Input641625",
+                    "x": 136,
+                    "y": 199,
+                    "uniqueID": 804005,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Input219405",
+                    "x": 141,
+                    "y": 240,
+                    "uniqueID": 615859,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Input433412",
+                    "x": 71,
+                    "y": 301,
+                    "uniqueID": 387678,
+                    "ioValues": []
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -962,10 +1023,31 @@
                 {
                     "atomType": "Molecule",
                     "name": "Big Tab",
-                    "x": 364,
+                    "x": 359,
                     "y": 308,
                     "uniqueID": 801504,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Input966538",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Input701347",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Input641625",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Input219405",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Input433412",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Equation",
