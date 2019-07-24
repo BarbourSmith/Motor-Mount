@@ -549,8 +549,8 @@
         {
             "atomType": "Molecule",
             "name": "Front Tab",
-            "x": 253,
-            "y": 247,
+            "x": 252,
+            "y": 246,
             "uniqueID": 205590,
             "ioValues": [
                 {
@@ -812,7 +812,7 @@
                             "ioValue": 95
                         }
                     ],
-                    "currentEquation": "-1*L"
+                    "currentEquation": "-1*L - 1"
                 },
                 {
                     "atomType": "Rotate",
@@ -848,11 +848,11 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -95
+                            "ioValue": -96
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 9
                         }
                     ]
                 },
@@ -1092,8 +1092,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Front Tab",
-                    "x": 253,
-                    "y": 247,
+                    "x": 252,
+                    "y": 246,
                     "uniqueID": 205590,
                     "ioValues": [
                         {
@@ -1199,8 +1199,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 1039,
-                    "y": 287,
+                    "x": 1035,
+                    "y": 284,
                     "uniqueID": 271336,
                     "ioValues": [
                         {
