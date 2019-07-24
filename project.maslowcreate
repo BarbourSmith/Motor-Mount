@@ -549,8 +549,8 @@
         {
             "atomType": "Molecule",
             "name": "Front Tab",
-            "x": 250,
-            "y": 233,
+            "x": 251,
+            "y": 224,
             "uniqueID": 205590,
             "ioValues": [
                 {
@@ -665,6 +665,20 @@
                     ]
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 346,
+                    "y": 290,
+                    "uniqueID": 610919,
+                    "ioValues": [
+                        {
+                            "name": "W",
+                            "ioValue": 35
+                        }
+                    ],
+                    "currentEquation": "(W-1)/2"
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 461,
@@ -673,7 +687,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 17
                         }
                     ]
                 },
@@ -694,12 +708,16 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 454,
-                    "y": 291,
-                    "uniqueID": 610919,
+                    "x": 607,
+                    "y": 273,
+                    "uniqueID": 463042,
                     "ioValues": [
                         {
                             "name": "y",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "H",
                             "ioValue": 1
                         },
                         {
@@ -707,13 +725,13 @@
                             "ioValue": 1
                         }
                     ],
-                    "currentEquation": "(W-1)/2"
+                    "currentEquation": "H - W"
                 },
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 623,
-                    "y": 162,
+                    "x": 674,
+                    "y": 164,
                     "uniqueID": 176046,
                     "ioValues": [
                         {
@@ -778,7 +796,12 @@
                     "ap1ID": 215735,
                     "ap2ID": 128481
                 },
-                null,
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "W",
+                    "ap1ID": 200369,
+                    "ap2ID": 610919
+                },
                 {
                     "ap1Name": "number",
                     "ap2Name": "y length",
@@ -802,6 +825,12 @@
                     "ap2Name": "3D shape 360432",
                     "ap1ID": 128481,
                     "ap2ID": 856736
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "height",
+                    "ap1ID": 610919,
+                    "ap2ID": 216647
                 },
                 {
                     "ap1Name": "geometry",
@@ -930,8 +959,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Front Tab",
-                    "x": 250,
-                    "y": 233,
+                    "x": 251,
+                    "y": 224,
                     "uniqueID": 205590,
                     "ioValues": [
                         {
