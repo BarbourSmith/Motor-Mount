@@ -880,8 +880,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 405,
-                    "y": 224,
+                    "x": 366,
+                    "y": 202,
                     "uniqueID": 271336,
                     "ioValues": [
                         {
