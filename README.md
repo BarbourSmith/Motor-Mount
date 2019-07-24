@@ -70,10 +70,10 @@ undefined
 ## Maslow Spool
 
 
-## Center
-
-
 ## Sides
+
+
+## Center
 
 
 ## Eton Motor Assembly
@@ -115,9 +115,9 @@ undefined
 ## Maslow Spool
 
 
-## Center
-
-
 ## Sides
+
+
+## Center
 
 
