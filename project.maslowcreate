@@ -627,6 +627,19 @@
                     ]
                 },
                 {
+                    "atomType": "Constant",
+                    "name": "Front Tab Length",
+                    "x": 202,
+                    "y": 252,
+                    "uniqueID": 605448,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 411,
