@@ -19,13 +19,13 @@
 ## Sheet Metal Tab
 
 
-## Little Tab
+## Long Tab
 
 
 ## Sheet Metal Tab
 
 
-## Long Tab
+## Little Tab
 
 
 ## Sheet Metal Tab
