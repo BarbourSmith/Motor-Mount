@@ -554,10 +554,6 @@
             "uniqueID": 477608,
             "ioValues": [
                 {
-                    "name": "Width",
-                    "ioValue": 35
-                },
-                {
                     "name": "Length",
                     "ioValue": 160
                 },
@@ -568,6 +564,10 @@
                 {
                     "name": "Thickness",
                     "ioValue": 4
+                },
+                {
+                    "name": "Width",
+                    "ioValue": 35
                 }
             ],
             "topLevel": false,
@@ -1421,10 +1421,6 @@
                     "uniqueID": 477608,
                     "ioValues": [
                         {
-                            "name": "Width",
-                            "ioValue": 35
-                        },
-                        {
                             "name": "Length",
                             "ioValue": 160
                         },
@@ -1435,6 +1431,10 @@
                         {
                             "name": "Thickness",
                             "ioValue": 4
+                        },
+                        {
+                            "name": "Width",
+                            "ioValue": 35
                         }
                     ]
                 },
@@ -1658,7 +1658,7 @@
                     "name": "Eton Motor Assembly",
                     "x": 399,
                     "y": 221,
-                    "uniqueID": 946391,
+                    "uniqueID": 986958,
                     "projectID": "197565793",
                     "ioValues": []
                 },
@@ -1667,7 +1667,7 @@
                     "name": "Eton Motor Assembly",
                     "x": 399,
                     "y": 221,
-                    "uniqueID": 986958,
+                    "uniqueID": 946391,
                     "projectID": "197565793",
                     "ioValues": []
                 },
