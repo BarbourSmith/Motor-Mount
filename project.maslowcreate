@@ -549,8 +549,8 @@
         {
             "atomType": "Molecule",
             "name": "Down Tab",
-            "x": 351,
-            "y": 176,
+            "x": 352,
+            "y": 175,
             "uniqueID": 205590,
             "ioValues": [
                 {
@@ -1070,10 +1070,36 @@
                 {
                     "atomType": "Input",
                     "name": "Radius",
-                    "x": 82,
-                    "y": 223,
+                    "x": 43,
+                    "y": 221,
                     "uniqueID": 467491,
                     "ioValues": []
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Sheet Metal Tab",
+                    "x": 243,
+                    "y": 123,
+                    "uniqueID": 236759,
+                    "projectID": "197395697",
+                    "ioValues": [
+                        {
+                            "name": "Radius",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Thickness",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Tab Height",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Output",
@@ -1187,8 +1213,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Down Tab",
-                    "x": 351,
-                    "y": 176,
+                    "x": 352,
+                    "y": 175,
                     "uniqueID": 205590,
                     "ioValues": [
                         {
