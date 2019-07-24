@@ -1354,8 +1354,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor",
-            "x": 421,
-            "y": 178,
+            "x": 420,
+            "y": 176,
             "uniqueID": 372159,
             "ioValues": [
                 {
@@ -1439,7 +1439,7 @@
                             "ioValue": 160
                         }
                     ],
-                    "currentEquation": "L/2 - 65/2"
+                    "currentEquation": "L/2 - 55/2"
                 },
                 {
                     "atomType": "Equation",
@@ -1472,7 +1472,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 47.5
+                            "ioValue": 52.5
                         },
                         {
                             "name": "yDist",
@@ -1480,7 +1480,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 30
+                            "ioValue": 35
                         }
                     ]
                 },
@@ -1670,8 +1670,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor",
-                    "x": 421,
-                    "y": 178,
+                    "x": 420,
+                    "y": 176,
                     "uniqueID": 372159,
                     "ioValues": [
                         {
