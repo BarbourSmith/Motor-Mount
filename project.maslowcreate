@@ -330,8 +330,8 @@
         {
             "atomType": "Molecule",
             "name": "Big Tab",
-            "x": 490,
-            "y": 295,
+            "x": 427,
+            "y": 296,
             "uniqueID": 801504,
             "ioValues": [
                 {
@@ -388,8 +388,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
-                    "x": 240,
-                    "y": 119,
+                    "x": 243,
+                    "y": 70,
                     "uniqueID": 496252,
                     "projectID": "197395697",
                     "ioValues": [
@@ -1050,8 +1050,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Big Tab",
-                    "x": 490,
-                    "y": 295,
+                    "x": 427,
+                    "y": 296,
                     "uniqueID": 801504,
                     "ioValues": [
                         {
