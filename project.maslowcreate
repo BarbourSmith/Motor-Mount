@@ -329,210 +329,6 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 440,
-            "y": 292,
-            "uniqueID": 841084,
-            "ioValues": [
-                {
-                    "name": "Bend Radius",
-                    "ioValue": 5
-                },
-                {
-                    "name": "Thickness",
-                    "ioValue": 4
-                },
-                {
-                    "name": "Length",
-                    "ioValue": 160
-                },
-                {
-                    "name": "Width",
-                    "ioValue": 35
-                }
-            ],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Input",
-                    "name": "Bend Radius",
-                    "x": 41,
-                    "y": 41,
-                    "uniqueID": 988427,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Thickness",
-                    "x": 41,
-                    "y": 89,
-                    "uniqueID": 432176,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Length",
-                    "x": 40,
-                    "y": 141,
-                    "uniqueID": 639420,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Width",
-                    "x": 34,
-                    "y": 194,
-                    "uniqueID": 897394,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "Sheet Metal Tab",
-                    "x": 258,
-                    "y": 52,
-                    "uniqueID": 409918,
-                    "projectID": "197395697",
-                    "ioValues": [
-                        {
-                            "name": "Radius",
-                            "ioValue": 5
-                        },
-                        {
-                            "name": "Thickness",
-                            "ioValue": 4
-                        },
-                        {
-                            "name": "Length",
-                            "ioValue": 30
-                        },
-                        {
-                            "name": "Tab Height",
-                            "ioValue": 20
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 354,
-                    "y": 139,
-                    "uniqueID": 212774,
-                    "ioValues": [
-                        {
-                            "name": "y",
-                            "ioValue": 1
-                        },
-                        {
-                            "name": "W",
-                            "ioValue": 1
-                        }
-                    ],
-                    "currentEquation": "W/2"
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 396,
-                    "y": 210,
-                    "uniqueID": 855191,
-                    "ioValues": [
-                        {
-                            "name": "y",
-                            "ioValue": 1
-                        },
-                        {
-                            "name": "L",
-                            "ioValue": 1
-                        }
-                    ],
-                    "currentEquation": "L/2"
-                },
-                {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 509,
-                    "y": 65,
-                    "uniqueID": 910198,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 90
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 785,
-                    "y": 99,
-                    "uniqueID": 223619,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "Radius",
-                    "ap1ID": 988427,
-                    "ap2ID": 409918
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "Thickness",
-                    "ap1ID": 432176,
-                    "ap2ID": 409918
-                },
-                null,
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 409918,
-                    "ap2ID": 910198
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 910198,
-                    "ap2ID": 223619
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 223619
-                }
-            ],
-            "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Molecule",
             "name": "Big Tab",
             "x": 577,
             "y": 40,
@@ -1153,6 +949,225 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Little Tab",
+            "x": 654,
+            "y": 308,
+            "uniqueID": 841084,
+            "ioValues": [
+                {
+                    "name": "Bend Radius",
+                    "ioValue": 5
+                },
+                {
+                    "name": "Thickness",
+                    "ioValue": 4
+                },
+                {
+                    "name": "Length",
+                    "ioValue": 160
+                },
+                {
+                    "name": "Width",
+                    "ioValue": 35
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Bend Radius",
+                    "x": 41,
+                    "y": 41,
+                    "uniqueID": 988427,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Thickness",
+                    "x": 41,
+                    "y": 89,
+                    "uniqueID": 432176,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Length",
+                    "x": 40,
+                    "y": 141,
+                    "uniqueID": 639420,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Width",
+                    "x": 34,
+                    "y": 194,
+                    "uniqueID": 897394,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Sheet Metal Tab",
+                    "x": 258,
+                    "y": 52,
+                    "uniqueID": 409918,
+                    "projectID": "197395697",
+                    "ioValues": [
+                        {
+                            "name": "Radius",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "Thickness",
+                            "ioValue": 4
+                        },
+                        {
+                            "name": "Length",
+                            "ioValue": 30
+                        },
+                        {
+                            "name": "Tab Height",
+                            "ioValue": 20
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 350,
+                    "y": 138,
+                    "uniqueID": 855191,
+                    "ioValues": [
+                        {
+                            "name": "L",
+                            "ioValue": 160
+                        }
+                    ],
+                    "currentEquation": "L/-2"
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 509,
+                    "y": 65,
+                    "uniqueID": 910198,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 90
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 481,
+                    "y": 204,
+                    "uniqueID": 212774,
+                    "ioValues": [
+                        {
+                            "name": "W",
+                            "ioValue": 35
+                        }
+                    ],
+                    "currentEquation": "W/2"
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 785,
+                    "y": 99,
+                    "uniqueID": 223619,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": -80
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 17.5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Radius",
+                    "ap1ID": 988427,
+                    "ap2ID": 409918
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Thickness",
+                    "ap1ID": 432176,
+                    "ap2ID": 409918
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "L",
+                    "ap1ID": 639420,
+                    "ap2ID": 855191
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "W",
+                    "ap1ID": 897394,
+                    "ap2ID": 212774
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 409918,
+                    "ap2ID": 910198
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap1ID": 855191,
+                    "ap2ID": 223619
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 910198,
+                    "ap2ID": 223619
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap1ID": 212774,
+                    "ap2ID": 223619
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 223619
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Tabs",
             "x": 441,
             "y": 110,
@@ -1317,31 +1332,6 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Molecule",
-                    "x": 440,
-                    "y": 292,
-                    "uniqueID": 841084,
-                    "ioValues": [
-                        {
-                            "name": "Bend Radius",
-                            "ioValue": 5
-                        },
-                        {
-                            "name": "Thickness",
-                            "ioValue": 4
-                        },
-                        {
-                            "name": "Length",
-                            "ioValue": 160
-                        },
-                        {
-                            "name": "Width",
-                            "ioValue": 35
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Molecule",
                     "name": "Big Tab",
                     "x": 577,
                     "y": 40,
@@ -1411,6 +1401,31 @@
                         {
                             "name": "Thickness",
                             "ioValue": 4
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Little Tab",
+                    "x": 654,
+                    "y": 308,
+                    "uniqueID": 841084,
+                    "ioValues": [
+                        {
+                            "name": "Bend Radius",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "Thickness",
+                            "ioValue": 4
+                        },
+                        {
+                            "name": "Length",
+                            "ioValue": 160
+                        },
+                        {
+                            "name": "Width",
+                            "ioValue": 35
                         }
                     ]
                 },
