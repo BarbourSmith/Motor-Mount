@@ -731,8 +731,8 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 434,
-            "y": 103,
+            "x": 435,
+            "y": 99,
             "uniqueID": 740020,
             "ioValues": [
                 {
@@ -942,8 +942,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 611,
-                    "y": 81,
+                    "x": 603,
+                    "y": 23,
                     "uniqueID": 362063,
                     "ioValues": [
                         {
@@ -952,6 +952,20 @@
                         }
                     ],
                     "currentEquation": "W/-2"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 651,
+                    "y": 118,
+                    "uniqueID": 406356,
+                    "ioValues": [
+                        {
+                            "name": "L",
+                            "ioValue": 160
+                        }
+                    ],
+                    "currentEquation": "L/-2"
                 },
                 {
                     "atomType": "Molecule",
@@ -977,8 +991,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 759,
-                    "y": 75,
+                    "x": 780,
+                    "y": 20,
                     "uniqueID": 350548,
                     "ioValues": [
                         {
@@ -989,6 +1003,20 @@
                     "currentEquation": "L/2"
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 860,
+                    "y": 93,
+                    "uniqueID": 514700,
+                    "ioValues": [
+                        {
+                            "name": "W",
+                            "ioValue": 35
+                        }
+                    ],
+                    "currentEquation": "W/-2"
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 999,
@@ -997,11 +1025,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -80
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": -17.5
                         },
                         {
                             "name": "zDist",
@@ -1189,6 +1217,12 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "W",
+                    "ap1ID": 693654,
+                    "ap2ID": 514700
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "Length",
                     "ap1ID": 605772,
                     "ap2ID": 886321
@@ -1200,6 +1234,12 @@
                     "ap2ID": 350548
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "L",
+                    "ap1ID": 605772,
+                    "ap2ID": 406356
+                },
+                {
                     "ap1Name": "result",
                     "ap2Name": "yDist",
                     "ap1ID": 362063,
@@ -1208,8 +1248,20 @@
                 {
                     "ap1Name": "result",
                     "ap2Name": "xDist",
+                    "ap1ID": 406356,
+                    "ap2ID": 694265
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
                     "ap1ID": 350548,
                     "ap2ID": 764679
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap1ID": 514700,
+                    "ap2ID": 694265
                 },
                 {
                     "ap1Name": "geometry",
@@ -1455,8 +1507,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 434,
-                    "y": 103,
+                    "x": 435,
+                    "y": 99,
                     "uniqueID": 740020,
                     "ioValues": [
                         {
