@@ -834,6 +834,24 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 125,
+                    "y": 189,
+                    "uniqueID": 185155,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 1
+                        }
+                    ],
+                    "currentEquation": "x + y"
+                },
+                {
                     "atomType": "Input",
                     "name": "Length",
                     "x": 33,
@@ -852,6 +870,23 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
+                    "x": 326,
+                    "y": 192,
+                    "uniqueID": 391392,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 4
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
                     "x": 370,
                     "y": 128,
                     "uniqueID": 667876,
@@ -862,7 +897,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 10
+                            "ioValue": 2
                         }
                     ]
                 },
@@ -1049,6 +1084,12 @@
                     "ap2Name": "x length",
                     "ap1ID": 432176,
                     "ap2ID": 667876
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x length",
+                    "ap1ID": 432176,
+                    "ap2ID": 391392
                 },
                 {
                     "ap1Name": "number or geometry",
