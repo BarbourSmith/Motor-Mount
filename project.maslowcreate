@@ -1020,8 +1020,8 @@
         {
             "atomType": "Molecule",
             "name": "Front Tab",
-            "x": 347,
-            "y": 234,
+            "x": 343,
+            "y": 236,
             "uniqueID": 515562,
             "ioValues": [
                 {
@@ -1052,10 +1052,23 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Constant",
+                    "name": "Front Tab Height",
+                    "x": 117,
+                    "y": 63,
+                    "uniqueID": 360354,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 20
+                        }
+                    ]
+                },
+                {
                     "atomType": "Input",
                     "name": "Width",
-                    "x": 42,
-                    "y": 97,
+                    "x": 102,
+                    "y": 103,
                     "uniqueID": 798675,
                     "ioValues": []
                 },
@@ -1078,8 +1091,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
-                    "x": 243,
-                    "y": 123,
+                    "x": 387,
+                    "y": 119,
                     "uniqueID": 236759,
                     "projectID": "197395697",
                     "ioValues": [
@@ -1238,8 +1251,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Front Tab",
-                    "x": 347,
-                    "y": 234,
+                    "x": 343,
+                    "y": 236,
                     "uniqueID": 515562,
                     "ioValues": [
                         {
