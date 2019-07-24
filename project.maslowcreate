@@ -1354,8 +1354,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor",
-            "x": 423,
-            "y": 177,
+            "x": 428,
+            "y": 175,
             "uniqueID": 372159,
             "ioValues": [
                 {
@@ -1480,7 +1480,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 30
+                            "ioValue": 35
                         }
                     ]
                 },
@@ -1670,8 +1670,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor",
-                    "x": 423,
-                    "y": 177,
+                    "x": 428,
+                    "y": 175,
                     "uniqueID": 372159,
                     "ioValues": [
                         {
