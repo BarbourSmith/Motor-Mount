@@ -732,7 +732,7 @@
             "atomType": "Molecule",
             "name": "Tabs",
             "x": 431,
-            "y": 113,
+            "y": 105,
             "uniqueID": 740020,
             "ioValues": [
                 {
@@ -1061,10 +1061,6 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 924287",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 878090",
                             "ioValue": 10
                         }
@@ -1180,12 +1176,6 @@
                     "ap2Name": "Length",
                     "ap1ID": 605772,
                     "ap2ID": 886321
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 924287",
-                    "ap1ID": 886321,
-                    "ap2ID": 747646
                 },
                 {
                     "ap1Name": "geometry",
@@ -1432,7 +1422,7 @@
                     "atomType": "Molecule",
                     "name": "Tabs",
                     "x": 431,
-                    "y": 113,
+                    "y": 105,
                     "uniqueID": 740020,
                     "ioValues": [
                         {
@@ -1491,10 +1481,6 @@
                     "ioValues": [
                         {
                             "name": "3D shape 804798",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 661410",
                             "ioValue": 10
                         },
                         {
@@ -1598,12 +1584,6 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 804798",
                     "ap1ID": 740020,
-                    "ap2ID": 247430
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 661410",
-                    "ap1ID": 372159,
                     "ap2ID": 247430
                 },
                 {
