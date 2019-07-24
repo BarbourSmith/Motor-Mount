@@ -880,21 +880,22 @@
                     ]
                 },
                 {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 326,
-                    "y": 192,
-                    "uniqueID": 391392,
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 387,
+                    "y": 186,
+                    "uniqueID": 238352,
                     "ioValues": [
                         {
-                            "name": "x length",
-                            "ioValue": 4
+                            "name": "R",
+                            "ioValue": 5
                         },
                         {
-                            "name": "y length",
-                            "ioValue": 10
+                            "name": "T",
+                            "ioValue": 4
                         }
-                    ]
+                    ],
+                    "currentEquation": "R + T/2"
                 },
                 {
                     "atomType": "GitHubMolecule",
@@ -925,16 +926,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 482,
-                    "y": 196,
-                    "uniqueID": 420706,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 516,
-                    "y": 132,
+                    "x": 564,
+                    "y": 110,
                     "uniqueID": 229152,
                     "ioValues": [
                         {
@@ -970,7 +963,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 7
                         },
                         {
                             "name": "yDist",
@@ -1096,6 +1089,12 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "R",
+                    "ap1ID": 988427,
+                    "ap2ID": 238352
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "Thickness",
                     "ap1ID": 432176,
                     "ap2ID": 409918
@@ -1108,15 +1107,15 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "x length",
+                    "ap2Name": "T",
                     "ap1ID": 432176,
-                    "ap2ID": 391392
+                    "ap2ID": 857557
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "T",
                     "ap1ID": 432176,
-                    "ap2ID": 857557
+                    "ap2ID": 238352
                 },
                 {
                     "ap1Name": "number",
@@ -1149,10 +1148,10 @@
                     "ap2ID": 229152
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "height",
-                    "ap1ID": 391392,
-                    "ap2ID": 420706
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap1ID": 238352,
+                    "ap2ID": 365859
                 },
                 {
                     "ap1Name": "Geometry",
