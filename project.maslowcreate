@@ -731,8 +731,8 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 435,
-            "y": 99,
+            "x": 438,
+            "y": 102,
             "uniqueID": 740020,
             "ioValues": [
                 {
@@ -934,8 +934,8 @@
                 {
                     "atomType": "Input",
                     "name": "Length",
-                    "x": 396,
-                    "y": 186,
+                    "x": 405,
+                    "y": 176,
                     "uniqueID": 605772,
                     "ioValues": []
                 },
@@ -966,6 +966,24 @@
                         }
                     ],
                     "currentEquation": "L/-2"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 653,
+                    "y": 194,
+                    "uniqueID": 260410,
+                    "ioValues": [
+                        {
+                            "name": "y",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "W",
+                            "ioValue": 1
+                        }
+                    ],
+                    "currentEquation": "W/-2"
                 },
                 {
                     "atomType": "Molecule",
@@ -1507,8 +1525,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 435,
-                    "y": 99,
+                    "x": 438,
+                    "y": 102,
                     "uniqueID": 740020,
                     "ioValues": [
                         {
