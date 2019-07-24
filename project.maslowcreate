@@ -731,8 +731,8 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 431,
-            "y": 105,
+            "x": 432,
+            "y": 102,
             "uniqueID": 740020,
             "ioValues": [
                 {
@@ -947,15 +947,11 @@
                     "uniqueID": 362063,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 1
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 1
+                            "name": "W",
+                            "ioValue": 35
                         }
                     ],
-                    "currentEquation": "x + y"
+                    "currentEquation": "W/-2"
                 },
                 {
                     "atomType": "Molecule",
@@ -1012,7 +1008,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": -17.5
                         },
                         {
                             "name": "zDist",
@@ -1173,9 +1169,21 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "W",
+                    "ap1ID": 693654,
+                    "ap2ID": 362063
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "Length",
                     "ap1ID": 605772,
                     "ap2ID": 886321
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap1ID": 362063,
+                    "ap2ID": 764679
                 },
                 {
                     "ap1Name": "geometry",
@@ -1421,8 +1429,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 431,
-                    "y": 105,
+                    "x": 432,
+                    "y": 102,
                     "uniqueID": 740020,
                     "ioValues": [
                         {
