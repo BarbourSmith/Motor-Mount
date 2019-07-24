@@ -331,7 +331,7 @@
             "atomType": "Molecule",
             "name": "Big Tab",
             "x": 427,
-            "y": 296,
+            "y": 289,
             "uniqueID": 801504,
             "ioValues": [
                 {
@@ -412,6 +412,48 @@
                     ]
                 },
                 {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 454,
+                    "y": 91,
+                    "uniqueID": 578636,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 677,
+                    "y": 63,
+                    "uniqueID": 253196,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -431,6 +473,12 @@
                     "ap2Name": "Radius",
                     "ap1ID": 615859,
                     "ap2ID": 496252
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 496252,
+                    "ap2ID": 578636
                 }
             ],
             "fileTypeVersion": 1
@@ -1051,7 +1099,7 @@
                     "atomType": "Molecule",
                     "name": "Big Tab",
                     "x": 427,
-                    "y": 296,
+                    "y": 289,
                     "uniqueID": 801504,
                     "ioValues": [
                         {
@@ -1075,8 +1123,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 603,
-                    "y": 23,
+                    "x": 587,
+                    "y": 35,
                     "uniqueID": 362063,
                     "ioValues": [
                         {
