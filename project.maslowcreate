@@ -329,6 +329,75 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 416,
+            "y": 291,
+            "uniqueID": 841084,
+            "ioValues": [
+                {
+                    "name": "Bend Radius",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Input708455",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Input288298",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Input476609",
+                    "ioValue": 10
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Bend Radius",
+                    "x": 41,
+                    "y": 41,
+                    "uniqueID": 988427,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Input708455",
+                    "x": 41,
+                    "y": 89,
+                    "uniqueID": 432176,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Input288298",
+                    "x": 40,
+                    "y": 141,
+                    "uniqueID": 639420,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Input476609",
+                    "x": 34,
+                    "y": 194,
+                    "uniqueID": 897394,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Big Tab",
             "x": 577,
             "y": 40,
@@ -1110,6 +1179,31 @@
                     "y": 176,
                     "uniqueID": 605772,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Molecule",
+                    "x": 416,
+                    "y": 291,
+                    "uniqueID": 841084,
+                    "ioValues": [
+                        {
+                            "name": "Bend Radius",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Input708455",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Input288298",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Input476609",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Molecule",
