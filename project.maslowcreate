@@ -975,6 +975,20 @@
                     ]
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 759,
+                    "y": 75,
+                    "uniqueID": 350548,
+                    "ioValues": [
+                        {
+                            "name": "L",
+                            "ioValue": 160
+                        }
+                    ],
+                    "currentEquation": "L/2"
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 999,
@@ -1004,7 +1018,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 80
                         },
                         {
                             "name": "yDist",
@@ -1180,9 +1194,21 @@
                     "ap2ID": 886321
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "L",
+                    "ap1ID": 605772,
+                    "ap2ID": 350548
+                },
+                {
                     "ap1Name": "result",
                     "ap2Name": "yDist",
                     "ap1ID": 362063,
+                    "ap2ID": 764679
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap1ID": 350548,
                     "ap2ID": 764679
                 },
                 {
