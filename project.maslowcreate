@@ -564,6 +564,10 @@
                 {
                     "name": "Length",
                     "ioValue": 160
+                },
+                {
+                    "name": "Width",
+                    "ioValue": 10
                 }
             ],
             "topLevel": false,
@@ -610,21 +614,12 @@
                     ]
                 },
                 {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 249,
-                    "y": 182,
-                    "uniqueID": 859765,
-                    "ioValues": [
-                        {
-                            "name": "x length",
-                            "ioValue": 4
-                        },
-                        {
-                            "name": "y length",
-                            "ioValue": 20
-                        }
-                    ]
+                    "atomType": "Input",
+                    "name": "Width",
+                    "x": 39,
+                    "y": 291,
+                    "uniqueID": 200369,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Constant",
@@ -635,7 +630,24 @@
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 10
+                            "ioValue": 20
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 288,
+                    "y": 159,
+                    "uniqueID": 859765,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 4
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 20
                         }
                     ]
                 },
@@ -653,14 +665,66 @@
                     ]
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 422,
+                    "y": 236,
+                    "uniqueID": 197936,
+                    "ioValues": [
+                        {
+                            "name": "L",
+                            "ioValue": 20
+                        }
+                    ],
+                    "currentEquation": "L/2"
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 421,
-                    "y": 198,
+                    "x": 461,
+                    "y": 159,
                     "uniqueID": 216647,
                     "ioValues": [
                         {
                             "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 623,
+                    "y": 162,
+                    "uniqueID": 176046,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 772,
+                    "y": 148,
+                    "uniqueID": 856736,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 493068",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 360432",
                             "ioValue": 10
                         }
                     ]
@@ -693,6 +757,18 @@
                     "ap2ID": 128481
                 },
                 {
+                    "ap1Name": "number",
+                    "ap2Name": "y length",
+                    "ap1ID": 605448,
+                    "ap2ID": 859765
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "L",
+                    "ap1ID": 605448,
+                    "ap2ID": 197936
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 859765,
@@ -702,6 +778,24 @@
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 128481
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap1ID": 197936,
+                    "ap2ID": 176046
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 216647,
+                    "ap2ID": 176046
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 493068",
+                    "ap1ID": 176046,
+                    "ap2ID": 856736
                 }
             ],
             "fileTypeVersion": 1
@@ -822,6 +916,10 @@
                         {
                             "name": "Length",
                             "ioValue": 160
+                        },
+                        {
+                            "name": "Width",
+                            "ioValue": 10
                         }
                     ]
                 },
