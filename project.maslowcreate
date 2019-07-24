@@ -594,14 +594,6 @@
                     ]
                 },
                 {
-                    "atomType": "Input",
-                    "name": "Length",
-                    "x": 59,
-                    "y": 223,
-                    "uniqueID": 515239,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
                     "x": 245,
@@ -754,6 +746,14 @@
                     ]
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Length",
+                    "x": 705,
+                    "y": 232,
+                    "uniqueID": 515239,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 778,
@@ -777,10 +777,52 @@
                 {
                     "atomType": "Input",
                     "name": "Radius",
-                    "x": 916,
-                    "y": 207,
+                    "x": 844,
+                    "y": 157,
                     "uniqueID": 817368,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 974,
+                    "y": 56,
+                    "uniqueID": 765237,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 180
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 1079,
+                    "y": 164,
+                    "uniqueID": 112454,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 160
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
                 },
                 {
                     "atomType": "Output",
@@ -894,9 +936,27 @@
                     "ap2ID": 856736
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "yDist",
+                    "ap1ID": 515239,
+                    "ap2ID": 112454
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 856736,
+                    "ap2ID": 765237
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 765237,
+                    "ap2ID": 112454
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 856736
+                    "ap1ID": 112454
                 }
             ],
             "fileTypeVersion": 1
