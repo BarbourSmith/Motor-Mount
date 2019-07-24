@@ -818,8 +818,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 193,
-                    "y": 55,
+                    "x": 213,
+                    "y": 54,
                     "uniqueID": 250201,
                     "ioValues": [
                         {
@@ -880,16 +880,16 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 473,
-                    "y": 63,
+                    "x": 459,
+                    "y": 65,
                     "uniqueID": 883287,
                     "ioValues": [
                         {
                             "name": "L",
-                            "ioValue": 160
+                            "ioValue": 95
                         }
                     ],
-                    "currentEquation": "65-L"
+                    "currentEquation": "-1*(65-L)"
                 },
                 {
                     "atomType": "Rotate",
@@ -921,7 +921,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -95
+                            "ioValue": 30
                         },
                         {
                             "name": "yDist",
@@ -950,12 +950,6 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "L",
-                    "ap1ID": 290493,
-                    "ap2ID": 883287
-                },
-                {
-                    "ap1Name": "number or geometry",
                     "ap2Name": "Radius",
                     "ap1ID": 759559,
                     "ap2ID": 491468
@@ -971,6 +965,12 @@
                     "ap2Name": "Length",
                     "ap1ID": 250201,
                     "ap2ID": 491468
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "L",
+                    "ap1ID": 250201,
+                    "ap2ID": 883287
                 },
                 {
                     "ap1Name": "number or geometry",
