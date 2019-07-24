@@ -549,8 +549,8 @@
         {
             "atomType": "Molecule",
             "name": "Front Tab",
-            "x": 254,
-            "y": 225,
+            "x": 247,
+            "y": 234,
             "uniqueID": 205590,
             "ioValues": [
                 {
@@ -595,25 +595,25 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 240,
-                    "y": 122,
+                    "x": 245,
+                    "y": 98,
                     "uniqueID": 215735,
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 10
+                            "ioValue": 4
                         },
                         {
                             "name": "y length",
-                            "ioValue": 4
+                            "ioValue": 10
                         }
                     ]
                 },
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 281,
-                    "y": 242,
+                    "x": 249,
+                    "y": 182,
                     "uniqueID": 859765,
                     "ioValues": [
                         {
@@ -622,6 +622,19 @@
                         },
                         {
                             "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 436,
+                    "y": 115,
+                    "uniqueID": 128481,
+                    "ioValues": [
+                        {
+                            "name": "height",
                             "ioValue": 10
                         }
                     ]
@@ -637,9 +650,21 @@
             "allConnectors": [
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "y length",
+                    "ap2Name": "x length",
                     "ap1ID": 901576,
                     "ap2ID": 215735
+                },
+                null,
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 215735,
+                    "ap2ID": 128481
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 128481
                 }
             ],
             "fileTypeVersion": 1
@@ -647,8 +672,8 @@
         {
             "atomType": "Molecule",
             "name": "Long Tab",
-            "x": 660,
-            "y": 116,
+            "x": 657,
+            "y": 124,
             "uniqueID": 477608,
             "ioValues": [
                 {
@@ -719,8 +744,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
-                    "x": 273,
-                    "y": 151,
+                    "x": 274,
+                    "y": 147,
                     "uniqueID": 491468,
                     "projectID": "197395697",
                     "ioValues": [
@@ -745,8 +770,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Front Tab",
-                    "x": 254,
-                    "y": 225,
+                    "x": 247,
+                    "y": 234,
                     "uniqueID": 205590,
                     "ioValues": [
                         {
@@ -1553,8 +1578,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Long Tab",
-                    "x": 660,
-                    "y": 116,
+                    "x": 657,
+                    "y": 124,
                     "uniqueID": 477608,
                     "ioValues": [
                         {
