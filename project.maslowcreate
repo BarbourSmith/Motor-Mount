@@ -563,7 +563,7 @@
                 },
                 {
                     "name": "Length",
-                    "ioValue": 160
+                    "ioValue": 10
                 },
                 {
                     "name": "Width",
@@ -791,7 +791,7 @@
                     "ioValues": [
                         {
                             "name": "L",
-                            "ioValue": 160
+                            "ioValue": 10
                         }
                     ],
                     "currentEquation": "-1*L"
@@ -830,7 +830,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -160
+                            "ioValue": -10
                         },
                         {
                             "name": "zDist",
@@ -1096,7 +1096,7 @@
                         },
                         {
                             "name": "Length",
-                            "ioValue": 160
+                            "ioValue": 10
                         },
                         {
                             "name": "Width",
@@ -1212,12 +1212,6 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "Length",
-                    "ap1ID": 290493,
-                    "ap2ID": 205590
-                },
-                {
-                    "ap1Name": "number or geometry",
                     "ap2Name": "Radius",
                     "ap1ID": 759559,
                     "ap2ID": 491468
@@ -1252,6 +1246,7 @@
                     "ap1ID": 250201,
                     "ap2ID": 883287
                 },
+                null,
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "W",
