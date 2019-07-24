@@ -842,14 +842,6 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Input",
-                    "name": "Width",
-                    "x": 34,
-                    "y": 194,
-                    "uniqueID": 897394,
-                    "ioValues": []
-                },
-                {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
                     "x": 258,
@@ -876,10 +868,18 @@
                     ]
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Width",
+                    "x": 37,
+                    "y": 278,
+                    "uniqueID": 897394,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 432,
-                    "y": 123,
+                    "x": 370,
+                    "y": 128,
                     "uniqueID": 667876,
                     "ioValues": [
                         {
@@ -893,10 +893,23 @@
                     ]
                 },
                 {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 516,
+                    "y": 132,
+                    "uniqueID": 229152,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 20
+                        }
+                    ]
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 603,
-                    "y": 105,
+                    "x": 695,
+                    "y": 93,
                     "uniqueID": 365859,
                     "ioValues": [
                         {
@@ -914,10 +927,31 @@
                     ]
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 751,
+                    "y": 42,
+                    "uniqueID": 849543,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 557220",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 585075",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 104472",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 615,
-                    "y": 204,
+                    "x": 931,
+                    "y": 219,
                     "uniqueID": 855191,
                     "ioValues": [
                         {
@@ -930,8 +964,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 706,
-                    "y": 242,
+                    "x": 1036,
+                    "y": 249,
                     "uniqueID": 212774,
                     "ioValues": [
                         {
@@ -944,8 +978,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 890,
-                    "y": 51,
+                    "x": 1080,
+                    "y": 61,
                     "uniqueID": 910198,
                     "ioValues": [
                         {
@@ -965,8 +999,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 1003,
-                    "y": 109,
+                    "x": 1185,
+                    "y": 154,
                     "uniqueID": 223619,
                     "ioValues": [
                         {
@@ -1017,15 +1051,39 @@
                     "ap2ID": 855191
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 585075",
+                    "ap1ID": 409918,
+                    "ap2ID": 849543
+                },
+                {
                     "ap1Name": "number or geometry",
                     "ap2Name": "W",
                     "ap1ID": 897394,
                     "ap2ID": 212774
                 },
                 {
-                    "ap1Name": "Geometry",
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 409918,
+                    "ap1ID": 667876,
+                    "ap2ID": 229152
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 229152,
+                    "ap2ID": 365859
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 557220",
+                    "ap1ID": 365859,
+                    "ap2ID": 849543
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 849543,
                     "ap2ID": 910198
                 },
                 {
