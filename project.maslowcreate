@@ -336,18 +336,18 @@
             "ioValues": [
                 {
                     "name": "Bend Radius",
+                    "ioValue": 5
+                },
+                {
+                    "name": "Thickness",
                     "ioValue": 10
                 },
                 {
-                    "name": "Input708455",
+                    "name": "Length",
                     "ioValue": 10
                 },
                 {
-                    "name": "Input288298",
-                    "ioValue": 10
-                },
-                {
-                    "name": "Input476609",
+                    "name": "Width",
                     "ioValue": 10
                 }
             ],
@@ -363,7 +363,7 @@
                 },
                 {
                     "atomType": "Input",
-                    "name": "Input708455",
+                    "name": "Thickness",
                     "x": 41,
                     "y": 89,
                     "uniqueID": 432176,
@@ -371,7 +371,7 @@
                 },
                 {
                     "atomType": "Input",
-                    "name": "Input288298",
+                    "name": "Length",
                     "x": 40,
                     "y": 141,
                     "uniqueID": 639420,
@@ -379,11 +379,37 @@
                 },
                 {
                     "atomType": "Input",
-                    "name": "Input476609",
+                    "name": "Width",
                     "x": 34,
                     "y": 194,
                     "uniqueID": 897394,
                     "ioValues": []
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Sheet Metal Tab",
+                    "x": 227,
+                    "y": 119,
+                    "uniqueID": 409918,
+                    "projectID": "197395697",
+                    "ioValues": [
+                        {
+                            "name": "Radius",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Thickness",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Tab Height",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Output",
@@ -1189,18 +1215,18 @@
                     "ioValues": [
                         {
                             "name": "Bend Radius",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "Thickness",
                             "ioValue": 10
                         },
                         {
-                            "name": "Input708455",
+                            "name": "Length",
                             "ioValue": 10
                         },
                         {
-                            "name": "Input288298",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "Input476609",
+                            "name": "Width",
                             "ioValue": 10
                         }
                     ]
@@ -1404,6 +1430,12 @@
                     "ap2Name": "Radius",
                     "ap1ID": 651275,
                     "ap2ID": 801504
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Bend Radius",
+                    "ap1ID": 651275,
+                    "ap2ID": 841084
                 },
                 {
                     "ap1Name": "number or geometry",
