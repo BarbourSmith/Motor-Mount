@@ -1439,7 +1439,7 @@
                             "ioValue": 160
                         }
                     ],
-                    "currentEquation": "L/2"
+                    "currentEquation": "L/2 - 65/2"
                 },
                 {
                     "atomType": "Equation",
@@ -1472,7 +1472,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 80
+                            "ioValue": 47.5
                         },
                         {
                             "name": "yDist",
