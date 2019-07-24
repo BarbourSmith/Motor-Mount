@@ -1430,20 +1430,34 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
+                    "x": 476,
+                    "y": 116,
+                    "uniqueID": 416749,
+                    "ioValues": [
+                        {
+                            "name": "L",
+                            "ioValue": 160
+                        }
+                    ],
+                    "currentEquation": "L/2"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
                     "x": 529,
                     "y": 48,
                     "uniqueID": 843305,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 1
+                            "name": "W",
+                            "ioValue": 35
                         },
                         {
-                            "name": "y",
-                            "ioValue": 1
+                            "name": "R",
+                            "ioValue": 5
                         }
                     ],
-                    "currentEquation": "x + y"
+                    "currentEquation": "(W/-2) - R"
                 },
                 {
                     "atomType": "Translate",
@@ -1454,11 +1468,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 80
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": -22.5
                         },
                         {
                             "name": "zDist",
@@ -1476,9 +1490,39 @@
             ],
             "allConnectors": [
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "W",
+                    "ap1ID": 145104,
+                    "ap2ID": 843305
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "R",
+                    "ap1ID": 875651,
+                    "ap2ID": 843305
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "L",
+                    "ap1ID": 483131,
+                    "ap2ID": 416749
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 946391,
+                    "ap2ID": 286715
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap1ID": 416749,
+                    "ap2ID": 286715
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap1ID": 843305,
                     "ap2ID": 286715
                 },
                 {
@@ -1656,6 +1700,10 @@
                         {
                             "name": "3D shape 223411",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 729409",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -1750,6 +1798,12 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 804798",
                     "ap1ID": 740020,
+                    "ap2ID": 247430
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 223411",
+                    "ap1ID": 372159,
                     "ap2ID": 247430
                 },
                 {
