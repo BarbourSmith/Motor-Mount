@@ -1020,8 +1020,8 @@
         {
             "atomType": "Molecule",
             "name": "Front Tab",
-            "x": 344,
-            "y": 239,
+            "x": 342,
+            "y": 241,
             "uniqueID": 515562,
             "ioValues": [
                 {
@@ -1141,7 +1141,7 @@
                     "ioValues": [
                         {
                             "name": "x-axis degrees",
-                            "ioValue": 0
+                            "ioValue": 90
                         },
                         {
                             "name": "y-axis degrees",
@@ -1149,7 +1149,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 0
+                            "ioValue": -90
                         }
                     ]
                 },
@@ -1170,7 +1170,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 20
                         }
                     ]
                 },
@@ -1365,8 +1365,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Front Tab",
-                    "x": 344,
-                    "y": 239,
+                    "x": 342,
+                    "y": 241,
                     "uniqueID": 515562,
                     "ioValues": [
                         {
