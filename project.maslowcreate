@@ -330,8 +330,8 @@
         {
             "atomType": "Molecule",
             "name": "Big Tab",
-            "x": 649,
-            "y": 38,
+            "x": 656,
+            "y": 43,
             "uniqueID": 801504,
             "ioValues": [
                 {
@@ -769,7 +769,7 @@
             "atomType": "Molecule",
             "name": "Long Tab",
             "x": 651,
-            "y": 185,
+            "y": 182,
             "uniqueID": 477608,
             "ioValues": [
                 {
@@ -824,6 +824,20 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 193,
+                    "y": 55,
+                    "uniqueID": 250201,
+                    "ioValues": [
+                        {
+                            "name": "L",
+                            "ioValue": 160
+                        }
+                    ],
+                    "currentEquation": "L - 65"
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
                     "x": 250,
@@ -866,7 +880,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 90
+                            "ioValue": -90
                         }
                     ]
                 },
@@ -902,6 +916,12 @@
             "allConnectors": [
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "L",
+                    "ap1ID": 290493,
+                    "ap2ID": 250201
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "Radius",
                     "ap1ID": 759559,
                     "ap2ID": 491468
@@ -912,6 +932,7 @@
                     "ap1ID": 285004,
                     "ap2ID": 491468
                 },
+                null,
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
@@ -993,8 +1014,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Big Tab",
-                    "x": 649,
-                    "y": 38,
+                    "x": 656,
+                    "y": 43,
                     "uniqueID": 801504,
                     "ioValues": [
                         {
@@ -1044,7 +1065,7 @@
                     "atomType": "Molecule",
                     "name": "Long Tab",
                     "x": 651,
-                    "y": 185,
+                    "y": 182,
                     "uniqueID": 477608,
                     "ioValues": [
                         {
