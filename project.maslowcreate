@@ -836,36 +836,10 @@
                 {
                     "atomType": "Input",
                     "name": "Length",
-                    "x": 40,
-                    "y": 141,
+                    "x": 33,
+                    "y": 234,
                     "uniqueID": 639420,
                     "ioValues": []
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "Sheet Metal Tab",
-                    "x": 258,
-                    "y": 52,
-                    "uniqueID": 409918,
-                    "projectID": "197395697",
-                    "ioValues": [
-                        {
-                            "name": "Radius",
-                            "ioValue": 5
-                        },
-                        {
-                            "name": "Thickness",
-                            "ioValue": 4
-                        },
-                        {
-                            "name": "Length",
-                            "ioValue": 30
-                        },
-                        {
-                            "name": "Tab Height",
-                            "ioValue": 20
-                        }
-                    ]
                 },
                 {
                     "atomType": "Input",
@@ -889,6 +863,32 @@
                         {
                             "name": "y length",
                             "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Sheet Metal Tab",
+                    "x": 458,
+                    "y": 35,
+                    "uniqueID": 409918,
+                    "projectID": "197395697",
+                    "ioValues": [
+                        {
+                            "name": "Radius",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "Thickness",
+                            "ioValue": 4
+                        },
+                        {
+                            "name": "Length",
+                            "ioValue": 30
+                        },
+                        {
+                            "name": "Tab Height",
+                            "ioValue": 20
                         }
                     ]
                 },
@@ -922,7 +922,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 5
                         }
                     ]
                 },
@@ -1034,6 +1034,12 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "zDist",
+                    "ap1ID": 988427,
+                    "ap2ID": 365859
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "Thickness",
                     "ap1ID": 432176,
                     "ap2ID": 409918
@@ -1051,12 +1057,6 @@
                     "ap2ID": 855191
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 585075",
-                    "ap1ID": 409918,
-                    "ap2ID": 849543
-                },
-                {
                     "ap1Name": "number or geometry",
                     "ap2Name": "W",
                     "ap1ID": 897394,
@@ -1067,6 +1067,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": 667876,
                     "ap2ID": 229152
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 585075",
+                    "ap1ID": 409918,
+                    "ap2ID": 849543
                 },
                 {
                     "ap1Name": "geometry",
