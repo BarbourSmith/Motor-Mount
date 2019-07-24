@@ -329,6 +329,26 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Big Tab",
+            "x": 364,
+            "y": 308,
+            "uniqueID": 801504,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Front Tab",
             "x": 650,
             "y": 302,
@@ -731,8 +751,8 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 434,
-            "y": 98,
+            "x": 441,
+            "y": 110,
             "uniqueID": 740020,
             "ioValues": [
                 {
@@ -937,6 +957,14 @@
                     "x": 405,
                     "y": 176,
                     "uniqueID": 605772,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Big Tab",
+                    "x": 364,
+                    "y": 308,
+                    "uniqueID": 801504,
                     "ioValues": []
                 },
                 {
@@ -1354,7 +1382,7 @@
         {
             "atomType": "Molecule",
             "name": "Motor",
-            "x": 428,
+            "x": 440,
             "y": 175,
             "uniqueID": 372159,
             "ioValues": [
@@ -1414,7 +1442,7 @@
                     "name": "Eton Motor Assembly",
                     "x": 399,
                     "y": 221,
-                    "uniqueID": 986958,
+                    "uniqueID": 946391,
                     "projectID": "197565793",
                     "ioValues": []
                 },
@@ -1423,7 +1451,7 @@
                     "name": "Eton Motor Assembly",
                     "x": 399,
                     "y": 221,
-                    "uniqueID": 946391,
+                    "uniqueID": 986958,
                     "projectID": "197565793",
                     "ioValues": []
                 },
@@ -1641,8 +1669,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 434,
-                    "y": 98,
+                    "x": 441,
+                    "y": 110,
                     "uniqueID": 740020,
                     "ioValues": [
                         {
@@ -1670,7 +1698,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor",
-                    "x": 428,
+                    "x": 440,
                     "y": 175,
                     "uniqueID": 372159,
                     "ioValues": [
