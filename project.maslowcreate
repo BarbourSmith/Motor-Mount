@@ -1333,8 +1333,8 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 451,
-            "y": 105,
+            "x": 435,
+            "y": 107,
             "uniqueID": 740020,
             "ioValues": [
                 {
@@ -1885,8 +1885,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 451,
-                    "y": 105,
+                    "x": 435,
+                    "y": 107,
                     "uniqueID": 740020,
                     "ioValues": [
                         {
