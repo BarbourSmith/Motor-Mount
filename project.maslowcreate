@@ -581,12 +581,17 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Input",
-                    "name": "Radius",
-                    "x": 53,
-                    "y": 126,
-                    "uniqueID": 817368,
-                    "ioValues": []
+                    "atomType": "Constant",
+                    "name": "Front Tab Length",
+                    "x": 136,
+                    "y": 181,
+                    "uniqueID": 605448,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 20
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -614,25 +619,25 @@
                     ]
                 },
                 {
-                    "atomType": "Input",
-                    "name": "Width",
-                    "x": 39,
-                    "y": 291,
-                    "uniqueID": 200369,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Constant",
-                    "name": "Front Tab Length",
-                    "x": 202,
-                    "y": 252,
-                    "uniqueID": 605448,
+                    "name": "Front Tab Height",
+                    "x": 152,
+                    "y": 237,
+                    "uniqueID": 453362,
                     "ioValues": [
                         {
                             "name": "number",
                             "ioValue": 20
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Width",
+                    "x": 39,
+                    "y": 291,
+                    "uniqueID": 200369,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Rectangle",
@@ -660,7 +665,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 20
                         }
                     ]
                 },
@@ -674,9 +679,13 @@
                         {
                             "name": "W",
                             "ioValue": 35
+                        },
+                        {
+                            "name": "H",
+                            "ioValue": 20
                         }
                     ],
-                    "currentEquation": "(W-1)/2"
+                    "currentEquation": "H + (W-1)/2"
                 },
                 {
                     "atomType": "Extrude",
@@ -687,7 +696,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 17
+                            "ioValue": 37
                         }
                     ]
                 },
@@ -708,21 +717,17 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 607,
-                    "y": 273,
+                    "x": 565,
+                    "y": 288,
                     "uniqueID": 463042,
                     "ioValues": [
                         {
-                            "name": "y",
-                            "ioValue": 1
-                        },
-                        {
                             "name": "H",
-                            "ioValue": 1
+                            "ioValue": 20
                         },
                         {
                             "name": "W",
-                            "ioValue": 1
+                            "ioValue": 37
                         }
                     ],
                     "currentEquation": "H - W"
@@ -744,15 +749,15 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": -17
                         }
                     ]
                 },
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 1177,
-                    "y": 100,
+                    "x": 778,
+                    "y": 75,
                     "uniqueID": 856736,
                     "ioValues": [
                         {
@@ -768,6 +773,14 @@
                             "ioValue": 10
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Radius",
+                    "x": 916,
+                    "y": 207,
+                    "uniqueID": 817368,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
@@ -791,18 +804,6 @@
                     "ap2ID": 859765
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 215735,
-                    "ap2ID": 128481
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "W",
-                    "ap1ID": 200369,
-                    "ap2ID": 610919
-                },
-                {
                     "ap1Name": "number",
                     "ap2Name": "y length",
                     "ap1ID": 605448,
@@ -813,6 +814,36 @@
                     "ap2Name": "L",
                     "ap1ID": 605448,
                     "ap2ID": 197936
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 215735,
+                    "ap2ID": 128481
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "H",
+                    "ap1ID": 453362,
+                    "ap2ID": 610919
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "height",
+                    "ap1ID": 453362,
+                    "ap2ID": 128481
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "H",
+                    "ap1ID": 453362,
+                    "ap2ID": 463042
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "W",
+                    "ap1ID": 200369,
+                    "ap2ID": 610919
                 },
                 {
                     "ap1Name": "geometry",
@@ -833,6 +864,12 @@
                     "ap2ID": 216647
                 },
                 {
+                    "ap1Name": "result",
+                    "ap2Name": "W",
+                    "ap1ID": 610919,
+                    "ap2ID": 463042
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 216647,
@@ -842,6 +879,12 @@
                     "ap1Name": "result",
                     "ap2Name": "yDist",
                     "ap1ID": 197936,
+                    "ap2ID": 176046
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap1ID": 463042,
                     "ap2ID": 176046
                 },
                 {
@@ -978,6 +1021,19 @@
                         {
                             "name": "Width",
                             "ioValue": 35
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 622,
+                    "y": 186,
+                    "uniqueID": 912855,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 220521",
+                            "ioValue": 10
                         }
                     ]
                 },
