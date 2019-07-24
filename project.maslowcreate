@@ -863,10 +863,28 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 216,
+                    "y": 218,
+                    "uniqueID": 527991,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 1
+                        }
+                    ],
+                    "currentEquation": "x + y"
+                },
+                {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 330,
-                    "y": 184,
+                    "x": 378,
+                    "y": 159,
                     "uniqueID": 308149,
                     "ioValues": [
                         {
@@ -925,8 +943,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 468,
-                    "y": 206,
+                    "x": 515,
+                    "y": 204,
                     "uniqueID": 703217,
                     "ioValues": [
                         {
