@@ -2660,8 +2660,8 @@
         {
             "atomType": "Molecule",
             "name": "Encoder PCB",
-            "x": 427,
-            "y": 212,
+            "x": 424,
+            "y": 213,
             "uniqueID": 151141,
             "ioValues": [
                 {
@@ -2748,7 +2748,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -30
+                            "ioValue": -25
                         },
                         {
                             "name": "zDist",
@@ -2945,8 +2945,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Encoder PCB",
-                    "x": 427,
-                    "y": 212,
+                    "x": 424,
+                    "y": 213,
                     "uniqueID": 151141,
                     "ioValues": [
                         {
