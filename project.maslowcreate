@@ -2715,20 +2715,6 @@
                     "currentEquation": "L/-2"
                 },
                 {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 506,
-                    "y": 228,
-                    "uniqueID": 256584,
-                    "ioValues": [
-                        {
-                            "name": "W",
-                            "ioValue": 35
-                        }
-                    ],
-                    "currentEquation": "W"
-                },
-                {
                     "atomType": "Rotate",
                     "name": "Rotate",
                     "x": 603,
@@ -2762,7 +2748,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 35
+                            "ioValue": 0
                         },
                         {
                             "name": "zDist",
@@ -2792,21 +2778,9 @@
                     "ap2ID": 819758
                 },
                 {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "W",
-                    "ap1ID": 267744,
-                    "ap2ID": 256584
-                },
-                {
                     "ap1Name": "result",
                     "ap2Name": "xDist",
                     "ap1ID": 696891,
-                    "ap2ID": 150835
-                },
-                {
-                    "ap1Name": "result",
-                    "ap2Name": "yDist",
-                    "ap1ID": 256584,
                     "ap2ID": 150835
                 },
                 {
@@ -3007,6 +2981,10 @@
                         {
                             "name": "3D shape 631124",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 741005",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -3113,6 +3091,12 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 223411",
                     "ap1ID": 372159,
+                    "ap2ID": 247430
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 631124",
+                    "ap1ID": 151141,
                     "ap2ID": 247430
                 },
                 {
