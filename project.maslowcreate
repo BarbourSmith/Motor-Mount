@@ -2678,17 +2678,9 @@
                 {
                     "atomType": "Input",
                     "name": "Length",
-                    "x": 70,
-                    "y": 82,
+                    "x": 158,
+                    "y": 135,
                     "uniqueID": 196045,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Width",
-                    "x": 66,
-                    "y": 168,
-                    "uniqueID": 267744,
                     "ioValues": []
                 },
                 {
@@ -2701,6 +2693,14 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Width",
+                    "x": 185,
+                    "y": 230,
+                    "uniqueID": 267744,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Equation",
                     "name": "Equation",
                     "x": 491,
@@ -2708,33 +2708,25 @@
                     "uniqueID": 696891,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 1
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 1
+                            "name": "L",
+                            "ioValue": 160
                         }
                     ],
-                    "currentEquation": "x + y"
+                    "currentEquation": "L/2"
                 },
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 505,
+                    "x": 506,
                     "y": 228,
                     "uniqueID": 256584,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 1
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 1
+                            "name": "W",
+                            "ioValue": 35
                         }
                     ],
-                    "currentEquation": "x + y"
+                    "currentEquation": "W/2"
                 },
                 {
                     "atomType": "Rotate",
@@ -2766,11 +2758,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 80
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 17.5
                         },
                         {
                             "name": "zDist",
@@ -2788,10 +2780,34 @@
             ],
             "allConnectors": [
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "L",
+                    "ap1ID": 196045,
+                    "ap2ID": 696891
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 439770,
                     "ap2ID": 819758
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "W",
+                    "ap1ID": 267744,
+                    "ap2ID": 256584
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap1ID": 696891,
+                    "ap2ID": 150835
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap1ID": 256584,
+                    "ap2ID": 150835
                 },
                 {
                     "ap1Name": "geometry",
