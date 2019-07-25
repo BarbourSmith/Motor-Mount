@@ -1278,8 +1278,8 @@
         {
             "atomType": "Molecule",
             "name": "Long Tab",
-            "x": 668,
-            "y": 129,
+            "x": 654,
+            "y": 115,
             "uniqueID": 477608,
             "ioValues": [
                 {
@@ -1664,8 +1664,8 @@
         {
             "atomType": "Molecule",
             "name": "Little Tab",
-            "x": 657,
-            "y": 189,
+            "x": 656,
+            "y": 194,
             "uniqueID": 841084,
             "ioValues": [
                 {
@@ -1763,7 +1763,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 20
+                            "ioValue": 30
                         }
                     ]
                 },
@@ -2203,8 +2203,8 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 435,
-            "y": 83,
+            "x": 429,
+            "y": 86,
             "uniqueID": 740020,
             "ioValues": [
                 {
@@ -2286,8 +2286,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Long Tab",
-                    "x": 668,
-                    "y": 129,
+                    "x": 654,
+                    "y": 115,
                     "uniqueID": 477608,
                     "ioValues": [
                         {
@@ -2311,8 +2311,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Little Tab",
-                    "x": 657,
-                    "y": 189,
+                    "x": 656,
+                    "y": 194,
                     "uniqueID": 841084,
                     "ioValues": [
                         {
@@ -2895,8 +2895,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 435,
-                    "y": 83,
+                    "x": 429,
+                    "y": 86,
                     "uniqueID": 740020,
                     "ioValues": [
                         {
