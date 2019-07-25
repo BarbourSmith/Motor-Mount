@@ -2661,30 +2661,86 @@
             "atomType": "Molecule",
             "name": "Molecule",
             "x": 435,
-            "y": 206,
+            "y": 211,
             "uniqueID": 151141,
             "ioValues": [
                 {
-                    "name": "Input905634",
-                    "ioValue": 10
+                    "name": "Length",
+                    "ioValue": 160
+                },
+                {
+                    "name": "Width",
+                    "ioValue": 35
                 }
             ],
             "topLevel": false,
             "allAtoms": [
                 {
+                    "atomType": "Input",
+                    "name": "Length",
+                    "x": 70,
+                    "y": 82,
+                    "uniqueID": 196045,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Width",
+                    "x": 66,
+                    "y": 168,
+                    "uniqueID": 267744,
+                    "ioValues": []
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "Bearing Block",
-                    "x": 280,
-                    "y": 140,
+                    "x": 214,
+                    "y": 39,
                     "uniqueID": 439770,
                     "projectID": "198286049",
                     "ioValues": []
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 491,
+                    "y": 140,
+                    "uniqueID": 696891,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 1
+                        }
+                    ],
+                    "currentEquation": "x + y"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 505,
+                    "y": 228,
+                    "uniqueID": 256584,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 1
+                        }
+                    ],
+                    "currentEquation": "x + y"
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 573,
-                    "y": 115,
+                    "x": 603,
+                    "y": 47,
                     "uniqueID": 819758,
                     "ioValues": [
                         {
@@ -2700,14 +2756,6 @@
                             "ioValue": -90
                         }
                     ]
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Input905634",
-                    "x": 641,
-                    "y": 227,
-                    "uniqueID": 196045,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Translate",
@@ -2908,12 +2956,16 @@
                     "atomType": "Molecule",
                     "name": "Molecule",
                     "x": 435,
-                    "y": 206,
+                    "y": 211,
                     "uniqueID": 151141,
                     "ioValues": [
                         {
-                            "name": "Input905634",
-                            "ioValue": 10
+                            "name": "Length",
+                            "ioValue": 160
+                        },
+                        {
+                            "name": "Width",
+                            "ioValue": 35
                         }
                     ]
                 },
@@ -2975,6 +3027,12 @@
                 },
                 {
                     "ap1Name": "number",
+                    "ap2Name": "Length",
+                    "ap1ID": 877702,
+                    "ap2ID": 151141
+                },
+                {
+                    "ap1Name": "number",
                     "ap2Name": "Width",
                     "ap1ID": 185248,
                     "ap2ID": 740020
@@ -2990,6 +3048,12 @@
                     "ap2Name": "Width",
                     "ap1ID": 185248,
                     "ap2ID": 626485
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Width",
+                    "ap1ID": 185248,
+                    "ap2ID": 151141
                 },
                 {
                     "ap1Name": "number",
