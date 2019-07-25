@@ -549,8 +549,8 @@
         {
             "atomType": "Molecule",
             "name": "Down Tab",
-            "x": 342,
-            "y": 183,
+            "x": 341,
+            "y": 182,
             "uniqueID": 205590,
             "ioValues": [
                 {
@@ -1278,8 +1278,8 @@
         {
             "atomType": "Molecule",
             "name": "Long Tab",
-            "x": 664,
-            "y": 124,
+            "x": 668,
+            "y": 129,
             "uniqueID": 477608,
             "ioValues": [
                 {
@@ -1376,8 +1376,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Down Tab",
-                    "x": 342,
-                    "y": 183,
+                    "x": 341,
+                    "y": 182,
                     "uniqueID": 205590,
                     "ioValues": [
                         {
@@ -2203,8 +2203,8 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 434,
-            "y": 86,
+            "x": 435,
+            "y": 83,
             "uniqueID": 740020,
             "ioValues": [
                 {
@@ -2286,8 +2286,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Long Tab",
-                    "x": 664,
-                    "y": 124,
+                    "x": 668,
+                    "y": 129,
                     "uniqueID": 477608,
                     "ioValues": [
                         {
@@ -2895,8 +2895,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 434,
-                    "y": 86,
+                    "x": 435,
+                    "y": 83,
                     "uniqueID": 740020,
                     "ioValues": [
                         {
