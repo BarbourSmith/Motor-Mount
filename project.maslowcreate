@@ -1906,7 +1906,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 11
+                            "ioValue": 16
                         },
                         {
                             "name": "zDist",
