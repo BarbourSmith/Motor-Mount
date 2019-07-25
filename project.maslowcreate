@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Metal Base",
-            "x": 433,
-            "y": 44,
+            "x": 432,
+            "y": 34,
             "uniqueID": 626485,
             "ioValues": [
                 {
@@ -2203,8 +2203,8 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 429,
-            "y": 117,
+            "x": 434,
+            "y": 86,
             "uniqueID": 740020,
             "ioValues": [
                 {
@@ -2468,8 +2468,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor",
-            "x": 440,
-            "y": 175,
+            "x": 436,
+            "y": 146,
             "uniqueID": 372159,
             "ioValues": [
                 {
@@ -2528,7 +2528,7 @@
                     "name": "Eton Motor Assembly",
                     "x": 399,
                     "y": 221,
-                    "uniqueID": 946391,
+                    "uniqueID": 986958,
                     "projectID": "197565793",
                     "ioValues": []
                 },
@@ -2537,7 +2537,7 @@
                     "name": "Eton Motor Assembly",
                     "x": 399,
                     "y": 221,
-                    "uniqueID": 986958,
+                    "uniqueID": 946391,
                     "projectID": "197565793",
                     "ioValues": []
                 },
@@ -2659,6 +2659,56 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 438,
+            "y": 209,
+            "uniqueID": 151141,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Bearing Block",
+                    "x": 280,
+                    "y": 140,
+                    "uniqueID": 439770,
+                    "projectID": "198286049",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 489,
+                    "y": 73,
+                    "uniqueID": 819758,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Motor Mount",
             "x": 0,
             "y": 0,
@@ -2734,8 +2784,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Metal Base",
-                    "x": 433,
-                    "y": 44,
+                    "x": 432,
+                    "y": 34,
                     "uniqueID": 626485,
                     "ioValues": [
                         {
@@ -2755,8 +2805,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 429,
-                    "y": 117,
+                    "x": 434,
+                    "y": 86,
                     "uniqueID": 740020,
                     "ioValues": [
                         {
@@ -2780,8 +2830,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor",
-                    "x": 440,
-                    "y": 175,
+                    "x": 436,
+                    "y": 146,
                     "uniqueID": 372159,
                     "ioValues": [
                         {
@@ -2801,6 +2851,14 @@
                             "ioValue": 160
                         }
                     ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Molecule",
+                    "x": 438,
+                    "y": 209,
+                    "uniqueID": 151141,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Assembly",
