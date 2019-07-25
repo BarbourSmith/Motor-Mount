@@ -2660,8 +2660,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 435,
-            "y": 211,
+            "x": 425,
+            "y": 207,
             "uniqueID": 151141,
             "ioValues": [
                 {
@@ -2712,7 +2712,7 @@
                             "ioValue": 160
                         }
                     ],
-                    "currentEquation": "L/2"
+                    "currentEquation": "L/-2"
                 },
                 {
                     "atomType": "Equation",
@@ -2726,7 +2726,7 @@
                             "ioValue": 35
                         }
                     ],
-                    "currentEquation": "W/2"
+                    "currentEquation": "W/-2"
                 },
                 {
                     "atomType": "Rotate",
@@ -2758,11 +2758,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 80
+                            "ioValue": -80
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 17.5
+                            "ioValue": -17.5
                         },
                         {
                             "name": "zDist",
@@ -2971,8 +2971,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Molecule",
-                    "x": 435,
-                    "y": 211,
+                    "x": 425,
+                    "y": 207,
                     "uniqueID": 151141,
                     "ioValues": [
                         {
@@ -3005,11 +3005,7 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 729409",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 263640",
+                            "name": "3D shape 463657",
                             "ioValue": 10
                         }
                     ]
@@ -3117,12 +3113,6 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 223411",
                     "ap1ID": 372159,
-                    "ap2ID": 247430
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 729409",
-                    "ap1ID": 151141,
                     "ap2ID": 247430
                 },
                 {
