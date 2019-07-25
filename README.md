@@ -133,7 +133,7 @@ undefined
 ## Center
 
 
-## Molecule
+## Encoder PCB
 
 
 ## Bearing Block
@@ -151,13 +151,7 @@ undefined
 ## Bolts
 
 
-## M4 Bolt
-
-
-## Head
-
-
-## Shaft
+## M4x20 Bolt
 
 
 undefined

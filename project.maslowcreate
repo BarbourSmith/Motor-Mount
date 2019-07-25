@@ -2659,8 +2659,8 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 429,
+            "name": "Encoder PCB",
+            "x": 427,
             "y": 212,
             "uniqueID": 151141,
             "ioValues": [
@@ -2944,8 +2944,8 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Molecule",
-                    "x": 429,
+                    "name": "Encoder PCB",
+                    "x": 427,
                     "y": 212,
                     "uniqueID": 151141,
                     "ioValues": [
