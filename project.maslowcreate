@@ -2660,8 +2660,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 425,
-            "y": 207,
+            "x": 418,
+            "y": 203,
             "uniqueID": 151141,
             "ioValues": [
                 {
@@ -2726,7 +2726,7 @@
                             "ioValue": 35
                         }
                     ],
-                    "currentEquation": "W/-2"
+                    "currentEquation": "W"
                 },
                 {
                     "atomType": "Rotate",
@@ -2762,7 +2762,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -17.5
+                            "ioValue": 35
                         },
                         {
                             "name": "zDist",
@@ -2971,8 +2971,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Molecule",
-                    "x": 425,
-                    "y": 207,
+                    "x": 418,
+                    "y": 203,
                     "uniqueID": 151141,
                     "ioValues": [
                         {
@@ -3005,7 +3005,7 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 463657",
+                            "name": "3D shape 631124",
                             "ioValue": 10
                         }
                     ]
