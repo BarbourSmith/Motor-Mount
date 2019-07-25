@@ -2660,10 +2660,15 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 438,
-            "y": 209,
+            "x": 435,
+            "y": 206,
             "uniqueID": 151141,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Input905634",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -2688,13 +2693,21 @@
                         },
                         {
                             "name": "y-axis degrees",
-                            "ioValue": 0
+                            "ioValue": 90
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 0
+                            "ioValue": -90
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Input905634",
+                    "x": 641,
+                    "y": 227,
+                    "uniqueID": 196045,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Translate",
@@ -2894,10 +2907,15 @@
                 {
                     "atomType": "Molecule",
                     "name": "Molecule",
-                    "x": 438,
-                    "y": 209,
+                    "x": 435,
+                    "y": 206,
                     "uniqueID": 151141,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Input905634",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Assembly",
