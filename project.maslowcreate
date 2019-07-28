@@ -9,7 +9,7 @@
             "ioValues": [
                 {
                     "name": "Width",
-                    "ioValue": 35
+                    "ioValue": 25
                 },
                 {
                     "name": "Length",
@@ -77,7 +77,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 35
+                            "ioValue": 25
                         }
                     ]
                 },
@@ -344,7 +344,7 @@
                 },
                 {
                     "name": "Width",
-                    "ioValue": 35
+                    "ioValue": 25
                 },
                 {
                     "name": "Length",
@@ -420,7 +420,7 @@
                     "ioValues": [
                         {
                             "name": "W",
-                            "ioValue": 35
+                            "ioValue": 25
                         }
                     ],
                     "currentEquation": "W/-2"
@@ -473,7 +473,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -17.5
+                            "ioValue": -12.5
                         },
                         {
                             "name": "zDist",
@@ -563,7 +563,7 @@
                 },
                 {
                     "name": "Width",
-                    "ioValue": 35
+                    "ioValue": 25
                 },
                 {
                     "name": "Length",
@@ -700,7 +700,7 @@
                         },
                         {
                             "name": "W",
-                            "ioValue": 35
+                            "ioValue": 25
                         }
                     ],
                     "currentEquation": "H + (W-1)/2"
@@ -714,7 +714,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 37
+                            "ioValue": 32
                         }
                     ]
                 },
@@ -745,7 +745,7 @@
                         },
                         {
                             "name": "W",
-                            "ioValue": 37
+                            "ioValue": 32
                         }
                     ],
                     "currentEquation": "H - W"
@@ -767,7 +767,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -17
+                            "ioValue": -12
                         }
                     ]
                 },
@@ -1026,7 +1026,7 @@
             "ioValues": [
                 {
                     "name": "Width",
-                    "ioValue": 35
+                    "ioValue": 25
                 },
                 {
                     "name": "Thickness",
@@ -1093,7 +1093,7 @@
                         },
                         {
                             "name": "W",
-                            "ioValue": 35
+                            "ioValue": 25
                         }
                     ],
                     "currentEquation": "T + (W-1)/2"
@@ -1134,11 +1134,11 @@
                         },
                         {
                             "name": "Length",
-                            "ioValue": 37
+                            "ioValue": 32
                         },
                         {
                             "name": "Tab Height",
-                            "ioValue": 35
+                            "ioValue": 25
                         }
                     ]
                 },
@@ -1296,7 +1296,7 @@
                 },
                 {
                     "name": "Width",
-                    "ioValue": 35
+                    "ioValue": 25
                 }
             ],
             "topLevel": false,
@@ -1390,7 +1390,7 @@
                         },
                         {
                             "name": "Width",
-                            "ioValue": 35
+                            "ioValue": 25
                         },
                         {
                             "name": "Length",
@@ -1407,7 +1407,7 @@
                     "ioValues": [
                         {
                             "name": "Width",
-                            "ioValue": 35
+                            "ioValue": 25
                         },
                         {
                             "name": "Thickness",
@@ -1492,7 +1492,7 @@
                     "ioValues": [
                         {
                             "name": "W",
-                            "ioValue": 35
+                            "ioValue": 25
                         }
                     ],
                     "currentEquation": "W/-2"
@@ -1510,7 +1510,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -17.5
+                            "ioValue": -12.5
                         },
                         {
                             "name": "zDist",
@@ -1682,7 +1682,7 @@
                 },
                 {
                     "name": "Width",
-                    "ioValue": 35
+                    "ioValue": 25
                 }
             ],
             "topLevel": false,
@@ -1745,7 +1745,7 @@
                         },
                         {
                             "name": "w",
-                            "ioValue": 35
+                            "ioValue": 25
                         }
                     ],
                     "currentEquation": "h + (w-1)/2"
@@ -1837,7 +1837,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 37
+                            "ioValue": 32
                         }
                     ]
                 },
@@ -1962,7 +1962,7 @@
                     "ioValues": [
                         {
                             "name": "W",
-                            "ioValue": 35
+                            "ioValue": 25
                         }
                     ],
                     "currentEquation": "W/2"
@@ -2001,7 +2001,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 17.5
+                            "ioValue": 12.5
                         },
                         {
                             "name": "zDist",
@@ -2213,7 +2213,7 @@
                 },
                 {
                     "name": "Width",
-                    "ioValue": 35
+                    "ioValue": 25
                 },
                 {
                     "name": "Thickness",
@@ -2275,7 +2275,7 @@
                         },
                         {
                             "name": "Width",
-                            "ioValue": 35
+                            "ioValue": 25
                         },
                         {
                             "name": "Length",
@@ -2304,7 +2304,7 @@
                         },
                         {
                             "name": "Width",
-                            "ioValue": 35
+                            "ioValue": 25
                         }
                     ]
                 },
@@ -2329,7 +2329,7 @@
                         },
                         {
                             "name": "Width",
-                            "ioValue": 35
+                            "ioValue": 25
                         }
                     ]
                 },
@@ -2474,7 +2474,7 @@
             "ioValues": [
                 {
                     "name": "Width",
-                    "ioValue": 35
+                    "ioValue": 25
                 },
                 {
                     "name": "Bend Radius",
@@ -2564,7 +2564,7 @@
                     "ioValues": [
                         {
                             "name": "W",
-                            "ioValue": 35
+                            "ioValue": 25
                         },
                         {
                             "name": "R",
@@ -2590,7 +2590,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -26.5
+                            "ioValue": -21.5
                         },
                         {
                             "name": "zDist",
@@ -2670,7 +2670,7 @@
                 },
                 {
                     "name": "Width",
-                    "ioValue": 35
+                    "ioValue": 25
                 },
                 {
                     "name": "Bend Radius",
@@ -2724,7 +2724,7 @@
                     "ioValues": [
                         {
                             "name": "W",
-                            "ioValue": 35
+                            "ioValue": 25
                         },
                         {
                             "name": "R",
@@ -2747,7 +2747,7 @@
                     "ioValues": [
                         {
                             "name": "Distance Between Walls",
-                            "ioValue": 53
+                            "ioValue": 43
                         }
                     ]
                 },
@@ -2760,7 +2760,7 @@
                     "ioValues": [
                         {
                             "name": "W",
-                            "ioValue": 35
+                            "ioValue": 25
                         },
                         {
                             "name": "R",
@@ -2821,7 +2821,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 26.5
+                            "ioValue": 21.5
                         },
                         {
                             "name": "zDist",
@@ -2949,7 +2949,7 @@
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 35
+                            "ioValue": 25
                         }
                     ]
                 },
@@ -3001,7 +3001,7 @@
                     "ioValues": [
                         {
                             "name": "Width",
-                            "ioValue": 35
+                            "ioValue": 25
                         },
                         {
                             "name": "Length",
@@ -3026,7 +3026,7 @@
                         },
                         {
                             "name": "Width",
-                            "ioValue": 35
+                            "ioValue": 25
                         },
                         {
                             "name": "Thickness",
@@ -3047,7 +3047,7 @@
                     "ioValues": [
                         {
                             "name": "Width",
-                            "ioValue": 35
+                            "ioValue": 25
                         },
                         {
                             "name": "Bend Radius",
@@ -3076,7 +3076,7 @@
                         },
                         {
                             "name": "Width",
-                            "ioValue": 35
+                            "ioValue": 25
                         },
                         {
                             "name": "Bend Radius",
