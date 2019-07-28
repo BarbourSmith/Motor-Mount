@@ -2754,6 +2754,28 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
+                    "x": 291,
+                    "y": 280,
+                    "uniqueID": 395536,
+                    "ioValues": [
+                        {
+                            "name": "W",
+                            "ioValue": 35
+                        },
+                        {
+                            "name": "R",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "T",
+                            "ioValue": 4
+                        }
+                    ],
+                    "currentEquation": "W/2 + R + T"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
                     "x": 491,
                     "y": 140,
                     "uniqueID": 696891,
@@ -2799,7 +2821,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 34
+                            "ioValue": 26.5
                         },
                         {
                             "name": "zDist",
@@ -2830,15 +2852,33 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "W",
+                    "ap1ID": 267744,
+                    "ap2ID": 395536
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "R",
                     "ap1ID": 545458,
                     "ap2ID": 476475
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "R",
+                    "ap1ID": 545458,
+                    "ap2ID": 395536
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "T",
                     "ap1ID": 187155,
                     "ap2ID": 476475
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "T",
+                    "ap1ID": 187155,
+                    "ap2ID": 395536
                 },
                 {
                     "ap1Name": "result",
@@ -2851,6 +2891,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": 519614,
                     "ap2ID": 224638
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap1ID": 395536,
+                    "ap2ID": 150835
                 },
                 {
                     "ap1Name": "result",
