@@ -2660,8 +2660,8 @@
         {
             "atomType": "Molecule",
             "name": "Encoder PCB",
-            "x": 429,
-            "y": 216,
+            "x": 430,
+            "y": 219,
             "uniqueID": 151141,
             "ioValues": [
                 {
@@ -2674,11 +2674,11 @@
                 },
                 {
                     "name": "Bend Radius",
-                    "ioValue": 10
+                    "ioValue": 5
                 },
                 {
                     "name": "Thickness",
-                    "ioValue": 10
+                    "ioValue": 4
                 }
             ],
             "topLevel": false,
@@ -2728,11 +2728,11 @@
                         },
                         {
                             "name": "R",
-                            "ioValue": 10
+                            "ioValue": 5
                         },
                         {
                             "name": "T",
-                            "ioValue": 10
+                            "ioValue": 4
                         }
                     ],
                     "currentEquation": "W + 2*R + 2*T"
@@ -2747,7 +2747,7 @@
                     "ioValues": [
                         {
                             "name": "Distance Between Walls",
-                            "ioValue": 75
+                            "ioValue": 53
                         }
                     ]
                 },
@@ -3020,8 +3020,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Encoder PCB",
-                    "x": 429,
-                    "y": 216,
+                    "x": 430,
+                    "y": 219,
                     "uniqueID": 151141,
                     "ioValues": [
                         {
@@ -3034,11 +3034,11 @@
                         },
                         {
                             "name": "Bend Radius",
-                            "ioValue": 10
+                            "ioValue": 5
                         },
                         {
                             "name": "Thickness",
-                            "ioValue": 10
+                            "ioValue": 4
                         }
                     ]
                 },
@@ -3148,6 +3148,12 @@
                 },
                 {
                     "ap1Name": "number",
+                    "ap2Name": "Thickness",
+                    "ap1ID": 177738,
+                    "ap2ID": 151141
+                },
+                {
+                    "ap1Name": "number",
                     "ap2Name": "Bend Radius",
                     "ap1ID": 812575,
                     "ap2ID": 740020
@@ -3157,6 +3163,12 @@
                     "ap2Name": "Bend Radius",
                     "ap1ID": 812575,
                     "ap2ID": 372159
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Bend Radius",
+                    "ap1ID": 812575,
+                    "ap2ID": 151141
                 },
                 {
                     "ap1Name": "Geometry",
