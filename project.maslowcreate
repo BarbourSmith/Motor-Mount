@@ -2660,8 +2660,8 @@
         {
             "atomType": "Molecule",
             "name": "Encoder PCB",
-            "x": 427,
-            "y": 225,
+            "x": 431,
+            "y": 217,
             "uniqueID": 151141,
             "ioValues": [
                 {
@@ -3066,8 +3066,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Encoder PCB",
-                    "x": 427,
-                    "y": 225,
+                    "x": 431,
+                    "y": 217,
                     "uniqueID": 151141,
                     "ioValues": [
                         {
