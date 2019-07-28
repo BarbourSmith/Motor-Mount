@@ -2660,7 +2660,7 @@
         {
             "atomType": "Molecule",
             "name": "Encoder PCB",
-            "x": 425,
+            "x": 429,
             "y": 216,
             "uniqueID": 151141,
             "ioValues": [
@@ -2678,9 +2678,17 @@
                 {
                     "atomType": "Input",
                     "name": "Length",
-                    "x": 158,
-                    "y": 135,
+                    "x": 96,
+                    "y": 120,
                     "uniqueID": 196045,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Width",
+                    "x": 66,
+                    "y": 197,
+                    "uniqueID": 267744,
                     "ioValues": []
                 },
                 {
@@ -2690,14 +2698,6 @@
                     "y": 39,
                     "uniqueID": 439770,
                     "projectID": "198286049",
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Width",
-                    "x": 185,
-                    "y": 230,
-                    "uniqueID": 267744,
                     "ioValues": []
                 },
                 {
@@ -2945,7 +2945,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "Encoder PCB",
-                    "x": 425,
+                    "x": 429,
                     "y": 216,
                     "uniqueID": 151141,
                     "ioValues": [
