@@ -10,3 +10,6 @@
 |M4 x 20mm Bolt|1|0.119|https://www.mcmaster.com/91239a152|
 |M4 x 20mm Bolt|1|0.119|https://www.mcmaster.com/91239a152|
 |Bearing|1|1.5|https://www.amazon.com/RollerBones-Bones-Roller-Bearings/dp/B0094J6GQ0|
+|M4 x 20mm Bolt|1|0.119|https://www.mcmaster.com/91239a152|
+|M4 x 20mm Bolt|1|0.119|https://www.mcmaster.com/91239a152|
+|Bearing|1|1.5|https://www.amazon.com/RollerBones-Bones-Roller-Bearings/dp/B0094J6GQ0|

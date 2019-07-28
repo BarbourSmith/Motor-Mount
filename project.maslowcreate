@@ -2671,6 +2671,14 @@
                 {
                     "name": "Width",
                     "ioValue": 35
+                },
+                {
+                    "name": "Bend Radius",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Thickness",
+                    "ioValue": 10
                 }
             ],
             "topLevel": false,
@@ -2692,13 +2700,56 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "Bearing Block",
-                    "x": 214,
-                    "y": 39,
-                    "uniqueID": 439770,
-                    "projectID": "198286049",
+                    "atomType": "Input",
+                    "name": "Bend Radius",
+                    "x": 52,
+                    "y": 243,
+                    "uniqueID": 545458,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Thickness",
+                    "x": 54,
+                    "y": 288,
+                    "uniqueID": 187155,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 284,
+                    "y": 222,
+                    "uniqueID": 476475,
+                    "ioValues": [
+                        {
+                            "name": "W",
+                            "ioValue": 35
+                        },
+                        {
+                            "name": "R",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "T",
+                            "ioValue": 10
+                        }
+                    ],
+                    "currentEquation": "W + 2*R + 2*T"
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Roller Assembly",
+                    "x": 367,
+                    "y": 59,
+                    "uniqueID": 519614,
+                    "projectID": "197766474",
+                    "ioValues": [
+                        {
+                            "name": "Distance Between Walls",
+                            "ioValue": 75
+                        }
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -2772,9 +2823,33 @@
                     "ap2ID": 696891
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "W",
+                    "ap1ID": 267744,
+                    "ap2ID": 476475
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "R",
+                    "ap1ID": 545458,
+                    "ap2ID": 476475
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "T",
+                    "ap1ID": 187155,
+                    "ap2ID": 476475
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "Distance Between Walls",
+                    "ap1ID": 476475,
+                    "ap2ID": 519614
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 439770,
+                    "ap1ID": 519614,
                     "ap2ID": 224638
                 },
                 {
@@ -2956,6 +3031,14 @@
                         {
                             "name": "Width",
                             "ioValue": 35
+                        },
+                        {
+                            "name": "Bend Radius",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Thickness",
+                            "ioValue": 10
                         }
                     ]
                 },
