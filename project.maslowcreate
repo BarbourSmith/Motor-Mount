@@ -2660,8 +2660,8 @@
         {
             "atomType": "Molecule",
             "name": "Roller Assembly",
-            "x": 432,
-            "y": 214,
+            "x": 430,
+            "y": 216,
             "uniqueID": 151141,
             "ioValues": [
                 {
@@ -3066,8 +3066,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Roller Assembly",
-                    "x": 432,
-                    "y": 214,
+                    "x": 430,
+                    "y": 216,
                     "uniqueID": 151141,
                     "ioValues": [
                         {
