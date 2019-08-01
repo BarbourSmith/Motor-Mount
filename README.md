@@ -82,10 +82,25 @@ undefined
 ## Maslow Spool
 
 
+## Center
+
+
 ## Sides
 
 
-## Center
+## Mounting Bolts
+
+
+## M4 Bolt
+
+
+## Head
+
+
+## Shaft
+
+
+undefined
 
 
 ## Eton Motor Assembly
@@ -127,10 +142,25 @@ undefined
 ## Maslow Spool
 
 
+## Center
+
+
 ## Sides
 
 
-## Center
+## Mounting Bolts
+
+
+## M4 Bolt
+
+
+## Head
+
+
+## Shaft
+
+
+undefined
 
 
 ## Roller Assembly

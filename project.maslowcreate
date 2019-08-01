@@ -173,13 +173,6 @@
                     ]
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 974,
-                    "y": 164,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 987,
@@ -220,6 +213,13 @@
                             "ioValue": 4
                         }
                     ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -484,7 +484,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 974,
+                    "x": 1316,
                     "y": 164,
                     "ioValues": []
                 }
@@ -836,13 +836,6 @@
                     ]
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 974,
-                    "y": 164,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 1079,
@@ -862,6 +855,13 @@
                             "ioValue": 9
                         }
                     ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -1172,13 +1172,6 @@
                     ]
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 974,
-                    "y": 164,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 1052,
@@ -1198,6 +1191,13 @@
                             "ioValue": 29
                         }
                     ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -1498,13 +1498,6 @@
                     "currentEquation": "W/-2"
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 974,
-                    "y": 164,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 1159,
@@ -1524,6 +1517,13 @@
                             "ioValue": 0
                         }
                     ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -1954,13 +1954,6 @@
                     ]
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 974,
-                    "y": 164,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Equation",
                     "name": "Equation",
                     "x": 1036,
@@ -2015,6 +2008,13 @@
                             "ioValue": 0
                         }
                     ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -2334,13 +2334,6 @@
                     ]
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 974,
-                    "y": 164,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 1163,
@@ -2364,6 +2357,13 @@
                             "ioValue": 10
                         }
                     ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -2601,7 +2601,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 974,
+                    "x": 1316,
                     "y": 164,
                     "ioValues": []
                 }
@@ -2832,7 +2832,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 974,
+                    "x": 1316,
                     "y": 164,
                     "ioValues": []
                 }
@@ -3120,7 +3120,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 974,
+                    "x": 1316,
                     "y": 164,
                     "ioValues": []
                 }
