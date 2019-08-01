@@ -2,9 +2,29 @@
     "molecules": [
         {
             "atomType": "Molecule",
+            "name": "Fillets",
+            "x": 491,
+            "y": 46,
+            "uniqueID": 593403,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Metal Base",
-            "x": 432,
-            "y": 34,
+            "x": 429,
+            "y": 32,
             "uniqueID": 626485,
             "ioValues": [
                 {
@@ -52,23 +72,10 @@
                     ]
                 },
                 {
-                    "atomType": "Constant",
-                    "name": "Ring Thickness",
-                    "x": 118,
-                    "y": 311,
-                    "uniqueID": 252007,
-                    "ioValues": [
-                        {
-                            "name": "number",
-                            "ioValue": 20
-                        }
-                    ]
-                },
-                {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 378,
-                    "y": 79,
+                    "x": 297,
+                    "y": 82,
                     "uniqueID": 566468,
                     "ioValues": [
                         {
@@ -78,6 +85,19 @@
                         {
                             "name": "y length",
                             "ioValue": 35
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Constant",
+                    "name": "Ring Thickness",
+                    "x": 118,
+                    "y": 311,
+                    "uniqueID": 252007,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 20
                         }
                     ]
                 },
@@ -98,6 +118,14 @@
                         }
                     ],
                     "currentEquation": "(2*x) + y"
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Fillets",
+                    "x": 491,
+                    "y": 46,
+                    "uniqueID": 593403,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Equation",
@@ -254,16 +282,16 @@
                     "ap2ID": 787519
                 },
                 {
-                    "ap1Name": "number",
-                    "ap2Name": "x",
-                    "ap1ID": 252007,
-                    "ap2ID": 787519
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 932840",
                     "ap1ID": 566468,
                     "ap2ID": 728409
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "x",
+                    "ap1ID": 252007,
+                    "ap2ID": 787519
                 },
                 {
                     "ap1Name": "result",
@@ -2995,8 +3023,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Metal Base",
-                    "x": 432,
-                    "y": 34,
+                    "x": 429,
+                    "y": 32,
                     "uniqueID": 626485,
                     "ioValues": [
                         {
