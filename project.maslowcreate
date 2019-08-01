@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Fillets",
-            "x": 278,
-            "y": 42,
+            "x": 272,
+            "y": 40,
             "uniqueID": 593403,
             "ioValues": [
                 {
@@ -77,7 +77,7 @@
                             "ioValue": 160
                         }
                     ],
-                    "currentEquation": "L/2 + 30"
+                    "currentEquation": "L/2 + 15"
                 },
                 {
                     "atomType": "Rectangle",
@@ -126,11 +126,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 110
+                            "ioValue": 95
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -5
+                            "ioValue": -10
                         },
                         {
                             "name": "zDist",
@@ -147,7 +147,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 110
+                            "ioValue": 95
                         },
                         {
                             "name": "yDist",
@@ -315,8 +315,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Fillets",
-                    "x": 278,
-                    "y": 42,
+                    "x": 272,
+                    "y": 40,
                     "uniqueID": 593403,
                     "ioValues": [
                         {
