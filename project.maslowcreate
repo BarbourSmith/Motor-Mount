@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Fillets",
-            "x": 282,
-            "y": 38,
+            "x": 278,
+            "y": 42,
             "uniqueID": 593403,
             "ioValues": [
                 {
@@ -130,7 +130,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": -5
                         },
                         {
                             "name": "zDist",
@@ -141,8 +141,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 525,
-                    "y": 274,
+                    "x": 542,
+                    "y": 234,
                     "uniqueID": 742134,
                     "ioValues": [
                         {
@@ -277,8 +277,8 @@
         {
             "atomType": "Molecule",
             "name": "Metal Base",
-            "x": 429,
-            "y": 32,
+            "x": 434,
+            "y": 28,
             "uniqueID": 626485,
             "ioValues": [
                 {
@@ -315,8 +315,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Fillets",
-                    "x": 282,
-                    "y": 38,
+                    "x": 278,
+                    "y": 42,
                     "uniqueID": 593403,
                     "ioValues": [
                         {
@@ -409,28 +409,6 @@
                     "currentEquation": "L/2 + D/2"
                 },
                 {
-                    "atomType": "ShrinkWrap",
-                    "name": "Shrink Wrap",
-                    "x": 513,
-                    "y": 50,
-                    "uniqueID": 747527,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 411962",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 352726",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 765778",
-                            "ioValue": 10
-                        }
-                    ],
-                    "closedSelection": 0
-                },
-                {
                     "atomType": "Circle",
                     "name": "Circle",
                     "x": 458,
@@ -440,6 +418,27 @@
                         {
                             "name": "diameter",
                             "ioValue": 68
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 529,
+                    "y": 59,
+                    "uniqueID": 704025,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 112851",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 997092",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 554940",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -497,11 +496,11 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 932840",
+                            "name": "3D shape 798529",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 798529",
+                            "name": "3D shape 517537",
                             "ioValue": 10
                         }
                     ]
@@ -573,6 +572,12 @@
                     "ap2ID": 747527
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 997092",
+                    "ap1ID": 593403,
+                    "ap2ID": 704025
+                },
+                {
                     "ap1Name": "number",
                     "ap2Name": "diameter",
                     "ap1ID": 241269,
@@ -586,15 +591,9 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 932840",
+                    "ap2Name": "3D shape 112851",
                     "ap1ID": 566468,
-                    "ap2ID": 728409
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 411962",
-                    "ap1ID": 566468,
-                    "ap2ID": 747527
+                    "ap2ID": 704025
                 },
                 {
                     "ap1Name": "number",
@@ -625,6 +624,12 @@
                     "ap2Name": "geometry2",
                     "ap1ID": 427963,
                     "ap2ID": 813954
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 798529",
+                    "ap1ID": 704025,
+                    "ap2ID": 728409
                 },
                 {
                     "ap1Name": "geometry",
@@ -3332,8 +3337,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Metal Base",
-                    "x": 429,
-                    "y": 32,
+                    "x": 434,
+                    "y": 28,
                     "uniqueID": 626485,
                     "ioValues": [
                         {
