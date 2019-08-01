@@ -3,17 +3,17 @@
         {
             "atomType": "Molecule",
             "name": "Fillets",
-            "x": 491,
-            "y": 50,
+            "x": 283,
+            "y": 36,
             "uniqueID": 593403,
             "ioValues": [
                 {
                     "name": "Width",
-                    "ioValue": 10
+                    "ioValue": 35
                 },
                 {
                     "name": "Length",
-                    "ioValue": 10
+                    "ioValue": 160
                 }
             ],
             "topLevel": false,
@@ -35,6 +35,24 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 284,
+                    "y": 117,
+                    "uniqueID": 308085,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 1
+                        }
+                    ],
+                    "currentEquation": "x + y"
+                },
+                {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
                     "x": 307,
@@ -47,7 +65,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 10
+                            "ioValue": 35
                         }
                     ]
                 },
@@ -167,6 +185,12 @@
             ],
             "allConnectors": [
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "y length",
+                    "ap1ID": 349429,
+                    "ap2ID": 900550
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 900550,
@@ -249,6 +273,23 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "Fillets",
+                    "x": 283,
+                    "y": 36,
+                    "uniqueID": 593403,
+                    "ioValues": [
+                        {
+                            "name": "Width",
+                            "ioValue": 35
+                        },
+                        {
+                            "name": "Length",
+                            "ioValue": 160
+                        }
+                    ]
+                },
+                {
                     "atomType": "Constant",
                     "name": "Router Diameter",
                     "x": 110,
@@ -264,8 +305,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 297,
-                    "y": 82,
+                    "x": 287,
+                    "y": 116,
                     "uniqueID": 566468,
                     "ioValues": [
                         {
@@ -310,23 +351,6 @@
                     "currentEquation": "(2*x) + y"
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Fillets",
-                    "x": 491,
-                    "y": 50,
-                    "uniqueID": 593403,
-                    "ioValues": [
-                        {
-                            "name": "Width",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "Length",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Equation",
                     "name": "Equation",
                     "x": 466,
@@ -343,6 +367,28 @@
                         }
                     ],
                     "currentEquation": "L/2 + D/2"
+                },
+                {
+                    "atomType": "ShrinkWrap",
+                    "name": "Shrink Wrap",
+                    "x": 513,
+                    "y": 50,
+                    "uniqueID": 747527,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 411962",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 352726",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 765778",
+                            "ioValue": 10
+                        }
+                    ],
+                    "closedSelection": 0
                 },
                 {
                     "atomType": "Circle",
@@ -458,6 +504,12 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "Width",
+                    "ap1ID": 863838,
+                    "ap2ID": 593403
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "x length",
                     "ap1ID": 336250,
                     "ap2ID": 566468
@@ -467,6 +519,18 @@
                     "ap2Name": "L",
                     "ap1ID": 336250,
                     "ap2ID": 829709
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Length",
+                    "ap1ID": 336250,
+                    "ap2ID": 593403
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 352726",
+                    "ap1ID": 593403,
+                    "ap2ID": 747527
                 },
                 {
                     "ap1Name": "number",
@@ -485,6 +549,12 @@
                     "ap2Name": "3D shape 932840",
                     "ap1ID": 566468,
                     "ap2ID": 728409
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 411962",
+                    "ap1ID": 566468,
+                    "ap2ID": 747527
                 },
                 {
                     "ap1Name": "number",
