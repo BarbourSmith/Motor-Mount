@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Fillets",
-            "x": 283,
-            "y": 41,
+            "x": 282,
+            "y": 38,
             "uniqueID": 593403,
             "ioValues": [
                 {
@@ -66,6 +66,20 @@
                     ]
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 296,
+                    "y": 196,
+                    "uniqueID": 150245,
+                    "ioValues": [
+                        {
+                            "name": "L",
+                            "ioValue": 160
+                        }
+                    ],
+                    "currentEquation": "L/2 + 30"
+                },
+                {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
                     "x": 378,
@@ -112,7 +126,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 110
                         },
                         {
                             "name": "yDist",
@@ -133,11 +147,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 110
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 30
                         },
                         {
                             "name": "zDist",
@@ -193,6 +207,12 @@
                     "ap2ID": 308085
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "L",
+                    "ap1ID": 355375,
+                    "ap2ID": 150245
+                },
+                {
                     "ap1Name": "result",
                     "ap2Name": "xDist",
                     "ap1ID": 308085,
@@ -203,6 +223,18 @@
                     "ap2Name": "geometry",
                     "ap1ID": 900550,
                     "ap2ID": 485650
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap1ID": 150245,
+                    "ap2ID": 111760
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap1ID": 150245,
+                    "ap2ID": 742134
                 },
                 {
                     "ap1Name": "geometry",
@@ -283,8 +315,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Fillets",
-                    "x": 283,
-                    "y": 41,
+                    "x": 282,
+                    "y": 38,
                     "uniqueID": 593403,
                     "ioValues": [
                         {
