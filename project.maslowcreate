@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Fillets",
-            "x": 272,
-            "y": 40,
+            "x": 275,
+            "y": 38,
             "uniqueID": 593403,
             "ioValues": [
                 {
@@ -120,8 +120,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 532,
-                    "y": 172,
+                    "x": 529,
+                    "y": 174,
                     "uniqueID": 111760,
                     "ioValues": [
                         {
@@ -130,7 +130,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -10
+                            "ioValue": -15
                         },
                         {
                             "name": "zDist",
@@ -315,8 +315,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Fillets",
-                    "x": 272,
-                    "y": 40,
+                    "x": 275,
+                    "y": 38,
                     "uniqueID": 593403,
                     "ioValues": [
                         {
