@@ -8,4 +8,4 @@
 |Roller|1|$3.50|www.example.com|
 |M4 x 20mm Bolt|4|$0.48|https://www.mcmaster.com/91239a152|
 |Bearing|2|$3.00|https://www.amazon.com/RollerBones-Bones-Roller-Bearings/dp/B0094J6GQ0|
-|Total: |19|$20.375999999999998| |
+|Total: |19|$20.38| |
