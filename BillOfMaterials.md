@@ -2,9 +2,10 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|M4 Bolt|10|0.8999999999999998|https://www.mcmaster.com/92095a190|
-|ET-WGM58AE|1|11|http://www.etonm.com/|
-|Magnet|1|1.5|www.example.com|
-|Roller|1|3.5|www.example.com|
-|M4 x 20mm Bolt|4|0.476|https://www.mcmaster.com/91239a152|
-|Bearing|2|3|https://www.amazon.com/RollerBones-Bones-Roller-Bearings/dp/B0094J6GQ0|
+|M4 Bolt|$10|0.8999999999999998|https://www.mcmaster.com/92095a190|
+|ET-WGM58AE|$1|11|http://www.etonm.com/|
+|Magnet|$1|1.5|www.example.com|
+|Roller|$1|3.5|www.example.com|
+|M4 x 20mm Bolt|$4|0.476|https://www.mcmaster.com/91239a152|
+|Bearing|$2|3|https://www.amazon.com/RollerBones-Bones-Roller-Bearings/dp/B0094J6GQ0|
+|Total: |$19|20.375999999999998| |
