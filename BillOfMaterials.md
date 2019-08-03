@@ -4,9 +4,10 @@
  |----|----------|-----|-----|
 |M4 Bolt|10|$0.90|https://www.mcmaster.com/92095a190|
 |ET-WGM58AE|1|$11.00|http://www.etonm.com/|
+|Amsteel Blue 3/16|11|$0.67|http://www.amsteelblue.com/amsteel-blue-3-16-synthetic-rope-by-the-foot-4-900-lbs/|
 |Magnet|1|$1.50|www.example.com|
 |Roller|1|$3.50|www.example.com|
 |Encoder PCB|2|$14.00|www.example.com|
 |M4 x 20mm Bolt|4|$0.48|https://www.mcmaster.com/91239a152|
 |Bearing|2|$3.00|https://www.amazon.com/RollerBones-Bones-Roller-Bearings/dp/B0094J6GQ0|
-|Total: |21|$34.38| |
+|Total: |32|$35.05| |
