@@ -2804,8 +2804,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor",
-            "x": 408,
-            "y": 186,
+            "x": 405,
+            "y": 192,
             "uniqueID": 372159,
             "ioValues": [
                 {
@@ -3377,8 +3377,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor",
-                    "x": 408,
-                    "y": 186,
+                    "x": 405,
+                    "y": 192,
                     "uniqueID": 372159,
                     "ioValues": [
                         {
