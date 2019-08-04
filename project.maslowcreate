@@ -2804,8 +2804,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor",
-            "x": 436,
-            "y": 146,
+            "x": 429,
+            "y": 162,
             "uniqueID": 372159,
             "ioValues": [
                 {
@@ -2863,7 +2863,7 @@
                     "atomType": "GitHubMolecule",
                     "name": "Eton Motor Assembly",
                     "x": 399,
-                    "y": 221,
+                    "y": 227,
                     "uniqueID": 986958,
                     "projectID": "197565793",
                     "ioValues": []
@@ -2872,7 +2872,7 @@
                     "atomType": "GitHubMolecule",
                     "name": "Eton Motor Assembly",
                     "x": 399,
-                    "y": 221,
+                    "y": 227,
                     "uniqueID": 946391,
                     "projectID": "197565793",
                     "ioValues": []
@@ -2996,8 +2996,8 @@
         {
             "atomType": "Molecule",
             "name": "Roller Assembly",
-            "x": 430,
-            "y": 216,
+            "x": 439,
+            "y": 235,
             "uniqueID": 151141,
             "ioValues": [
                 {
@@ -3052,6 +3052,20 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Roller Assembly",
+                    "x": 332,
+                    "y": 63,
+                    "uniqueID": 519614,
+                    "projectID": "197766474",
+                    "ioValues": [
+                        {
+                            "name": "Distance Between Walls",
+                            "ioValue": 53
+                        }
+                    ]
+                },
+                {
                     "atomType": "Equation",
                     "name": "Equation",
                     "x": 284,
@@ -3072,20 +3086,6 @@
                         }
                     ],
                     "currentEquation": "W + 2*R + 2*T"
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "Roller Assembly",
-                    "x": 367,
-                    "y": 59,
-                    "uniqueID": 519614,
-                    "projectID": "197766474",
-                    "ioValues": [
-                        {
-                            "name": "Distance Between Walls",
-                            "ioValue": 53
-                        }
-                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -3217,16 +3217,16 @@
                     "ap2ID": 395536
                 },
                 {
-                    "ap1Name": "result",
-                    "ap2Name": "Distance Between Walls",
-                    "ap1ID": 476475,
-                    "ap2ID": 519614
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 519614,
                     "ap2ID": 224638
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "Distance Between Walls",
+                    "ap1ID": 476475,
+                    "ap2ID": 519614
                 },
                 {
                     "ap1Name": "result",
@@ -3377,8 +3377,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor",
-                    "x": 436,
-                    "y": 146,
+                    "x": 429,
+                    "y": 162,
                     "uniqueID": 372159,
                     "ioValues": [
                         {
@@ -3402,8 +3402,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Roller Assembly",
-                    "x": 430,
-                    "y": 216,
+                    "x": 439,
+                    "y": 235,
                     "uniqueID": 151141,
                     "ioValues": [
                         {
