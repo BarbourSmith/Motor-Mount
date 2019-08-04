@@ -3427,8 +3427,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 852,
-                    "y": 59,
+                    "x": 788,
+                    "y": 122,
                     "uniqueID": 247430,
                     "ioValues": [
                         {
