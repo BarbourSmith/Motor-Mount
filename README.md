@@ -7,6 +7,12 @@
 ## Motor Mount
 
 
+## Metal Base
+
+
+## Fillets
+
+
 ## Tabs
 
 
@@ -35,12 +41,6 @@
 
 
 ## Sheet Metal Tab
-
-
-## Metal Base
-
-
-## Fillets
 
 
 ## Motor
