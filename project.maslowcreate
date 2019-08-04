@@ -3560,12 +3560,6 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 595302",
-                    "ap1ID": 626485,
-                    "ap2ID": 884849
-                },
-                {
-                    "ap1Name": "Geometry",
                     "ap2Name": "3D shape 804798",
                     "ap1ID": 740020,
                     "ap2ID": 247430
@@ -3575,12 +3569,6 @@
                     "ap2Name": "3D shape 223411",
                     "ap1ID": 372159,
                     "ap2ID": 247430
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 399487",
-                    "ap1ID": 372159,
-                    "ap2ID": 884849
                 },
                 {
                     "ap1Name": "Geometry",
