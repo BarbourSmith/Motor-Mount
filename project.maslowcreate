@@ -338,7 +338,7 @@
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 152.4
+                            "ioValue": 88.9
                         }
                     ]
                 },
@@ -385,7 +385,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": 152.4
+                            "ioValue": 88.9
                         }
                     ],
                     "currentEquation": "(2*x) + y"
@@ -403,7 +403,7 @@
                         },
                         {
                             "name": "D",
-                            "ioValue": 212.4
+                            "ioValue": 148.9
                         }
                     ],
                     "currentEquation": "L/2 + D/2"
@@ -417,7 +417,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 152.4
+                            "ioValue": 88.9
                         }
                     ]
                 },
@@ -451,7 +451,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 212.4
+                            "ioValue": 148.9
                         }
                     ]
                 },
@@ -472,7 +472,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 186.2
+                            "ioValue": 154.45
                         },
                         {
                             "name": "yDist",
