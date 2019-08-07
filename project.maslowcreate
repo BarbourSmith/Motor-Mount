@@ -345,8 +345,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 287,
-                    "y": 116,
+                    "x": 283,
+                    "y": 104,
                     "uniqueID": 566468,
                     "ioValues": [
                         {
@@ -362,8 +362,8 @@
                 {
                     "atomType": "Constant",
                     "name": "Ring Thickness",
-                    "x": 118,
-                    "y": 311,
+                    "x": 115,
+                    "y": 307,
                     "uniqueID": 252007,
                     "ioValues": [
                         {
