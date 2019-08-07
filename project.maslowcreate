@@ -393,8 +393,22 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 466,
-                    "y": 165,
+                    "x": 464,
+                    "y": 127,
+                    "uniqueID": 349814,
+                    "ioValues": [
+                        {
+                            "name": "L",
+                            "ioValue": 160
+                        }
+                    ],
+                    "currentEquation": "L/2"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 460,
+                    "y": 185,
                     "uniqueID": 829709,
                     "ioValues": [
                         {
@@ -456,12 +470,46 @@
                     ]
                 },
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 619,
+                    "y": 125,
+                    "uniqueID": 749051,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Difference",
                     "name": "Difference",
                     "x": 637,
                     "y": 284,
                     "uniqueID": 813954,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 745,
+                    "y": 157,
+                    "uniqueID": 290714,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
                 },
                 {
                     "atomType": "Translate",
@@ -487,8 +535,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 987,
-                    "y": 176,
+                    "x": 983,
+                    "y": 177,
                     "uniqueID": 728409,
                     "ioValues": [
                         {
@@ -566,6 +614,12 @@
                     "ap2ID": 593403
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "L",
+                    "ap1ID": 336250,
+                    "ap2ID": 349814
+                },
+                {
                     "ap1Name": "number",
                     "ap2Name": "diameter",
                     "ap1ID": 241269,
@@ -607,6 +661,7 @@
                     "ap1ID": 787519,
                     "ap2ID": 829709
                 },
+                null,
                 {
                     "ap1Name": "result",
                     "ap2Name": "xDist",
