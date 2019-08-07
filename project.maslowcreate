@@ -402,7 +402,7 @@
                             "ioValue": 160
                         }
                     ],
-                    "currentEquation": "L/2"
+                    "currentEquation": "L/-2"
                 },
                 {
                     "atomType": "Equation",
@@ -472,13 +472,13 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 619,
-                    "y": 125,
+                    "x": 603,
+                    "y": 114,
                     "uniqueID": 749051,
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 15
                         }
                     ]
                 },
@@ -499,7 +499,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -80
                         },
                         {
                             "name": "yDist",
@@ -510,6 +510,14 @@
                             "ioValue": 0
                         }
                     ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 808,
+                    "y": 69,
+                    "uniqueID": 134634,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Translate",
@@ -544,11 +552,11 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 798529",
+                            "name": "3D shape 517537",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 517537",
+                            "name": "3D shape 831446",
                             "ioValue": 10
                         }
                     ]
@@ -661,7 +669,12 @@
                     "ap1ID": 787519,
                     "ap2ID": 829709
                 },
-                null,
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap1ID": 349814,
+                    "ap2ID": 290714
+                },
                 {
                     "ap1Name": "result",
                     "ap2Name": "xDist",
@@ -676,9 +689,9 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 798529",
+                    "ap2Name": "geometry1",
                     "ap1ID": 704025,
-                    "ap2ID": 728409
+                    "ap2ID": 134634
                 },
                 {
                     "ap1Name": "geometry",
@@ -689,8 +702,26 @@
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap1ID": 749051,
+                    "ap2ID": 290714
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
                     "ap1ID": 813954,
                     "ap2ID": 703024
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": 290714,
+                    "ap2ID": 134634
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 517537",
+                    "ap1ID": 134634,
+                    "ap2ID": 728409
                 },
                 {
                     "ap1Name": "geometry",
