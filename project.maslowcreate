@@ -464,19 +464,6 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 699,
-                    "y": 164,
-                    "uniqueID": 911285,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 115
-                        }
-                    ]
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 796,
