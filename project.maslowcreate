@@ -313,6 +313,19 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Constant",
+                    "name": "Router Diameter",
+                    "x": 113,
+                    "y": 247,
+                    "uniqueID": 241269,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 89
+                        }
+                    ]
+                },
+                {
                     "atomType": "Molecule",
                     "name": "Fillets",
                     "x": 275,
@@ -326,19 +339,6 @@
                         {
                             "name": "Length",
                             "ioValue": 160
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Constant",
-                    "name": "Router Diameter",
-                    "x": 110,
-                    "y": 271,
-                    "uniqueID": 241269,
-                    "ioValues": [
-                        {
-                            "name": "number",
-                            "ioValue": 88.9
                         }
                     ]
                 },
@@ -368,7 +368,7 @@
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 30
+                            "ioValue": 12
                         }
                     ]
                 },
@@ -381,11 +381,11 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 30
+                            "ioValue": 12
                         },
                         {
                             "name": "y",
-                            "ioValue": 88.9
+                            "ioValue": 89
                         }
                     ],
                     "currentEquation": "(2*x) + y"
@@ -403,7 +403,7 @@
                         },
                         {
                             "name": "D",
-                            "ioValue": 148.9
+                            "ioValue": 113
                         }
                     ],
                     "currentEquation": "L/2 + D/2"
@@ -417,7 +417,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 88.9
+                            "ioValue": 89
                         }
                     ]
                 },
@@ -451,7 +451,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 148.9
+                            "ioValue": 113
                         }
                     ]
                 },
@@ -464,6 +464,19 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 699,
+                    "y": 164,
+                    "uniqueID": 911285,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 115
+                        }
+                    ]
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 796,
@@ -472,7 +485,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 154.45
+                            "ioValue": 136.5
                         },
                         {
                             "name": "yDist",
@@ -566,12 +579,6 @@
                     "ap2ID": 593403
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 997092",
-                    "ap1ID": 593403,
-                    "ap2ID": 704025
-                },
-                {
                     "ap1Name": "number",
                     "ap2Name": "diameter",
                     "ap1ID": 241269,
@@ -582,6 +589,12 @@
                     "ap2Name": "y",
                     "ap1ID": 241269,
                     "ap2ID": 787519
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 997092",
+                    "ap1ID": 593403,
+                    "ap2ID": 704025
                 },
                 {
                     "ap1Name": "geometry",
