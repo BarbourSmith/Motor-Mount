@@ -454,7 +454,8 @@
                             "name": "3D shape 554940",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Circle",
@@ -559,7 +560,8 @@
                             "name": "3D shape 831446",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Input",
@@ -1220,7 +1222,8 @@
                             "name": "3D shape 508968",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Equation",
@@ -1868,7 +1871,8 @@
                             "name": "3D shape 323254",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Equation",
@@ -2373,7 +2377,8 @@
                             "name": "3D shape 698259",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Equation",
@@ -2778,7 +2783,8 @@
                             "name": "3D shape 870297",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
@@ -3537,7 +3543,8 @@
                             "name": "3D shape 741005",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
