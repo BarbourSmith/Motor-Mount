@@ -3138,24 +3138,24 @@
         {
             "atomType": "Molecule",
             "name": "Ring",
-            "x": 410,
-            "y": 270,
+            "x": 435,
+            "y": 293,
             "uniqueID": 255734,
             "ioValues": [
                 {
-                    "name": "ID",
+                    "name": "Router Size",
                     "ioValue": 89
                 },
                 {
-                    "name": "OD",
-                    "ioValue": 10
+                    "name": "Ring Thickness",
+                    "ioValue": 12
                 }
             ],
             "topLevel": false,
             "allAtoms": [
                 {
                     "atomType": "Input",
-                    "name": "ID",
+                    "name": "Router Size",
                     "x": 83,
                     "y": 75,
                     "uniqueID": 186736,
@@ -3163,7 +3163,7 @@
                 },
                 {
                     "atomType": "Input",
-                    "name": "OD",
+                    "name": "Ring Thickness",
                     "x": 84,
                     "y": 207,
                     "uniqueID": 590855,
@@ -3364,19 +3364,37 @@
                     ]
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 436,
+                    "y": 247,
+                    "uniqueID": 732337,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 1
+                        }
+                    ],
+                    "currentEquation": "x + y"
+                },
+                {
                     "atomType": "Molecule",
                     "name": "Ring",
-                    "x": 410,
-                    "y": 270,
+                    "x": 435,
+                    "y": 293,
                     "uniqueID": 255734,
                     "ioValues": [
                         {
-                            "name": "ID",
+                            "name": "Router Size",
                             "ioValue": 89
                         },
                         {
-                            "name": "OD",
-                            "ioValue": 10
+                            "name": "Ring Thickness",
+                            "ioValue": 12
                         }
                     ]
                 },
@@ -3511,8 +3529,14 @@
                 },
                 {
                     "ap1Name": "number",
-                    "ap2Name": "ID",
+                    "ap2Name": "Router Size",
                     "ap1ID": 236062,
+                    "ap2ID": 255734
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Ring Thickness",
+                    "ap1ID": 955750,
                     "ap2ID": 255734
                 },
                 {
