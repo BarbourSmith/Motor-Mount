@@ -3519,9 +3519,13 @@
                         {
                             "name": "D",
                             "ioValue": 89
+                        },
+                        {
+                            "name": "T",
+                            "ioValue": 12
                         }
                     ],
-                    "currentEquation": "L/-2 + D/-2"
+                    "currentEquation": "L/-2 + D/-2 - T - 10"
                 },
                 {
                     "atomType": "Assembly",
@@ -3562,7 +3566,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -124.5
+                            "ioValue": -146.5
                         },
                         {
                             "name": "yDist",
@@ -3724,6 +3728,12 @@
                     "ap2Name": "Ring Thickness",
                     "ap1ID": 955750,
                     "ap2ID": 255734
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "T",
+                    "ap1ID": 955750,
+                    "ap2ID": 867102
                 },
                 {
                     "ap1Name": "Geometry",
