@@ -3138,8 +3138,8 @@
         {
             "atomType": "Molecule",
             "name": "Ring",
-            "x": 417,
-            "y": 249,
+            "x": 414,
+            "y": 237,
             "uniqueID": 255734,
             "ioValues": [
                 {
@@ -3497,8 +3497,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Ring",
-                    "x": 417,
-                    "y": 249,
+                    "x": 414,
+                    "y": 237,
                     "uniqueID": 255734,
                     "ioValues": [
                         {
@@ -3518,16 +3518,16 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 435,
-                    "y": 293,
+                    "x": 411,
+                    "y": 283,
                     "uniqueID": 867102,
                     "ioValues": [
                         {
-                            "name": "W",
-                            "ioValue": 35
+                            "name": "L",
+                            "ioValue": 160
                         }
                     ],
-                    "currentEquation": "W/-2"
+                    "currentEquation": "L/-2"
                 },
                 {
                     "atomType": "Assembly",
@@ -3568,7 +3568,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -17.5
+                            "ioValue": -80
                         },
                         {
                             "name": "yDist",
@@ -3637,6 +3637,12 @@
                 },
                 {
                     "ap1Name": "number",
+                    "ap2Name": "L",
+                    "ap1ID": 877702,
+                    "ap2ID": 867102
+                },
+                {
+                    "ap1Name": "number",
                     "ap2Name": "Width",
                     "ap1ID": 185248,
                     "ap2ID": 740020
@@ -3658,12 +3664,6 @@
                     "ap2Name": "Width",
                     "ap1ID": 185248,
                     "ap2ID": 151141
-                },
-                {
-                    "ap1Name": "number",
-                    "ap2Name": "W",
-                    "ap1ID": 185248,
-                    "ap2ID": 867102
                 },
                 {
                     "ap1Name": "number",
