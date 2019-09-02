@@ -3518,12 +3518,12 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 422,
-                    "y": 297,
-                    "uniqueID": 732337,
+                    "x": 428,
+                    "y": 296,
+                    "uniqueID": 222405,
                     "ioValues": [
                         {
-                            "name": "R",
+                            "name": "T",
                             "ioValue": 12
                         },
                         {
@@ -3531,7 +3531,7 @@
                             "ioValue": 89
                         }
                     ],
-                    "currentEquation": "-1*(R+D)"
+                    "currentEquation": "T+D/2"
                 },
                 {
                     "atomType": "Assembly",
@@ -3572,7 +3572,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -101
+                            "ioValue": 0
                         },
                         {
                             "name": "yDist",
@@ -3721,7 +3721,7 @@
                     "ap1Name": "number",
                     "ap2Name": "D",
                     "ap1ID": 236062,
-                    "ap2ID": 732337
+                    "ap2ID": 222405
                 },
                 {
                     "ap1Name": "number",
@@ -3731,9 +3731,9 @@
                 },
                 {
                     "ap1Name": "number",
-                    "ap2Name": "R",
+                    "ap2Name": "T",
                     "ap1ID": 955750,
-                    "ap2ID": 732337
+                    "ap2ID": 222405
                 },
                 {
                     "ap1Name": "Geometry",
@@ -3770,12 +3770,6 @@
                     "ap2Name": "3D shape 220084",
                     "ap1ID": 255734,
                     "ap2ID": 427718
-                },
-                {
-                    "ap1Name": "result",
-                    "ap2Name": "xDist",
-                    "ap1ID": 732337,
-                    "ap2ID": 829052
                 },
                 {
                     "ap1Name": "geometry",
