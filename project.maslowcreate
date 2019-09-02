@@ -38,12 +38,12 @@
                     "atomType": "Rectangle",
                     "name": "Rectangle",
                     "x": 284,
-                    "y": 41,
+                    "y": 53,
                     "uniqueID": 900550,
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 10
+                            "ioValue": 30
                         },
                         {
                             "name": "y length",
@@ -54,16 +54,20 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 284,
-                    "y": 117,
-                    "uniqueID": 308085,
+                    "x": 300,
+                    "y": 164,
+                    "uniqueID": 760031,
                     "ioValues": [
                         {
                             "name": "L",
                             "ioValue": 160
+                        },
+                        {
+                            "name": "W",
+                            "ioValue": 35
                         }
                     ],
-                    "currentEquation": "L/2 - 30"
+                    "currentEquation": "L/2+W/2"
                 },
                 {
                     "atomType": "Translate",
@@ -74,7 +78,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 50
+                            "ioValue": 97.5
                         },
                         {
                             "name": "yDist",
@@ -103,9 +107,15 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "W",
+                    "ap1ID": 349429,
+                    "ap2ID": 760031
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "L",
                     "ap1ID": 355375,
-                    "ap2ID": 308085
+                    "ap2ID": 760031
                 },
                 {
                     "ap1Name": "geometry",
@@ -116,8 +126,13 @@
                 {
                     "ap1Name": "result",
                     "ap2Name": "xDist",
-                    "ap1ID": 308085,
+                    "ap1ID": 760031,
                     "ap2ID": 485650
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 485650
                 }
             ],
             "fileTypeVersion": 1
