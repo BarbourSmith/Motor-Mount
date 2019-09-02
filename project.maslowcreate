@@ -372,10 +372,6 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 997092",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 554940",
                             "ioValue": 10
                         }
@@ -483,12 +479,6 @@
                     "ap2Name": "L",
                     "ap1ID": 336250,
                     "ap2ID": 349814
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 997092",
-                    "ap1ID": 593403,
-                    "ap2ID": 704025
                 },
                 {
                     "ap1Name": "geometry",
@@ -3525,9 +3515,13 @@
                         {
                             "name": "L",
                             "ioValue": 160
+                        },
+                        {
+                            "name": "D",
+                            "ioValue": 89
                         }
                     ],
-                    "currentEquation": "L/-2"
+                    "currentEquation": "L/-2 + D/-2"
                 },
                 {
                     "atomType": "Assembly",
@@ -3568,7 +3562,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -80
+                            "ioValue": -124.5
                         },
                         {
                             "name": "yDist",
@@ -3724,6 +3718,12 @@
                     "ap2Name": "D",
                     "ap1ID": 236062,
                     "ap2ID": 222405
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "D",
+                    "ap1ID": 236062,
+                    "ap2ID": 867102
                 },
                 {
                     "ap1Name": "number",
