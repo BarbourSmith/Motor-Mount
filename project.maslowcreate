@@ -315,8 +315,8 @@
                 {
                     "atomType": "Constant",
                     "name": "Router Diameter",
-                    "x": 113,
-                    "y": 247,
+                    "x": 90,
+                    "y": 255,
                     "uniqueID": 241269,
                     "ioValues": [
                         {
@@ -362,8 +362,8 @@
                 {
                     "atomType": "Constant",
                     "name": "Ring Thickness",
-                    "x": 115,
-                    "y": 307,
+                    "x": 88,
+                    "y": 303,
                     "uniqueID": 252007,
                     "ioValues": [
                         {
@@ -3396,22 +3396,9 @@
                 },
                 {
                     "atomType": "Constant",
-                    "name": "Small Tab Width",
-                    "x": 46,
-                    "y": 183,
-                    "uniqueID": 882508,
-                    "ioValues": [
-                        {
-                            "name": "number",
-                            "ioValue": 30
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Constant",
                     "name": "Bend Radius",
-                    "x": 50,
-                    "y": 225,
+                    "x": 34,
+                    "y": 204,
                     "uniqueID": 812575,
                     "ioValues": [
                         {
