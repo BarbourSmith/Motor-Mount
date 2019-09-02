@@ -3531,7 +3531,7 @@
                             "ioValue": 89
                         }
                     ],
-                    "currentEquation": "-1*(2*R+D)"
+                    "currentEquation": "-1*(R+D)"
                 },
                 {
                     "atomType": "Assembly",
@@ -3572,7 +3572,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -113
+                            "ioValue": -101
                         },
                         {
                             "name": "yDist",
