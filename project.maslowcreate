@@ -21,41 +21,29 @@
                 {
                     "atomType": "Input",
                     "name": "Width",
-                    "x": 89,
-                    "y": 70,
+                    "x": 38,
+                    "y": 58,
                     "uniqueID": 349429,
                     "ioValues": []
                 },
                 {
-                    "atomType": "Input",
-                    "name": "Length",
-                    "x": 91,
-                    "y": 165,
-                    "uniqueID": 355375,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 284,
-                    "y": 53,
-                    "uniqueID": 900550,
+                    "atomType": "Constant",
+                    "name": "Constant",
+                    "x": 92,
+                    "y": 50,
+                    "uniqueID": 774948,
                     "ioValues": [
                         {
-                            "name": "x length",
+                            "name": "number",
                             "ioValue": 30
-                        },
-                        {
-                            "name": "y length",
-                            "ioValue": 35
                         }
                     ]
                 },
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 300,
-                    "y": 164,
+                    "x": 184,
+                    "y": 183,
                     "uniqueID": 760031,
                     "ioValues": [
                         {
@@ -70,10 +58,35 @@
                     "currentEquation": "L/2+W/2"
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Length",
+                    "x": 73,
+                    "y": 276,
+                    "uniqueID": 355375,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 301,
+                    "y": 48,
+                    "uniqueID": 900550,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 30
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 35
+                        }
+                    ]
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 502,
-                    "y": 46,
+                    "x": 520,
+                    "y": 75,
                     "uniqueID": 485650,
                     "ioValues": [
                         {
@@ -112,6 +125,18 @@
                     "ap2ID": 760031
                 },
                 {
+                    "ap1Name": "number",
+                    "ap2Name": "x length",
+                    "ap1ID": 774948,
+                    "ap2ID": 900550
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap1ID": 760031,
+                    "ap2ID": 485650
+                },
+                {
                     "ap1Name": "number or geometry",
                     "ap2Name": "L",
                     "ap1ID": 355375,
@@ -121,12 +146,6 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 900550,
-                    "ap2ID": 485650
-                },
-                {
-                    "ap1Name": "result",
-                    "ap2Name": "xDist",
-                    "ap1ID": 760031,
                     "ap2ID": 485650
                 },
                 {
