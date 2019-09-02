@@ -277,7 +277,7 @@
         {
             "atomType": "Molecule",
             "name": "Metal Base",
-            "x": 403,
+            "x": 406,
             "y": 43,
             "uniqueID": 626485,
             "ioValues": [
@@ -347,6 +347,23 @@
                     ]
                 },
                 {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 255,
+                    "y": 234,
+                    "uniqueID": 335062,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Equation",
                     "name": "Equation",
                     "x": 464,
@@ -359,6 +376,19 @@
                         }
                     ],
                     "currentEquation": "L/-2"
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 419,
+                    "y": 242,
+                    "uniqueID": 584962,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Assembly",
@@ -388,6 +418,27 @@
                         {
                             "name": "diameter",
                             "ioValue": 20
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 592,
+                    "y": 229,
+                    "uniqueID": 294938,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 20
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -487,10 +538,22 @@
                     "ap2ID": 704025
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 335062,
+                    "ap2ID": 584962
+                },
+                {
                     "ap1Name": "result",
                     "ap2Name": "xDist",
                     "ap1ID": 349814,
                     "ap2ID": 290714
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 584962,
+                    "ap2ID": 294938
                 },
                 {
                     "ap1Name": "geometry",
@@ -3391,7 +3454,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "Metal Base",
-                    "x": 403,
+                    "x": 406,
                     "y": 43,
                     "uniqueID": 626485,
                     "ioValues": [
