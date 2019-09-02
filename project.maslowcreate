@@ -292,6 +292,10 @@
                 {
                     "name": "Thickness",
                     "ioValue": 4
+                },
+                {
+                    "name": "Router Diameter",
+                    "ioValue": 89
                 }
             ],
             "topLevel": false,
@@ -313,17 +317,12 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Constant",
+                    "atomType": "Input",
                     "name": "Router Diameter",
-                    "x": 84,
-                    "y": 205,
-                    "uniqueID": 241269,
-                    "ioValues": [
-                        {
-                            "name": "number",
-                            "ioValue": 89
-                        }
-                    ]
+                    "x": 89,
+                    "y": 216,
+                    "uniqueID": 873118,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
@@ -343,6 +342,19 @@
                     ]
                 },
                 {
+                    "atomType": "Constant",
+                    "name": "Ring Thickness",
+                    "x": 98,
+                    "y": 284,
+                    "uniqueID": 252007,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 12
+                        }
+                    ]
+                },
+                {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
                     "x": 283,
@@ -356,19 +368,6 @@
                         {
                             "name": "y length",
                             "ioValue": 35
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Constant",
-                    "name": "Ring Thickness",
-                    "x": 88,
-                    "y": 303,
-                    "uniqueID": 252007,
-                    "ioValues": [
-                        {
-                            "name": "number",
-                            "ioValue": 12
                         }
                     ]
                 },
@@ -630,16 +629,16 @@
                     "ap2ID": 349814
                 },
                 {
-                    "ap1Name": "number",
-                    "ap2Name": "diameter",
-                    "ap1ID": 241269,
-                    "ap2ID": 427963
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "y",
+                    "ap1ID": 873118,
+                    "ap2ID": 787519
                 },
                 {
-                    "ap1Name": "number",
-                    "ap2Name": "y",
-                    "ap1ID": 241269,
-                    "ap2ID": 787519
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "diameter",
+                    "ap1ID": 873118,
+                    "ap2ID": 427963
                 },
                 {
                     "ap1Name": "Geometry",
@@ -648,16 +647,16 @@
                     "ap2ID": 704025
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 112851",
-                    "ap1ID": 566468,
-                    "ap2ID": 704025
-                },
-                {
                     "ap1Name": "number",
                     "ap2Name": "x",
                     "ap1ID": 252007,
                     "ap2ID": 787519
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 112851",
+                    "ap1ID": 566468,
+                    "ap2ID": 704025
                 },
                 {
                     "ap1Name": "result",
@@ -3423,13 +3422,13 @@
                 {
                     "atomType": "Constant",
                     "name": "Ring Thickness",
-                    "x": 43,
-                    "y": 300,
+                    "x": 39,
+                    "y": 303,
                     "uniqueID": 955750,
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 10
+                            "ioValue": 12
                         }
                     ]
                 },
@@ -3451,6 +3450,10 @@
                         {
                             "name": "Thickness",
                             "ioValue": 4
+                        },
+                        {
+                            "name": "Router Diameter",
+                            "ioValue": 89
                         }
                     ]
                 },
@@ -3657,6 +3660,12 @@
                     "ap2Name": "Bend Radius",
                     "ap1ID": 812575,
                     "ap2ID": 151141
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Router Diameter",
+                    "ap1ID": 236062,
+                    "ap2ID": 626485
                 },
                 {
                     "ap1Name": "Geometry",
