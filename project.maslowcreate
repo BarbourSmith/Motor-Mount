@@ -380,8 +380,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 426,
-                    "y": 215,
+                    "x": 384,
+                    "y": 265,
                     "uniqueID": 103716,
                     "ioValues": [
                         {
@@ -424,8 +424,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 668,
-                    "y": 251,
+                    "x": 595,
+                    "y": 231,
                     "uniqueID": 883149,
                     "ioValues": [
                         {
@@ -491,6 +491,14 @@
                             "ioValue": 8
                         }
                     ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 890,
+                    "y": 261,
+                    "uniqueID": 449614,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Input",
@@ -575,6 +583,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": 103716,
                     "ap2ID": 883149
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap1ID": 103716,
+                    "ap2ID": 449614
                 },
                 {
                     "ap1Name": "geometry",
