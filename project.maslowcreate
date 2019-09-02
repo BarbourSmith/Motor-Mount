@@ -277,8 +277,8 @@
         {
             "atomType": "Molecule",
             "name": "Metal Base",
-            "x": 410,
-            "y": 41,
+            "x": 412,
+            "y": 39,
             "uniqueID": 626485,
             "ioValues": [
                 {
@@ -315,8 +315,8 @@
                 {
                     "atomType": "Constant",
                     "name": "Router Diameter",
-                    "x": 90,
-                    "y": 255,
+                    "x": 84,
+                    "y": 205,
                     "uniqueID": 241269,
                     "ioValues": [
                         {
@@ -3371,7 +3371,7 @@
                 {
                     "atomType": "Constant",
                     "name": "Width",
-                    "x": 41,
+                    "x": 43,
                     "y": 82,
                     "uniqueID": 185248,
                     "ioValues": [
@@ -3384,8 +3384,8 @@
                 {
                     "atomType": "Constant",
                     "name": "Metal Thickness",
-                    "x": 40,
-                    "y": 185,
+                    "x": 42,
+                    "y": 142,
                     "uniqueID": 177738,
                     "ioValues": [
                         {
@@ -3397,8 +3397,8 @@
                 {
                     "atomType": "Constant",
                     "name": "Bend Radius",
-                    "x": 40,
-                    "y": 252,
+                    "x": 39,
+                    "y": 205,
                     "uniqueID": 812575,
                     "ioValues": [
                         {
@@ -3408,10 +3408,36 @@
                     ]
                 },
                 {
+                    "atomType": "Constant",
+                    "name": "Router Diameter",
+                    "x": 38,
+                    "y": 255,
+                    "uniqueID": 236062,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 89
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Constant",
+                    "name": "Ring Thickness",
+                    "x": 43,
+                    "y": 300,
+                    "uniqueID": 955750,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Molecule",
                     "name": "Metal Base",
-                    "x": 410,
-                    "y": 41,
+                    "x": 412,
+                    "y": 39,
                     "uniqueID": 626485,
                     "ioValues": [
                         {
