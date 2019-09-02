@@ -3525,7 +3525,7 @@
                             "ioValue": 12
                         }
                     ],
-                    "currentEquation": "L/-2 + D/-2 - T - 10"
+                    "currentEquation": "L/-2 + D/-2 - T - 25"
                 },
                 {
                     "atomType": "Assembly",
@@ -3566,7 +3566,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -146.5
+                            "ioValue": -161.5
                         },
                         {
                             "name": "yDist",
