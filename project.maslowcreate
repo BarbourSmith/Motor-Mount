@@ -296,6 +296,10 @@
                 {
                     "name": "Router Diameter",
                     "ioValue": 89
+                },
+                {
+                    "name": "Ring Thickness",
+                    "ioValue": 12
                 }
             ],
             "topLevel": false,
@@ -342,17 +346,12 @@
                     ]
                 },
                 {
-                    "atomType": "Constant",
+                    "atomType": "Input",
                     "name": "Ring Thickness",
-                    "x": 98,
-                    "y": 284,
-                    "uniqueID": 252007,
-                    "ioValues": [
-                        {
-                            "name": "number",
-                            "ioValue": 12
-                        }
-                    ]
+                    "x": 73,
+                    "y": 282,
+                    "uniqueID": 750151,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Rectangle",
@@ -647,9 +646,9 @@
                     "ap2ID": 704025
                 },
                 {
-                    "ap1Name": "number",
+                    "ap1Name": "number or geometry",
                     "ap2Name": "x",
-                    "ap1ID": 252007,
+                    "ap1ID": 750151,
                     "ap2ID": 787519
                 },
                 {
@@ -3454,6 +3453,10 @@
                         {
                             "name": "Router Diameter",
                             "ioValue": 89
+                        },
+                        {
+                            "name": "Ring Thickness",
+                            "ioValue": 12
                         }
                     ]
                 },
@@ -3665,6 +3668,12 @@
                     "ap1Name": "number",
                     "ap2Name": "Router Diameter",
                     "ap1ID": 236062,
+                    "ap2ID": 626485
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Ring Thickness",
+                    "ap1ID": 955750,
                     "ap2ID": 626485
                 },
                 {
