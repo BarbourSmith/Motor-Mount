@@ -3128,7 +3128,7 @@
         {
             "atomType": "Molecule",
             "name": "Ring",
-            "x": 410,
+            "x": 406,
             "y": 277,
             "uniqueID": 255734,
             "ioValues": [
@@ -3509,7 +3509,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "Ring",
-                    "x": 410,
+                    "x": 406,
                     "y": 277,
                     "uniqueID": 255734,
                     "ioValues": [
