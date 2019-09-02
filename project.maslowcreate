@@ -66,37 +66,6 @@
                     "currentEquation": "L/2 - 30"
                 },
                 {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 289,
-                    "y": 198,
-                    "uniqueID": 150245,
-                    "ioValues": [
-                        {
-                            "name": "L",
-                            "ioValue": 160
-                        }
-                    ],
-                    "currentEquation": "L/2 + 15"
-                },
-                {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 378,
-                    "y": 280,
-                    "uniqueID": 961966,
-                    "ioValues": [
-                        {
-                            "name": "x length",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "y length",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 502,
@@ -116,74 +85,6 @@
                             "ioValue": 0
                         }
                     ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 545,
-                    "y": 172,
-                    "uniqueID": 111760,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 95
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": -15
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 545,
-                    "y": 231,
-                    "uniqueID": 742134,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 95
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 30
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "ShrinkWrap",
-                    "name": "Shrink Wrap",
-                    "x": 747,
-                    "y": 145,
-                    "uniqueID": 426240,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 363726",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 421273",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 260967",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 156762",
-                            "ioValue": 10
-                        }
-                    ],
-                    "closedSelection": 0
                 },
                 {
                     "atomType": "Output",
@@ -207,12 +108,6 @@
                     "ap2ID": 308085
                 },
                 {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "L",
-                    "ap1ID": 355375,
-                    "ap2ID": 150245
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 900550,
@@ -223,53 +118,6 @@
                     "ap2Name": "xDist",
                     "ap1ID": 308085,
                     "ap2ID": 485650
-                },
-                {
-                    "ap1Name": "result",
-                    "ap2Name": "xDist",
-                    "ap1ID": 150245,
-                    "ap2ID": 111760
-                },
-                {
-                    "ap1Name": "result",
-                    "ap2Name": "xDist",
-                    "ap1ID": 150245,
-                    "ap2ID": 742134
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 961966,
-                    "ap2ID": 742134
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 961966,
-                    "ap2ID": 111760
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 260967",
-                    "ap1ID": 485650,
-                    "ap2ID": 426240
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 421273",
-                    "ap1ID": 111760,
-                    "ap2ID": 426240
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 363726",
-                    "ap1ID": 742134,
-                    "ap2ID": 426240
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 426240
                 }
             ],
             "fileTypeVersion": 1
