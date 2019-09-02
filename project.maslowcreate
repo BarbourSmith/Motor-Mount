@@ -292,14 +292,6 @@
                 {
                     "name": "Thickness",
                     "ioValue": 4
-                },
-                {
-                    "name": "Router Diameter",
-                    "ioValue": 89
-                },
-                {
-                    "name": "Ring Thickness",
-                    "ioValue": 12
                 }
             ],
             "topLevel": false,
@@ -321,14 +313,6 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Input",
-                    "name": "Router Diameter",
-                    "x": 89,
-                    "y": 216,
-                    "uniqueID": 873118,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Molecule",
                     "name": "Fillets",
                     "x": 275,
@@ -344,14 +328,6 @@
                             "ioValue": 160
                         }
                     ]
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Ring Thickness",
-                    "x": 73,
-                    "y": 282,
-                    "uniqueID": 750151,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Rectangle",
@@ -373,24 +349,6 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 286,
-                    "y": 300,
-                    "uniqueID": 787519,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 12
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 89
-                        }
-                    ],
-                    "currentEquation": "(2*x) + y"
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
                     "x": 464,
                     "y": 127,
                     "uniqueID": 349814,
@@ -401,37 +359,6 @@
                         }
                     ],
                     "currentEquation": "L/-2"
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 458,
-                    "y": 188,
-                    "uniqueID": 829709,
-                    "ioValues": [
-                        {
-                            "name": "L",
-                            "ioValue": 160
-                        },
-                        {
-                            "name": "D",
-                            "ioValue": 113
-                        }
-                    ],
-                    "currentEquation": "L/-2 + D/-2"
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 458,
-                    "y": 238,
-                    "uniqueID": 427963,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 89
-                        }
-                    ]
                 },
                 {
                     "atomType": "Assembly",
@@ -458,19 +385,6 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 445,
-                    "y": 308,
-                    "uniqueID": 432285,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 113
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
                     "x": 603,
                     "y": 114,
                     "uniqueID": 749051,
@@ -480,14 +394,6 @@
                             "ioValue": 20
                         }
                     ]
-                },
-                {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 637,
-                    "y": 284,
-                    "uniqueID": 813954,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Translate",
@@ -517,49 +423,6 @@
                     "y": 75,
                     "uniqueID": 134634,
                     "ioValues": []
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 855,
-                    "y": 192,
-                    "uniqueID": 582113,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": -136.5
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 942,
-                    "y": 238,
-                    "uniqueID": 728409,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 831446",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 794857",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 893176",
-                            "ioValue": 10
-                        }
-                    ],
-                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Input",
@@ -611,12 +474,6 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "L",
-                    "ap1ID": 336250,
-                    "ap2ID": 829709
-                },
-                {
-                    "ap1Name": "number or geometry",
                     "ap2Name": "Length",
                     "ap1ID": 336250,
                     "ap2ID": 593403
@@ -628,28 +485,10 @@
                     "ap2ID": 349814
                 },
                 {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "y",
-                    "ap1ID": 873118,
-                    "ap2ID": 787519
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "diameter",
-                    "ap1ID": 873118,
-                    "ap2ID": 427963
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 997092",
                     "ap1ID": 593403,
                     "ap2ID": 704025
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "x",
-                    "ap1ID": 750151,
-                    "ap2ID": 787519
                 },
                 {
                     "ap1Name": "geometry",
@@ -659,33 +498,9 @@
                 },
                 {
                     "ap1Name": "result",
-                    "ap2Name": "diameter",
-                    "ap1ID": 787519,
-                    "ap2ID": 432285
-                },
-                {
-                    "ap1Name": "result",
-                    "ap2Name": "D",
-                    "ap1ID": 787519,
-                    "ap2ID": 829709
-                },
-                {
-                    "ap1Name": "result",
                     "ap2Name": "xDist",
                     "ap1ID": 349814,
                     "ap2ID": 290714
-                },
-                {
-                    "ap1Name": "result",
-                    "ap2Name": "xDist",
-                    "ap1ID": 829709,
-                    "ap2ID": 582113
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
-                    "ap1ID": 427963,
-                    "ap2ID": 813954
                 },
                 {
                     "ap1Name": "geometry",
@@ -695,21 +510,9 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap1ID": 432285,
-                    "ap2ID": 813954
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 749051,
                     "ap2ID": 290714
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 831446",
-                    "ap1ID": 813954,
-                    "ap2ID": 728409
                 },
                 {
                     "ap1Name": "geometry",
@@ -721,18 +524,6 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 134634,
-                    "ap2ID": 582113
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 794857",
-                    "ap1ID": 582113,
-                    "ap2ID": 728409
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 728409,
                     "ap2ID": 345799
                 },
                 {
@@ -3353,7 +3144,7 @@
             "ioValues": [
                 {
                     "name": "ID",
-                    "ioValue": 10
+                    "ioValue": 89
                 },
                 {
                     "name": "OD",
@@ -3494,14 +3285,6 @@
                         {
                             "name": "Thickness",
                             "ioValue": 4
-                        },
-                        {
-                            "name": "Router Diameter",
-                            "ioValue": 89
-                        },
-                        {
-                            "name": "Ring Thickness",
-                            "ioValue": 12
                         }
                     ]
                 },
@@ -3589,7 +3372,7 @@
                     "ioValues": [
                         {
                             "name": "ID",
-                            "ioValue": 10
+                            "ioValue": 89
                         },
                         {
                             "name": "OD",
@@ -3600,8 +3383,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 788,
-                    "y": 122,
+                    "x": 588,
+                    "y": 112,
                     "uniqueID": 247430,
                     "ioValues": [
                         {
@@ -3728,15 +3511,9 @@
                 },
                 {
                     "ap1Name": "number",
-                    "ap2Name": "Router Diameter",
+                    "ap2Name": "ID",
                     "ap1ID": 236062,
-                    "ap2ID": 626485
-                },
-                {
-                    "ap1Name": "number",
-                    "ap2Name": "Ring Thickness",
-                    "ap1ID": 955750,
-                    "ap2ID": 626485
+                    "ap2ID": 255734
                 },
                 {
                     "ap1Name": "Geometry",
