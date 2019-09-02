@@ -277,8 +277,8 @@
         {
             "atomType": "Molecule",
             "name": "Metal Base",
-            "x": 412,
-            "y": 39,
+            "x": 403,
+            "y": 43,
             "uniqueID": 626485,
             "ioValues": [
                 {
@@ -2628,8 +2628,8 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 410,
-            "y": 114,
+            "x": 407,
+            "y": 90,
             "uniqueID": 740020,
             "ioValues": [
                 {
@@ -2894,8 +2894,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor",
-            "x": 405,
-            "y": 192,
+            "x": 409,
+            "y": 138,
             "uniqueID": 372159,
             "ioValues": [
                 {
@@ -3086,8 +3086,8 @@
         {
             "atomType": "Molecule",
             "name": "Roller Assembly",
-            "x": 409,
-            "y": 272,
+            "x": 411,
+            "y": 187,
             "uniqueID": 151141,
             "ioValues": [
                 {
@@ -3346,6 +3346,51 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Ring",
+            "x": 410,
+            "y": 270,
+            "uniqueID": 255734,
+            "ioValues": [
+                {
+                    "name": "ID",
+                    "ioValue": 10
+                },
+                {
+                    "name": "OD",
+                    "ioValue": 10
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "ID",
+                    "x": 83,
+                    "y": 75,
+                    "uniqueID": 186736,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "OD",
+                    "x": 84,
+                    "y": 207,
+                    "uniqueID": 590855,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Motor Mount",
             "x": 0,
             "y": 0,
@@ -3434,8 +3479,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Metal Base",
-                    "x": 412,
-                    "y": 39,
+                    "x": 403,
+                    "y": 43,
                     "uniqueID": 626485,
                     "ioValues": [
                         {
@@ -3463,8 +3508,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 410,
-                    "y": 114,
+                    "x": 407,
+                    "y": 90,
                     "uniqueID": 740020,
                     "ioValues": [
                         {
@@ -3488,8 +3533,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor",
-                    "x": 405,
-                    "y": 192,
+                    "x": 409,
+                    "y": 138,
                     "uniqueID": 372159,
                     "ioValues": [
                         {
@@ -3513,8 +3558,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Roller Assembly",
-                    "x": 409,
-                    "y": 272,
+                    "x": 411,
+                    "y": 187,
                     "uniqueID": 151141,
                     "ioValues": [
                         {
@@ -3532,6 +3577,23 @@
                         {
                             "name": "Thickness",
                             "ioValue": 4
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Ring",
+                    "x": 410,
+                    "y": 270,
+                    "uniqueID": 255734,
+                    "ioValues": [
+                        {
+                            "name": "ID",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "OD",
+                            "ioValue": 10
                         }
                     ]
                 },
