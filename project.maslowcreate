@@ -3139,7 +3139,7 @@
             "atomType": "Molecule",
             "name": "Ring",
             "x": 417,
-            "y": 243,
+            "y": 249,
             "uniqueID": 255734,
             "ioValues": [
                 {
@@ -3498,7 +3498,7 @@
                     "atomType": "Molecule",
                     "name": "Ring",
                     "x": 417,
-                    "y": 243,
+                    "y": 249,
                     "uniqueID": 255734,
                     "ioValues": [
                         {
@@ -3558,6 +3558,49 @@
                         },
                         {
                             "name": "3D shape 741005",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 671,
+                    "y": 190,
+                    "uniqueID": 829052,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 856,
+                    "y": 211,
+                    "uniqueID": 427718,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 544258",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 220084",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 777131",
                             "ioValue": 10
                         }
                     ],
@@ -3711,9 +3754,27 @@
                     "ap2ID": 247430
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 220084",
+                    "ap1ID": 255734,
+                    "ap2ID": 427718
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 247430,
+                    "ap2ID": 829052
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 544258",
+                    "ap1ID": 829052,
+                    "ap2ID": 427718
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 247430
+                    "ap1ID": 427718
                 }
             ],
             "fileTypeVersion": 1
