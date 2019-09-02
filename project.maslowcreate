@@ -3518,20 +3518,16 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 428,
-                    "y": 296,
-                    "uniqueID": 222405,
+                    "x": 478,
+                    "y": 277,
+                    "uniqueID": 867102,
                     "ioValues": [
-                        {
-                            "name": "T",
-                            "ioValue": 12
-                        },
                         {
                             "name": "D",
                             "ioValue": 89
                         }
                     ],
-                    "currentEquation": "T+D/2"
+                    "currentEquation": "-1*D"
                 },
                 {
                     "atomType": "Assembly",
@@ -3725,15 +3721,15 @@
                 },
                 {
                     "ap1Name": "number",
-                    "ap2Name": "Ring Thickness",
-                    "ap1ID": 955750,
-                    "ap2ID": 255734
+                    "ap2Name": "D",
+                    "ap1ID": 236062,
+                    "ap2ID": 867102
                 },
                 {
                     "ap1Name": "number",
-                    "ap2Name": "T",
+                    "ap2Name": "Ring Thickness",
                     "ap1ID": 955750,
-                    "ap2ID": 222405
+                    "ap2ID": 255734
                 },
                 {
                     "ap1Name": "Geometry",
