@@ -3128,8 +3128,8 @@
         {
             "atomType": "Molecule",
             "name": "Ring",
-            "x": 414,
-            "y": 237,
+            "x": 410,
+            "y": 277,
             "uniqueID": 255734,
             "ioValues": [
                 {
@@ -3485,31 +3485,10 @@
                     ]
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Ring",
-                    "x": 414,
-                    "y": 237,
-                    "uniqueID": 255734,
-                    "ioValues": [
-                        {
-                            "name": "Router Size",
-                            "ioValue": 89
-                        },
-                        {
-                            "name": "Ring Thickness",
-                            "ioValue": 12
-                        },
-                        {
-                            "name": "Metal Thickness",
-                            "ioValue": 4
-                        }
-                    ]
-                },
-                {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 411,
-                    "y": 283,
+                    "x": 414,
+                    "y": 232,
                     "uniqueID": 867102,
                     "ioValues": [
                         {
@@ -3526,6 +3505,27 @@
                         }
                     ],
                     "currentEquation": "L/-2 + D/-2 - T - 25"
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Ring",
+                    "x": 410,
+                    "y": 277,
+                    "uniqueID": 255734,
+                    "ioValues": [
+                        {
+                            "name": "Router Size",
+                            "ioValue": 89
+                        },
+                        {
+                            "name": "Ring Thickness",
+                            "ioValue": 12
+                        },
+                        {
+                            "name": "Metal Thickness",
+                            "ioValue": 4
+                        }
+                    ]
                 },
                 {
                     "atomType": "Assembly",
@@ -3760,16 +3760,16 @@
                     "ap2ID": 247430
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 220084",
-                    "ap1ID": 255734,
-                    "ap2ID": 427718
-                },
-                {
                     "ap1Name": "result",
                     "ap2Name": "xDist",
                     "ap1ID": 867102,
                     "ap2ID": 829052
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 220084",
+                    "ap1ID": 255734,
+                    "ap2ID": 427718
                 },
                 {
                     "ap1Name": "geometry",
