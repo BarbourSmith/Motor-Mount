@@ -3518,16 +3518,16 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 478,
-                    "y": 277,
+                    "x": 435,
+                    "y": 293,
                     "uniqueID": 867102,
                     "ioValues": [
                         {
-                            "name": "D",
-                            "ioValue": 89
+                            "name": "W",
+                            "ioValue": 35
                         }
                     ],
-                    "currentEquation": "-1*D"
+                    "currentEquation": "W/-2"
                 },
                 {
                     "atomType": "Assembly",
@@ -3568,7 +3568,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -17.5
                         },
                         {
                             "name": "yDist",
@@ -3661,6 +3661,12 @@
                 },
                 {
                     "ap1Name": "number",
+                    "ap2Name": "W",
+                    "ap1ID": 185248,
+                    "ap2ID": 867102
+                },
+                {
+                    "ap1Name": "number",
                     "ap2Name": "Thickness",
                     "ap1ID": 177738,
                     "ap2ID": 740020
@@ -3721,12 +3727,6 @@
                 },
                 {
                     "ap1Name": "number",
-                    "ap2Name": "D",
-                    "ap1ID": 236062,
-                    "ap2ID": 867102
-                },
-                {
-                    "ap1Name": "number",
                     "ap2Name": "Ring Thickness",
                     "ap1ID": 955750,
                     "ap2ID": 255734
@@ -3766,6 +3766,12 @@
                     "ap2Name": "3D shape 220084",
                     "ap1ID": 255734,
                     "ap2ID": 427718
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap1ID": 867102,
+                    "ap2ID": 829052
                 },
                 {
                     "ap1Name": "geometry",
