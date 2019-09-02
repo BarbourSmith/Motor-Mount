@@ -515,21 +515,21 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 808,
-                    "y": 69,
+                    "x": 805,
+                    "y": 75,
                     "uniqueID": 134634,
                     "ioValues": []
                 },
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 796,
-                    "y": 241,
-                    "uniqueID": 703024,
+                    "x": 853,
+                    "y": 187,
+                    "uniqueID": 582113,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 136.5
+                            "ioValue": 0
                         },
                         {
                             "name": "yDist",
@@ -544,20 +544,20 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 983,
-                    "y": 177,
+                    "x": 1028,
+                    "y": 222,
                     "uniqueID": 728409,
                     "ioValues": [
-                        {
-                            "name": "3D shape 520864",
-                            "ioValue": 10
-                        },
                         {
                             "name": "3D shape 517537",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 831446",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 794857",
                             "ioValue": 10
                         }
                     ],
@@ -678,12 +678,6 @@
                     "ap2ID": 290714
                 },
                 {
-                    "ap1Name": "result",
-                    "ap2Name": "xDist",
-                    "ap1ID": 829709,
-                    "ap2ID": 703024
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry2",
                     "ap1ID": 427963,
@@ -709,9 +703,9 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
+                    "ap2Name": "3D shape 831446",
                     "ap1ID": 813954,
-                    "ap2ID": 703024
+                    "ap2ID": 728409
                 },
                 {
                     "ap1Name": "geometry",
@@ -723,12 +717,6 @@
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 517537",
                     "ap1ID": 134634,
-                    "ap2ID": 728409
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 520864",
-                    "ap1ID": 703024,
                     "ap2ID": 728409
                 },
                 {
