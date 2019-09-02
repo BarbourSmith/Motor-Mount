@@ -3138,8 +3138,8 @@
         {
             "atomType": "Molecule",
             "name": "Ring",
-            "x": 432,
-            "y": 298,
+            "x": 417,
+            "y": 243,
             "uniqueID": 255734,
             "ioValues": [
                 {
@@ -3149,6 +3149,10 @@
                 {
                     "name": "Ring Thickness",
                     "ioValue": 12
+                },
+                {
+                    "name": "Metal Thickness",
+                    "ioValue": 4
                 }
             ],
             "topLevel": false,
@@ -3185,7 +3189,7 @@
                             "ioValue": 12
                         }
                     ],
-                    "currentEquation": "S+T"
+                    "currentEquation": "S+2*T"
                 },
                 {
                     "atomType": "Circle",
@@ -3209,7 +3213,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 101
+                            "ioValue": 113
                         }
                     ]
                 },
@@ -3217,8 +3221,16 @@
                     "atomType": "Difference",
                     "name": "Difference",
                     "x": 510,
-                    "y": 114,
+                    "y": 118,
                     "uniqueID": 589586,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Metal Thickness",
+                    "x": 596,
+                    "y": 44,
+                    "uniqueID": 821419,
                     "ioValues": []
                 },
                 {
@@ -3230,7 +3242,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 4
                         }
                     ]
                 },
@@ -3269,15 +3281,32 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
+                    "ap2Name": "geometry2",
                     "ap1ID": 490625,
                     "ap2ID": 589586
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
+                    "ap2Name": "geometry1",
                     "ap1ID": 710641,
                     "ap2ID": 589586
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 589586,
+                    "ap2ID": 444824
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap1ID": 821419,
+                    "ap2ID": 444824
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 444824
                 }
             ],
             "fileTypeVersion": 1
@@ -3466,10 +3495,31 @@
                     ]
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "Ring",
+                    "x": 417,
+                    "y": 243,
+                    "uniqueID": 255734,
+                    "ioValues": [
+                        {
+                            "name": "Router Size",
+                            "ioValue": 89
+                        },
+                        {
+                            "name": "Ring Thickness",
+                            "ioValue": 12
+                        },
+                        {
+                            "name": "Metal Thickness",
+                            "ioValue": 4
+                        }
+                    ]
+                },
+                {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 436,
-                    "y": 247,
+                    "x": 422,
+                    "y": 297,
                     "uniqueID": 732337,
                     "ioValues": [
                         {
@@ -3482,23 +3532,6 @@
                         }
                     ],
                     "currentEquation": "x + y"
-                },
-                {
-                    "atomType": "Molecule",
-                    "name": "Ring",
-                    "x": 432,
-                    "y": 298,
-                    "uniqueID": 255734,
-                    "ioValues": [
-                        {
-                            "name": "Router Size",
-                            "ioValue": 89
-                        },
-                        {
-                            "name": "Ring Thickness",
-                            "ioValue": 12
-                        }
-                    ]
                 },
                 {
                     "atomType": "Assembly",
@@ -3610,6 +3643,12 @@
                     "ap2Name": "Thickness",
                     "ap1ID": 177738,
                     "ap2ID": 151141
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Metal Thickness",
+                    "ap1ID": 177738,
+                    "ap2ID": 255734
                 },
                 {
                     "ap1Name": "number",
