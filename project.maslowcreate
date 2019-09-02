@@ -349,8 +349,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 386,
-                    "y": 198,
+                    "x": 217,
+                    "y": 233,
                     "uniqueID": 531152,
                     "ioValues": [
                         {
@@ -366,8 +366,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 464,
-                    "y": 127,
+                    "x": 433,
+                    "y": 159,
                     "uniqueID": 349814,
                     "ioValues": [
                         {
@@ -376,6 +376,19 @@
                         }
                     ],
                     "currentEquation": "L/-2"
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 426,
+                    "y": 215,
+                    "uniqueID": 103716,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Assembly",
@@ -396,19 +409,6 @@
                     "removeCutawayGeometry": true
                 },
                 {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 520,
-                    "y": 245,
-                    "uniqueID": 103716,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Circle",
                     "name": "Circle",
                     "x": 603,
@@ -418,6 +418,27 @@
                         {
                             "name": "diameter",
                             "ioValue": 20
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 668,
+                    "y": 251,
+                    "uniqueID": 883149,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 20
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -449,6 +470,27 @@
                     "y": 75,
                     "uniqueID": 134634,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 777,
+                    "y": 243,
+                    "uniqueID": 886423,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 8
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -530,6 +572,12 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 103716,
+                    "ap2ID": 883149
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry1",
                     "ap1ID": 704025,
                     "ap2ID": 134634
@@ -539,6 +587,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": 749051,
                     "ap2ID": 290714
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 883149,
+                    "ap2ID": 886423
                 },
                 {
                     "ap1Name": "geometry",
