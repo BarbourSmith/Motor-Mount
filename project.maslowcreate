@@ -407,8 +407,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 460,
-                    "y": 185,
+                    "x": 458,
+                    "y": 188,
                     "uniqueID": 829709,
                     "ioValues": [
                         {
@@ -420,7 +420,7 @@
                             "ioValue": 113
                         }
                     ],
-                    "currentEquation": "L/2 + D/2"
+                    "currentEquation": "L/-2 + D/-2"
                 },
                 {
                     "atomType": "Circle",
@@ -523,13 +523,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 853,
-                    "y": 187,
+                    "x": 855,
+                    "y": 192,
                     "uniqueID": 582113,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -136.5
                         },
                         {
                             "name": "yDist",
@@ -544,20 +544,20 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 1028,
-                    "y": 222,
+                    "x": 942,
+                    "y": 238,
                     "uniqueID": 728409,
                     "ioValues": [
-                        {
-                            "name": "3D shape 517537",
-                            "ioValue": 10
-                        },
                         {
                             "name": "3D shape 831446",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 794857",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 893176",
                             "ioValue": 10
                         }
                     ],
@@ -678,6 +678,12 @@
                     "ap2ID": 290714
                 },
                 {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap1ID": 829709,
+                    "ap2ID": 582113
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry2",
                     "ap1ID": 427963,
@@ -715,8 +721,14 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 517537",
+                    "ap2Name": "geometry",
                     "ap1ID": 134634,
+                    "ap2ID": 582113
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 794857",
+                    "ap1ID": 582113,
                     "ap2ID": 728409
                 },
                 {
