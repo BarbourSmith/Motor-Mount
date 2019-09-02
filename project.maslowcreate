@@ -3138,8 +3138,8 @@
         {
             "atomType": "Molecule",
             "name": "Ring",
-            "x": 435,
-            "y": 293,
+            "x": 432,
+            "y": 298,
             "uniqueID": 255734,
             "ioValues": [
                 {
@@ -3170,6 +3170,71 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 234,
+                    "y": 171,
+                    "uniqueID": 729272,
+                    "ioValues": [
+                        {
+                            "name": "S",
+                            "ioValue": 89
+                        },
+                        {
+                            "name": "T",
+                            "ioValue": 12
+                        }
+                    ],
+                    "currentEquation": "S+T"
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 307,
+                    "y": 78,
+                    "uniqueID": 490625,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 89
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 359,
+                    "y": 205,
+                    "uniqueID": 710641,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 101
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 510,
+                    "y": 114,
+                    "uniqueID": 589586,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 709,
+                    "y": 137,
+                    "uniqueID": 444824,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -3177,7 +3242,44 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "diameter",
+                    "ap1ID": 186736,
+                    "ap2ID": 490625
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "S",
+                    "ap1ID": 186736,
+                    "ap2ID": 729272
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "T",
+                    "ap1ID": 590855,
+                    "ap2ID": 729272
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "diameter",
+                    "ap1ID": 729272,
+                    "ap2ID": 710641
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap1ID": 490625,
+                    "ap2ID": 589586
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": 710641,
+                    "ap2ID": 589586
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
@@ -3384,8 +3486,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Ring",
-                    "x": 435,
-                    "y": 293,
+                    "x": 432,
+                    "y": 298,
                     "uniqueID": 255734,
                     "ioValues": [
                         {
