@@ -27,7 +27,7 @@
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 30
+                            "ioValue": 35
                         }
                     ]
                 },
@@ -48,7 +48,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 30
+                            "ioValue": 35
                         },
                         {
                             "name": "y length",
@@ -77,7 +77,7 @@
                         },
                         {
                             "name": "W",
-                            "ioValue": 30
+                            "ioValue": 35
                         }
                     ],
                     "currentEquation": "L/2+W/2"
@@ -91,7 +91,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 95
+                            "ioValue": 97.5
                         },
                         {
                             "name": "yDist",
