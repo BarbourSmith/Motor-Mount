@@ -250,6 +250,10 @@
                     "uniqueID": 704025,
                     "ioValues": [
                         {
+                            "name": "3D shape 105740",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 112851",
                             "ioValue": 10
                         },
@@ -483,8 +487,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
-                    "x": 243,
-                    "y": 70,
+                    "x": 237,
+                    "y": 71,
                     "uniqueID": 496252,
                     "projectID": "197395697",
                     "ioValues": [
@@ -881,6 +885,10 @@
                     "y": 75,
                     "uniqueID": 856736,
                     "ioValues": [
+                        {
+                            "name": "3D shape 508968",
+                            "ioValue": ""
+                        },
                         {
                             "name": "3D shape 493068",
                             "ioValue": 10
@@ -1527,6 +1535,10 @@
                     "uniqueID": 912855,
                     "ioValues": [
                         {
+                            "name": "3D shape 323254",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 220521",
                             "ioValue": 10
                         },
@@ -2033,6 +2045,10 @@
                     "uniqueID": 849543,
                     "ioValues": [
                         {
+                            "name": "3D shape 698259",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 557220",
                             "ioValue": 10
                         },
@@ -2439,6 +2455,10 @@
                     "uniqueID": 747646,
                     "ioValues": [
                         {
+                            "name": "3D shape 870297",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 878090",
                             "ioValue": 10
                         },
@@ -2693,7 +2713,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 35
+                            "ioValue": 38
                         }
                     ]
                 },
@@ -3427,6 +3447,10 @@
                     "uniqueID": 247430,
                     "ioValues": [
                         {
+                            "name": "3D shape 741005",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 804798",
                             "ioValue": 10
                         },
@@ -3477,6 +3501,10 @@
                     "y": 211,
                     "uniqueID": 427718,
                     "ioValues": [
+                        {
+                            "name": "3D shape 777131",
+                            "ioValue": ""
+                        },
                         {
                             "name": "3D shape 544258",
                             "ioValue": 10
