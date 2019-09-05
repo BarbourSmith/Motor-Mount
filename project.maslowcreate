@@ -506,7 +506,7 @@
                         },
                         {
                             "name": "Tab Height",
-                            "ioValue": 45
+                            "ioValue": 49
                         }
                     ]
                 },
@@ -3416,7 +3416,7 @@
                             "ioValue": 12
                         }
                     ],
-                    "currentEquation": "L/-2 + D/-2 - T - 25"
+                    "currentEquation": "L/-2 + D/-2 - T - 30"
                 },
                 {
                     "atomType": "Molecule",
@@ -3482,7 +3482,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -161.5
+                            "ioValue": -166.5
                         },
                         {
                             "name": "yDist",
