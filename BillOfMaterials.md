@@ -4,11 +4,11 @@
  |----|----------|-----|-----|
 |Amsteel Blue 3/16|11|$0.67|http://www.amsteelblue.com/amsteel-blue-3-16-synthetic-rope-by-the-foot-4-900-lbs/|
 |ET-WGM58AE|1|$11.00|http://www.etonm.com/|
-|Magnet|4|$6.00|https://dextermag.eu/|
+|Magnet|1|$1.50|https://dextermag.eu/|
 |Bearing|2|$3.00|https://www.amazon.com/RollerBones-Bones-Roller-Bearings/dp/B0094J6GQ0|
 |M4 Bolt|14|$1.26|https://www.mcmaster.com/92095a190|
 |Encoder PCB|2|$14.00|www.example.com|
-|Roller|3|$10.50|www.example.com|
-|Total: |37|$46.43| |
+|Roller|1|$3.50|www.example.com|
+|Total: |32|$34.93| |
 
- 3xCOG MSRP: $139.29
+ 3xCOG MSRP: $104.79
