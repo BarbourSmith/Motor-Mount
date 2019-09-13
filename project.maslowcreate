@@ -106,7 +106,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
+                    "x": 1075,
                     "y": 164,
                     "ioValues": []
                 }
@@ -254,15 +254,15 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 105740",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 112851",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 554940",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 105740",
                             "ioValue": 10
                         }
                     ],
@@ -311,6 +311,13 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1075,
+                    "y": 164,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Input",
                     "name": "Thickness",
                     "x": 1084,
@@ -330,13 +337,6 @@
                             "ioValue": 4
                         }
                     ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -583,7 +583,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
+                    "x": 1075,
                     "y": 164,
                     "ioValues": []
                 }
@@ -890,15 +890,15 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 508968",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 493068",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 360432",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 508968",
                             "ioValue": 10
                         }
                     ],
@@ -940,6 +940,13 @@
                     ]
                 },
                 {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1075,
+                    "y": 164,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 1079,
@@ -959,13 +966,6 @@
                             "ioValue": 9
                         }
                     ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -1299,7 +1299,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
+                    "x": 1075,
                     "y": 164,
                     "ioValues": []
                 }
@@ -1539,6 +1539,10 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 323254",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 220521",
                             "ioValue": 10
                         },
@@ -1548,10 +1552,6 @@
                         },
                         {
                             "name": "3D shape 790560",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 323254",
                             "ioValue": 10
                         }
                     ],
@@ -1607,6 +1607,13 @@
                     "currentEquation": "W/-2"
                 },
                 {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1075,
+                    "y": 164,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 1159,
@@ -1626,13 +1633,6 @@
                             "ioValue": 0
                         }
                     ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -2049,6 +2049,10 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 698259",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 557220",
                             "ioValue": 10
                         },
@@ -2058,10 +2062,6 @@
                         },
                         {
                             "name": "3D shape 104472",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 698259",
                             "ioValue": 10
                         }
                     ],
@@ -2103,6 +2103,13 @@
                     ]
                 },
                 {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1075,
+                    "y": 164,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 1185,
@@ -2122,13 +2129,6 @@
                             "ioValue": 0
                         }
                     ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -2448,6 +2448,13 @@
                     ]
                 },
                 {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1075,
+                    "y": 164,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 1163,
@@ -2457,6 +2464,10 @@
                         {
                             "name": "3D shape 870297",
                             "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 870297",
+                            "ioValue": 10
                         },
                         {
                             "name": "3D shape 878090",
@@ -2469,20 +2480,9 @@
                         {
                             "name": "3D shape 657560",
                             "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 870297",
-                            "ioValue": 10
                         }
                     ],
                     "removeCutawayGeometry": true
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -2720,7 +2720,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
+                    "x": 1075,
                     "y": 164,
                     "ioValues": []
                 }
@@ -2780,7 +2780,7 @@
             "atomType": "Molecule",
             "name": "Roller Assembly",
             "x": 411,
-            "y": 187,
+            "y": 188,
             "uniqueID": 151141,
             "ioValues": [
                 {
@@ -2951,7 +2951,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
+                    "x": 1075,
                     "y": 164,
                     "ioValues": []
                 }
@@ -3151,7 +3151,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
+                    "x": 1075,
                     "y": 164,
                     "ioValues": []
                 }
@@ -3375,7 +3375,7 @@
                     "atomType": "Molecule",
                     "name": "Roller Assembly",
                     "x": 411,
-                    "y": 187,
+                    "y": 188,
                     "uniqueID": 151141,
                     "ioValues": [
                         {
@@ -3451,6 +3451,10 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 741005",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 804798",
                             "ioValue": 10
                         },
@@ -3464,10 +3468,6 @@
                         },
                         {
                             "name": "3D shape 631124",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 741005",
                             "ioValue": 10
                         }
                     ],
@@ -3506,15 +3506,15 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 777131",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 544258",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 220084",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 777131",
                             "ioValue": 10
                         }
                     ],
@@ -3523,7 +3523,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
+                    "x": 1075,
                     "y": 164,
                     "ioValues": []
                 }

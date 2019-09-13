@@ -2,13 +2,13 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|M4 Bolt|28|$2.52|https://www.mcmaster.com/92095a190|
-|ET-WGM58AE|13|$143.00|http://www.etonm.com/|
-|Amsteel Blue 3/16|22|$1.34|http://www.amsteelblue.com/amsteel-blue-3-16-synthetic-rope-by-the-foot-4-900-lbs/|
-|Encoder PCB|8|$56.00|www.example.com|
+|Amsteel Blue 3/16|11|$0.67|http://www.amsteelblue.com/amsteel-blue-3-16-synthetic-rope-by-the-foot-4-900-lbs/|
+|ET-WGM58AE|1|$11.00|http://www.etonm.com/|
+|Magnet|4|$6.00|https://dextermag.eu/|
 |Bearing|2|$3.00|https://www.amazon.com/RollerBones-Bones-Roller-Bearings/dp/B0094J6GQ0|
-|Magnet|3|$4.50|https://dextermag.eu/|
+|M4 Bolt|14|$1.26|https://www.mcmaster.com/92095a190|
+|Encoder PCB|2|$14.00|www.example.com|
 |Roller|3|$10.50|www.example.com|
-|Total: |79|$220.86| |
+|Total: |37|$46.43| |
 
- 3xCOG MSRP: $662.58
+ 3xCOG MSRP: $139.29
