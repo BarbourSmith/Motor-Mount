@@ -7,8 +7,8 @@
 |Magnet|1|$1.50|https://dextermag.eu/|
 |Bearing|2|$3.00|https://www.amazon.com/RollerBones-Bones-Roller-Bearings/dp/B0094J6GQ0|
 |M4 Bolt|14|$1.26|https://www.mcmaster.com/92095a190|
-|Encoder PCB|2|$14.00|www.example.com|
+|Encoder PCB|1|$7.00|www.example.com|
 |Roller|1|$3.50|www.example.com|
-|Total: |32|$34.93| |
+|Total: |31|$27.93| |
 
- 3xCOG MSRP: $104.79
+ 3xCOG MSRP: $83.79

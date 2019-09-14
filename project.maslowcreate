@@ -106,7 +106,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1075,
+                    "x": 1316,
                     "y": 164,
                     "ioValues": []
                 }
@@ -311,13 +311,6 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1075,
-                    "y": 164,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Input",
                     "name": "Thickness",
                     "x": 1084,
@@ -337,6 +330,13 @@
                             "ioValue": 4
                         }
                     ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -583,7 +583,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1075,
+                    "x": 1316,
                     "y": 164,
                     "ioValues": []
                 }
@@ -940,13 +940,6 @@
                     ]
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1075,
-                    "y": 164,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 1079,
@@ -966,6 +959,13 @@
                             "ioValue": 9
                         }
                     ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -1299,7 +1299,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1075,
+                    "x": 1316,
                     "y": 164,
                     "ioValues": []
                 }
@@ -1607,13 +1607,6 @@
                     "currentEquation": "W/-2"
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1075,
-                    "y": 164,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 1159,
@@ -1633,6 +1626,13 @@
                             "ioValue": 0
                         }
                     ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -2103,13 +2103,6 @@
                     ]
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1075,
-                    "y": 164,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 1185,
@@ -2129,6 +2122,13 @@
                             "ioValue": 0
                         }
                     ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -2448,13 +2448,6 @@
                     ]
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1075,
-                    "y": 164,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 1163,
@@ -2483,6 +2476,13 @@
                         }
                     ],
                     "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -2647,7 +2647,7 @@
                     "name": "Eton Motor Assembly",
                     "x": 399,
                     "y": 227,
-                    "uniqueID": 986958,
+                    "uniqueID": 946391,
                     "projectID": "197565793",
                     "ioValues": []
                 },
@@ -2656,7 +2656,7 @@
                     "name": "Eton Motor Assembly",
                     "x": 399,
                     "y": 227,
-                    "uniqueID": 946391,
+                    "uniqueID": 986958,
                     "projectID": "197565793",
                     "ioValues": []
                 },
@@ -2720,7 +2720,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1075,
+                    "x": 1316,
                     "y": 164,
                     "ioValues": []
                 }
@@ -2813,8 +2813,8 @@
                 {
                     "atomType": "Input",
                     "name": "Width",
-                    "x": 66,
-                    "y": 197,
+                    "x": 45,
+                    "y": 179,
                     "uniqueID": 267744,
                     "ioValues": []
                 },
@@ -2876,7 +2876,7 @@
                             "ioValue": 4
                         }
                     ],
-                    "currentEquation": "W/2 + R + T"
+                    "currentEquation": "W/-2 - R - T"
                 },
                 {
                     "atomType": "GitHubMolecule",
@@ -2909,7 +2909,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 90
+                            "ioValue": -90
                         }
                     ]
                 },
@@ -2940,7 +2940,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 26.5
+                            "ioValue": -26.5
                         },
                         {
                             "name": "zDist",
@@ -2951,7 +2951,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1075,
+                    "x": 1316,
                     "y": 164,
                     "ioValues": []
                 }
@@ -3151,7 +3151,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1075,
+                    "x": 1316,
                     "y": 164,
                     "ioValues": []
                 }
@@ -3523,7 +3523,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1075,
+                    "x": 1316,
                     "y": 164,
                     "ioValues": []
                 }
