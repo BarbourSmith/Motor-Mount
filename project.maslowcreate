@@ -37,7 +37,12 @@
                     "x": 45,
                     "y": 125,
                     "uniqueID": 349429,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Rectangle",
@@ -62,7 +67,12 @@
                     "x": 73,
                     "y": 276,
                     "uniqueID": 355375,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -184,7 +194,12 @@
                     "x": 101,
                     "y": 35,
                     "uniqueID": 863838,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -192,7 +207,12 @@
                     "x": 103,
                     "y": 142,
                     "uniqueID": 336250,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Molecule",
@@ -316,7 +336,12 @@
                     "x": 1084,
                     "y": 222,
                     "uniqueID": 656562,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Extrude",
@@ -458,7 +483,12 @@
                     "x": 66,
                     "y": 58,
                     "uniqueID": 131299,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -466,7 +496,12 @@
                     "x": 62,
                     "y": 104,
                     "uniqueID": 615859,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -474,7 +509,12 @@
                     "x": 59,
                     "y": 150,
                     "uniqueID": 958681,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -482,7 +522,12 @@
                     "x": 63,
                     "y": 198,
                     "uniqueID": 804005,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "GitHubMolecule",
@@ -677,7 +722,12 @@
                     "x": 54,
                     "y": 52,
                     "uniqueID": 901576,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -685,7 +735,12 @@
                     "x": 198,
                     "y": 30,
                     "uniqueID": 817368,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Constant",
@@ -736,7 +791,12 @@
                     "x": 39,
                     "y": 291,
                     "uniqueID": 200369,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Rectangle",
@@ -876,7 +936,12 @@
                     "x": 705,
                     "y": 232,
                     "uniqueID": 515239,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Assembly",
@@ -1166,7 +1231,12 @@
                     "x": 102,
                     "y": 103,
                     "uniqueID": 798675,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -1174,7 +1244,12 @@
                     "x": 46,
                     "y": 152,
                     "uniqueID": 511284,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -1182,7 +1257,12 @@
                     "x": 43,
                     "y": 221,
                     "uniqueID": 467491,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -1252,7 +1332,12 @@
                     "x": 385,
                     "y": 295,
                     "uniqueID": 352245,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Rotate",
@@ -1411,7 +1496,12 @@
                     "x": 36,
                     "y": 35,
                     "uniqueID": 290493,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -1419,7 +1509,12 @@
                     "x": 34,
                     "y": 101,
                     "uniqueID": 759559,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -1427,7 +1522,12 @@
                     "x": 31,
                     "y": 170,
                     "uniqueID": 285004,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -1449,7 +1549,12 @@
                     "x": 38,
                     "y": 295,
                     "uniqueID": 676222,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "GitHubMolecule",
@@ -1802,7 +1907,12 @@
                     "x": 41,
                     "y": 41,
                     "uniqueID": 988427,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -1810,7 +1920,12 @@
                     "x": 41,
                     "y": 89,
                     "uniqueID": 432176,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Constant",
@@ -1831,7 +1946,12 @@
                     "x": 35,
                     "y": 258,
                     "uniqueID": 639420,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -1839,7 +1959,12 @@
                     "x": 37,
                     "y": 301,
                     "uniqueID": 897394,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -2346,7 +2471,12 @@
                     "x": 41,
                     "y": 49,
                     "uniqueID": 651275,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -2354,7 +2484,12 @@
                     "x": 38,
                     "y": 104,
                     "uniqueID": 693654,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -2362,7 +2497,12 @@
                     "x": 19,
                     "y": 151,
                     "uniqueID": 568082,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -2370,7 +2510,12 @@
                     "x": 36,
                     "y": 212,
                     "uniqueID": 605772,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Molecule",
@@ -2616,7 +2761,12 @@
                     "x": 131,
                     "y": 32,
                     "uniqueID": 145104,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -2624,7 +2774,12 @@
                     "x": 127,
                     "y": 79,
                     "uniqueID": 875651,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -2632,7 +2787,12 @@
                     "x": 121,
                     "y": 149,
                     "uniqueID": 113404,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -2640,14 +2800,19 @@
                     "x": 264,
                     "y": 172,
                     "uniqueID": 483131,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Eton Motor Assembly",
                     "x": 399,
                     "y": 227,
-                    "uniqueID": 946391,
+                    "uniqueID": 986958,
                     "projectID": "197565793",
                     "ioValues": []
                 },
@@ -2656,7 +2821,7 @@
                     "name": "Eton Motor Assembly",
                     "x": 399,
                     "y": 227,
-                    "uniqueID": 986958,
+                    "uniqueID": 946391,
                     "projectID": "197565793",
                     "ioValues": []
                 },
@@ -2808,7 +2973,12 @@
                     "x": 159,
                     "y": 72,
                     "uniqueID": 196045,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -2816,7 +2986,12 @@
                     "x": 45,
                     "y": 179,
                     "uniqueID": 267744,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -2824,7 +2999,12 @@
                     "x": 52,
                     "y": 243,
                     "uniqueID": 545458,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -2832,7 +3012,12 @@
                     "x": 54,
                     "y": 288,
                     "uniqueID": 187155,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -2895,8 +3080,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 552,
-                    "y": 121,
+                    "x": 491,
+                    "y": 85,
                     "uniqueID": 224638,
                     "ioValues": [
                         {
@@ -2905,11 +3090,11 @@
                         },
                         {
                             "name": "y-axis degrees",
-                            "ioValue": -90
+                            "ioValue": 90
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": -90
+                            "ioValue": 90
                         }
                     ]
                 },
@@ -3065,7 +3250,12 @@
                     "x": 83,
                     "y": 75,
                     "uniqueID": 186736,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -3073,7 +3263,12 @@
                     "x": 84,
                     "y": 207,
                     "uniqueID": 590855,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -3133,7 +3328,12 @@
                     "x": 596,
                     "y": 44,
                     "uniqueID": 821419,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Extrude",
