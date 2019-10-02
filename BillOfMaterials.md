@@ -8,11 +8,11 @@
 |AS5048 Encoder|1|$4.47|https://www.digikey.com/product-detail/en/ams/AS5048A-HTSP-500/AS5048A-HTSP-500TR-ND/3188615|
 |JST XH 6 Connector|1|$0.45|https://www.digikey.com/product-detail/en/jst-sales-america-inc/S6B-XH-SM4-TB-LF-SN/455-2264-2-ND/1651066|
 |Magnet|1|$0.17|https://www.digikey.com/product-detail/en/radial-magnet-inc/9049/469-1075-ND/6030786|
-|M4 x 20mm Bolt|4|$0.48|https://www.mcmaster.com/91239a152|
+|M4 x 20mm Bolt|8|$0.95|https://www.mcmaster.com/91239a152|
 |M4 Bolt|10|$0.90|https://www.mcmaster.com/92095a190|
-|M4 Locknut|4|$0.47|https://www.mcmaster.com/94645a101|
+|M4 Locknut|8|$0.93|https://www.mcmaster.com/94645a101|
 |100nf 10uf Filter Caps|1|$0.10|www.digikey.com|
 |Roller|1|$3.50|www.example.com|
-|Total: |37|$25.20| |
+|Total: |45|$26.14| |
 
- 3xCOG MSRP: $75.60
+ 3xCOG MSRP: $78.43

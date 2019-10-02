@@ -256,19 +256,16 @@ undefined
 ## Plug to clear center
 
 
-## AS5048 Test PCB
+## Bolts
 
 
-## Chip
+## M4x20 Bolt
 
 
-## PCB
+undefined
 
 
-## Mounting Holes
-
-
-## Headers
+## M4 Locknut
 
 
 undefined
