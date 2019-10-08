@@ -270,14 +270,6 @@
                     "uniqueID": 704025,
                     "ioValues": [
                         {
-                            "name": "3D shape 105740",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 105740",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 112851",
                             "ioValue": 10
                         },
@@ -454,8 +446,8 @@
         {
             "atomType": "Molecule",
             "name": "Big Tab",
-            "x": 656,
-            "y": 43,
+            "x": 648,
+            "y": 42,
             "uniqueID": 801504,
             "ioValues": [
                 {
@@ -622,6 +614,32 @@
                         {
                             "name": "zDist",
                             "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Metal Bend",
+                    "x": 777,
+                    "y": 235,
+                    "uniqueID": 171978,
+                    "projectID": "213500755",
+                    "ioValues": [
+                        {
+                            "name": "Length",
+                            "ioValue": 30
+                        },
+                        {
+                            "name": "Thickness",
+                            "ioValue": 3
+                        },
+                        {
+                            "name": "Interior Radius",
+                            "ioValue": 7
+                        },
+                        {
+                            "name": "Bent?",
+                            "ioValue": 1
                         }
                     ]
                 },
@@ -950,14 +968,6 @@
                     "y": 75,
                     "uniqueID": 856736,
                     "ioValues": [
-                        {
-                            "name": "3D shape 508968",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 508968",
-                            "ioValue": 10
-                        },
                         {
                             "name": "3D shape 493068",
                             "ioValue": 10
@@ -1694,14 +1704,6 @@
                     "uniqueID": 912855,
                     "ioValues": [
                         {
-                            "name": "3D shape 323254",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 323254",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 220521",
                             "ioValue": 10
                         },
@@ -2328,14 +2330,6 @@
                     "uniqueID": 849543,
                     "ioValues": [
                         {
-                            "name": "3D shape 698259",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 698259",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 557220",
                             "ioValue": 10
                         },
@@ -2600,8 +2594,8 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 406,
-            "y": 83,
+            "x": 402,
+            "y": 81,
             "uniqueID": 740020,
             "ioValues": [
                 {
@@ -2678,8 +2672,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Big Tab",
-                    "x": 656,
-                    "y": 43,
+                    "x": 648,
+                    "y": 42,
                     "uniqueID": 801504,
                     "ioValues": [
                         {
@@ -2757,14 +2751,6 @@
                     "y": 167,
                     "uniqueID": 747646,
                     "ioValues": [
-                        {
-                            "name": "3D shape 870297",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 870297",
-                            "ioValue": 10
-                        },
                         {
                             "name": "3D shape 878090",
                             "ioValue": 10
@@ -3682,8 +3668,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 406,
-                    "y": 83,
+                    "x": 402,
+                    "y": 81,
                     "uniqueID": 740020,
                     "ioValues": [
                         {
@@ -3805,14 +3791,6 @@
                     "uniqueID": 247430,
                     "ioValues": [
                         {
-                            "name": "3D shape 741005",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 741005",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 804798",
                             "ioValue": 10
                         },
@@ -3859,14 +3837,6 @@
                     "y": 211,
                     "uniqueID": 427718,
                     "ioValues": [
-                        {
-                            "name": "3D shape 777131",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 777131",
-                            "ioValue": 10
-                        },
                         {
                             "name": "3D shape 544258",
                             "ioValue": 10
