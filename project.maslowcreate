@@ -446,8 +446,8 @@
         {
             "atomType": "Molecule",
             "name": "Big Tab",
-            "x": 648,
-            "y": 42,
+            "x": 643,
+            "y": 47,
             "uniqueID": 801504,
             "ioValues": [
                 {
@@ -597,31 +597,10 @@
                     "currentEquation": "L/2"
                 },
                 {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 677,
-                    "y": 63,
-                    "uniqueID": 253196,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 80
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": -17.5
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
                     "atomType": "GitHubMolecule",
                     "name": "Metal Bend",
-                    "x": 777,
-                    "y": 235,
+                    "x": 533,
+                    "y": 309,
                     "uniqueID": 171978,
                     "projectID": "213500755",
                     "ioValues": [
@@ -640,6 +619,27 @@
                         {
                             "name": "Bent?",
                             "ioValue": 1
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 677,
+                    "y": 63,
+                    "uniqueID": 253196,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 80
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": -17.5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -2595,7 +2595,7 @@
             "atomType": "Molecule",
             "name": "Tabs",
             "x": 402,
-            "y": 81,
+            "y": 82,
             "uniqueID": 740020,
             "ioValues": [
                 {
@@ -2646,8 +2646,8 @@
                 {
                     "atomType": "Input",
                     "name": "Thickness",
-                    "x": 19,
-                    "y": 151,
+                    "x": 53,
+                    "y": 157,
                     "uniqueID": 568082,
                     "ioValues": [
                         {
@@ -2672,8 +2672,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Big Tab",
-                    "x": 648,
-                    "y": 42,
+                    "x": 643,
+                    "y": 47,
                     "uniqueID": 801504,
                     "ioValues": [
                         {
@@ -3669,7 +3669,7 @@
                     "atomType": "Molecule",
                     "name": "Tabs",
                     "x": 402,
-                    "y": 81,
+                    "y": 82,
                     "uniqueID": 740020,
                     "ioValues": [
                         {
