@@ -496,32 +496,6 @@
                     ]
                 },
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "Sheet Metal Tab",
-                    "x": 237,
-                    "y": 71,
-                    "uniqueID": 496252,
-                    "projectID": "197395697",
-                    "ioValues": [
-                        {
-                            "name": "Radius",
-                            "ioValue": 5
-                        },
-                        {
-                            "name": "Thickness",
-                            "ioValue": 4
-                        },
-                        {
-                            "name": "Length",
-                            "ioValue": 65
-                        },
-                        {
-                            "name": "Tab Height",
-                            "ioValue": 49
-                        }
-                    ]
-                },
-                {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
                     "x": 237,
@@ -539,6 +513,42 @@
                     ]
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 345,
+                    "y": 170,
+                    "uniqueID": 815419,
+                    "ioValues": [
+                        {
+                            "name": "R",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "T",
+                            "ioValue": 4
+                        }
+                    ],
+                    "currentEquation": "R+T"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 403,
+                    "y": 122,
+                    "uniqueID": 710545,
+                    "ioValues": [
+                        {
+                            "name": "R",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "T",
+                            "ioValue": 4
+                        }
+                    ],
+                    "currentEquation": "R+T/2"
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 356,
@@ -552,10 +562,31 @@
                     ]
                 },
                 {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 501,
+                    "y": 254,
+                    "uniqueID": 737447,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 7
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": -32.5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 9
+                        }
+                    ]
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "Metal Bend",
-                    "x": 530,
-                    "y": 155,
+                    "x": 618,
+                    "y": 57,
                     "uniqueID": 171978,
                     "projectID": "213500755",
                     "ioValues": [
@@ -574,27 +605,6 @@
                         {
                             "name": "Bent?",
                             "ioValue": 1
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 501,
-                    "y": 254,
-                    "uniqueID": 737447,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
                         }
                     ]
                 },
@@ -707,12 +717,6 @@
                     "ap1Name": "number or geometry",
                     "ap2Name": "Thickness",
                     "ap1ID": 131299,
-                    "ap2ID": 496252
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "Thickness",
-                    "ap1ID": 131299,
                     "ap2ID": 171978
                 },
                 {
@@ -723,9 +727,15 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "Radius",
-                    "ap1ID": 615859,
-                    "ap2ID": 496252
+                    "ap2Name": "T",
+                    "ap1ID": 131299,
+                    "ap2ID": 815419
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "T",
+                    "ap1ID": 131299,
+                    "ap2ID": 710545
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -734,16 +744,34 @@
                     "ap2ID": 171978
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 496252,
-                    "ap2ID": 578636
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "R",
+                    "ap1ID": 615859,
+                    "ap2ID": 815419
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "R",
+                    "ap1ID": 615859,
+                    "ap2ID": 710545
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 803415,
                     "ap2ID": 976903
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap1ID": 815419,
+                    "ap2ID": 737447
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap1ID": 710545,
+                    "ap2ID": 737447
                 },
                 {
                     "ap1Name": "geometry",
@@ -756,6 +784,12 @@
                     "ap2Name": "Attached Geometry",
                     "ap1ID": 737447,
                     "ap2ID": 171978
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 171978,
+                    "ap2ID": 578636
                 },
                 {
                     "ap1Name": "number or geometry",
