@@ -4264,5 +4264,5 @@
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": 2
+    "circleSegmentSize": "0.1"
 }
