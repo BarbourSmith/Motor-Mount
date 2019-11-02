@@ -3161,10 +3161,6 @@
                     "uniqueID": 286715,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 57.5
                         },
@@ -4280,5 +4276,5 @@
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": "0.1"
+    "circleSegmentSize": "1.6"
 }
