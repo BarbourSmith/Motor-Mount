@@ -2,19 +2,6 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Amsteel Blue 3/16|11|$0.67|http://www.amsteelblue.com/amsteel-blue-3-16-synthetic-rope-by-the-foot-4-900-lbs/|
-|ET-WGM58AE|1|$11.00|http://www.etonm.com/|
-|Bearing|2|$3.00|https://www.amazon.com/RollerBones-Bones-Roller-Bearings/dp/B0094J6GQ0|
-|AS5048 Encoder|1|$4.47|https://www.digikey.com/product-detail/en/ams/AS5048A-HTSP-500/AS5048A-HTSP-500TR-ND/3188615|
-|JST XH 6 Connector|1|$0.45|https://www.digikey.com/product-detail/en/jst-sales-america-inc/S6B-XH-SM4-TB-LF-SN/455-2264-2-ND/1651066|
-|Magnet|1|$0.17|https://www.digikey.com/product-detail/en/radial-magnet-inc/9049/469-1075-ND/6030786|
-|M4 x 20mm Bolt|32|$3.81|https://www.mcmaster.com/91239a152|
-|M4 Bolt|4|$0.36|https://www.mcmaster.com/92095a190|
-|M4 Locknut|8|$0.93|https://www.mcmaster.com/94645a101|
-|100nf 10uf Filter Caps|1|$0.10|www.digikey.com|
-|Roller|1|$3.50|www.example.com|
-|Side Steel Plate|25|$15.00|www.example.com|
-|Spool Center|1|$3.00|www.example.com|
-|Total: |89|$46.46| |
+|Total: |0|$0.00| |
 
- 3xCOG MSRP: $139.38
+ 3xCOG MSRP: $0.00
