@@ -4038,8 +4038,8 @@
                 {
                     "atomType": "ExtractTag",
                     "name": "Extract Tag",
-                    "x": 1051,
-                    "y": 103,
+                    "x": 1046,
+                    "y": 102,
                     "uniqueID": 964044,
                     "ioValues": [
                         {

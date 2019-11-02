@@ -70,6 +70,9 @@ The radius of this is not displayed on the diagram, and is estimated. It should 
 undefined
 
 
+## Keepout Regions
+
+
 ## M4 Bolt
 
 
@@ -134,6 +137,9 @@ The radius of this is not displayed on the diagram, and is estimated. It should 
 
 
 undefined
+
+
+## Keepout Regions
 
 
 ## M4 Bolt
