@@ -2739,7 +2739,7 @@
             "atomType": "Molecule",
             "name": "Tabs",
             "x": 410,
-            "y": 97,
+            "y": 89,
             "uniqueID": 740020,
             "ioValues": [
                 {
@@ -3817,7 +3817,7 @@
                     "atomType": "Molecule",
                     "name": "Tabs",
                     "x": 410,
-                    "y": 97,
+                    "y": 89,
                     "uniqueID": 740020,
                     "ioValues": [
                         {
@@ -3932,35 +3932,74 @@
                     ]
                 },
                 {
+                    "atomType": "Tag",
+                    "name": "Add Tag",
+                    "x": 594,
+                    "y": 37,
+                    "uniqueID": 357390,
+                    "ioValues": [
+                        {
+                            "name": "tag",
+                            "ioValue": "Metal"
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Tag",
+                    "name": "Add Tag",
+                    "x": 595,
+                    "y": 97,
+                    "uniqueID": 290756,
+                    "ioValues": [
+                        {
+                            "name": "tag",
+                            "ioValue": "Metal"
+                        }
+                    ]
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 597,
-                    "y": 142,
+                    "x": 748,
+                    "y": 118,
                     "uniqueID": 247430,
                     "ioValues": [
                         {
-                            "name": "3D shape 804798",
+                            "name": "3D shape 254094",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 640990",
+                            "name": "3D shape 223689",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 223411",
+                            "name": "3D shape 775269",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 631124",
+                            "name": "3D shape 223138",
                             "ioValue": 10
                         }
                     ],
                     "removeCutawayGeometry": true
                 },
                 {
+                    "atomType": "Tag",
+                    "name": "Add Tag",
+                    "x": 724,
+                    "y": 274,
+                    "uniqueID": 415386,
+                    "ioValues": [
+                        {
+                            "name": "tag",
+                            "ioValue": "Metal"
+                        }
+                    ]
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 683,
+                    "x": 795,
                     "y": 193,
                     "uniqueID": 829052,
                     "ioValues": [
@@ -3981,8 +4020,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 856,
-                    "y": 211,
+                    "x": 953,
+                    "y": 219,
                     "uniqueID": 427718,
                     "ioValues": [
                         {
@@ -3990,11 +4029,24 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 220084",
+                            "name": "3D shape 349416",
                             "ioValue": 10
                         }
                     ],
                     "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "ExtractTag",
+                    "name": "Extract Tag",
+                    "x": 1051,
+                    "y": 103,
+                    "uniqueID": 964044,
+                    "ioValues": [
+                        {
+                            "name": "tag",
+                            "ioValue": "Metal"
+                        }
+                    ]
                 },
                 {
                     "atomType": "Output",
@@ -4133,25 +4185,25 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 640990",
+                    "ap2Name": "geometry",
                     "ap1ID": 626485,
-                    "ap2ID": 247430
+                    "ap2ID": 357390
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 804798",
+                    "ap2Name": "geometry",
                     "ap1ID": 740020,
-                    "ap2ID": 247430
+                    "ap2ID": 290756
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 223411",
+                    "ap2Name": "3D shape 223138",
                     "ap1ID": 372159,
                     "ap2ID": 247430
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 631124",
+                    "ap2Name": "3D shape 775269",
                     "ap1ID": 151141,
                     "ap2ID": 247430
                 },
@@ -4163,15 +4215,33 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 220084",
+                    "ap2Name": "geometry",
                     "ap1ID": 255734,
-                    "ap2ID": 427718
+                    "ap2ID": 415386
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 223689",
+                    "ap1ID": 357390,
+                    "ap2ID": 247430
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 254094",
+                    "ap1ID": 290756,
+                    "ap2ID": 247430
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 247430,
                     "ap2ID": 829052
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 349416",
+                    "ap1ID": 415386,
+                    "ap2ID": 427718
                 },
                 {
                     "ap1Name": "geometry",
@@ -4183,6 +4253,12 @@
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 427718
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 427718,
+                    "ap2ID": 964044
                 }
             ],
             "fileTypeVersion": 1

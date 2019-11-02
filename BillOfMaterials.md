@@ -12,9 +12,9 @@
 |M4 Bolt|4|$0.36|https://www.mcmaster.com/92095a190|
 |M4 Locknut|8|$0.93|https://www.mcmaster.com/94645a101|
 |100nf 10uf Filter Caps|1|$0.10|www.digikey.com|
+|Roller|1|$3.50|www.example.com|
 |Side Steel Plate|25|$15.00|www.example.com|
 |Spool Center|1|$3.00|www.example.com|
-|Roller|1|$3.50|www.example.com|
 |Total: |89|$46.46| |
 
  3xCOG MSRP: $139.38
