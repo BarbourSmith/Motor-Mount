@@ -2308,8 +2308,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
-                    "x": 429,
-                    "y": 23,
+                    "x": 433,
+                    "y": 29,
                     "uniqueID": 409918,
                     "projectID": "197395697",
                     "ioValues": [
@@ -2470,7 +2470,7 @@
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 981,
-                    "y": 20,
+                    "y": 21.015384615384615,
                     "uniqueID": 849543,
                     "ioValues": [
                         {
@@ -2737,6 +2737,219 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 636,
+            "y": 257,
+            "uniqueID": 153893,
+            "ioValues": [
+                {
+                    "name": "Width",
+                    "ioValue": 28
+                },
+                {
+                    "name": "Thickness",
+                    "ioValue": 4
+                },
+                {
+                    "name": "Length",
+                    "ioValue": 160
+                },
+                {
+                    "name": "Bend Radius",
+                    "ioValue": 5
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Length",
+                    "x": 87,
+                    "y": 62,
+                    "uniqueID": 179098,
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Width",
+                    "x": 87,
+                    "y": 102,
+                    "uniqueID": 994296,
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Thickness",
+                    "x": 90,
+                    "y": 143,
+                    "uniqueID": 512135,
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Bend Radius",
+                    "x": 93,
+                    "y": 190,
+                    "uniqueID": 108837,
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 372,
+                    "y": 99,
+                    "uniqueID": 280506,
+                    "ioValues": [
+                        {
+                            "name": "W",
+                            "ioValue": 28
+                        }
+                    ],
+                    "currentEquation": "W/-2"
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Sheet Metal Tab",
+                    "x": 381,
+                    "y": 160,
+                    "uniqueID": 982517,
+                    "projectID": "197395697",
+                    "ioValues": [
+                        {
+                            "name": "Radius",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "Thickness",
+                            "ioValue": 4
+                        },
+                        {
+                            "name": "Length",
+                            "ioValue": 30
+                        },
+                        {
+                            "name": "Tab Height",
+                            "ioValue": 20
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 568,
+                    "y": 136,
+                    "uniqueID": 221136,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": -90
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 728,
+                    "y": 109,
+                    "uniqueID": 864465,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 110
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": -14
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 163.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "W",
+                    "ap1ID": 994296,
+                    "ap2ID": 280506
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Thickness",
+                    "ap1ID": 512135,
+                    "ap2ID": 982517
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Radius",
+                    "ap1ID": 108837,
+                    "ap2ID": 982517
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap1ID": 280506,
+                    "ap2ID": 864465
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 982517,
+                    "ap2ID": 221136
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 221136,
+                    "ap2ID": 864465
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 864465
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Tabs",
             "x": 410,
             "y": 89,
@@ -2893,6 +3106,31 @@
                     ]
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "Molecule",
+                    "x": 636,
+                    "y": 257,
+                    "uniqueID": 153893,
+                    "ioValues": [
+                        {
+                            "name": "Width",
+                            "ioValue": 28
+                        },
+                        {
+                            "name": "Thickness",
+                            "ioValue": 4
+                        },
+                        {
+                            "name": "Length",
+                            "ioValue": 160
+                        },
+                        {
+                            "name": "Bend Radius",
+                            "ioValue": 5
+                        }
+                    ]
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 1163,
@@ -2909,6 +3147,10 @@
                         },
                         {
                             "name": "3D shape 657560",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 535819",
                             "ioValue": 10
                         }
                     ],
@@ -2943,6 +3185,12 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "Bend Radius",
+                    "ap1ID": 651275,
+                    "ap2ID": 153893
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "Width",
                     "ap1ID": 693654,
                     "ap2ID": 801504
@@ -2958,6 +3206,12 @@
                     "ap2Name": "Width",
                     "ap1ID": 693654,
                     "ap2ID": 477608
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Width",
+                    "ap1ID": 693654,
+                    "ap2ID": 153893
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -2979,6 +3233,12 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "Thickness",
+                    "ap1ID": 568082,
+                    "ap2ID": 153893
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "Length",
                     "ap1ID": 605772,
                     "ap2ID": 801504
@@ -2994,6 +3254,12 @@
                     "ap2Name": "Length",
                     "ap1ID": 605772,
                     "ap2ID": 477608
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Length",
+                    "ap1ID": 605772,
+                    "ap2ID": 153893
                 },
                 {
                     "ap1Name": "Geometry",
@@ -3011,6 +3277,12 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 742104",
                     "ap1ID": 841084,
+                    "ap2ID": 747646
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 535819",
+                    "ap1ID": 153893,
                     "ap2ID": 747646
                 },
                 {
