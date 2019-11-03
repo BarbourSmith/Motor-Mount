@@ -217,51 +217,45 @@ undefined
 ## Block
 
 
-## Encoder Board
-
-
-## PCB
-
-
-## Board
-
-
-## Components
-
-
-undefined
-
-
-undefined
-
-
-undefined
-
-
-## Bolts
-
-
-## M4x20 Bolt
-
-
-undefined
-
-
-## M4 Locknut
-
-
-undefined
-
-
-## Skateboard Bearing
-
-
-undefined
-
-
 ## Plug to clear center
 
 
+## Encoder Board
+
+
+## PCB
+
+
+## Board
+
+
+## Components
+
+
+undefined
+
+
+undefined
+
+
+undefined
+
+
+## Bolts
+
+
+## M4x20 Bolt
+
+
+undefined
+
+
+## M4 Locknut
+
+
+undefined
+
+
 ## Bolts
 
 
@@ -308,12 +302,6 @@ undefined
 
 
 ## M4 Locknut
-
-
-undefined
-
-
-## Skateboard Bearing
 
 
 undefined
