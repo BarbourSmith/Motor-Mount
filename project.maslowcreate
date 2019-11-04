@@ -2743,16 +2743,16 @@
             "uniqueID": 153893,
             "ioValues": [
                 {
+                    "name": "Length",
+                    "ioValue": 160
+                },
+                {
                     "name": "Width",
                     "ioValue": 28
                 },
                 {
                     "name": "Thickness",
                     "ioValue": 4
-                },
-                {
-                    "name": "Length",
-                    "ioValue": 160
                 },
                 {
                     "name": "Bend Radius",
@@ -3113,16 +3113,16 @@
                     "uniqueID": 153893,
                     "ioValues": [
                         {
+                            "name": "Length",
+                            "ioValue": 160
+                        },
+                        {
                             "name": "Width",
                             "ioValue": 28
                         },
                         {
                             "name": "Thickness",
                             "ioValue": 4
-                        },
-                        {
-                            "name": "Length",
-                            "ioValue": 160
                         },
                         {
                             "name": "Bend Radius",
