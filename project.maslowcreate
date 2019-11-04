@@ -468,7 +468,7 @@
                 },
                 {
                     "name": "Length",
-                    "ioValue": 160
+                    "ioValue": 155
                 }
             ],
             "topLevel": false,
@@ -476,8 +476,8 @@
                 {
                     "atomType": "Input",
                     "name": "Thickness",
-                    "x": 66,
-                    "y": 58,
+                    "x": 112,
+                    "y": 107,
                     "uniqueID": 131299,
                     "ioValues": [
                         {
@@ -489,8 +489,8 @@
                 {
                     "atomType": "Input",
                     "name": "Radius",
-                    "x": 62,
-                    "y": 104,
+                    "x": 325,
+                    "y": 37,
                     "uniqueID": 615859,
                     "ioValues": [
                         {
@@ -500,27 +500,10 @@
                     ]
                 },
                 {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 237,
-                    "y": 250,
-                    "uniqueID": 803415,
-                    "ioValues": [
-                        {
-                            "name": "x length",
-                            "ioValue": 4
-                        },
-                        {
-                            "name": "y length",
-                            "ioValue": 65
-                        }
-                    ]
-                },
-                {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 345,
-                    "y": 170,
+                    "x": 310,
+                    "y": 171,
                     "uniqueID": 815419,
                     "ioValues": [
                         {
@@ -535,10 +518,40 @@
                     "currentEquation": "R+T"
                 },
                 {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 228,
+                    "y": 276,
+                    "uniqueID": 803415,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 4
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 60
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 353,
+                    "y": 248,
+                    "uniqueID": 976903,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 49
+                        }
+                    ]
+                },
+                {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 403,
-                    "y": 122,
+                    "x": 493,
+                    "y": 153,
                     "uniqueID": 710545,
                     "ioValues": [
                         {
@@ -553,23 +566,10 @@
                     "currentEquation": "R+T/2"
                 },
                 {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 356,
-                    "y": 252,
-                    "uniqueID": 976903,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 49
-                        }
-                    ]
-                },
-                {
                     "atomType": "Input",
                     "name": "Bent",
-                    "x": 471,
-                    "y": 33,
+                    "x": 592,
+                    "y": 45,
                     "uniqueID": 880034,
                     "ioValues": [
                         {
@@ -581,8 +581,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 501,
-                    "y": 254,
+                    "x": 573,
+                    "y": 262,
                     "uniqueID": 737447,
                     "ioValues": [
                         {
@@ -591,7 +591,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -32.5
+                            "ioValue": -30
                         },
                         {
                             "name": "zDist",
@@ -602,14 +602,14 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Metal Bend",
-                    "x": 672,
-                    "y": 125,
+                    "x": 668,
+                    "y": 128,
                     "uniqueID": 171978,
                     "projectID": "213500755",
                     "ioValues": [
                         {
                             "name": "Length",
-                            "ioValue": 65
+                            "ioValue": 60
                         },
                         {
                             "name": "Thickness",
@@ -652,6 +652,27 @@
                     ]
                 },
                 {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 1019,
+                    "y": 134,
+                    "uniqueID": 578636,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": -90
+                        }
+                    ]
+                },
+                {
                     "atomType": "Equation",
                     "name": "Equation",
                     "x": 1065,
@@ -674,31 +695,10 @@
                     "ioValues": [
                         {
                             "name": "L",
-                            "ioValue": 160
+                            "ioValue": 155
                         }
                     ],
-                    "currentEquation": "L/2"
-                },
-                {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 1183,
-                    "y": 146,
-                    "uniqueID": 578636,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": -90
-                        }
-                    ]
+                    "currentEquation": "L/2+3"
                 },
                 {
                     "atomType": "Translate",
@@ -709,7 +709,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 80
+                            "ioValue": 80.5
                         },
                         {
                             "name": "yDist",
@@ -773,27 +773,27 @@
                     "ap2ID": 710545
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 803415,
-                    "ap2ID": 976903
-                },
-                {
                     "ap1Name": "result",
                     "ap2Name": "zDist",
                     "ap1ID": 815419,
                     "ap2ID": 737447
                 },
                 {
-                    "ap1Name": "result",
-                    "ap2Name": "xDist",
-                    "ap1ID": 710545,
-                    "ap2ID": 737447
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 803415,
+                    "ap2ID": 976903
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 976903,
+                    "ap2ID": 737447
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap1ID": 710545,
                     "ap2ID": 737447
                 },
                 {
@@ -827,6 +827,12 @@
                     "ap2ID": 491435
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 578636,
+                    "ap2ID": 253196
+                },
+                {
                     "ap1Name": "result",
                     "ap2Name": "yDist",
                     "ap1ID": 940908,
@@ -836,12 +842,6 @@
                     "ap1Name": "result",
                     "ap2Name": "xDist",
                     "ap1ID": 491435,
-                    "ap2ID": 253196
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 578636,
                     "ap2ID": 253196
                 },
                 {
@@ -873,7 +873,7 @@
                 },
                 {
                     "name": "Length",
-                    "ioValue": 95
+                    "ioValue": 101.5
                 }
             ],
             "topLevel": false,
@@ -1140,7 +1140,7 @@
                     "ioValues": [
                         {
                             "name": "L",
-                            "ioValue": 95
+                            "ioValue": 101.5
                         }
                     ],
                     "currentEquation": "-1*L - 1"
@@ -1179,7 +1179,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -96
+                            "ioValue": -102.5
                         },
                         {
                             "name": "zDist",
@@ -1465,24 +1465,6 @@
                     "currentEquation": "R + H + T + (W-2)/2"
                 },
                 {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 370,
-                    "y": 176,
-                    "uniqueID": 284943,
-                    "ioValues": [
-                        {
-                            "name": "R",
-                            "ioValue": 5
-                        },
-                        {
-                            "name": "T",
-                            "ioValue": 4
-                        }
-                    ],
-                    "currentEquation": "R+T"
-                },
-                {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab",
                     "x": 450,
@@ -1522,6 +1504,24 @@
                     ]
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 444,
+                    "y": 220,
+                    "uniqueID": 284943,
+                    "ioValues": [
+                        {
+                            "name": "R",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "T",
+                            "ioValue": 4
+                        }
+                    ],
+                    "currentEquation": "R+T"
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
                     "x": 735,
@@ -1545,8 +1545,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 1052,
-                    "y": 123,
+                    "x": 1060,
+                    "y": 126,
                     "uniqueID": 232014,
                     "ioValues": [
                         {
@@ -1555,7 +1555,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -126
+                            "ioValue": -132.5
                         },
                         {
                             "name": "zDist",
@@ -1633,16 +1633,16 @@
                     "ap2ID": 236759
                 },
                 {
-                    "ap1Name": "result",
-                    "ap2Name": "xDist",
-                    "ap1ID": 284943,
-                    "ap2ID": 232014
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 236759,
                     "ap2ID": 821543
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap1ID": 284943,
+                    "ap2ID": 232014
                 },
                 {
                     "ap1Name": "geometry",
@@ -1736,7 +1736,7 @@
                             "ioValue": 160
                         }
                     ],
-                    "currentEquation": "L - 65"
+                    "currentEquation": "L - 58.5"
                 },
                 {
                     "atomType": "Input",
@@ -1782,7 +1782,7 @@
                         },
                         {
                             "name": "Length",
-                            "ioValue": 95
+                            "ioValue": 101.5
                         },
                         {
                             "name": "Tab Height",
@@ -1811,7 +1811,7 @@
                         },
                         {
                             "name": "Length",
-                            "ioValue": 95
+                            "ioValue": 101.5
                         }
                     ]
                 },
@@ -1911,10 +1911,10 @@
                     "ioValues": [
                         {
                             "name": "L",
-                            "ioValue": 95
+                            "ioValue": 101.5
                         }
                     ],
-                    "currentEquation": "(65-L)/-2"
+                    "currentEquation": "(58.5-L)/-2"
                 },
                 {
                     "atomType": "Equation",
@@ -1981,7 +1981,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 15
+                            "ioValue": 21.5
                         },
                         {
                             "name": "yDist",
@@ -3137,7 +3137,7 @@
                         },
                         {
                             "name": "Length",
-                            "ioValue": 160
+                            "ioValue": 155
                         }
                     ]
                 },
@@ -3875,8 +3875,8 @@
         {
             "atomType": "Molecule",
             "name": "Ring",
-            "x": 406,
-            "y": 277,
+            "x": 418,
+            "y": 287,
             "uniqueID": 255734,
             "ioValues": [
                 {
@@ -4271,8 +4271,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Ring",
-                    "x": 406,
-                    "y": 277,
+                    "x": 418,
+                    "y": 287,
                     "uniqueID": 255734,
                     "ioValues": [
                         {
@@ -4396,8 +4396,8 @@
                 {
                     "atomType": "ExtractTag",
                     "name": "Extract Tag",
-                    "x": 1046,
-                    "y": 102,
+                    "x": 1041,
+                    "y": 111,
                     "uniqueID": 964044,
                     "ioValues": [
                         {
