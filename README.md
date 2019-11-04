@@ -43,7 +43,7 @@
 ## Sheet Metal Tab
 
 
-## Molecule
+## Brace Tab
 
 
 ## Sheet Metal Tab
