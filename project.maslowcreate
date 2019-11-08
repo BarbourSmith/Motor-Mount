@@ -468,7 +468,7 @@
                 },
                 {
                     "name": "Length",
-                    "ioValue": 155
+                    "ioValue": 160
                 }
             ],
             "topLevel": false,
@@ -695,7 +695,7 @@
                     "ioValues": [
                         {
                             "name": "L",
-                            "ioValue": 155
+                            "ioValue": 160
                         }
                     ],
                     "currentEquation": "L/2+3"
@@ -709,7 +709,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 80.5
+                            "ioValue": 83
                         },
                         {
                             "name": "yDist",
@@ -860,12 +860,12 @@
             "uniqueID": 205590,
             "ioValues": [
                 {
-                    "name": "Thickness",
-                    "ioValue": 4
-                },
-                {
                     "name": "Radius",
                     "ioValue": 5
+                },
+                {
+                    "name": "Thickness",
+                    "ioValue": 4
                 },
                 {
                     "name": "Width",
@@ -1016,20 +1016,20 @@
                     "uniqueID": 610919,
                     "ioValues": [
                         {
-                            "name": "H",
-                            "ioValue": 20
-                        },
-                        {
-                            "name": "W",
-                            "ioValue": 28
+                            "name": "T",
+                            "ioValue": 4
                         },
                         {
                             "name": "R",
                             "ioValue": 5
                         },
                         {
-                            "name": "T",
-                            "ioValue": 4
+                            "name": "H",
+                            "ioValue": 20
+                        },
+                        {
+                            "name": "W",
+                            "ioValue": 28
                         }
                     ],
                     "currentEquation": "T + R + H + (W-2)/2"
@@ -1446,20 +1446,20 @@
                     "uniqueID": 929950,
                     "ioValues": [
                         {
-                            "name": "T",
-                            "ioValue": 20
-                        },
-                        {
-                            "name": "W",
-                            "ioValue": 28
-                        },
-                        {
                             "name": "R",
                             "ioValue": 5
                         },
                         {
                             "name": "H",
                             "ioValue": 4
+                        },
+                        {
+                            "name": "T",
+                            "ioValue": 20
+                        },
+                        {
+                            "name": "W",
+                            "ioValue": 28
                         }
                     ],
                     "currentEquation": "R + H + T + (W-2)/2"
@@ -1798,12 +1798,12 @@
                     "uniqueID": 205590,
                     "ioValues": [
                         {
-                            "name": "Thickness",
-                            "ioValue": 4
-                        },
-                        {
                             "name": "Radius",
                             "ioValue": 5
+                        },
+                        {
+                            "name": "Thickness",
+                            "ioValue": 4
                         },
                         {
                             "name": "Width",
@@ -2318,20 +2318,20 @@
                     "uniqueID": 527991,
                     "ioValues": [
                         {
-                            "name": "h",
-                            "ioValue": 20
-                        },
-                        {
-                            "name": "w",
-                            "ioValue": 28
-                        },
-                        {
                             "name": "R",
                             "ioValue": 5
                         },
                         {
                             "name": "T",
                             "ioValue": 4
+                        },
+                        {
+                            "name": "h",
+                            "ioValue": 20
+                        },
+                        {
+                            "name": "w",
+                            "ioValue": 28
                         }
                     ],
                     "currentEquation": "R+T+h + (w-2)/2"
@@ -3137,7 +3137,7 @@
                         },
                         {
                             "name": "Length",
-                            "ioValue": 155
+                            "ioValue": 160
                         }
                     ]
                 },
