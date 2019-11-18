@@ -103,13 +103,13 @@ undefined
 ## Sides
 
 
+undefined
+
+
 ## Mounting Bolts
 
 
 ## M4x20 Bolt
-
-
-undefined
 
 
 undefined
@@ -172,13 +172,13 @@ undefined
 ## Sides
 
 
+undefined
+
+
 ## Mounting Bolts
 
 
 ## M4x20 Bolt
-
-
-undefined
 
 
 undefined
