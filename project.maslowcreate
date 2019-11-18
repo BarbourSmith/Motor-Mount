@@ -325,8 +325,8 @@
                 {
                     "atomType": "Input",
                     "name": "Thickness",
-                    "x": 1084,
-                    "y": 222,
+                    "x": 916,
+                    "y": 249,
                     "uniqueID": 656562,
                     "ioValues": [
                         {
@@ -338,8 +338,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 1186,
-                    "y": 106,
+                    "x": 1057,
+                    "y": 94,
                     "uniqueID": 345799,
                     "ioValues": [
                         {
@@ -347,6 +347,21 @@
                             "ioValue": 4
                         }
                     ]
+                },
+                {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 1159,
+                    "y": 220,
+                    "uniqueID": 698327,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "Metal Arm Bracket",
+                        "numberNeeded": 1,
+                        "costUSD": 6,
+                        "source": "www.example.com",
+                        "totalNeeded": 0
+                    }
                 },
                 {
                     "atomType": "Output",
@@ -437,8 +452,14 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 345799,
+                    "ap2ID": 698327
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 345799
+                    "ap1ID": 698327
                 }
             ],
             "fileTypeVersion": 1
