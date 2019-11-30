@@ -702,7 +702,7 @@
                             "ioValue": 160
                         }
                     ],
-                    "currentEquation": "L/2+3"
+                    "currentEquation": "L/2+1.5"
                 },
                 {
                     "atomType": "Translate",
@@ -713,7 +713,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 83
+                            "ioValue": 81.5
                         },
                         {
                             "name": "yDist",
@@ -4370,6 +4370,19 @@
                     ]
                 },
                 {
+                    "atomType": "ExtractTag",
+                    "name": "Extract Tag",
+                    "x": 945,
+                    "y": 93,
+                    "uniqueID": 584833,
+                    "ioValues": [
+                        {
+                            "name": "tag",
+                            "ioValue": "Metal"
+                        }
+                    ]
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 953,
@@ -4599,6 +4612,12 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 584833,
+                    "ap2ID": 691472
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 427718
                 },
@@ -4606,7 +4625,7 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 427718,
-                    "ap2ID": 691472
+                    "ap2ID": 584833
                 }
             ],
             "fileTypeVersion": 1
