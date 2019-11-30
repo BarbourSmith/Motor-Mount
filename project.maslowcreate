@@ -169,8 +169,8 @@
         {
             "atomType": "Molecule",
             "name": "Metal Base",
-            "x": 406,
-            "y": 43,
+            "x": 409,
+            "y": 31,
             "uniqueID": 626485,
             "ioValues": [
                 {
@@ -605,67 +605,15 @@
                 },
                 {
                     "atomType": "GitHubMolecule",
-                    "name": "Metal Bend",
-                    "x": 668,
-                    "y": 128,
-                    "uniqueID": 171978,
-                    "projectID": "213500755",
-                    "ioValues": [
-                        {
-                            "name": "Length",
-                            "ioValue": 60
-                        },
-                        {
-                            "name": "Thickness",
-                            "ioValue": 4
-                        },
-                        {
-                            "name": "Interior Radius",
-                            "ioValue": 5
-                        },
-                        {
-                            "name": "Bent?",
-                            "ioValue": 1
-                        }
-                    ]
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "Code Attached Geometry",
-                    "x": 750,
-                    "y": 49,
-                    "uniqueID": 673216,
-                    "projectID": "225079902",
-                    "ioValues": [
-                        {
-                            "name": "Thickness",
-                            "ioValue": 4
-                        },
-                        {
-                            "name": "Length",
-                            "ioValue": 40
-                        },
-                        {
-                            "name": "Height",
-                            "ioValue": 30
-                        },
-                        {
-                            "name": "Radius",
-                            "ioValue": 5
-                        }
-                    ]
-                },
-                {
-                    "atomType": "GitHubMolecule",
                     "name": "Code Bend",
-                    "x": 739,
-                    "y": 232,
+                    "x": 759,
+                    "y": 107,
                     "uniqueID": 589100,
                     "projectID": "223926550",
                     "ioValues": [
                         {
                             "name": "Interior Bend Radius",
-                            "ioValue": 3
+                            "ioValue": 5
                         },
                         {
                             "name": "Length",
@@ -788,12 +736,6 @@
             "allConnectors": [
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "Thickness",
-                    "ap1ID": 131299,
-                    "ap2ID": 171978
-                },
-                {
-                    "ap1Name": "number or geometry",
                     "ap2Name": "x length",
                     "ap1ID": 131299,
                     "ap2ID": 803415
@@ -814,19 +756,7 @@
                     "ap1Name": "number or geometry",
                     "ap2Name": "Thickness",
                     "ap1ID": 131299,
-                    "ap2ID": 673216
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "Thickness",
-                    "ap1ID": 131299,
                     "ap2ID": 589100
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "Interior Radius",
-                    "ap1ID": 615859,
-                    "ap2ID": 171978
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -842,9 +772,9 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "Radius",
+                    "ap2Name": "Interior Bend Radius",
                     "ap1ID": 615859,
-                    "ap2ID": 673216
+                    "ap2ID": 589100
                 },
                 {
                     "ap1Name": "result",
@@ -872,12 +802,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Attached Geometry",
-                    "ap1ID": 737447,
-                    "ap2ID": 171978
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "Attached Tab",
                     "ap1ID": 737447,
                     "ap2ID": 589100
@@ -885,7 +809,7 @@
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 171978,
+                    "ap1ID": 589100,
                     "ap2ID": 578636
                 },
                 {
@@ -3111,8 +3035,8 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 407,
-            "y": 82,
+            "x": 408,
+            "y": 89,
             "uniqueID": 740020,
             "ioValues": [
                 {
@@ -3289,8 +3213,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 1163,
-                    "y": 167,
+                    "x": 909,
+                    "y": 150,
                     "uniqueID": 747646,
                     "ioValues": [
                         {
@@ -3588,10 +3512,6 @@
                     "y": 115,
                     "uniqueID": 286715,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "xDist",
                             "ioValue": 57.5
@@ -4235,8 +4155,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Metal Base",
-                    "x": 406,
-                    "y": 43,
+                    "x": 409,
+                    "y": 31,
                     "uniqueID": 626485,
                     "ioValues": [
                         {
@@ -4256,8 +4176,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 407,
-                    "y": 82,
+                    "x": 408,
+                    "y": 89,
                     "uniqueID": 740020,
                     "ioValues": [
                         {
@@ -4480,15 +4400,16 @@
                     "removeCutawayGeometry": true
                 },
                 {
-                    "atomType": "ExtractTag",
-                    "name": "Extract Tag",
-                    "x": 1041,
-                    "y": 111,
-                    "uniqueID": 964044,
+                    "atomType": "GitHubMolecule",
+                    "name": "Code Unbend",
+                    "x": 1089,
+                    "y": 72,
+                    "uniqueID": 691472,
+                    "projectID": "224020939",
                     "ioValues": [
                         {
-                            "name": "tag",
-                            "ioValue": "Metal"
+                            "name": "geometry",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -4702,7 +4623,7 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 427718,
-                    "ap2ID": 964044
+                    "ap2ID": 691472
                 }
             ],
             "fileTypeVersion": 1
