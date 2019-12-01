@@ -2938,6 +2938,32 @@
                     ]
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Code Attached Geometry",
+                    "x": 391,
+                    "y": 242,
+                    "uniqueID": 817036,
+                    "projectID": "225079902",
+                    "ioValues": [
+                        {
+                            "name": "Thickness",
+                            "ioValue": 4
+                        },
+                        {
+                            "name": "Length",
+                            "ioValue": 30
+                        },
+                        {
+                            "name": "Height",
+                            "ioValue": 20
+                        },
+                        {
+                            "name": "Radius",
+                            "ioValue": 5
+                        }
+                    ]
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
                     "x": 568,
@@ -3002,9 +3028,21 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "Thickness",
+                    "ap1ID": 512135,
+                    "ap2ID": 817036
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "Radius",
                     "ap1ID": 108837,
                     "ap2ID": 982517
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Radius",
+                    "ap1ID": 108837,
+                    "ap2ID": 817036
                 },
                 {
                     "ap1Name": "result",
