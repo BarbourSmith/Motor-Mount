@@ -117,7 +117,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 156,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -367,7 +367,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 156,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -467,8 +467,8 @@
         {
             "atomType": "Molecule",
             "name": "Big Tab",
-            "x": 629,
-            "y": 59,
+            "x": 640,
+            "y": 51,
             "uniqueID": 801504,
             "ioValues": [
                 {
@@ -729,7 +729,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 156,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -1189,7 +1189,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 156,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -1565,7 +1565,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 156,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -2024,7 +2024,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 156,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -2219,6 +2219,78 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 424,
+            "y": 158,
+            "uniqueID": 738893,
+            "ioValues": [
+                {
+                    "name": "Thickness",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Radius",
+                    "ioValue": 5
+                },
+                {
+                    "name": "Height",
+                    "ioValue": 10
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Thickness",
+                    "x": 125,
+                    "y": 93,
+                    "uniqueID": 918639,
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Radius",
+                    "x": 121,
+                    "y": 138,
+                    "uniqueID": 590162,
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Height",
+                    "x": 116,
+                    "y": 197,
+                    "uniqueID": 994445,
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 163.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Little Tab",
             "x": 636,
             "y": 180,
@@ -2233,12 +2305,12 @@
                     "ioValue": 4
                 },
                 {
-                    "name": "Length",
-                    "ioValue": 160
-                },
-                {
                     "name": "Width",
                     "ioValue": 28
+                },
+                {
+                    "name": "Length",
+                    "ioValue": 160
                 }
             ],
             "topLevel": false,
@@ -2361,6 +2433,27 @@
                         {
                             "name": "Tab Height",
                             "ioValue": 20
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Molecule",
+                    "x": 424,
+                    "y": 158,
+                    "uniqueID": 738893,
+                    "ioValues": [
+                        {
+                            "name": "Thickness",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Radius",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "Height",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -2608,7 +2701,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 156,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -2636,6 +2729,12 @@
                     "ap2Name": "R",
                     "ap1ID": 988427,
                     "ap2ID": 527991
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Radius",
+                    "ap1ID": 988427,
+                    "ap2ID": 738893
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -2673,6 +2772,7 @@
                     "ap1ID": 432176,
                     "ap2ID": 527991
                 },
+                null,
                 {
                     "ap1Name": "number",
                     "ap2Name": "Tab Height",
@@ -3009,7 +3109,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 156,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -3151,8 +3251,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Big Tab",
-                    "x": 629,
-                    "y": 59,
+                    "x": 640,
+                    "y": 51,
                     "uniqueID": 801504,
                     "ioValues": [
                         {
@@ -3214,12 +3314,12 @@
                             "ioValue": 4
                         },
                         {
-                            "name": "Length",
-                            "ioValue": 160
-                        },
-                        {
                             "name": "Width",
                             "ioValue": 28
+                        },
+                        {
+                            "name": "Length",
+                            "ioValue": 160
                         }
                     ]
                 },
@@ -3278,7 +3378,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 156,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -3568,7 +3668,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 156,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -3819,7 +3919,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 156,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -4034,7 +4134,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 156,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -4451,7 +4551,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 156,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
