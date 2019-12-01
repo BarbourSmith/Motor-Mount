@@ -1866,6 +1866,24 @@
                     "currentEquation": "-1*L + 65"
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 523,
+                    "y": 200,
+                    "uniqueID": 912855,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 870796",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 790560",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 598,
@@ -1879,26 +1897,30 @@
                     ]
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 653,
-                    "y": 185,
-                    "uniqueID": 912855,
+                    "atomType": "GitHubMolecule",
+                    "name": "Code Bend",
+                    "x": 664,
+                    "y": 205,
+                    "uniqueID": 810232,
+                    "projectID": "223926550",
                     "ioValues": [
                         {
-                            "name": "3D shape 220521",
-                            "ioValue": 10
+                            "name": "Interior Bend Radius",
+                            "ioValue": 5
                         },
                         {
-                            "name": "3D shape 870796",
-                            "ioValue": 10
+                            "name": "Length",
+                            "ioValue": 101.5
                         },
                         {
-                            "name": "3D shape 790560",
-                            "ioValue": 10
+                            "name": "Thickness",
+                            "ioValue": 4
+                        },
+                        {
+                            "name": "K Factor",
+                            "ioValue": 0.4
                         }
-                    ],
-                    "removeCutawayGeometry": true
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -2066,6 +2088,12 @@
                     "ap2ID": 515562
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Interior Bend Radius",
+                    "ap1ID": 759559,
+                    "ap2ID": 810232
+                },
+                {
                     "ap1Name": "result",
                     "ap2Name": "Length",
                     "ap1ID": 250201,
@@ -2082,6 +2110,12 @@
                     "ap2Name": "Length",
                     "ap1ID": 250201,
                     "ap2ID": 205590
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "Length",
+                    "ap1ID": 250201,
+                    "ap2ID": 810232
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -2115,6 +2149,12 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "Thickness",
+                    "ap1ID": 285004,
+                    "ap2ID": 810232
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "W",
                     "ap1ID": 676222,
                     "ap2ID": 271336
@@ -2130,12 +2170,6 @@
                     "ap2Name": "Width",
                     "ap1ID": 676222,
                     "ap2ID": 515562
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 220521",
-                    "ap1ID": 491468,
-                    "ap2ID": 912855
                 },
                 {
                     "ap1Name": "Geometry",
@@ -2163,14 +2197,20 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "Attached Tab",
+                    "ap1ID": 912855,
+                    "ap2ID": 810232
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 260315,
                     "ap2ID": 694138
                 },
                 {
-                    "ap1Name": "geometry",
+                    "ap1Name": "Geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 912855,
+                    "ap1ID": 810232,
                     "ap2ID": 209961
                 },
                 {
