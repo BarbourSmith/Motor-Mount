@@ -469,12 +469,12 @@
             "uniqueID": 801504,
             "ioValues": [
                 {
-                    "name": "Thickness",
-                    "ioValue": 4
-                },
-                {
                     "name": "Radius",
                     "ioValue": 5
+                },
+                {
+                    "name": "Thickness",
+                    "ioValue": 4
                 },
                 {
                     "name": "Width",
@@ -862,12 +862,12 @@
                     "ioValue": 4
                 },
                 {
-                    "name": "Width",
-                    "ioValue": 28
-                },
-                {
                     "name": "Length",
                     "ioValue": 101.5
+                },
+                {
+                    "name": "Width",
+                    "ioValue": 28
                 }
             ],
             "topLevel": false,
@@ -1835,12 +1835,12 @@
                             "ioValue": 4
                         },
                         {
-                            "name": "Width",
-                            "ioValue": 28
-                        },
-                        {
                             "name": "Length",
                             "ioValue": 101.5
+                        },
+                        {
+                            "name": "Width",
+                            "ioValue": 28
                         }
                     ]
                 },
@@ -2338,6 +2338,10 @@
             "uniqueID": 738893,
             "ioValues": [
                 {
+                    "name": "Radius",
+                    "ioValue": 5
+                },
+                {
                     "name": "Height",
                     "ioValue": 20
                 },
@@ -2348,10 +2352,6 @@
                 {
                     "name": "Length",
                     "ioValue": 30
-                },
-                {
-                    "name": "Radius",
-                    "ioValue": 5
                 }
             ],
             "topLevel": false,
@@ -2614,12 +2614,12 @@
                     "ioValue": 4
                 },
                 {
-                    "name": "Width",
-                    "ioValue": 28
-                },
-                {
                     "name": "Length",
                     "ioValue": 160
+                },
+                {
+                    "name": "Width",
+                    "ioValue": 28
                 }
             ],
             "topLevel": false,
@@ -2737,6 +2737,10 @@
                     "uniqueID": 738893,
                     "ioValues": [
                         {
+                            "name": "Radius",
+                            "ioValue": 5
+                        },
+                        {
                             "name": "Height",
                             "ioValue": 20
                         },
@@ -2747,10 +2751,6 @@
                         {
                             "name": "Length",
                             "ioValue": 30
-                        },
-                        {
-                            "name": "Radius",
-                            "ioValue": 5
                         }
                     ]
                 },
@@ -3606,12 +3606,12 @@
                     "uniqueID": 801504,
                     "ioValues": [
                         {
-                            "name": "Thickness",
-                            "ioValue": 4
-                        },
-                        {
                             "name": "Radius",
                             "ioValue": 5
+                        },
+                        {
+                            "name": "Thickness",
+                            "ioValue": 4
                         },
                         {
                             "name": "Width",
@@ -3664,12 +3664,12 @@
                             "ioValue": 4
                         },
                         {
-                            "name": "Width",
-                            "ioValue": 28
-                        },
-                        {
                             "name": "Length",
                             "ioValue": 160
+                        },
+                        {
+                            "name": "Width",
+                            "ioValue": 28
                         }
                     ]
                 },
@@ -4364,16 +4364,16 @@
             "uniqueID": 255734,
             "ioValues": [
                 {
+                    "name": "Metal Thickness",
+                    "ioValue": 4
+                },
+                {
                     "name": "Router Size",
                     "ioValue": 89
                 },
                 {
                     "name": "Ring Thickness",
                     "ioValue": 12
-                },
-                {
-                    "name": "Metal Thickness",
-                    "ioValue": 4
                 }
             ],
             "topLevel": false,
@@ -4754,16 +4754,16 @@
                     "uniqueID": 255734,
                     "ioValues": [
                         {
+                            "name": "Metal Thickness",
+                            "ioValue": 4
+                        },
+                        {
                             "name": "Router Size",
                             "ioValue": 89
                         },
                         {
                             "name": "Ring Thickness",
                             "ioValue": 12
-                        },
-                        {
-                            "name": "Metal Thickness",
-                            "ioValue": 4
                         }
                     ]
                 },
