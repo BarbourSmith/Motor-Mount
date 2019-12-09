@@ -107,7 +107,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 153,
                     "ioValues": []
                 }
             ],
@@ -349,7 +349,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 153,
                     "ioValues": []
                 }
             ],
@@ -706,7 +706,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 153,
                     "ioValues": []
                 }
             ],
@@ -1165,7 +1165,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 153,
                     "ioValues": []
                 }
             ],
@@ -1512,7 +1512,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 153,
                     "ioValues": []
                 }
             ],
@@ -1718,7 +1718,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 153,
                     "ioValues": []
                 }
             ],
@@ -1963,7 +1963,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 153,
                     "ioValues": []
                 }
             ],
@@ -2350,7 +2350,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 153,
                     "ioValues": []
                 }
             ],
@@ -2695,7 +2695,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 153,
                     "ioValues": []
                 }
             ],
@@ -3222,7 +3222,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 153,
                     "ioValues": []
                 }
             ],
@@ -3672,7 +3672,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 153,
                     "ioValues": []
                 }
             ],
@@ -3930,7 +3930,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 153,
                     "ioValues": []
                 }
             ],
@@ -4221,7 +4221,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 153,
                     "ioValues": []
                 }
             ],
@@ -4460,7 +4460,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 153,
                     "ioValues": []
                 }
             ],
@@ -4562,7 +4562,7 @@
             "atomType": "Molecule",
             "name": "Ring",
             "x": 418,
-            "y": 287,
+            "y": 284.9846153846154,
             "uniqueID": 255734,
             "ioValues": [
                 {
@@ -4673,7 +4673,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 153,
                     "ioValues": []
                 }
             ],
@@ -4952,7 +4952,7 @@
                     "atomType": "Molecule",
                     "name": "Ring",
                     "x": 418,
-                    "y": 287,
+                    "y": 284.9846153846154,
                     "uniqueID": 255734,
                     "ioValues": [
                         {
@@ -5099,7 +5099,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 153,
                     "ioValues": []
                 }
             ],
