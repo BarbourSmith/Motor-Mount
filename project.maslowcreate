@@ -1852,16 +1852,16 @@
                     "ioValue": 101.5
                 },
                 {
-                    "name": "Bend Radius",
-                    "ioValue": 5
-                },
-                {
                     "name": "Thickness",
                     "ioValue": 4
                 },
                 {
                     "name": "Width",
                     "ioValue": 10
+                },
+                {
+                    "name": "Bend Radius",
+                    "ioValue": 5
                 }
             ],
             "topLevel": false,
@@ -1907,7 +1907,7 @@
                         },
                         {
                             "name": "T",
-                            "ioValue": 4
+                            "ioValue": 5
                         }
                     ],
                     "currentEquation": "R+T/2"
@@ -1921,7 +1921,7 @@
                     "ioValues": [
                         {
                             "name": "L",
-                            "ioValue": 101.5
+                            "ioValue": 5
                         }
                     ],
                     "currentEquation": "L/-2"
@@ -1935,11 +1935,11 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 4
+                            "ioValue": 5
                         },
                         {
                             "name": "y length",
-                            "ioValue": 101.5
+                            "ioValue": 5
                         }
                     ]
                 },
@@ -1956,7 +1956,7 @@
                         },
                         {
                             "name": "T",
-                            "ioValue": 4
+                            "ioValue": 5
                         }
                     ],
                     "currentEquation": "R+T"
@@ -1983,15 +1983,15 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 7
+                            "ioValue": 7.5
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -50.75
+                            "ioValue": -2.5
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 9
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -2220,16 +2220,16 @@
                             "ioValue": 101.5
                         },
                         {
-                            "name": "Bend Radius",
-                            "ioValue": 5
-                        },
-                        {
                             "name": "Thickness",
                             "ioValue": 4
                         },
                         {
                             "name": "Width",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "Bend Radius",
+                            "ioValue": 5
                         }
                     ]
                 },
@@ -5101,6 +5101,15 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Code",
+                    "name": "Code",
+                    "x": 1092,
+                    "y": 255,
+                    "uniqueID": 853521,
+                    "ioValues": [],
+                    "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\n\nfunction main(geometry){\n  \n  console.log(\"This part ran\")\n  \n  function unbend(fullShape){\n    console.log(\"In unbend\")\n    console.log(fullShape)\n    \n    const tags = fullShape.tags();\n    \n    var i = 0;\n    while(i < tags.length){\n        console.log(\"While\");\n        const tag = tags[i];\n        i++;\n        \n        //Go until we find the first bend\n        if(tag.substring(0,4) == 'bend'){\n            console.log(\"If\")\n            //Grab the settings used to create the initial bend\n            const settings = JSON.parse(tag.substring(8, tag.length));\n           \n            //Create the unrolled part of the bend \n            const partialCircumference = (Math.PI*2*(settings.interiorRadius+(settings.thickness*settings.kFactor)))/4;  \n            const flattenedBend = difference(\n                assemble(\n                    Square(partialCircumference, settings.thickness).extrude(settings.length).rotateX(90).right(),\n                    Plan.Connector(\"Flat Base\").flip().rotateY(90).translate(0, - settings.length/2, 0 ),\n                    Plan.Connector(\"Flat Top\").rotateY(90).flip().translate(partialCircumference, - settings.length/2, 0 )\n                ), \n                Square(.2,settings.length/4).extrude(30).translate(partialCircumference/2 - .1,-settings.length/2,-settings.thickness)\n            );\n           //Grab a copy of the bend \n           const originalBend = fullShape.keep(tag);\n           \n            //Grab the geometry attached to the bend\n            const attached = originalBend.keep(\"attachedGeometry\" + settings.bendID).kept();\n            //Sitck the unrolled part onto the correct edge\n            const unrolledBend = flattenedBend.connector(\"Flat Base\").to(originalBend.connector(\"Bend Base\" + settings.bendID), { doConnect: false }).notAs(tag);\n            //Stick the tab onto the unrolled part\n            console.log(\"Values: \")\n            console.log(flattenedBend)\n            console.log(unrolledBend)\n            console.log(\"After\")\n            const unbent = attached.connector(\"Base\" + settings.bendID).to(unrolledBend.connector(\"Flat Top\")).notAs(tag);\n            \n            //Return the whole shape with one more tab unbent now\n            console.log(\"End\")\n            return unbend(assemble(fullShape.drop(tag).kept(), unbent));\n        }\n    }\n    \n    return fullShape;\n  }\n  \n  return unbend(geometry);\n  \n}\n\nreturn main(geometry)"
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -5339,6 +5348,13 @@
                     "ap2Primary": false,
                     "ap1ID": 584833,
                     "ap2ID": 691472
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 584833,
+                    "ap2ID": 853521
                 },
                 {
                     "ap1Name": "geometry",
