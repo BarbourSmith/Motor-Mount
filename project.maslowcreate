@@ -1536,10 +1536,6 @@
                 {
                     "name": "Radius",
                     "ioValue": 5
-                },
-                {
-                    "name": "Length",
-                    "ioValue": 160
                 }
             ],
             "topLevel": false,
@@ -1579,14 +1575,6 @@
                     "x": 15,
                     "y": 221,
                     "uniqueID": 467491,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Length",
-                    "x": 15,
-                    "y": 295,
-                    "uniqueID": 352245,
                     "ioValues": []
                 },
                 {
@@ -1967,10 +1955,6 @@
                         {
                             "name": "Radius",
                             "ioValue": 5
-                        },
-                        {
-                            "name": "Length",
-                            "ioValue": 160
                         }
                     ]
                 },
@@ -2103,13 +2087,6 @@
                     "ap2Primary": false,
                     "ap1ID": 290493,
                     "ap2ID": 250201
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "Length",
-                    "ap2Primary": false,
-                    "ap1ID": 290493,
-                    "ap2ID": 515562
                 },
                 {
                     "ap1Name": "number or geometry",
