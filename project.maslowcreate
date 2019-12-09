@@ -4696,8 +4696,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 748,
-                    "y": 118,
+                    "x": 750,
+                    "y": 121,
                     "uniqueID": 247430,
                     "ioValues": [
                         {
@@ -4756,8 +4756,8 @@
                 {
                     "atomType": "ExtractTag",
                     "name": "Extract Tag",
-                    "x": 945,
-                    "y": 93,
+                    "x": 943,
+                    "y": 100,
                     "uniqueID": 584833,
                     "ioValues": [
                         {
