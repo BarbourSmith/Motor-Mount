@@ -37,9 +37,6 @@ undefined
 ## Front Tab
 
 
-## Sheet Metal Tab
-
-
 ## Code Attached Geometry
 
 
