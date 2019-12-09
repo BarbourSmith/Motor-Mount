@@ -1907,7 +1907,7 @@
                         },
                         {
                             "name": "T",
-                            "ioValue": 4
+                            "ioValue": 5
                         }
                     ],
                     "currentEquation": "R+T/2"
@@ -1921,7 +1921,7 @@
                     "ioValues": [
                         {
                             "name": "L",
-                            "ioValue": 101.5
+                            "ioValue": 5
                         }
                     ],
                     "currentEquation": "L/-2"
@@ -1935,11 +1935,11 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 4
+                            "ioValue": 5
                         },
                         {
                             "name": "y length",
-                            "ioValue": 101.5
+                            "ioValue": 5
                         }
                     ]
                 },
@@ -1956,7 +1956,7 @@
                         },
                         {
                             "name": "T",
-                            "ioValue": 4
+                            "ioValue": 5
                         }
                     ],
                     "currentEquation": "R+T"
@@ -1983,15 +1983,15 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 7
+                            "ioValue": 7.5
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -50.75
+                            "ioValue": -2.5
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 9
+                            "ioValue": 10
                         }
                     ]
                 },
