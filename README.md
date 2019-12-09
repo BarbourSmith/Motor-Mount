@@ -28,22 +28,19 @@ undefined
 ## Long Tab
 
 
-## Sheet Metal Tab
-
-
 ## Down Tab
 
 
 ## Front Tab
 
 
+## Hole Cutaway
+
+
 ## Code Attached Geometry
 
 
 ## Code Bend
-
-
-## Molecule
 
 
 ## Code Bend
